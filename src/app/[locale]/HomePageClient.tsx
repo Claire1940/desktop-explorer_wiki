@@ -134,7 +134,10 @@ export default function HomePageClient({
         },
         sameAs: [
           "https://store.steampowered.com/app/2527160/Desktop_Explorer/",
-          "https://www.youtube.com/channel/UCaudqRNkKibDYN-GkjkaVsw",
+          "https://www.youtube.com/@desktopexplorer",
+          "https://x.com/DesktopExplorer",
+          "https://discord.com/invite/NY7eJxZWBH",
+          "https://recurringdream.studio/",
         ],
       },
       {
@@ -1323,7 +1326,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://www.youtube.com/channel/UCaudqRNkKibDYN-GkjkaVsw"
+                    href="https://discord.com/invite/NY7eJxZWBH"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1398,7 +1401,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://www.youtube.com/channel/UCaudqRNkKibDYN-GkjkaVsw"
+                    href="https://discord.com/invite/NY7eJxZWBH"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1408,7 +1411,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.youtube.com/channel/UCaudqRNkKibDYN-GkjkaVsw"
+                    href="https://x.com/DesktopExplorer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

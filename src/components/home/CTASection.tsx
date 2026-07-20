@@ -32,7 +32,7 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://www.youtube.com/channel/UCaudqRNkKibDYN-GkjkaVsw"
+                href="https://discord.com/invite/NY7eJxZWBH"
                 target="_blank"
                 rel="noopener noreferrer"
               >
