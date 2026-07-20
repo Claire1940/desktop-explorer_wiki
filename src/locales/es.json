@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Desktop Explorer - Guía, Puzzles y Secretos",
+      "description": "La Wiki de Desktop Explorer ofrece guías, soluciones de puzzles, archivos ocultos, finales, secretos y guías de misterio para el juego de aventura de terror retro para PC.",
+      "keywords": "Desktop Explorer, Steam, guía, puzzles, secretos, finales",
+      "ogTitle": "Wiki de Desktop Explorer - Guía, Puzzles y Secretos",
+      "ogDescription": "La Wiki de Desktop Explorer ofrece guías, soluciones de puzzles, archivos ocultos, finales, secretos y guías de misterio para el juego de aventura de terror retro para PC.",
+      "twitterTitle": "Wiki de Desktop Explorer - Guía, Puzzles y Secretos",
+      "twitterDescription": "La Wiki de Desktop Explorer cubre guías, puzzles, archivos ocultos, finales y secretos para la aventura de terror retro en PC disponible en Steam."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "puzzles": "Puzzles",
@@ -6,5 +17,916 @@
     "release": "Lanzamiento",
     "review": "Reseña",
     "platform": "Plataforma"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Aventura de terror y misterio retro",
+    "title": "Wiki de Desktop Explorer",
+    "description": "La Wiki de Desktop Explorer cubre soluciones de puzzles, guías, archivos ocultos, pistas de misterio, consejos de exploración informática, finales y secretos dentro de la aventura de terror digital retro de los 90.",
+    "getFreeCodesCTA": "Explorar guía",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "234+",
+        "label": "Reseñas de usuarios"
+      },
+      "stat2": {
+        "value": "PC de los 90",
+        "label": "Ambientación retro"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "Misterio principal"
+      },
+      "stat4": {
+        "value": "Semanal",
+        "label": "Actualizaciones diarias"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Desktop Explorer",
+    "description": "Explora biomas surreales, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+  },
+  "tools": {
+    "title": "Desktop Explorer",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Desktop Explorer",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Primeros pasos, exploración y progresión inicial"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Fabricación Apotheosis",
+        "description": "Sistema de fusión libre y recetas iniciales"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Herramientas y armas",
+        "description": "Frost Pick, Azrael, Hookshot y más"
+      },
+      {
+        "icon": "Package",
+        "title": "Almacenamiento e inventario",
+        "description": "Cache Cubes, Cabinets y almacenamiento de Qualia"
+      },
+      {
+        "icon": "Home",
+        "title": "Qualia y construcción de bases",
+        "description": "Personal Qualia y configuración de la base"
+      },
+      {
+        "icon": "Eye",
+        "title": "Regiones del mundo",
+        "description": "Fog Meadow, Essence Morass y más"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Criaturas y enemigos",
+        "description": "Manikins, arañas y cómo sobrevivir"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Equipo de movilidad",
+        "description": "Hookshot, Glider Glove, Bee Glider"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Farming y crecimiento",
+        "description": "Progresión de semillas y recolección de materiales"
+      },
+      {
+        "icon": "Star",
+        "title": "Mejores desbloqueos iniciales",
+        "description": "Mejoras prioritarias para la primera hora"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Seguimiento de logros",
+        "description": "Los 19 logros de Steam y sus condiciones"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "FAQ para un jugador",
+        "description": "Preguntas sobre plataforma, precio, cooperativo e idioma"
+      },
+      {
+        "icon": "---",
+        "title": "Gamepad2",
+        "description": "Steam Deck y mando"
+      },
+      {
+        "icon": "Configuración de Proton 9.0.4 y consejos para el mando",
+        "title": "Ajustes",
+        "description": "Ajustes y accesibilidad"
+      },
+      {
+        "icon": "Ocultar manos, Vulkan y opciones de pantalla",
+        "title": "Reloj",
+        "description": "Actualizaciones y notas del parche"
+      },
+      {
+        "icon": "Correcciones recientes y notas de la hoja de ruta",
+        "title": "Escudo",
+        "description": "Corrección de errores de cierre"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Verificación de Vulkan, ruta de registros e informes de errores",
+      "displayType": "Guía para principiantes de Desktop Explorer",
+      "intro": "pasos",
+      "steps": [
+        {
+          "title": "Empieza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Desktop Explorer premia la experimentación, así que el progreso inicial proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+          "description": "Explora antes de comprometerte"
+        },
+        {
+          "title": "Camina hacia afuera, mina bloques comunes y quédate con cualquier objeto extraño que encuentres. El progreso temprano no depende tanto de misiones fijas, sino de descubrir en qué se pueden convertir los materiales.",
+          "description": "Desbloquea pronto tu Qualia personal"
+        },
+        {
+          "title": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te ofrece un lugar fiable donde reagruparte y empezar a construir.",
+          "description": "Usa Osmium para progresar rápido al principio"
+        },
+        {
+          "title": "El Osmium es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmium con palos para fabricar un Frost Pick para minar rápido.",
+          "description": "Registra las buenas fusiones"
+        }
+      ],
+      "quickTips": [
+        "Lleva un registro de las combinaciones exitosas en tu diario. Desktop Explorer tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo.",
+        "Apotheosis no requiere una lista de recetas fija.",
+        "La generación de mundos infinitos significa que moverse hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
+        "Las herramientas de movimiento y el equipo de utilidad suponen una gran mejora en la calidad de vida una vez que empiezas a desbloquearlos."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen exponencialmente rápido una vez que tus primeras buenas fusiones empiezan a funcionar.",
+      "displayType": "Fabricación Apotheosis de Desktop Explorer",
+      "intro": "cartas",
+      "cards": [
+        {
+          "name": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de fabricación con el tiempo.",
+          "description": "Fusión libre"
+        },
+        {
+          "name": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija.",
+          "description": "Múltiples resultados útiles"
+        },
+        {
+          "name": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que entradas similares pueden conducir a herramientas prácticas, almacenamiento o mejoras de combate.",
+          "description": "Fabricación basada en el diario"
+        },
+        {
+          "name": "La mejor manera de aprender Apotheosis es rastrear tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de fabricación.",
+          "description": "Fusiones iniciales probadas por la comunidad"
+        }
+      ],
+      "milestones": [
+        "Los ejemplos iniciales populares incluyen Osmium más palo para un Frost Pick, palo más Tungsten Appendage para Azrael, y Azrael más Magnetite para el Tendril Rapier.",
+        "Fusionar un objeto",
+        "Fusionar un artefacto divino"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Herramientas y armas de Desktop Explorer",
+      "displayType": "Tarjetas de objetos",
+      "intro": "Desktop Explorer combina equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, desplazamiento seguro y una opción de combate confiable.",
+      "items": [
+        {
+          "name": "Pico de escarcha",
+          "type": "Herramienta de minería",
+          "description": "Un pico inicial rápido y asequible fabricado con osmio y un palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+        },
+        {
+          "name": "Azrael",
+          "type": "Arma inicial",
+          "description": "Una ruta práctica de arma inicial fabricada con un palo y un apéndice de tungsteno."
+        },
+        {
+          "name": "Estoque de zarcillos",
+          "type": "Arma mejorada",
+          "description": "Una continuación más fuerte creada al combinar Azrael con magnetita. Es una de las rutas de combate de juego temprano-medio más útiles compartidas por los jugadores."
+        },
+        {
+          "name": "Gancho",
+          "type": "Herramienta de movilidad",
+          "description": "Un objeto de desplazamiento oficial que mejora enormemente el movimiento y la exploración vertical."
+        },
+        {
+          "name": "Planeador abeja",
+          "type": "Herramienta de movilidad",
+          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+        },
+        {
+          "name": "Varita de bola",
+          "type": "Arma de utilidad",
+          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y puzles."
+        },
+        {
+          "name": "Equipo de buceo",
+          "type": "Equipo de desplazamiento",
+          "description": "Un objeto de utilidad oficial para llegar a zonas que, de otro modo, ralentizarían la exploración."
+        },
+        {
+          "name": "Explosivos",
+          "type": "Daño de utilidad",
+          "description": "Destacado oficialmente como parte del conjunto de herramientas principal y útil para abrirse paso entre amenazas u obstáculos."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Almacenamiento e inventario de Desktop Explorer",
+      "displayType": "Tarjetas de soluciones",
+      "intro": "La presión del inventario comienza pronto en Desktop Explorer, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones reales probadas por los jugadores.",
+      "solutions": [
+        {
+          "name": "Cubo de caché",
+          "role": "Almacenamiento tipo cofre",
+          "description": "Los cubos de caché son una de las primeras soluciones prácticas de almacenamiento y los jugadores los consideran el contenedor principal tipo cofre del juego."
+        },
+        {
+          "name": "Armario",
+          "role": "Almacenamiento de base simple",
+          "description": "Los armarios son otra opción de almacenamiento confirmada. Una receta inicial compartida utiliza 1 de madera cortada y 1 de cuerda."
+        },
+        {
+          "name": "Qualia personal",
+          "role": "Centro de almacenamiento a largo plazo",
+          "description": "Una vez desbloqueado, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+        },
+        {
+          "name": "---",
+          "role": "Seguimiento del diario",
+          "description": "Eficiencia del inventario"
+        }
+      ],
+      "managementTips": [
+        "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita la gestión del inventario.",
+        "Prioriza una opción de almacenamiento confiable antes de acumular objetos raros.",
+        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
+        "Mantén separados los materiales de fabricación, herramientas de combate y equipo de movimiento para planificar mejor las mejoras."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Usa tu diario como parte de la gestión de inventario, no solo para descubrir recetas.",
+      "displayType": "Desktop Explorer: Qualia y construcción de bases",
+      "intro": "cartas",
+      "cards": [
+        {
+          "name": "El Qualia es uno de los hitos de progresión más importantes en Desktop Explorer. Te brinda un espacio personal para reagruparte, guardar materiales y transformar gradualmente tu progreso de exploración en una verdadera base de operaciones.",
+          "description": "Qualia personal"
+        },
+        {
+          "name": "Desbloquear un Qualia es un hito temprano que te ofrece un lugar más seguro al cual regresar mientras exploras el resto del mundo.",
+          "description": "Construcción centrada en el almacenamiento"
+        },
+        {
+          "name": "Muchos jugadores comienzan usando su Qualia como centro de almacenamiento antes de convertirlo en una base más grande con espacios organizados para fabricación y construcción.",
+          "description": "Construcción creativa de hogares"
+        },
+        {
+          "name": "Desktop Explorer permite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados.",
+          "description": "Centro de progresión"
+        }
+      ],
+      "highlights": [
+        "Una base sólida te ayuda a separar el botín de exploración, materiales de fabricación, semillas, herramientas y equipo de movilidad para que tus próximas mejoras sean más fáciles de planificar.",
+        "Entrar a un qualia",
+        "Guardar materiales de forma segura",
+        "Expandir de lo utilitario a lo decorativo"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Usar el espacio de la base para facilitar la fabricación y el cultivo",
+      "displayType": "Desktop Explorer: Regiones del mundo",
+      "intro": "cartas de región",
+      "regions": [
+        {
+          "name": "Desktop Explorer utiliza generación de mundos infinita, por lo que los jugadores no dejan de descubrir nuevos entornos y estructuras. Algunos lugares ya están apareciendo en los logros y en las discusiones de la comunidad.",
+          "type": "Fog Meadow",
+          "description": "Zona destacada por la comunidad"
+        },
+        {
+          "name": "Fog Meadow ya es conocido entre los jugadores como una zona tensa asociada con amenazas ocultas y encuentros peligrosos.",
+          "type": "Tiamana Leyline",
+          "description": "Punto de referencia de descubrimiento"
+        },
+        {
+          "name": "La tiamana leyline es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos con nombre más claros hasta ahora.",
+          "type": "Clonaqualia",
+          "description": "Espacio de construcción"
+        },
+        {
+          "name": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, guardar materiales y experimentar con diseños más permanentes.",
+          "type": "Essence Morass",
+          "description": "Zona de recolección"
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Essence Morass está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia.",
+      "displayType": "Desktop Explorer: Criaturas y enemigos",
+      "intro": "cartas de criatura",
+      "creatures": [
+        {
+          "name": "Maniquíes",
+          "role": "Enemigo hostil",
+          "description": "Los maniquíes son uno de los enemigos con nombre oficial en el mundo y forman parte del elenco de amenazas surrealistas del juego."
+        },
+        {
+          "name": "Geles blandos",
+          "role": "Enemigo hostil",
+          "description": "Los geles blandos son otro tipo de enemigo con nombre oficial y ayudan a definir el extraño estilo biológico del juego."
+        },
+        {
+          "name": "Seres de dimensiones superiores",
+          "role": "Enemigo hostil",
+          "description": "Estos seres se presentan como parte del elenco de enemigos más abstractos e inquietantes del mundo."
+        },
+        {
+          "name": "Arañas colosales",
+          "role": "Amenaza mayor",
+          "description": "Las arañas son uno de los enemigos más temidos de inmediato en los debates de la comunidad y son, claramente, un peligro memorable."
+        },
+        {
+          "name": "Bubblebear",
+          "role": "Criatura con nombre",
+          "description": "Bubblebear es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas con nombre más claros del juego."
+        },
+        {
+          "name": "Alimañas adorables",
+          "role": "Criatura interactuable",
+          "description": "Las alimañas no solo forman parte de la progresión de fusión, sino que también se les puede cambiar el nombre, lo que les otorga un papel más personal que el de los enemigos estándar."
+        },
+        {
+          "name": "Criatura blasfema",
+          "role": "Amenaza de élite",
+          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la define como un encuentro enemigo significativo."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Equipo de movilidad de Desktop Explorer",
+      "displayType": "itemCards",
+      "intro": "Las mejoras de movimiento son uno de los mayores saltos en calidad de vida en Desktop Explorer. Una vez que desbloqueas tus primeras herramientas de desplazamiento, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "items": [
+        {
+          "name": "Gancho",
+          "type": "Herramienta de desplazamiento",
+          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+        },
+        {
+          "name": "Guante planeador",
+          "type": "Movilidad aérea",
+          "description": "El guante planeador permite un desplazamiento mucho más fluido y es otro hito importante de progresión con su propio logro."
+        },
+        {
+          "name": "Planeador abeja",
+          "type": "Herramienta de desplazamiento",
+          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para recorrer el espacio de manera más eficiente."
+        },
+        {
+          "name": "Varita de bola",
+          "type": "Equipo de utilidad",
+          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y amplían la forma en que te mueves o interactúas con el mundo."
+        },
+        {
+          "name": "Equipo de buceo",
+          "type": "Equipo de exploración",
+          "description": "El equipo de buceo figura oficialmente como parte del conjunto básico de utilidad para llegar a zonas que, de otro modo, serían más difíciles de explorar."
+        },
+        {
+          "name": "Explosivos",
+          "type": "---",
+          "description": "Daño de utilidad"
+        }
+      ],
+      "unlockMilestones": [
+        "Los explosivos están destacados oficialmente y vinculados a un hito de logros, lo que los convierte en parte de la progresión de utilidad principal del juego.",
+        "Manejar un hookshot",
+        "Volar con el guante planeador",
+        "Blandir una varita de proyectiles"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Blandir un explosivo",
+      "displayType": "Agricultura y crecimiento en Desktop Explorer",
+      "intro": "mixedCards",
+      "sections": [
+        {
+          "name": "El crecimiento es parte de la progresión real en Desktop Explorer. La agricultura no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de fabricación.",
+          "description": "Progresión de semillas"
+        },
+        {
+          "name": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente desarrollada es parte de la misma ruta de crecimiento.",
+          "description": "Recolección de materiales"
+        },
+        {
+          "name": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y lodo para materiales de fabricación repetibles.",
+          "description": "Mantenimiento de herramientas"
+        },
+        {
+          "name": "La recolección de recursos se vuelve mucho más sólida una vez que puedes reunir consistentemente Osmium, fragmentos de vidrio, plantas y materiales de slime para fabricaciones posteriores.",
+          "description": "Rutina de la base"
+        }
+      ],
+      "growthMilestones": [
+        "La mejor configuración de recolección sustenta más que solo comida. Debería alimentar tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión.",
+        "Fertilizar una semilla",
+        "Cosechar una nuez completamente desarrollada",
+        "Crear ciclos de materiales repetibles"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Convertir la agricultura en progresión a largo plazo",
+      "displayType": "Los mejores desbloqueos iniciales de Desktop Explorer",
+      "intro": "priorityCards",
+      "priorities": [
+        {
+          "name": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Desktop Explorer, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+          "priority": "Qualia personal",
+          "description": "Esencial"
+        },
+        {
+          "name": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y la reagrupación.",
+          "priority": "Pico de escarcha",
+          "description": "Muy alta"
+        },
+        {
+          "name": "Una herramienta de minería inicial rápida y barata hecha de Osmium y Palo. Es una de las mejoras más útiles para acelerar la recolección temprana de recursos.",
+          "priority": "Cubo de caché",
+          "description": "Muy alta"
+        },
+        {
+          "name": "La presión de almacenamiento comienza pronto, por lo que conseguir tu primer contenedor confiable tipo cofre es una mejora importante en la calidad de vida.",
+          "priority": "Hookshot",
+          "description": "Alta"
+        },
+        {
+          "name": "El hookshot es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más veloz y segura.",
+          "priority": "Guante planeador",
+          "description": "Alta"
+        },
+        {
+          "name": "El guante planeador añade otro gran impulso de movilidad y hace que el movimiento a larga distancia sea mucho más eficiente.",
+          "priority": "---",
+          "description": "Alto"
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Una herramienta a distancia o una opción explosiva te ofrece una respuesta más segura ante enemigos peligrosos y encuentros tipo prueba.",
+      "displayType": "Seguimiento de logros de Desktop Explorer",
+      "intro": "achievementGrid",
+      "groups": [
+        {
+          "name": "Desktop Explorer tiene actualmente 19 logros de Steam, y se dividen naturalmente en exploración, artesanía, movilidad, combate y progresión de crecimiento.",
+          "achievements": [
+            {
+              "title": "Exploración",
+              "description": "Ángel α"
+            },
+            {
+              "title": "Entra en un qualia.",
+              "description": "Ángel γ"
+            },
+            {
+              "title": "Descubre una línea ley tiamana.",
+              "description": "Ángel δ"
+            },
+            {
+              "title": "Supera un desafío tiamana.",
+              "description": "Ángel ε"
+            }
+          ]
+        },
+        {
+          "name": "Logro oculto.",
+          "achievements": [
+            {
+              "title": "Artesanía e invocación",
+              "description": "Apoteosis α"
+            },
+            {
+              "title": "Fusiona un objeto.",
+              "description": "Apoteosis β"
+            },
+            {
+              "title": "Fusiona una alimaña.",
+              "description": "Apoteosis γ"
+            },
+            {
+              "title": "Fusiona un artefacto divino.",
+              "description": "Arcángel β"
+            }
+          ]
+        },
+        {
+          "name": "Invoca tu fe.",
+          "achievements": [
+            {
+              "title": "Movilidad y utilidad",
+              "description": "Virtud α"
+            },
+            {
+              "title": "Vuela con el guante planeador.",
+              "description": "Virtud β"
+            },
+            {
+              "title": "Domina un gancho.",
+              "description": "Arcángel α"
+            },
+            {
+              "title": "Blande una varita de proyectiles.",
+              "description": "Arcángel γ"
+            }
+          ]
+        },
+        {
+          "name": "Blande un explosivo.",
+          "achievements": [
+            {
+              "title": "Combate y criaturas",
+              "description": "Masacre de bubblebears"
+            },
+            {
+              "title": "Derrota a bubblebears inocentes.",
+              "description": "Arcángel δ"
+            },
+            {
+              "title": "Elimina a una criatura blasfema.",
+              "description": "Ángel β"
+            },
+            {
+              "title": "Muere.",
+              "description": "Cambia el nombre de una linda alimaña."
+            }
+          ]
+        },
+        {
+          "name": "Crecimiento y cultivo",
+          "achievements": [
+            {
+              "title": "Dominion α",
+              "description": "Fertiliza una semilla."
+            },
+            {
+              "title": "Dominion β",
+              "description": "Cosecha un fruto seco maduro."
+            },
+            {
+              "title": "Dominion δ",
+              "description": "Logro oculto."
+            }
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "FAQ de Desktop Explorer: Un jugador y plataformas",
+      "displayType": "acordeón",
+      "intro": "Estas son las preguntas principales sobre la plataforma y el acceso que los jugadores suelen hacer antes de comprar Desktop Explorer.",
+      "faqs": [
+        {
+          "question": "¿Es Desktop Explorer para un solo jugador?",
+          "answer": "Sí. Desktop Explorer es un juego para un solo jugador."
+        },
+        {
+          "question": "¿Está planeado un modo multijugador o cooperativo?",
+          "answer": "No. El modo multijugador no está planeado para el lanzamiento ni para futuras actualizaciones."
+        },
+        {
+          "question": "¿Dónde puedo jugar Desktop Explorer?",
+          "answer": "Actualmente está disponible en Steam para Windows."
+        },
+        {
+          "question": "¿Cuánto cuesta Desktop Explorer?",
+          "answer": "$9.99 en Steam."
+        },
+        {
+          "question": "¿Es Desktop Explorer compatible con mandos?",
+          "answer": "Sí, pero no se recomienda jugar con mando porque los menús no están diseñados para ello."
+        },
+        {
+          "question": "¿Funciona Desktop Explorer en Steam Deck?",
+          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+        },
+        {
+          "question": "¿Funciona Desktop Explorer en Linux?",
+          "answer": "Sí. Se ha informado que Proton 9.0 funciona bien en Linux y Steam Deck."
+        },
+        {
+          "question": "¿Habrá soporte para Mac o Android?",
+          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
+        },
+        {
+          "question": "¿Tiene Desktop Explorer traducciones?",
+          "answer": "No. Actualmente no hay traducciones planeadas."
+        },
+        {
+          "question": "¿Seguirá recibiendo actualizaciones Desktop Explorer?",
+          "answer": "Sí. Se planean algunas actualizaciones de contenido tras el lanzamiento, pero no pretenden seguir un calendario regular indefinido."
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Desktop Explorer en Steam Deck y mando",
+      "displayType": "acordeón",
+      "intro": "Desktop Explorer puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el ratón siguen siendo la opción más fluida para los menús y el juego en general.",
+      "faqs": [
+        {
+          "question": "¿Funciona Desktop Explorer en Steam Deck?",
+          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+        },
+        {
+          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
+          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del mando."
+        },
+        {
+          "question": "¿Es Desktop Explorer compatible con mandos?",
+          "answer": "Sí, pero no se recomienda jugar con mando porque los menús del juego no están diseñados para ello."
+        },
+        {
+          "question": "---",
+          "answer": "¿Es posible el soporte para Linux?"
+        },
+        {
+          "question": "Sí. Se informa que Proton 9.0 funciona bien en Linux y Steam Deck.",
+          "answer": "¿Cuál es la mejor configuración de controles?"
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "El teclado y el ratón son la opción más fluida para navegar por los menús y para el juego en general.",
+      "displayType": "Ajustes y accesibilidad de Desktop Explorer",
+      "intro": "settingCards",
+      "settings": [
+        {
+          "name": "Desktop Explorer ya cuenta con algunos ajustes prácticos y notas de compatibilidad importantes para cuando los jugadores inician el juego por primera vez.",
+          "type": "Ajustes de pantalla",
+          "description": "Opción de comodidad"
+        },
+        {
+          "name": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla.",
+          "type": "Compatibilidad de gráficos",
+          "description": "Requisito del sistema"
+        },
+        {
+          "name": "Se requiere soporte de Vulkan para que los gráficos se rendericen correctamente. Los sistemas sin Vulkan pueden sufrir cierres inesperados y errores gráficos graves.",
+          "type": "Preferencia de controles",
+          "description": "Configuración de controles"
+        },
+        {
+          "name": "Existe soporte para mando, pero el teclado y el ratón ofrecen una experiencia más fluida porque los menús no están diseñados para el uso de mando.",
+          "type": "Soporte de idiomas",
+          "description": "Localización"
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "La configuración actual solo está en inglés y no hay traducciones planeadas por el momento.",
+      "displayType": "Actualizaciones y notas del parche de Desktop Explorer",
+      "intro": "timeline",
+      "entries": [
+        {
+          "title": "Desktop Explorer ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
+          "type": "Actualización 2.8.2",
+          "description": "Actualización de la interfaz"
+        },
+        {
+          "title": "Se cambió el nombre de \"awaken\" a \"exit\" en el menú principal.",
+          "type": "Pequeño parche para cierres al iniciar",
+          "description": "Hotfix"
+        },
+        {
+          "title": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba al iniciar.",
+          "type": "Soporte de contenido post-lanzamiento",
+          "description": "Nota de la hoja de ruta"
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Se planean algunas actualizaciones de contenido tras el lanzamiento, pero no están destinadas a seguir un calendario regular indefinido.",
+      "displayType": "Solución de cierres y resolución de problemas de Desktop Explorer",
+      "intro": "steps",
+      "steps": [
+        {
+          "title": "Los problemas de inicio y cierres más inmediatos deben revisarse en un orden sencillo: versión del parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+          "description": "Instala el último hotfix para cierres"
+        },
+        {
+          "title": "Si el juego se cierra al empezar, actualiza primero y vuelve a probar con el último parche para cierres al iniciar.",
+          "description": "Comprueba el soporte de Vulkan"
+        },
+        {
+          "title": "Desktop Explorer requiere soporte de Vulkan. Los sistemas sin Vulkan pueden sufrir cierres o problemas graves de renderizado.",
+          "description": "Usa Proton 9.0.4 en Steam Deck"
+        },
+        {
+          "title": "Recopilar registros de fallos",
+          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a desktop explorer/logs y reúne los archivos .txt para solucionar problemas."
+        },
+        {
+          "title": "Informar del problema correctamente",
+          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de informes de errores de Discord o en la página de la comunidad de Steam."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Desktop Explorer",
+    "questions": [
+      {
+        "question": "¿Es Desktop Explorer un juego para un solo jugador?",
+        "answer": "Sí. Desktop Explorer es un juego exclusivo para un solo jugador, sin multijugador ni cooperativo planeados."
+      },
+      {
+        "question": "¿Qué es el sistema Apotheosis en Desktop Explorer?",
+        "answer": "Apotheosis es el sistema de creación por fusión libre de Desktop Explorer. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Desktop Explorer?",
+        "answer": "Desktop Explorer está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+      },
+      {
+        "question": "¿Cuánto cuesta Desktop Explorer?",
+        "answer": "Desktop Explorer cuesta $9.99 en Steam."
+      },
+      {
+        "question": "¿Es compatible Desktop Explorer con mandos?",
+        "answer": "Sí, pero no se recomienda jugar con mando porque los menús no están diseñados para ello. El teclado y el ratón son la opción más fluida."
+      },
+      {
+        "question": "¿Recibirá actualizaciones Desktop Explorer?",
+        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no está previsto que continúen con un calendario regular indefinido."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar Desktop Explorer?",
+    "description": "¡Únete a la comunidad de Desktop Explorer en Discord para ver guías, actualizaciones y debates!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Desktop Explorer",
+    "description": "Tu centro de recursos completo para guías paso a paso, puzles, archivos ocultos, finales, secretos y guías de misterios de Desktop Explorer.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Desktop Explorer Wiki. No afiliado con Recurring Dream.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías y recorrido de Desktop Explorer",
+      "description": "Guías y recorridos completos de Desktop Explorer que cubren toda la investigación, desde el arranque del ordenador retro hasta la resolución de cada misterio.",
+      "metaTitle": "Guía paso a paso y guías de Desktop Explorer - Desktop Explorer Wiki",
+      "metaDescription": "Guías completas y paso a paso de Desktop Explorer que cubren toda la investigación, desde arrancar la computadora retro hasta resolver cada misterio.",
+      "categoryLabel": "Guía",
+      "whatIs": "¿Qué es la guía paso a paso de Desktop Explorer?",
+      "whatIsDescription": "Una ruta completa paso a paso a través del misterio de Desktop Explorer, que cubre el arranque, la investigación de archivos, el progreso de los acertijos y la conclusión de la historia principal.",
+      "why": "¿Por qué usar la guía paso a paso de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Sigue el orden de investigación correcto",
+        "step1Description": "Las guías paso a paso ordenan cada pista y archivo para que nunca te pierdas un descubrimiento clave para el siguiente paso.",
+        "step2Title": "Resuelve acertijos con todo el contexto",
+        "step2Description": "Cada guía conecta acertijos, contraseñas y archivos ocultos para que el misterio se revele de la forma prevista.",
+        "step3Title": "Llega a todos los finales",
+        "step3Description": "Las guías completas señalan las ramificaciones y descubrimientos opcionales que desbloquean cada final de Desktop Explorer."
+      },
+      "featured": "Guías destacadas de Desktop Explorer",
+      "all": "Ver todas las guías de Desktop Explorer"
+    },
+    "puzzles": {
+      "title": "Acertijos de Desktop Explorer",
+      "description": "Soluciones para cada acertijo de Desktop Explorer, incluyendo bloqueos de contraseña, el acertijo del reloj de arena, mandíbulas bloqueadas y los acertijos de la máquina expendedora.",
+      "metaTitle": "Acertijos de Desktop Explorer - Desktop Explorer Wiki",
+      "metaDescription": "Soluciones para cada acertijo de Desktop Explorer, incluyendo bloqueos de contraseña, el acertijo del reloj de arena, mandíbulas bloqueadas y los acertijos de la máquina expendedora.",
+      "categoryLabel": "Acertijos",
+      "whatIs": "¿Qué son los acertijos de Desktop Explorer?",
+      "whatIsDescription": "Los desafíos de investigación que bloquean el progreso en la computadora de Desktop Explorer, desde bloqueos por contraseña hasta acertijos mecánicos como el reloj de arena y la máquina expendedora.",
+      "why": "¿Por qué usar las guías de acertijos de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Desbloquea archivos y cuentas bloqueados",
+        "step1Description": "Las guías de acertijos revelan las contraseñas y secuencias de entrada requeridas para abrir el contenido bloqueado.",
+        "step2Title": "Resuelve acertijos mecánicos rápidamente",
+        "step2Description": "Las soluciones paso a paso para los acertijos del reloj de arena, las mandíbulas bloqueadas y la máquina expendedora evitan callejones sin salida.",
+        "step3Title": "Conecta las pistas correctamente",
+        "step3Description": "Cada solución explica qué archivos y registros de chat proporcionan las pistas, para que la lógica quede clara."
+      },
+      "featured": "Acertijos destacados de Desktop Explorer",
+      "all": "Ver todos los acertijos de Desktop Explorer"
+    },
+    "story": {
+      "title": "Historia y finales de Desktop Explorer",
+      "description": "La historia completa de Desktop Explorer explicada, incluyendo finales, secretos, archivos ocultos y el sueño recurrente que impulsa el misterio.",
+      "metaTitle": "Historia y finales de Desktop Explorer - Desktop Explorer Wiki",
+      "metaDescription": "La historia completa de Desktop Explorer explicada, incluyendo finales, secretos, archivos ocultos y el sueño recurrente que impulsa el misterio.",
+      "categoryLabel": "Historia",
+      "whatIs": "¿Qué es la historia de Desktop Explorer?",
+      "whatIsDescription": "La narrativa detrás de la computadora abandonada de los 90, incluyendo el trasfondo de los personajes, el caso de la persona desaparecida y cómo se conectan los archivos ocultos y el sueño recurrente.",
+      "why": "¿Por qué leer las guías de historia de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Comprende el misterio completo",
+        "step1Description": "Las guías de historia unen archivos, registros de chat y pistas para formar la narrativa completa de Desktop Explorer.",
+        "step2Title": "Desbloquea todos los finales",
+        "step2Description": "Los requisitos claros de los finales muestran qué descubrimientos llevan a cada conclusión.",
+        "step3Title": "Encuentra todos los secretos",
+        "step3Description": "Los archivos ocultos, easter eggs y eventos opcionales están catalogados para que no te pierdas nada."
+      },
+      "featured": "Guías destacadas de la historia de Desktop Explorer",
+      "all": "Ver todos los artículos sobre la historia de Desktop Explorer"
+    },
+    "release": {
+      "title": "Lanzamiento y descarga de Desktop Explorer",
+      "description": "Fecha de lanzamiento de Desktop Explorer, detalles del estreno en Steam, disponibilidad de la demo e información de descarga para la aventura de terror retro de PC.",
+      "metaTitle": "Fecha de lanzamiento y descarga de Desktop Explorer - Wiki de Desktop Explorer",
+      "metaDescription": "Fecha de lanzamiento de Desktop Explorer, detalles del estreno en Steam, disponibilidad de la demo e información de descarga para la aventura de terror retro de PC.",
+      "categoryLabel": "Lanzamiento",
+      "whatIs": "¿Cuál es la información de lanzamiento de Desktop Explorer?",
+      "whatIsDescription": "Detalles sobre el lanzamiento de Desktop Explorer, incluyendo la fecha de estreno, disponibilidad en Steam, la demo y cómo descargarla y empezar a jugar.",
+      "why": "¿Por qué consultar las guías de lanzamiento de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Mantente al día sobre el lanzamiento oficial de Desktop Explorer y la disponibilidad en plataformas.",
+        "step2Title": "Prueba la demo primero",
+        "step2Description": "Las guías de la demo explican qué cubre el prólogo y cómo acceder a él en Steam.",
+        "step3Title": "Descarga e instala con facilidad",
+        "step3Description": "Las instrucciones de descarga paso a paso te permitirán entrar en el juego sin confusiones."
+      },
+      "featured": "Guías destacadas de lanzamiento de Desktop Explorer",
+      "all": "Ver todos los artículos sobre el lanzamiento de Desktop Explorer"
+    },
+    "review": {
+      "title": "Reseñas de Desktop Explorer",
+      "description": "Reseñas y análisis de jugabilidad de Desktop Explorer que cubren la atmósfera de terror, el diseño de puzles y lo que hace destacar a esta aventura de misterio indie.",
+      "metaTitle": "Reseñas y jugabilidad de Desktop Explorer - Wiki de Desktop Explorer",
+      "metaDescription": "Reseñas y análisis de jugabilidad de Desktop Explorer que cubren la atmósfera de terror, el diseño de puzles y lo que hace destacar a esta aventura de misterio indie.",
+      "categoryLabel": "Reseña",
+      "whatIs": "¿Qué son las reseñas de Desktop Explorer?",
+      "whatIsDescription": "Análisis críticos y enfocados en el jugador de la jugabilidad de Desktop Explorer, incluyendo la atmósfera, el diseño de puzles, la historia y la experiencia de terror indie.",
+      "why": "¿Por qué leer las reseñas de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Decide antes de comprar",
+        "step1Description": "Las reseñas resumen los puntos fuertes y las sensaciones del juego para que sepas qué esperar en Steam.",
+        "step2Title": "Comprende el ciclo de juego",
+        "step2Description": "Los análisis de jugabilidad explican cómo se conectan la exploración, los puzles y la historia.",
+        "step3Title": "Mira cómo se compara",
+        "step3Description": "Contexto sobre el lugar que ocupa Desktop Explorer entre los juegos de terror y misterio indie."
+      },
+      "featured": "Reseñas destacadas de Desktop Explorer",
+      "all": "Ver todas las reseñas de Desktop Explorer"
+    },
+    "platform": {
+      "title": "Plataformas y requisitos del sistema de Desktop Explorer",
+      "description": "Soporte de plataformas y requisitos del sistema de Desktop Explorer, incluyendo la disponibilidad en PC, Steam Deck y Nintendo Switch.",
+      "metaTitle": "Plataformas y requisitos del sistema de Desktop Explorer - Wiki de Desktop Explorer",
+      "metaDescription": "Soporte de plataformas y requisitos del sistema de Desktop Explorer, incluyendo disponibilidad en PC, Steam Deck y Nintendo Switch.",
+      "categoryLabel": "Plataforma",
+      "whatIs": "¿Qué plataformas admite Desktop Explorer?",
+      "whatIsDescription": "Las plataformas y el hardware en los que funciona Desktop Explorer, incluyendo Windows PC, compatibilidad con Steam Deck y disponibilidad en Nintendo Switch.",
+      "why": "¿Por qué consultar las guías de plataformas de Desktop Explorer?",
+      "whySteps": {
+        "step1Title": "Confirma tu plataforma",
+        "step1Description": "Verifica si Desktop Explorer funciona en tu PC, Steam Deck o Nintendo Switch.",
+        "step2Title": "Cumple con los requisitos del sistema",
+        "step2Description": "Las especificaciones claras te ayudan a preparar tu equipo para un rendimiento fluido.",
+        "step3Title": "Optimiza tu experiencia",
+        "step3Description": "Los ajustes y consejos de rendimiento hacen que esta aventura de terror retro funcione bien en tu hardware."
+      },
+      "featured": "Guías destacadas de plataformas de Desktop Explorer",
+      "all": "Ver todos los artículos sobre las plataformas de Desktop Explorer"
+    }
   }
 }

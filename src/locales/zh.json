@@ -1,10 +1,932 @@
 {
+  "seo": {
+    "home": {
+      "title": "Desktop Explorer Wiki - 攻略、谜题与秘密",
+      "description": "Desktop Explorer Wiki 为这款复古 PC 恐怖冒险游戏提供攻略、谜题解法、隐藏文件、结局、秘密和谜团指南。",
+      "keywords": "Desktop Explorer, Steam, 攻略, 谜题, 秘密, 结局",
+      "ogTitle": "Desktop Explorer Wiki - 攻略、谜题与秘密",
+      "ogDescription": "Desktop Explorer Wiki 为这款复古 PC 恐怖冒险游戏提供攻略、谜题解法、隐藏文件、结局、秘密和谜团指南。",
+      "twitterTitle": "Desktop Explorer Wiki - 攻略、谜题与秘密",
+      "twitterDescription": "Desktop Explorer Wiki 涵盖了 Steam 上这款复古 PC 恐怖冒险游戏的攻略、谜题、隐藏文件、结局和秘密。"
+    }
+  },
   "nav": {
-    "guide": "攻略",
+    "guide": "指南",
     "puzzles": "谜题",
-    "story": "剧情",
-    "release": "发售",
-    "review": "评测",
+    "story": "故事",
+    "release": "发布",
+    "review": "评价",
     "platform": "平台"
+  },
+  "common": {
+    "home": "首页",
+    "more": "更多",
+    "playNow": "在 Steam 上游玩",
+    "switchLanguage": "切换语言",
+    "switchTheme": "切换主题",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "notFound": "页面未找到",
+    "notFoundDescription": "您查找的页面不存在。",
+    "backToHome": "返回首页",
+    "relatedArticles": "相关文章",
+    "readMore": "阅读更多",
+    "articlesComingSoon": "文章即将上线"
+  },
+  "hero": {
+    "badge": "复古解谜恐怖冒险",
+    "title": "Desktop Explorer Wiki",
+    "description": "Desktop Explorer Wiki 涵盖了这款 90 年代复古数字恐怖冒险游戏中的谜题解法、攻略、隐藏文件、谜团线索、电脑探索技巧、结局和秘密。",
+    "getFreeCodesCTA": "查看攻略",
+    "playOnSteamCTA": "在 Steam 上游玩",
+    "stats": {
+      "stat1": {
+        "value": "234+",
+        "label": "用户评价"
+      },
+      "stat2": {
+        "value": "90 年代 PC",
+        "label": "复古背景"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "主线谜团"
+      },
+      "stat4": {
+        "value": "每周",
+        "label": "每日更新"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Desktop Explorer 游戏玩法",
+    "description": "---"
+  },
+  "tools": {
+    "title": "在这款 Steam 上的梦幻体素沙盒游戏中，探索超现实的生物群系，利用 Apotheosis 融合物品，并在奇异生物的威胁下生存。",
+    "titleHighlight": "Desktop Explorer",
+    "subtitle": "资源",
+    "cards": [
+      {
+        "icon": "在 Desktop Explorer 中探索、建造和生存所需的一切",
+        "title": "BookOpen",
+        "description": "新手指南"
+      },
+      {
+        "icon": "入门步骤、探索与早期进度",
+        "title": "Sparkles",
+        "description": "Apotheosis 合成"
+      },
+      {
+        "icon": "自由融合系统与早期配方",
+        "title": "Hammer",
+        "description": "工具与武器"
+      },
+      {
+        "icon": "Frost Pick、Azrael、Hookshot 等",
+        "title": "Package",
+        "description": "存储与背包"
+      },
+      {
+        "icon": "Cache Cubes、Cabinets 与 Qualia 存储",
+        "title": "Home",
+        "description": "Qualia 与基地建设"
+      },
+      {
+        "icon": "个人 Qualia 与家园基地设置",
+        "title": "Eye",
+        "description": "世界区域"
+      },
+      {
+        "icon": "Fog Meadow、Essence Morass 等",
+        "title": "AlertTriangle",
+        "description": "生物与敌人"
+      },
+      {
+        "icon": "Manikins、蜘蛛以及生存指南",
+        "title": "ArrowRight",
+        "description": "移动装备"
+      },
+      {
+        "icon": "Hookshot、Glider Glove、Bee Glider",
+        "title": "TrendingUp",
+        "description": "农耕与成长"
+      },
+      {
+        "icon": "种子进度与材料收集",
+        "title": "Star",
+        "description": "最佳早期解锁项目"
+      },
+      {
+        "icon": "首小时优先升级项",
+        "title": "ClipboardCheck",
+        "description": "成就追踪器"
+      },
+      {
+        "icon": "全部 19 个 Steam 成就及达成条件",
+        "title": "MessageCircle",
+        "description": "单人模式常见问题"
+      },
+      {
+        "icon": "手柄 2",
+        "title": "Steam Deck 与控制器",
+        "description": "Proton 9.0.4 设置与控制器技巧"
+      },
+      {
+        "icon": "设置",
+        "title": "设置与辅助功能",
+        "description": "隐藏手部、Vulkan 及显示选项"
+      },
+      {
+        "icon": "时钟",
+        "title": "更新与补丁说明",
+        "description": "近期修复与开发路线图"
+      },
+      {
+        "icon": "防护",
+        "title": "崩溃修复",
+        "description": "Vulkan 检测、日志路径及错误报告"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Desktop Explorer 新手指南",
+      "displayType": "步骤",
+      "intro": "从了解探索、融合与进度之间的联系开始。Desktop Explorer 鼓励尝试，因此初期的进度取决于收集奇特材料、测试组合以及解锁你的个人 Qualia。",
+      "steps": [
+        {
+          "title": "在投入前先行探索",
+          "description": "向外探索，开采普通方块，并保留你发现的任何奇怪掉落物。初期的进度不在于完成固定任务，而更多在于发现材料可以转化的可能性。"
+        },
+        {
+          "title": "尽早解锁你的个人 Qualia",
+          "description": "你的个人 Qualia 是最重要的早期里程碑之一。它为你提供了一个可靠的据点，供你重整旗鼓并围绕其进行建设。"
+        },
+        {
+          "title": "利用 Osmium 快速推进早期进度",
+          "description": "Osmium 是最有用的早期材料之一。一个流行的早期方案是将 Osmium 与 Stick 结合，制作成 Frost Pick 以实现快速开采。"
+        },
+        {
+          "title": "记录优秀的融合配方",
+          "description": "在日志中记录成功的组合。Desktop Explorer 有许多可能的融合路径，因此写下有用的结果可以节省大量时间。"
+        }
+      ],
+      "quickTips": [
+        "Apotheosis 不需要固定的配方列表。",
+        "无限的世界生成意味着向更高或更深处移动可能会发现完全不同的材料。",
+        "一旦你开始解锁移动工具和实用装备，游戏体验将得到显著提升。",
+        "早期迷路是正常现象，但一旦你成功完成了几次优秀的融合，实用的工具、存储和移动选项会迅速产生滚雪球效应。"
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Desktop Explorer Apotheosis 合成",
+      "displayType": "卡片",
+      "intro": "Apotheosis 是游戏中无限制的融合系统。与其背诵传统的配方书，不如亲自动手组合材料，观察结果，并随着时间的推移建立属于你自己的合成知识库。",
+      "cards": [
+        {
+          "name": "自由形式融合",
+          "description": "Apotheosis 允许你融合不同的物品，而无需遵循固定的配方列表。"
+        },
+        {
+          "name": "多种实用的结果",
+          "description": "不同的材料通常会指向特定的结果。社区的发现表明，类似的投入仍可能产生实用的工具、存储设备或战斗升级。"
+        },
+        {
+          "name": "日志优先合成",
+          "description": "学习 Apotheosis 的最佳方式是追踪你成功的组合。你的日志很快就会成为你专属的合成参考。"
+        },
+        {
+          "name": "社区测试过的早期融合",
+          "description": "流行的早期示例包括 Osmium 加 Stick 合成 Frost Pick，Stick 加 Tungsten Appendage 合成 Azrael，以及 Azrael 加 Magnetite 合成 Tendril Rapier。"
+        }
+      ],
+      "milestones": [
+        "融合物品",
+        "融合害虫",
+        "熔铸神兵"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Desktop Explorer 工具与武器",
+      "displayType": "物品卡牌",
+      "intro": "Desktop Explorer 融合了官方实用装备与社区发现的早期武器。最佳配置通常结合了快速采矿、安全移动以及一种可靠的战斗选择。",
+      "items": [
+        {
+          "name": "霜冻镐",
+          "type": "采矿工具",
+          "description": "一把由锇和木棍制作而成的快速且经济的早期手镐。玩家用它来加速前期的材料收集。"
+        },
+        {
+          "name": "Azrael",
+          "type": "初始武器",
+          "description": "一条由木棍和钨制附肢制作而成的实用早期武器路线。"
+        },
+        {
+          "name": "触手细剑",
+          "type": "升级武器",
+          "description": "通过将 Azrael 与磁铁矿结合制作的更强后续武器。它是玩家分享的最实用的中前期战斗路线之一。"
+        },
+        {
+          "name": "抓钩",
+          "type": "移动工具",
+          "description": "一件能极大提升移动和垂直探索能力的官方探索装备。"
+        },
+        {
+          "name": "蜜蜂滑翔翼",
+          "type": "移动工具",
+          "description": "一件有助于更安全、更高效地跨越空间的官方移动道具。"
+        },
+        {
+          "name": "法球魔杖",
+          "type": "实用武器",
+          "description": "一件官方远程实用道具，能拓宽你的战斗与解谜选择。"
+        },
+        {
+          "name": "水肺潜水装备",
+          "type": "探索装备",
+          "description": "一件官方实用装备，用于前往那些本会减缓探索进度的区域。"
+        },
+        {
+          "name": "炸药",
+          "type": "功能性伤害",
+          "description": "官方强调的核心工具集的一部分，可用于突破威胁或障碍物。"
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Desktop Explorer 存储与背包",
+      "displayType": "解决方案卡牌",
+      "intro": "在 Desktop Explorer 中，背包压力在前期就会显现，因此建立存储空间应当是你的首要目标之一。几种经玩家实测的解决方案已脱颖而出。",
+      "solutions": [
+        {
+          "name": "缓存方块",
+          "role": "箱式存储",
+          "description": "缓存方块是最早的实用存储方案之一，被玩家视为游戏中最主要的箱式容器。"
+        },
+        {
+          "name": "储物柜",
+          "role": "简易基地存储",
+          "description": "储物柜是另一种已被证实的存储选择。玩家间流传的早期配方需要 1 个切割木材和 1 根细绳。"
+        },
+        {
+          "name": "个人 Qualia",
+          "role": "长期存储中心",
+          "description": "一旦解锁，你的个人 Qualia 将成为整理材料、安静制作物品以及扩展基地配置的理想场所。"
+        },
+        {
+          "name": "---",
+          "role": "日志追踪",
+          "description": "背包效率"
+        }
+      ],
+      "managementTips": [
+        "在日志中记录有用的组合可以减少材料浪费，并使库存管理更加轻松。",
+        "在囤积稀有掉落物之前，优先选择一个可靠的存储方案。",
+        "一旦个人 Qualia 可用，就围绕它进行建设。",
+        "将制作材料、战斗工具和移动装备分开存放，以便更容易规划升级。"
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "将日志作为库存管理的一部分，而不只是为了发现配方。",
+      "displayType": "Desktop Explorer Qualia 与基地建设",
+      "intro": "卡片",
+      "cards": [
+        {
+          "name": "Qualia 是 Desktop Explorer 中最重要的进度里程碑之一。它为你提供了一个重整旗鼓、存储材料的个人空间，并逐渐将探索进度转化为真正的基地。",
+          "description": "个人 Qualia"
+        },
+        {
+          "name": "解锁 Qualia 是一个早期里程碑，让你在探索更广阔的世界时有一个更可靠的回归点。",
+          "description": "存储优先建设"
+        },
+        {
+          "name": "许多玩家在将 Qualia 变成拥有有序制作和建筑空间的庞大基地之前，会先将其作为存储中心。",
+          "description": "创意家园建设"
+        },
+        {
+          "name": "Desktop Explorer 支持创意建筑，玩家们已经开始利用 Qualia 空间来建造房屋和个性化布局。",
+          "description": "进度中心"
+        }
+      ],
+      "highlights": [
+        "一个强大的基地可以帮助你分类存放探索战利品、制作材料、种子、工具和移动装备，从而让下一次升级的规划变得更轻松。",
+        "进入一个 Qualia",
+        "安全地存储材料",
+        "从实用扩展到装饰"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "利用基地空间支持制作和耕种",
+      "displayType": "Desktop Explorer 世界区域",
+      "intro": "区域卡片",
+      "regions": [
+        {
+          "name": "Desktop Explorer 使用无限世界生成技术，因此玩家会不断发现新的环境和结构。一些有名字的地点已经出现在成就和社区讨论中。",
+          "type": "迷雾草甸",
+          "description": "社区关注区域"
+        },
+        {
+          "name": "迷雾草甸在玩家中已颇具名气，是一个充满了潜在威胁和危险遭遇的紧张区域。",
+          "type": "Tiamana 地脉",
+          "description": "探索地标"
+        },
+        {
+          "name": "Tiamana 地脉非常重要，甚至拥有专属的成就里程碑，使其成为目前最明确的具名世界发现之一。",
+          "type": "Clonaqualia",
+          "description": "建筑空间"
+        },
+        {
+          "name": "玩家已经开始将 Clonaqualia 作为建造房屋、存储材料以及尝试更永久布局的场所。",
+          "type": "精华沼泽",
+          "description": "刷宝区域"
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "精华沼泽被玩家们分享为一个实用的刷宝地点，特别适合击败史莱姆和获取经验。",
+      "displayType": "Desktop Explorer 生物与敌人",
+      "intro": "生物卡片",
+      "creatures": [
+        {
+          "name": "人体模型",
+          "role": "敌对敌人",
+          "description": "人体模型是游戏中官方命名的敌人之一，也是该游戏超现实威胁名册的一部分。"
+        },
+        {
+          "name": "黏软凝胶",
+          "role": "敌对敌人",
+          "description": "黏软凝胶是另一种官方命名的敌人类型，有助于定义游戏奇特的生物风格。"
+        },
+        {
+          "name": "高维生物",
+          "role": "敌对敌人",
+          "description": "这些生物是该世界中更抽象、更令人不安的敌人阵容的一部分。"
+        },
+        {
+          "name": "巨型蜘蛛",
+          "role": "重大威胁",
+          "description": "蜘蛛是社区讨论中最让人直接感到恐惧的敌人之一，显然是一个令人难忘的威胁。"
+        },
+        {
+          "name": "Bubblebear",
+          "role": "命名生物",
+          "description": "Bubblebear非常引人注目，甚至拥有专属成就，这使其成为游戏中特征最明确的命名生物遭遇战之一。"
+        },
+        {
+          "name": "可爱害虫",
+          "role": "可互动生物",
+          "description": "害虫不仅是融合进度的一部分，还可以被重新命名，这使它们比普通敌人扮演了更具个性化的角色。"
+        },
+        {
+          "name": "亵渎生物",
+          "role": "精英威胁",
+          "description": "亵渎生物与一项专属战斗成就挂钩，这标志着它是一次重大的敌人遭遇战。"
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Desktop Explorer 移动装备",
+      "displayType": "itemCards",
+      "intro": "移动升级是 Desktop Explorer 中最能提升游戏体验的飞跃之一。一旦你解锁了第一个探索工具，探索就会变得更快、更安全，也更有成就感。",
+      "items": [
+        {
+          "name": "抓钩",
+          "type": "移动工具",
+          "description": "抓钩是游戏中标志性的移动里程碑之一，并拥有其专属成就。"
+        },
+        {
+          "name": "滑翔手套",
+          "type": "空中移动",
+          "description": "滑翔手套开启了更顺畅的旅程，是另一个拥有专属成就的重大进度里程碑。"
+        },
+        {
+          "name": "蜜蜂滑翔翼",
+          "type": "移动工具",
+          "description": "蜜蜂滑翔翼被官方强调为游戏移动工具包的一部分，用于更高效地跨越空间。"
+        },
+        {
+          "name": "球形魔杖",
+          "type": "实用装备",
+          "description": "球形魔杖是官方强调的特殊工具之一，拓展了你在这个世界中移动或与之互动的方式。"
+        },
+        {
+          "name": "潜水装备",
+          "type": "探索装备",
+          "description": "潜水装备被官方列为核心实用工具集的一部分，用于到达原本难以探索的区域。"
+        },
+        {
+          "name": "炸药",
+          "type": "实用工具伤害",
+          "description": "爆炸物不仅被官方重点突出，还与一项成就里程碑挂钩，使其成为游戏核心实用工具成长线的一部分。"
+        }
+      ],
+      "unlockMilestones": [
+        "操控抓钩",
+        "使用滑翔手套飞行",
+        "挥舞投射法杖",
+        "挥舞爆炸物"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Desktop Explorer 种植与成长",
+      "displayType": "mixedCards",
+      "intro": "成长是 Desktop Explorer 中切实晋升的一部分。种植不仅关乎播种与收割，还关乎建立可循环的材料路线，以源源不断地提供工具、武器和制作选项。",
+      "sections": [
+        {
+          "name": "种子成长线",
+          "description": "播种和施肥是游戏中的一个重要里程碑，而收获一颗完全成熟的坚果也是该成长路径的一部分。"
+        },
+        {
+          "name": "材料收集",
+          "description": "一个实用的前期收集循环是制作水银胶囊，它们会生成掉落触手和黏液的小史莱姆，用以提供可循环的制作材料。"
+        },
+        {
+          "name": "工具维持",
+          "description": "一旦你能稳定收集锇、玻璃碎片、植物 and 史莱姆材料来进行后续制作，资源收集就会变得高效得多。"
+        },
+        {
+          "name": "基地常规",
+          "description": "最好的种植配置不仅能提供食物，还应该能供应你的储存、移动工具、武器升级以及未来的融合实验。"
+        }
+      ],
+      "growthMilestones": [
+        "给种子施肥",
+        "收获一颗完全成熟的坚果",
+        "建立可循环的材料回路",
+        "将种植转化为长期发展"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Desktop Explorer 最佳前期解锁推荐",
+      "displayType": "priorityCards",
+      "intro": "最强的前期解锁是那些能提升安全性、储存空间和移动能力的解锁。在 Desktop Explorer 中，几个实用的升级就能让后续的游戏体验变得顺畅得多。",
+      "priorities": [
+        {
+          "name": "个人 Qualia",
+          "priority": "核心",
+          "description": "一旦你获得了个人 Qualia 的访问权限，你的游戏流程就会变得稳定得多。它是一个可靠的枢纽，可用于储存、建造和整顿休整。"
+        },
+        {
+          "name": "冰霜镐",
+          "priority": "极高",
+          "description": "一种用锇和木棍制作的快速且廉价的前期采矿工具。它是加速前期资源收集最实用的升级之一。"
+        },
+        {
+          "name": "缓存方块",
+          "priority": "极高",
+          "description": "储存压力在前期就会显现，因此获得第一个可靠的箱式容器是一次重大的体验提升。"
+        },
+        {
+          "name": "抓钩",
+          "priority": "高",
+          "description": "抓钩是游戏中最为明确的移动里程碑之一，能迅速让探索变得更快、更安全。"
+        },
+        {
+          "name": "滑翔手套",
+          "priority": "高",
+          "description": "滑翔手套提供了另一个重大的机动性提升，让远距离移动变得更加高效。"
+        },
+        {
+          "name": "投射法杖或炸弹",
+          "priority": "高",
+          "description": "远程工具或爆炸物选项能让你在面对危险敌人和试炼式遭遇时有更安全的应对手段。"
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Desktop Explorer 成就追踪器",
+      "displayType": "achievementGrid",
+      "intro": "Desktop Explorer 目前有 19 个 Steam 成就，它们自然地分为探索、制作、机动性、战斗和成长进度。",
+      "groups": [
+        {
+          "name": "探索",
+          "achievements": [
+            {
+              "title": "Angel α",
+              "description": "进入感质。"
+            },
+            {
+              "title": "Angel γ",
+              "description": "发现一条 tiamana 地脉。"
+            },
+            {
+              "title": "Angel δ",
+              "description": "克服一项 tiamana 挑战。"
+            },
+            {
+              "title": "Angel ε",
+              "description": "隐藏成就。"
+            }
+          ]
+        },
+        {
+          "name": "制作与召唤",
+          "achievements": [
+            {
+              "title": "Apotheosis α",
+              "description": "融合一个物品。"
+            },
+            {
+              "title": "Apotheosis β",
+              "description": "融合一个害虫。"
+            },
+            {
+              "title": "Apotheosis γ",
+              "description": "融合一件神圣神器。"
+            },
+            {
+              "title": "Archangel β",
+              "description": "召唤你的信仰。"
+            }
+          ]
+        },
+        {
+          "name": "机动性与实用性",
+          "achievements": [
+            {
+              "title": "Virtue α",
+              "description": "使用滑翔手套飞行。"
+            },
+            {
+              "title": "Virtue β",
+              "description": "操控钩爪。"
+            },
+            {
+              "title": "Archangel α",
+              "description": "挥舞投射法杖。"
+            },
+            {
+              "title": "Archangel γ",
+              "description": "挥舞爆炸物。"
+            }
+          ]
+        },
+        {
+          "name": "战斗与生物",
+          "achievements": [
+            {
+              "title": "Bubblebear Massacre",
+              "description": "击败无辜的 bubblebear。"
+            },
+            {
+              "title": "Archangel δ",
+              "description": "消灭一个亵渎生物。"
+            },
+            {
+              "title": "Angel β",
+              "description": "死亡。"
+            },
+            {
+              "title": "Dominion γ",
+              "description": "给可爱的害虫改名。"
+            }
+          ]
+        },
+        {
+          "name": "成长与耕种",
+          "achievements": [
+            {
+              "title": "统治 α",
+              "description": "为种子施肥。"
+            },
+            {
+              "title": "统治 β",
+              "description": "收获一颗成熟的坚果。"
+            },
+            {
+              "title": "统治 δ",
+              "description": "隐藏成就。"
+            }
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Desktop Explorer 单人模式与平台常见问题",
+      "displayType": "折叠菜单",
+      "intro": "这些是玩家在购买 Desktop Explorer 前经常询问的核心平台与访问问题。",
+      "faqs": [
+        {
+          "question": "Desktop Explorer 是单人游戏吗？",
+          "answer": "是的。Desktop Explorer 是一款单人游戏。"
+        },
+        {
+          "question": "有开发多玩家或合作模式的计划吗？",
+          "answer": "没有。目前没有在发布或未来更新中加入多玩家模式的计划。"
+        },
+        {
+          "question": "我可以在哪里玩 Desktop Explorer？",
+          "answer": "目前已在 Steam 平台的 Windows 系统上推出。"
+        },
+        {
+          "question": "Desktop Explorer 售价是多少？",
+          "answer": "Steam 售价为 9.99 美元。"
+        },
+        {
+          "question": "Desktop Explorer 支持控制器吗？",
+          "answer": "支持，但不建议使用控制器进行游戏，因为菜单设计并未针对控制器进行优化。"
+        },
+        {
+          "question": "Desktop Explorer 可以在 Steam Deck 上运行吗？",
+          "answer": "可以。Steam Deck 通常建议配置为 Proton 9.0 或 9.0.4。"
+        },
+        {
+          "question": "Desktop Explorer 可以在 Linux 上运行吗？",
+          "answer": "可以。据报告，Proton 9.0 在 Linux 和 Steam Deck 上运行良好。"
+        },
+        {
+          "question": "会支持 Mac 或 Android 吗？",
+          "answer": "未来可能会支持，但它们目前不在首发平台之列。"
+        },
+        {
+          "question": "Desktop Explorer 有翻译版本吗？",
+          "answer": "没有。目前没有翻译计划。"
+        },
+        {
+          "question": "Desktop Explorer 会持续更新吗？",
+          "answer": "会的。发布后计划进行一些内容更新，但并不打算无限期地进行定期更新。"
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Desktop Explorer Steam Deck 与控制器",
+      "displayType": "折叠菜单",
+      "intro": "Desktop Explorer 可以在 Steam Deck 上运行，但默认设置可能需要调整。对于菜单操作和常规游戏流程，使用键盘和鼠标仍然是更流畅的选择。",
+      "faqs": [
+        {
+          "question": "Desktop Explorer 可以在 Steam Deck 上运行吗？",
+          "answer": "可以。Proton 9.0 运行良好，而 Proton 9.0.4 是解决 Steam Deck 问题的常用修复方案。"
+        },
+        {
+          "question": "如果 Steam Deck 的控制器不起作用该怎么办？",
+          "answer": "请强制执行兼容性并将游戏切换至 Proton 9.0.4。默认配置可能无法正确接收控制器输入。"
+        },
+        {
+          "question": "Desktop Explorer 支持控制器吗？",
+          "answer": "支持，但不建议使用控制器进行游戏，因为游戏的菜单设计并未针对控制器进行优化。"
+        },
+        {
+          "question": "是否支持 Linux？",
+          "answer": "是的。据报道 Proton 9.0 在 Linux 和 Steam Deck 上运行良好。"
+        },
+        {
+          "question": "最佳的输入设置是什么？",
+          "answer": "键盘和鼠标是进行菜单导航和整体游玩最流畅的选择。"
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Desktop Explorer 设置与辅助功能",
+      "displayType": "settingCards",
+      "intro": "Desktop Explorer 已经具备了一些实用的设置和兼容性说明，这些在玩家首次启动游戏时至关重要。",
+      "settings": [
+        {
+          "name": "显示设置",
+          "type": "舒适度选项",
+          "description": "“显示设置”中包含一个允许玩家隐藏屏幕上的双手的选项。"
+        },
+        {
+          "name": "图形兼容性",
+          "type": "系统要求",
+          "description": "画面正常渲染需要 Vulkan 支持。不支持 Vulkan 的系统可能会遇到崩溃和严重的图形故障。"
+        },
+        {
+          "name": "输入偏好",
+          "type": "控制设置",
+          "description": "游戏支持手柄，但使用键盘和鼠标体验更流畅，因为菜单并非围绕手柄操作设计。"
+        },
+        {
+          "name": "语言支持",
+          "type": "本地化",
+          "description": "目前仅支持英文，且暂无翻译计划。"
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Desktop Explorer 更新与更新日志",
+      "displayType": "timeline",
+      "intro": "Desktop Explorer 已经在接受发布后的快速修复和小型易用性更新。",
+      "entries": [
+        {
+          "title": "更新 2.8.2",
+          "type": "UI 更新",
+          "description": "将主菜单中的“awaken”重命名为“exit”。"
+        },
+        {
+          "title": "针对启动崩溃的小型补丁",
+          "type": "热修复",
+          "description": "针对游戏在启动时崩溃的玩家，已发布了专门的补丁。"
+        },
+        {
+          "title": "发售后的内容支持",
+          "type": "路线图说明",
+          "description": "游戏发售后计划进行一些内容更新，但并不打算无限期地定期持续更新。"
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Desktop Explorer 崩溃修复与故障排除",
+      "displayType": "steps",
+      "intro": "大多数紧急的启动和崩溃问题应按照简单的顺序进行检查：补丁版本、图形支持、平台兼容性和日志。",
+      "steps": [
+        {
+          "title": "安装最新的崩溃热修复补丁",
+          "description": "如果游戏在启动时崩溃，请先进行更新，并使用最新的启动崩溃补丁再次测试。"
+        },
+        {
+          "title": "检查 Vulkan 支持",
+          "description": "Desktop Explorer 需要 Vulkan 支持。不支持 Vulkan 的系统可能会遇到崩溃或严重的渲染问题。"
+        },
+        {
+          "title": "在 Steam Deck 上使用 Proton 9.0.4",
+          "description": "如果 Steam Deck 的输入或启动行为异常，请强制启用兼容性并切换至 Proton 9.0.4。"
+        },
+        {
+          "title": "收集崩溃日志",
+          "description": "打开 Windows 运行窗口，粘贴 %APPDATA%，前往 desktop explorer/logs，收集其中的 .txt 文件以便排查故障。"
+        },
+        {
+          "title": "正确反馈问题",
+          "description": "通过官方 Discord 的 bug-reports 频道或 Steam 社区页面分享日志和设备详情。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "常见",
+    "titleHighlight": "问题",
+    "subtitle": "关于 Desktop Explorer 你需要了解的一切",
+    "questions": [
+      {
+        "question": "Desktop Explorer 是单机游戏吗？",
+        "answer": "是的。Desktop Explorer 是一款纯单机游戏，目前没有开发多人或联机模式的计划。"
+      },
+      {
+        "question": "Desktop Explorer 中的 Apotheosis 系统是什么？",
+        "answer": "Apotheosis 是 Desktop Explorer 的自由融合合成系统。你不需要遵循固定配方，而是通过组合材料来探索属于自己的合成路径。"
+      },
+      {
+        "question": "我可以在哪里玩 Desktop Explorer？",
+        "answer": "Desktop Explorer 目前已在 Windows 平台的 Steam 上架。Linux 和 Steam Deck 可通过 Proton 9.0 支持运行。"
+      },
+      {
+        "question": "Desktop Explorer 的售价是多少？",
+        "answer": "Desktop Explorer 在 Steam 上的售价为 9.99 美元。"
+      },
+      {
+        "question": "Desktop Explorer 支持手柄吗？",
+        "answer": "支持，但不建议使用手柄游玩，因为菜单设计并非针对手柄优化。使用键盘和鼠标体验会更流畅。"
+      },
+      {
+        "question": "Desktop Explorer 会有更新吗？",
+        "answer": "会。发布后计划进行一些内容更新，但并不打算长期保持定期的更新频率。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好探索 Desktop Explorer 了吗？",
+    "description": "加入 Discord 的 Desktop Explorer 社区，获取攻略、更新资讯并参与讨论！",
+    "joinCommunity": "加入 Discord",
+    "joinGame": "在 Steam 上游玩"
+  },
+  "footer": {
+    "title": "Desktop Explorer Wiki",
+    "description": "关于 Desktop Explorer 流程攻略、谜题、隐藏文件、结局、秘密和解谜指南的完整资源库。",
+    "resources": "资源",
+    "community": "社区",
+    "legal": "法律条款",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "关于",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyrightNotice": "版权信息",
+    "copyright": "© 2026 Desktop Explorer Wiki。不隶属于 Recurring Dream。",
+    "disclaimer": "非官方粉丝制作资源网站。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Desktop Explorer 流程攻略与指南",
+      "description": "完整的 Desktop Explorer 流程攻略与指南，涵盖了从启动复古电脑到解开每一个谜团的全部调查过程。",
+      "metaTitle": "---",
+      "metaDescription": "Desktop Explorer 攻略与指南 - Desktop Explorer 维基",
+      "categoryLabel": "完整的 Desktop Explorer 流程攻略与指南，涵盖从启动复古电脑到解开每个谜团的全程调查。",
+      "whatIs": "指南",
+      "whatIsDescription": "什么是 Desktop Explorer 流程攻略？",
+      "why": "一份完整的 Desktop Explorer 谜团解密步骤，涵盖开机启动、文件调查、解谜进度以及主线剧情结局。",
+      "whySteps": {
+        "step1Title": "为什么要使用 Desktop Explorer 流程攻略？",
+        "step1Description": "遵循正确的调查顺序",
+        "step2Title": "流程攻略按顺序排列每个线索和文件，确保你不会错过任何开启下一步的关键发现。",
+        "step2Description": "结合完整语境破解谜题",
+        "step3Title": "每份指南都会将谜题、密码和隐藏文件联系起来，让真相按预期方式揭开。",
+        "step3Description": "达成每一个结局"
+      },
+      "featured": "完整的指南会标记出解锁 Desktop Explorer 每个结局的分支路径和可选发现。",
+      "all": "精选 Desktop Explorer 指南"
+    },
+    "puzzles": {
+      "title": "查看所有 Desktop Explorer 指南",
+      "description": "Desktop Explorer 谜题",
+      "metaTitle": "针对每个 Desktop Explorer 谜题的解决方案，包括密码锁、沙漏谜题、锁定的下颚以及自动贩卖机谜题。",
+      "metaDescription": "Desktop Explorer 谜题 - Desktop Explorer 维基",
+      "categoryLabel": "针对每个 Desktop Explorer 谜题的解决方案，包括密码锁、沙漏谜题、锁定的下颚以及自动贩卖机谜题。",
+      "whatIs": "谜题",
+      "whatIsDescription": "什么是 Desktop Explorer 谜题？",
+      "why": "阻碍 Desktop Explorer 电脑调查进度的各种挑战，从密码锁到沙漏和自动贩卖机等机械谜题。",
+      "whySteps": {
+        "step1Title": "为什么要使用 Desktop Explorer 谜题指南？",
+        "step1Description": "解锁受限制的文件和账户",
+        "step2Title": "谜题指南将揭示打开加密内容所需的密码和输入序列。",
+        "step2Description": "快速解决机械谜题",
+        "step3Title": "针对沙漏、锁定的下颚和自动贩卖机谜题的分步解决方案，防止陷入僵局。",
+        "step3Description": "正确关联线索"
+      },
+      "featured": "每个解决方案都会解释哪些文件和聊天记录提供了线索，确保逻辑清晰。",
+      "all": "精选 Desktop Explorer 谜题"
+    },
+    "story": {
+      "title": "查看所有 Desktop Explorer 谜题",
+      "description": "Desktop Explorer 剧情与结局",
+      "metaTitle": "详解 Desktop Explorer 的完整故事，包括结局、秘密、隐藏文件以及驱动谜团的循环梦境。",
+      "metaDescription": "Desktop Explorer 剧情与结局 - Desktop Explorer 维基",
+      "categoryLabel": "详解 Desktop Explorer 的完整故事，包括结局、秘密、隐藏文件以及驱动谜团的循环梦境。",
+      "whatIs": "剧情",
+      "whatIsDescription": "什么是 Desktop Explorer 剧情？",
+      "why": "这台被遗弃的 90 年代电脑背后的叙事，包括人物背景、失踪案，以及隐藏文件与循环梦境之间的联系。",
+      "whySteps": {
+        "step1Title": "为什么要阅读 Desktop Explorer 剧情指南？",
+        "step1Description": "理解完整的谜团",
+        "step2Title": "---",
+        "step2Description": "解锁所有结局",
+        "step3Title": "清晰的结局达成要求，展示哪些发现会导向不同的结论。",
+        "step3Description": "寻找所有秘密"
+      },
+      "featured": "隐藏文件、彩蛋和可选事件均已编目，确保无一遗漏。",
+      "all": "精选 Desktop Explorer 剧情指南"
+    },
+    "release": {
+      "title": "查看所有 Desktop Explorer 剧情文章",
+      "description": "Desktop Explorer 发售与下载",
+      "metaTitle": "这款复古 PC 恐怖冒险游戏的 Desktop Explorer 发售日期、Steam 上线详情、试玩版信息及下载说明。",
+      "metaDescription": "Desktop Explorer 发售日期与下载 - Desktop Explorer Wiki",
+      "categoryLabel": "这款复古 PC 恐怖冒险游戏的 Desktop Explorer 发售日期、Steam 上线详情、试玩版信息及下载说明。",
+      "whatIs": "发售",
+      "whatIsDescription": "Desktop Explorer 的发售信息有哪些？",
+      "why": "Desktop Explorer 发布详情，包括发售日期、Steam 平台支持、试玩版以及如何下载并开始游戏。",
+      "whySteps": {
+        "step1Title": "为什么要查看 Desktop Explorer 发售指南？",
+        "step1Description": "了解发售日期",
+        "step2Title": "实时掌握 Desktop Explorer 官方发售动态和平台可用性。",
+        "step2Description": "先尝试试玩版",
+        "step3Title": "试玩版指南介绍了序章包含的内容以及如何在 Steam 上获取。",
+        "step3Description": "轻松下载并安装"
+      },
+      "featured": "分步下载说明让您顺利进入游戏，毫无困扰。",
+      "all": "精选 Desktop Explorer 发售指南"
+    },
+    "review": {
+      "title": "查看所有 Desktop Explorer 发售相关文章",
+      "description": "Desktop Explorer 评测",
+      "metaTitle": "Desktop Explorer 评测与玩法分析，涵盖恐怖氛围、谜题设计以及这款独立解谜冒险游戏的独特之处。",
+      "metaDescription": "Desktop Explorer 评测与玩法 - Desktop Explorer Wiki",
+      "categoryLabel": "Desktop Explorer 评测与玩法分析，涵盖恐怖氛围、谜题设计以及这款独立解谜冒险游戏的独特之处。",
+      "whatIs": "评测",
+      "whatIsDescription": "什么是 Desktop Explorer 评测？",
+      "why": "针对 Desktop Explorer 玩法的专业及玩家评析，包括氛围、谜题设计、剧情以及独立恐怖游戏体验。",
+      "whySteps": {
+        "step1Title": "为什么要阅读 Desktop Explorer 评测？",
+        "step1Description": "购前决策",
+        "step2Title": "评测总结了游戏的优点和手感，让您了解在 Steam 上的预期体验。",
+        "step2Description": "了解核心玩法循环",
+        "step3Title": "玩法分析解释了探索、解谜与剧情是如何紧密结合的。",
+        "step3Description": "查看横向对比"
+      },
+      "featured": "了解 Desktop Explorer 在独立解谜恐怖游戏中的定位。",
+      "all": "精选 Desktop Explorer 评测"
+    },
+    "platform": {
+      "title": "查看所有 Desktop Explorer 评测",
+      "description": "Desktop Explorer 平台支持与系统配置要求",
+      "metaTitle": "Desktop Explorer 平台与系统配置要求 - Desktop Explorer Wiki",
+      "metaDescription": "Desktop Explorer 平台支持与系统配置要求，包括 PC、Steam Deck 以及 Nintendo Switch 的可用性。",
+      "categoryLabel": "平台",
+      "whatIs": "Desktop Explorer 支持哪些平台？",
+      "whatIsDescription": "Desktop Explorer 运行所需的平台和硬件，包括 Windows PC、Steam Deck 兼容性以及 Nintendo Switch 的可用性。",
+      "why": "为什么要查看 Desktop Explorer 平台指南？",
+      "whySteps": {
+        "step1Title": "确认您的平台",
+        "step1Description": "验证 Desktop Explorer 是否可以在您的 PC、Steam Deck 或 Nintendo Switch 上运行。",
+        "step2Title": "满足系统配置要求",
+        "step2Description": "清晰的配置规格帮助您调整好设备以获得流畅的运行表现。",
+        "step3Title": "优化您的体验",
+        "step3Description": "设置与性能提示可让这款复古恐怖冒险游戏在您的硬件上流畅运行。"
+      },
+      "featured": "精选 Desktop Explorer 平台指南",
+      "all": "查看所有 Desktop Explorer 平台文章"
+    }
   }
 }

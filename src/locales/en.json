@@ -59,13 +59,13 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
+    "title": "Desktop Explorer Gameplay",
     "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Desktop Explorer",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to explore, craft, and survive in Desktop Explorer",
     "cards": [
       {
         "icon": "BookOpen",
@@ -151,9 +151,9 @@
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "Desktop Explorer Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Start by learning how exploration, fusion, and progression connect. Desktop Explorer rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
       "steps": [
         {
           "title": "Explore Before You Commit",
@@ -169,7 +169,7 @@
         },
         {
           "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "description": "Keep track of successful combinations in your journal. Desktop Explorer has many possible fusion paths, so writing down useful results saves a lot of time."
         }
       ],
       "quickTips": [
@@ -180,7 +180,7 @@
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "Desktop Explorer Apotheosis Crafting",
       "displayType": "cards",
       "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
       "cards": [
@@ -208,9 +208,9 @@
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "Desktop Explorer Tools and Weapons",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Desktop Explorer mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
       "items": [
         {
           "name": "Frost Pick",
@@ -255,9 +255,9 @@
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "Desktop Explorer Storage and Inventory",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Inventory pressure starts early in Desktop Explorer, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
       "solutions": [
         {
           "name": "Cache Cube",
@@ -288,9 +288,9 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Desktop Explorer Qualia and Base Building",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Qualia is one of the most important progression milestones in Desktop Explorer. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
           "name": "Personal Qualia",
@@ -302,7 +302,7 @@
         },
         {
           "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "description": "Desktop Explorer supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
         },
         {
           "name": "Progression Hub",
@@ -317,9 +317,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Desktop Explorer World Regions",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Desktop Explorer uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -344,9 +344,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Desktop Explorer Creatures and Enemies",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Desktop Explorer mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
           "name": "Manikins",
@@ -386,9 +386,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Desktop Explorer Mobility Gear",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Desktop Explorer. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
       "items": [
         {
           "name": "Hookshot",
@@ -429,9 +429,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Desktop Explorer Farming and Growth",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in Desktop Explorer. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
       "sections": [
         {
           "name": "Seed Progression",
@@ -458,9 +458,9 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Desktop Explorer Best Early Unlocks",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Desktop Explorer, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
         {
           "name": "Personal Qualia",
@@ -495,9 +495,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Desktop Explorer Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Desktop Explorer currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
           "name": "Exploration",
@@ -603,36 +603,36 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Desktop Explorer Singleplayer and Platform FAQ",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core platform and access questions players keep asking before buying Desktop Explorer.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is Desktop Explorer singleplayer?",
+          "answer": "Yes. Desktop Explorer is a singleplayer game."
         },
         {
           "question": "Is multiplayer or co-op planned?",
           "answer": "No. Multiplayer is not planned for release or future updates."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
+          "question": "Where can I play Desktop Explorer?",
           "answer": "It is currently available on Steam for Windows."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
+          "question": "How much does Desktop Explorer cost?",
           "answer": "$9.99 on Steam."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Desktop Explorer support controllers?",
           "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Desktop Explorer work on Steam Deck?",
           "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
+          "question": "Does Desktop Explorer work on Linux?",
           "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
@@ -640,22 +640,22 @@
           "answer": "They may be supported in the future, but they are not current launch platforms."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
+          "question": "Does Desktop Explorer have translations?",
           "answer": "No. There are currently no translations planned."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
+          "question": "Will Desktop Explorer keep getting updates?",
           "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Desktop Explorer Steam Deck and Controller",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Desktop Explorer can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Desktop Explorer work on Steam Deck?",
           "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
         },
         {
@@ -663,7 +663,7 @@
           "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Desktop Explorer support controllers?",
           "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
         },
         {
@@ -677,9 +677,9 @@
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Desktop Explorer Settings and Accessibility",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Desktop Explorer already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
       "settings": [
         {
           "name": "Display Settings",
@@ -704,9 +704,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Desktop Explorer Updates and Patch Notes",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Desktop Explorer is already receiving quick post-launch fixes and small usability updates.",
       "entries": [
         {
           "title": "Update 2.8.2",
@@ -726,7 +726,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Desktop Explorer Crash Fix and Troubleshooting",
       "displayType": "steps",
       "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
@@ -736,7 +736,7 @@
         },
         {
           "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "description": "Desktop Explorer requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
         },
         {
           "title": "Use Proton 9.0.4 on Steam Deck",
@@ -744,7 +744,7 @@
         },
         {
           "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "description": "Open Windows Run, paste %APPDATA%, go to desktop explorer/logs, and gather the .txt files for troubleshooting."
         },
         {
           "title": "Report the Issue Properly",
@@ -756,30 +756,30 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Desktop Explorer",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Desktop Explorer a singleplayer game?",
+        "answer": "Yes. Desktop Explorer is a singleplayer-only game with no multiplayer or co-op planned."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the Apotheosis system in Desktop Explorer?",
+        "answer": "Apotheosis is Desktop Explorer' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Desktop Explorer?",
+        "answer": "Desktop Explorer is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does Desktop Explorer cost?",
+        "answer": "Desktop Explorer costs $9.99 on Steam."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
+        "question": "Does Desktop Explorer support controllers?",
         "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
+        "question": "Will Desktop Explorer receive updates?",
         "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
       }
     ]
