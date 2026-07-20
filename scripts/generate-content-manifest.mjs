@@ -54,9 +54,16 @@ function main() {
   const manifest = {}
   let total = 0
 
+  // content/ 不存在时生成空清单并正常退出（而非 exit(1)）。
+  // 支持建站中途 content 尚未创建的中间状态，避免 CI 构建因目录缺失而失败。
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单`)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, JSON.stringify(manifest, null, 2) + '\n', 'utf8')
+    console.log(
+      `[content-manifest] 已生成 ${path.relative(ROOT, OUT_FILE)}：0 语言，0 篇内容`
+    )
+    return
   }
 
   const locales = fs
