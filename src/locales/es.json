@@ -152,7 +152,7 @@
   "modules": {
     "lucidBlocksBeginnerGuide": {
       "title": "Verificación de Vulkan, ruta de registros e informes de errores",
-      "displayType": "Guía para principiantes de Desktop Explorer",
+      "displayType": "steps",
       "intro": "pasos",
       "steps": [
         {
@@ -181,7 +181,7 @@
     },
     "lucidBlocksApotheosisCrafting": {
       "title": "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen exponencialmente rápido una vez que tus primeras buenas fusiones empiezan a funcionar.",
-      "displayType": "Fabricación Apotheosis de Desktop Explorer",
+      "displayType": "cards",
       "intro": "cartas",
       "cards": [
         {
@@ -209,7 +209,7 @@
     },
     "lucidBlocksToolsAndWeapons": {
       "title": "Herramientas y armas de Desktop Explorer",
-      "displayType": "Tarjetas de objetos",
+      "displayType": "itemCards",
       "intro": "Desktop Explorer combina equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, desplazamiento seguro y una opción de combate confiable.",
       "items": [
         {
@@ -256,7 +256,7 @@
     },
     "lucidBlocksStorageAndInventory": {
       "title": "Almacenamiento e inventario de Desktop Explorer",
-      "displayType": "Tarjetas de soluciones",
+      "displayType": "solutionCards",
       "intro": "La presión del inventario comienza pronto en Desktop Explorer, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones reales probadas por los jugadores.",
       "solutions": [
         {
@@ -289,7 +289,7 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Usa tu diario como parte de la gestión de inventario, no solo para descubrir recetas.",
-      "displayType": "Desktop Explorer: Qualia y construcción de bases",
+      "displayType": "cards",
       "intro": "cartas",
       "cards": [
         {
@@ -318,7 +318,7 @@
     },
     "lucidBlocksWorldRegions": {
       "title": "Usar el espacio de la base para facilitar la fabricación y el cultivo",
-      "displayType": "Desktop Explorer: Regiones del mundo",
+      "displayType": "regionCards",
       "intro": "cartas de región",
       "regions": [
         {
@@ -345,7 +345,7 @@
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Essence Morass está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia.",
-      "displayType": "Desktop Explorer: Criaturas y enemigos",
+      "displayType": "creatureCards",
       "intro": "cartas de criatura",
       "creatures": [
         {
@@ -430,7 +430,7 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Blandir un explosivo",
-      "displayType": "Agricultura y crecimiento en Desktop Explorer",
+      "displayType": "mixedCards",
       "intro": "mixedCards",
       "sections": [
         {
@@ -459,44 +459,44 @@
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Convertir la agricultura en progresión a largo plazo",
-      "displayType": "Los mejores desbloqueos iniciales de Desktop Explorer",
+      "displayType": "priorityCards",
       "intro": "priorityCards",
       "priorities": [
         {
-          "name": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Desktop Explorer, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-          "priority": "Qualia personal",
-          "description": "Esencial"
+          "name": "Personal Qualia",
+          "priority": "Essential",
+          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
         },
         {
-          "name": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y la reagrupación.",
-          "priority": "Pico de escarcha",
-          "description": "Muy alta"
+          "name": "Frost Pick",
+          "priority": "Very High",
+          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
         },
         {
-          "name": "Una herramienta de minería inicial rápida y barata hecha de Osmium y Palo. Es una de las mejoras más útiles para acelerar la recolección temprana de recursos.",
-          "priority": "Cubo de caché",
-          "description": "Muy alta"
+          "name": "Cache Cube",
+          "priority": "Very High",
+          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
         },
         {
-          "name": "La presión de almacenamiento comienza pronto, por lo que conseguir tu primer contenedor confiable tipo cofre es una mejora importante en la calidad de vida.",
-          "priority": "Hookshot",
-          "description": "Alta"
+          "name": "Hookshot",
+          "priority": "High",
+          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
         },
         {
-          "name": "El hookshot es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más veloz y segura.",
-          "priority": "Guante planeador",
-          "description": "Alta"
+          "name": "Glider Glove",
+          "priority": "High",
+          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
         },
         {
-          "name": "El guante planeador añade otro gran impulso de movilidad y hace que el movimiento a larga distancia sea mucho más eficiente.",
-          "priority": "---",
-          "description": "Alto"
+          "name": "Projectile Wand or Bombs",
+          "priority": "High",
+          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Una herramienta a distancia o una opción explosiva te ofrece una respuesta más segura ante enemigos peligrosos y encuentros tipo prueba.",
-      "displayType": "Seguimiento de logros de Desktop Explorer",
+      "displayType": "achievementGrid",
       "intro": "achievementGrid",
       "groups": [
         {
@@ -604,7 +604,7 @@
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "FAQ de Desktop Explorer: Un jugador y plataformas",
-      "displayType": "acordeón",
+      "displayType": "accordion",
       "intro": "Estas son las preguntas principales sobre la plataforma y el acceso que los jugadores suelen hacer antes de comprar Desktop Explorer.",
       "faqs": [
         {
@@ -651,7 +651,7 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Desktop Explorer en Steam Deck y mando",
-      "displayType": "acordeón",
+      "displayType": "accordion",
       "intro": "Desktop Explorer puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el ratón siguen siendo la opción más fluida para los menús y el juego en general.",
       "faqs": [
         {
@@ -678,7 +678,7 @@
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "El teclado y el ratón son la opción más fluida para navegar por los menús y para el juego en general.",
-      "displayType": "Ajustes y accesibilidad de Desktop Explorer",
+      "displayType": "settingCards",
       "intro": "settingCards",
       "settings": [
         {
@@ -705,7 +705,7 @@
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "La configuración actual solo está en inglés y no hay traducciones planeadas por el momento.",
-      "displayType": "Actualizaciones y notas del parche de Desktop Explorer",
+      "displayType": "timeline",
       "intro": "timeline",
       "entries": [
         {
@@ -727,7 +727,7 @@
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Se planean algunas actualizaciones de contenido tras el lanzamiento, pero no están destinadas a seguir un calendario regular indefinido.",
-      "displayType": "Solución de cierres y resolución de problemas de Desktop Explorer",
+      "displayType": "steps",
       "intro": "steps",
       "steps": [
         {

@@ -152,7 +152,7 @@
   "modules": {
     "lucidBlocksBeginnerGuide": {
       "title": "Desktop Explorer 新手指南",
-      "displayType": "步骤",
+      "displayType": "steps",
       "intro": "从了解探索、融合与进度之间的联系开始。Desktop Explorer 鼓励尝试，因此初期的进度取决于收集奇特材料、测试组合以及解锁你的个人 Qualia。",
       "steps": [
         {
@@ -181,7 +181,7 @@
     },
     "lucidBlocksApotheosisCrafting": {
       "title": "Desktop Explorer Apotheosis 合成",
-      "displayType": "卡片",
+      "displayType": "cards",
       "intro": "Apotheosis 是游戏中无限制的融合系统。与其背诵传统的配方书，不如亲自动手组合材料，观察结果，并随着时间的推移建立属于你自己的合成知识库。",
       "cards": [
         {
@@ -209,7 +209,7 @@
     },
     "lucidBlocksToolsAndWeapons": {
       "title": "Desktop Explorer 工具与武器",
-      "displayType": "物品卡牌",
+      "displayType": "itemCards",
       "intro": "Desktop Explorer 融合了官方实用装备与社区发现的早期武器。最佳配置通常结合了快速采矿、安全移动以及一种可靠的战斗选择。",
       "items": [
         {
@@ -256,7 +256,7 @@
     },
     "lucidBlocksStorageAndInventory": {
       "title": "Desktop Explorer 存储与背包",
-      "displayType": "解决方案卡牌",
+      "displayType": "solutionCards",
       "intro": "在 Desktop Explorer 中，背包压力在前期就会显现，因此建立存储空间应当是你的首要目标之一。几种经玩家实测的解决方案已脱颖而出。",
       "solutions": [
         {
@@ -289,7 +289,7 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "将日志作为库存管理的一部分，而不只是为了发现配方。",
-      "displayType": "Desktop Explorer Qualia 与基地建设",
+      "displayType": "cards",
       "intro": "卡片",
       "cards": [
         {
@@ -318,7 +318,7 @@
     },
     "lucidBlocksWorldRegions": {
       "title": "利用基地空间支持制作和耕种",
-      "displayType": "Desktop Explorer 世界区域",
+      "displayType": "regionCards",
       "intro": "区域卡片",
       "regions": [
         {
@@ -345,7 +345,7 @@
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "精华沼泽被玩家们分享为一个实用的刷宝地点，特别适合击败史莱姆和获取经验。",
-      "displayType": "Desktop Explorer 生物与敌人",
+      "displayType": "creatureCards",
       "intro": "生物卡片",
       "creatures": [
         {
@@ -464,32 +464,32 @@
       "priorities": [
         {
           "name": "个人 Qualia",
-          "priority": "核心",
+          "priority": "Essential",
           "description": "一旦你获得了个人 Qualia 的访问权限，你的游戏流程就会变得稳定得多。它是一个可靠的枢纽，可用于储存、建造和整顿休整。"
         },
         {
           "name": "冰霜镐",
-          "priority": "极高",
+          "priority": "Very High",
           "description": "一种用锇和木棍制作的快速且廉价的前期采矿工具。它是加速前期资源收集最实用的升级之一。"
         },
         {
           "name": "缓存方块",
-          "priority": "极高",
+          "priority": "Very High",
           "description": "储存压力在前期就会显现，因此获得第一个可靠的箱式容器是一次重大的体验提升。"
         },
         {
           "name": "抓钩",
-          "priority": "高",
+          "priority": "High",
           "description": "抓钩是游戏中最为明确的移动里程碑之一，能迅速让探索变得更快、更安全。"
         },
         {
           "name": "滑翔手套",
-          "priority": "高",
+          "priority": "High",
           "description": "滑翔手套提供了另一个重大的机动性提升，让远距离移动变得更加高效。"
         },
         {
           "name": "投射法杖或炸弹",
-          "priority": "高",
+          "priority": "High",
           "description": "远程工具或爆炸物选项能让你在面对危险敌人和试炼式遭遇时有更安全的应对手段。"
         }
       ]
@@ -604,7 +604,7 @@
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Desktop Explorer 单人模式与平台常见问题",
-      "displayType": "折叠菜单",
+      "displayType": "accordion",
       "intro": "这些是玩家在购买 Desktop Explorer 前经常询问的核心平台与访问问题。",
       "faqs": [
         {
@@ -651,7 +651,7 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Desktop Explorer Steam Deck 与控制器",
-      "displayType": "折叠菜单",
+      "displayType": "accordion",
       "intro": "Desktop Explorer 可以在 Steam Deck 上运行，但默认设置可能需要调整。对于菜单操作和常规游戏流程，使用键盘和鼠标仍然是更流畅的选择。",
       "faqs": [
         {
