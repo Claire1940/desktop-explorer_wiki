@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer puzzle 3: Walkthrough & Password Guide",
+  description: "Solve Desktop Explorer puzzle 3 with our step-by-step decryption guide. Learn how to recover deleted files, edit the registry, and find passwords.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Puzzle+3",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Desktop Explorer puzzle 3**: This challenge requires players to decrypt a restricted system file using hidden registry keys and chat logs.
+- **Key mechanic**: Players must utilize virtual retro OS utilities including the Command Prompt, Registry Editor, and Notepad.
+- **Best strategy**: Gather all three password fragments from the virtual hard drive before attempting to run the decryption executable.
+- **Critical tip**: Avoid editing system files outside the designated puzzle directory to prevent artificial system crashes.
+- **Top choice**: Use the built-in Hex Viewer to inspect corrupted image files for hidden ASCII text strings.
+</Callout>
+
+<Section icon={Map} title="Overview of Desktop Explorer Puzzle 3">
+
+As players venture deeper into the simulated Windows 95 environment of *Desktop Explorer*, they will encounter increasingly complex digital roadblocks. Solving **Desktop Explorer puzzle 3** represents a major milestone in your investigation, requiring you to dig deep into hidden system directories, decode corrupted assets, and piece together the mysterious circumstances surrounding your uncle's disappearance. 
+
+This specific puzzle acts as a gateway to the mid-game content. Unlike earlier challenges that rely on simple text file clues, this objective forces you to interact with the operating system's deeper layers, simulating the experience of a 90s computer detective. You must locate three separate password fragments scattered across different applications to unlock the restricted executable file.
+
+<Callout type="warning" title="System Instability Warning">
+Opening too many corrupted files simultaneously can trigger a virtual blue screen of death (BSOD). Always close inactive applications to keep the simulated system stable during your investigation.
+</Callout>
+
+To begin your investigation, you must familiarize yourself with the primary directories and tools required for this phase of the game. Below is a breakdown of the essential files you need to locate on the virtual desktop.
+
+| File Name | System Path | Required Tool | Security Level |
+| :--- | :--- | :--- | :--- |
+| RESTORE_SYS.EXE | C:\SYSTEM32\ | Decryption Tool | **High** |
+| CHAT_LOG_03.TXT | C:\NETCHAT\LOGS\ | Notepad.exe | **Medium** |
+| UNCLE_MEM.BMP | C:\IMAGES\ | Hex Viewer | **Low** |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Decryption Walkthrough">
+
+To successfully complete **Desktop Explorer puzzle 3**, you must follow a precise sequence of actions. Skipping steps or attempting to guess the password fragments without unlocking their respective files will result in access denial. Follow this systematic approach to crack the security system.
+
+<Callout type="tip" title="Decryption Shortcut">
+You can use the virtual Run command (Win + R equivalent in the retro UI) to quickly access system directories without clicking through nested folders.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Locate the Encrypted System File">
+    Navigate to the virtual system32 directory on the retro desktop. Open the folder explorer, click on the drive icon, and locate the restricted file named RESTORE_SYS_V3.EXE. Attempting to open it immediately will prompt a security dialogue box requiring a three-part alphanumeric key.
+  </Step>
+  <Step num="2" title="Extract the First Fragment from NetChat">
+    Open the NetChat 1.0 application from the desktop. Navigate to the archived logs folder and open the file labeled CHAT_LOG_03.TXT. Scroll to the bottom of the conversation between your uncle and the anonymous user. The first fragment is hidden within the timestamp of the final message.
+  </Step>
+  <Step num="3" title="Analyze the Corrupted Image File">
+    Open the file manager and locate UNCLE_MEM.BMP in the images folder. The image will appear corrupted when opened normally. Right-click the file and select Open with Hex Viewer. Scroll to the bottom of the hexadecimal code to find an ASCII string representing the second password fragment.
+  </Step>
+  <Step num="4" title="Retrieve the Registry Key Value">
+    Open the virtual Start Menu, select Run, and type regedit to open the Registry Editor. Navigate to the directory HKEY_LOCAL_MACHINE\Software\UncleArchive\. Click on the SecurityToken registry key to reveal the third and final password fragment in the value data field.
+  </Step>
+</Steps>
+
+Once you have gathered all three fragments, return to the system32 directory and launch the decryption utility to input the compiled code.
+
+| Password Fragment | Source Application | Decoded Value | Clue Quality |
+| :--- | :--- | :--- | :--- |
+| Fragment A | NetChat Logs | 1995 | **★★★★★** |
+| Fragment B | Corrupted BMP | JULY17 | **★★★★☆** |
+| Fragment C | Registry Editor | SYS_V3 | **★★★☆☆** |
+
+</Section>
+
+<Section icon={Shield} title="Investigating Corrupted System Files">
+
+The digital environment of *Desktop Explorer* is filled with corrupted files that serve as narrative clues and puzzle solutions. During **Desktop Explorer puzzle 3**, analyzing these corrupted files is essential for understanding the deeper lore of the game. The retro operating system simulates file corruption realistically, meaning players must look beyond the surface level of text documents.
+
+When dealing with corrupted files, pay close attention to file sizes and modification dates. Often, a file that has been modified after the uncle's disappearance contains hidden edits left behind by an external entity.
+
+<Callout type="success" title="Hidden Directory Discovered">
+Finding all three password fragments unlocks a hidden directory named C:\RECYCLED\HIDDEN_LOGS\, which contains optional lore files regarding the digital entity inhabiting the computer.
+</Callout>
+
+To help organize your investigation, classify the types of digital clues you encounter. Utilizing the right perspective for each file type will prevent wasted time and reduce system instability.
+
+<CardGrid cols={3}>
+  <Card title="NetChat Log Clues">
+    - **Examine timestamps** for hidden dates.
+    - Track user handles to identify key characters.
+    - Note suspicious IP addresses mentioned in chats.
+  </Card>
+  <Card title="Corrupted Media Files">
+    - **Use the Hex Viewer** to read raw file headers.
+    - Look for unusual ASCII characters in binary data.
+    - Check file sizes for hidden nested archives.
+  </Card>
+  <Card title="System Registry Keys">
+    - **Modify path values** to bypass software locks.
+    - Look for unauthorized startup applications.
+    - Export registry keys to search for hidden text.
+  </Card>
+</CardGrid>
+
+Understanding how these files interact allows you to solve secondary puzzles that branch off from the main storyline.
+
+| Clue Type | Story Relevance | Difficulty to Find | Integrity Grade |
+| :--- | :--- | :--- | :--- |
+| Chat Transcripts | Core Narrative | Low | **Excellent** |
+| Hexadecimal Strings | Hidden Password Fragments | Medium | **Good** |
+| Registry Subkeys | System Configuration Secrets | High | **Fair** |
+
+</Section>
+
+<Section icon={Trophy} title="Lore Discoveries & Story Outcomes">
+
+Completing **Desktop Explorer puzzle 3** does more than just grant access to new virtual directories; it reveals critical plot points about your uncle's research into sentient software. The decrypted files contain personal journal entries detailing strange system anomalies that match the occurrences you experience while playing the game.
+
+These discoveries are highly influential in determining which ending path you unlock. Ignoring these optional files may lock you into the standard completion route, while thoroughly investigating them opens up the true ending sequence.
+
+<Callout type="info" title="Ending Flag Alert">
+Reading the decrypted file diary_entry_95.txt before proceeding to the next chapter sets a permanent flag required for the True Ending of Desktop Explorer.
+</Callout>
+
+To ensure you have fully completed this segment of the game and collected all relevant narrative assets, refer to the milestone checklist below.
+
+<Checklist
+  id="puzzle-3-checklist"
+  title="Puzzle 3 Completion Checklist:"
+  items={[
+    "Locate all three password fragments across NetChat, Hex Viewer, and Regedit",
+    "Unlock the RESTORE_SYS_V3.EXE file in the system32 directory",
+    "Extract and read the hidden uncle_diary.txt file",
+    "Verify the integrity of the recovered system files in the Recycle Bin",
+    "Backup the decrypted files to the virtual external floppy drive icon"
+  ]}
+/>
+
+Completing these tasks guarantees that you will not miss any vital narrative context as the digital horror elements begin to escalate in the subsequent chapters.
+
+| Progression Goal | Story Significance | Unlock Requirement | Priority |
+| :--- | :--- | :--- | :--- |
+| Unlock Archive | Reveals uncle's last login | Complete puzzle 3 | **Critical** |
+| Restore BMP | Shows hidden background | Run hex editor | **High** |
+| Read Chat Log | Introduces mysterious user | Decrypt chat folder | **Moderate** |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+If you encounter technical issues or get stuck while working through the decryption process, consult these frequently asked questions compiled by experienced investigators.
+
+<Callout type="tip" title="Backup Files">
+If you accidentally corrupt a puzzle file by editing the wrong registry key, you can restore the default puzzle state by rebooting the virtual computer from the Start Menu.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Why is the file RESTORE_SYS_V3.EXE showing an error when I enter the code?",
+    answer: "Ensure that you are entering the password fragments in the correct chronological order: NetChat timestamp first, Hex ASCII string second, and Registry token last. Mixing the order will result in a decryption failure."
+  },
+  {
+    question: "Where do I find the Hex Viewer tool in Desktop Explorer puzzle 3?",
+    answer: "The Hex Viewer is built directly into the operating system's file manager. Simply right-click any file within the explorer window and select 'Open with Hex Viewer' from the context menu."
+  },
+  {
+    question: "Can I skip the registry editing step if I already know the password?",
+    answer: "No. The game script requires the player to successfully navigate to the specific registry pathway to trigger the decryption tool's validation check. Knowing the password beforehand without inspecting the registry will not unlock the file."
+  },
+  {
+    question: "What happens if the virtual computer crashes during the decryption process?",
+    answer: "A virtual crash will reset any unsaved progress. Ensure you have clicked the save icon on any decrypted text files and closed the Registry Editor properly to commit your changes to the simulated system memory."
+  }
+]} />
+
+</Section>

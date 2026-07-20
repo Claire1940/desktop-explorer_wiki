@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Puzle de la máquina expendedora de Desktop Explorer: Guía paso a paso",
+  description: "¿Atascado en el puzle de la máquina expendedora de Desktop Explorer? Sigue nuestra guía detallada para localizar archivos ocultos, decodificar memorandos de empleados y desbloquear el disco secreto.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Vending+Machine+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, puzle de la máquina expendedora, guía, archivos ocultos, disco secreto"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Puzle Principal**: El **puzle de la máquina expendedora de Desktop Explorer** requiere que los jugadores localicen la aplicación simulada `Vending.exe` dentro de los directorios del sistema.
+- **Objeto Clave**: Debes recuperar el archivo eliminado `Quarter.dat` de la Papelera de reciclaje para usarlo como moneda virtual.
+- **Código Secreto**: Introduce la secuencia específica **B4 -> C2 -> A1** para forzar una anulación del sistema y expulsar el disquete encriptado.
+- **Consejo Crítico**: Revisa el archivo `memo_95.txt` en el directorio oculto del sistema para obtener pistas sobre cambios de precios y atascos de monedas.
+- **Recompensa de Historia**: Resolver este puzle desbloquea el archivo `Project_Aegis.pdf`, revelando detalles cruciales sobre la misteriosa desaparición de tu tío.
+</Callout>
+
+<Section icon={Map} title="Localización de los archivos de la sala de descanso">
+
+Navegar por el sistema operativo retro Windows 95 de Desktop Explorer requiere un ojo agudo para los directorios ocultos y los archivos del sistema. Para comenzar a abordar el **puzle de la máquina expendedora de Desktop Explorer**, primero debes localizar la aplicación de la sala de descanso virtual. Esta aplicación simula una máquina expendedora de oficina que tu tío utilizó para ocultar datos encriptados.
+
+El archivo ejecutable no es visible de inmediato en el escritorio. En su lugar, los jugadores deben navegar a través de una serie de carpetas del sistema que imitan las estructuras de archivos de la vieja escuela. Acceder a estos archivos requiere eludir los privilegios administrativos simulados localizando la ruta de directorio correcta.
+
+| Nombre del archivo | Ruta del directorio | Tamaño del archivo | Estado requerido |
+| --- | --- | --- | --- |
+| `Vending.exe` | `C:\Windows\System32\Drivers\` | 1.2 MB | Bloqueado |
+| `Quarter.dat` | `C:\RecycleBin\Temp\` | 4 KB | Eliminado |
+| `memo_95.txt` | `C:\MyDocuments\Work\` | 12 KB | Legible |
+
+<Callout type="warning" title="Advertencia de seguridad del sistema">
+Intentar iniciar `Vending.exe` sin recuperar el archivo de moneda adecuado resultará en un fallo del sistema de "No se detectaron fondos", lo que te obligará a reiniciar el sistema operativo virtual. Asegura siempre tus monedas virtuales primero.
+</Callout>
+
+Para desbloquear el directorio, debes ejecutar la utilidad de línea de comandos que se encuentra en la carpeta de herramientas del sistema. Una vez que se otorga el acceso administrativo, el ejecutable se puede iniciar de forma segura. Sin embargo, la máquina permanecerá inactiva hasta que le introduzcas la moneda digital correcta.
+
+</Section>
+
+<Section icon={Target} title="Descifrando los códigos del sistema">
+
+Una vez que la aplicación de la máquina expendedora esté funcionando, se te presentará una interfaz pixelada que muestra varios aperitivos y bebidas. Cada artículo tiene un precio correspondiente y un código de selección de dos dígitos. Simplemente hacer clic en artículos al azar agotará rápidamente tus monedas virtuales, llevándote a un callejón sin salida.
+
+Para encontrar la secuencia correcta, debes analizar los registros de chat locales y los documentos de texto dejados en el disco duro. La pista más importante se encuentra en `memo_95.txt`, que detalla un fallo de hardware recurrente en la máquina de la sala de descanso. Según el documento, ciertas combinaciones de botones activan un reinicio forzado de la unidad de almacenamiento interna de la máquina.
+
+| Nombre del artículo | Código de selección | Precio (Créditos) | Resultado obtenido |
+| --- | --- | --- | --- |
+| Refresco de cereza | A1 | 1.50 | Bebida normal (Sin progreso) |
+| Patatas fritas saladas | B4 | 1.00 | Bolsa vacía con nota de pista |
+| Barrita de chocolate | C2 | 1.25 | Efecto de subidón de azúcar (Acelera el cursor) |
+| Disco encriptado | Combo secreto | 0.00 | Objeto clave para el progreso de la historia |
+
+<Callout type="tip" title="Extensiones de archivo ocultas">
+Activa "Mostrar extensiones de archivo ocultas" en las opciones de carpeta simuladas. Esto revela que algunos archivos de texto son en realidad scripts por lotes disfrazados que contienen secuencias de entrada automatizadas.
+</Callout>
+
+Al cruzar los precios con los registros del sistema, los jugadores pueden deducir que el búfer de memoria de la máquina se desborda cuando se introducen cantidades específicas de crédito en un orden preciso. Este desbordamiento es la clave para forzar a la máquina a expulsar el disco encriptado en lugar de un aperitivo estándar.
+
+</Section>
+
+<Section icon={Sparkles} title="Resolviendo el puzle de la máquina expendedora de Desktop Explorer">
+
+Para completar con éxito el **puzle de la máquina expendedora de Desktop Explorer**, debes ejecutar una secuencia precisa de manipulaciones de archivos y entradas dentro de la aplicación. Sigue estos pasos cuidadosamente para asegurarte de que el sistema no te bloquee el acceso.
+
+<Steps>
+  <Step num="1" title="Recuperar el archivo de moneda">
+    Dirígete a la Papelera de reciclaje y localiza `Quarter.dat`. Haz clic derecho en el archivo y selecciona "Restaurar" para enviarlo de vuelta al directorio de memoria activa.
+  </Step>
+  <Step num="2" title="Iniciar la aplicación">
+    Abre `Vending.exe` desde la carpeta de controladores (drivers). La interfaz debería mostrar ahora "Créditos: 1.00" en la esquina inferior izquierda.
+  </Step>
+  <Step num="3" title="Introducir la secuencia de sobrecarga">
+    Haz clic en los botones de la interfaz para introducir los siguientes códigos en orden: **B4**, luego **C2** y finalmente **A1**. Este orden específico activa el desbordamiento de memoria.
+  </Step>
+  <Step num="4" title="Extraer el disco encriptado">
+    La máquina virtual se congelará y aparecerá un nuevo archivo llamado `Secret_Disk.bin` en tu escritorio simulado.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Opción A1: Refresco de cereza">
+    - **Costo**: 1.50 Créditos
+    - **Resultado**: Suelta una lata de refresco estándar
+    - **Utilidad**: Puramente cosmético, no avanza en la historia principal
+  </Card>
+  <Card title="Opción B4: Patatas fritas saladas">
+    - **Costo**: 1.00 Créditos
+    - **Resultado**: Suelta una nota de pista
+    - **Utilidad**: Esencial para entender la estructura de la contraseña
+  </Card>
+  <Card title="Opción C2: Barrita de chocolate">
+    - **Costo**: 1.25 Créditos
+    - **Resultado**: Acelera el rendimiento del sistema
+    - **Utilidad**: Ayuda a eludir protocolos de seguridad con límite de tiempo más adelante
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Puzle completado">
+Una vez que se genere `Secret_Disk.bin`, arrástralo directamente a la herramienta `Decryptor.exe` en tu escritorio para desbloquear el siguiente capítulo narrativo importante del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas y manejo de errores">
+
+Debido a que Desktop Explorer simula un sistema operativo antiguo e inestable, los jugadores pueden encontrar errores simulados durante este puzle. Si introduces el código incorrecto o eliminas un archivo esencial, el juego proporciona métodos de recuperación integrados para evitar bloqueos permanentes.
+
+Comprender estos códigos de error es vital para mantener tu progreso sin tener que reiniciar todo el juego desde el principio.
+
+| Código de error | Significado | Causa inmediata | Resolución |
+| --- | --- | --- | --- |
+| Error 404 | Ejecutable no encontrado | `Vending.exe` movido | Restaurar desde el directorio original |
+| Error 502 | Atasco de monedas | Múltiples `Quarter.dat` | Eliminar archivos duplicados en Temp |
+| Error 909 | Acceso denegado | Privilegio de usuario no resuelto | Ejecutar `admin_bypass.bat` primero |
+
+<Checklist
+  id="puzzle-readiness"
+  title="Lista de verificación previa al puzle:"
+  items={[
+    "Verificar que Quarter.dat esté restaurado en la carpeta de memoria activa",
+    "Cerrar todas las aplicaciones en segundo plano para evitar lag en el sistema",
+    "Asegurarse de que Decryptor.exe esté instalado y listo en el escritorio",
+    "Hacer una copia de seguridad de tu estado de guardado actual a través de la unidad de disquete simulada"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de recuperación del sistema">
+Si el sistema operativo virtual se bloquea por completo, utiliza la opción "Arranque en modo seguro" desde el menú principal para restaurar todos los archivos esenciales del puzle a sus ubicaciones predeterminadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Implicaciones de la historia y el trasfondo">
+
+Superar con éxito las medidas de seguridad de la máquina expendedora rinde algo más que el simple progreso en el juego. Los archivos descifrados contienen diarios personales de tu tío, que detallan su creciente paranoia con respecto al propio sistema informático.
+
+Los documentos sugieren que la aplicación de la máquina expendedora no era un juego, sino una bóveda segura diseñada para mantener los datos corporativos confidenciales fuera del alcance de la entidad que monitorea la red.
+
+<Callout type="info" title="Descubrimiento de historia">
+Los archivos descifrados revelan que la "máquina expendedora" era una metáfora utilizada por los desarrolladores para describir un centro de transferencia de datos físico ubicado en el edificio de oficinas del mundo real donde trabajaba tu tío.
+</Callout>
+
+A medida que unes estos fragmentos digitales, la frontera entre el sistema operativo simulado y el misterio del mundo real comienza a desdibujarse, preparando el escenario para los capítulos finales del juego.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer si elimino accidentalmente el archivo Quarter.dat?",
+    answer: "Si vacías la Papelera de reciclaje con Quarter.dat dentro, navega a la carpeta Herramientas del sistema y ejecuta recovery.exe para restaurar todos los elementos del sistema eliminados recientemente."
+  },
+  {
+    question: "¿Puedo resolver el puzle de la máquina expendedora de Desktop Explorer sin encontrar el memorando?",
+    answer: "Sí, si ya conoces la secuencia del código (B4 -> C2 -> A1), puedes introducirla directamente en la aplicación sin leer los archivos de pistas."
+  },
+  {
+    question: "¿Por qué se cierra la aplicación Vending.exe cuando la abro?",
+    answer: "Esto ocurre si no has desbloqueado los privilegios administrativos. Ejecuta el script admin_bypass.bat ubicado en la carpeta del sistema antes de iniciar la aplicación."
+  }
+]} />
+
+<Callout type="tip" title="¿Necesitas más ayuda?">
+Para obtener soluciones de puzles adicionales, ubicaciones de archivos y guías de la historia, visita nuestros centros comunitarios y foros de jugadores activos.
+</Callout>
+
+</Section>

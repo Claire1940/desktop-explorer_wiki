@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "恐怖游戏《Desktop Explorer》：通关攻略与谜题解法",
+  description: "通过我们的指南，掌握《Desktop Explorer》恐怖游戏中的所有谜题、隐藏文件和结局，在这款复古 Windows 95 解谜冒险中一探究竟。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **《Desktop Explorer》恐怖游戏**：一款复古风格的解谜游戏，玩家需要调查一个遗失的电脑系统。
+- **核心玩法**：探索文件、恢复已删除的数据并解决数字谜题以揭开真相。
+- **氛围**：具有 Windows 95 美学风格，配备 CRT 滤镜和 VHS 风格的恐怖元素。
+- **进度**：通关的关键在于找到隐藏在聊天记录和系统文件中的密码。
+- **多重结局**：你寻找隐藏文件的彻底程度将决定故事的最终结局。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 新手入门">
+
+**《Desktop Explorer》恐怖游戏**是一款独特的模拟冒险游戏，它将玩家带回 20 世纪 90 年代中期。你发现自己坐在一台闪烁的 CRT 显示器前，探索一台废弃的电脑，里面藏着一个失踪人员的秘密。与依赖 3D 环境中跳跃吓人（Jump Scare）的传统恐怖游戏不同，本作通过文件探索、损坏的媒介以及让你意识到在数字空间中自己并不孤单来营造恐惧感。
+
+要想成功通关，你必须将这个模拟的操作系统视为真正的调查工具。每个文件夹，无论看起来多么普通，都可能包含谜题的关键线索。游戏奖励好奇心，但惩罚粗心大意，因为某些系统文件已被未知实体设下陷阱或正在被监视。
+
+| 界面元素 | 主要功能 | 调查价值 |
+| :--- | :--- | :--- |
+| **我的电脑** | 访问本地驱动器和硬件信息 | 高：包含核心文件结构 |
+| **回收站** | 存储最近删除的文档 | 极高：通常包含隐藏的证据 |
+| **网络聊天** | 查看存档的对话 | 高：提供角色背景故事和密码 |
+| **媒体播放器** | 播放发现的音频和视频文件 | 中：提供谜题的视觉线索 |
+| **控制面板** | 调整系统设置和安全性 | 低：用于特定的后期谜题 |
+
+<Callout type="success" title="系统检查">
+务必通过右键单击检查文件的“属性”。有时元数据（如创建日期或文件大小）会提供文件内容本身无法看到的线索。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="完整调查通关流程">
+
+在**《Desktop Explorer》恐怖游戏**中推进流程，需要对数字取证调查采用系统的方法。故事分为几个安全级别，每个级别都需要不同的一组线索才能逾越。最初，你只限于使用访客账户，但随着你揭开“叔叔”的秘密，你将获得更高级别的管理员权限。
+
+**视频亮点：**
+- 在“文档（Documents）”目录中找到第一个隐藏文件夹。
+- 如何使用“提示（Hint）”功能绕过初始登录界面。
+- 定位触发第一个故事事件的损坏图像文件。
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Desktop Explorer 游戏玩法概览" />
+
+调查通常遵循非线性路线，但你必须达到特定的里程碑才能触发下一阶段的谜题。以下是首次通关的推荐顺序。
+
+<Steps>
+  <Step num="1" title="初始桌面探索">
+    首先打开桌面上的每个文件。阅读“ReadMe.txt”文件并检查“Work”文件夹。你会发现一个加密的 PDF，需要输入在“Notes”应用程序中找到的 4 位密码。
+  </Step>
+  <Step num="2" title="已删除文件阶段">
+    访问回收站。你会发现几个损坏的 .jpg 文件。使用系统文件夹中内置的“修复工具（Repair Tool）”来查看这些图像，它们会揭示现实世界中的一个隐藏地点。
+  </Step>
+  <Step num="3" title="聊天记录分析">
+    打开“即时通讯（Instant Messenger）”存档。搜索“password（密码）”、“secret（秘密）”或“Uncle（叔叔）”等关键词。这些记录揭示了电脑所有者与其家人之间紧张的关系。
+  </Step>
+  <Step num="4" title="深度系统访问">
+    一旦你找到管理员密码（通常隐藏在可通过记事本查看的“Config.sys”文件中），你就可以访问“Private（私密）”分区。在这里，恐怖元素将显著加剧。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="专家提示">
+如果屏幕开始出现闪烁或出现“坏点”，请停止手头的工作并关闭所有窗口。这表明一个系统级的“实体”正在追踪你的光标移动。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="谜题解法与密码指南">
+
+**《Desktop Explorer》恐怖游戏**的核心难点在于其隐晦的谜题。其中大多数谜题涉及对来自多个来源的信息进行交叉引用。例如，密码可能是聊天记录中提到的某个角色的生日，再结合隐藏电子表格中找到的数字。
+
+<CardGrid cols={3}>
+  <Card title="逻辑谜题">
+    - **模式识别**：在系统日志中寻找序列。
+    - **日期计算**：将历史事件与文件夹名称联系起来。
+    - **文件排序**：按大小排列文档以显示代码。
+  </Card>
+  <Card title="视觉谜题">
+    - **隐藏文本**：突出显示文档中的“空白”区域。
+    - **图像隐写术**：寻找隐藏在像素数据中的代码。
+    - **图标排列**：将桌面图标移动到特定位置。
+  </Card>
+  <Card title="音频谜题">
+    - **倒放**：收听扭曲的语音备忘录。
+    - **频率分析**：将音调与键盘数字匹配。
+    - **摩尔斯电码**：解读系统蜂鸣声模式。
+  </Card>
+</CardGrid>
+
+| 谜题位置 | 所需线索 | 解法提示 |
+| :--- | :--- | :--- |
+| **加密的 Zip 文件** | 所有者最喜欢的歌曲 | 检查“Music”文件夹中播放次数最多的曲目 |
+| **系统 BIOS** | 硬件安装日期 | 查看“Tax”文件夹中的实体“发票（Invoice）”扫描件 |
+| **隐藏分区** | 6位字母数字代码 | 组合“Trash”文件名中的首字母 |
+| **电子邮件客户端** | 安全提示问题的答案 | 在“Photos”目录中寻找宠物的名字 |
+
+<Callout type="warning" title="严重警告">
+在“Private”文件夹中连续三次输入错误密码将触发“系统擦除（System Wipe）”事件，迫使你从上一次手动保存点重新开始。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="秘密与隐藏文件位置">
+
+对于希望在**《Desktop Explorer》恐怖游戏**中达成 100% 收集的玩家来说，寻找隐藏文件至关重要。这些文件不仅提供了背景故事，还经常通过揭示电脑前所有者的超自然本质来解锁“真结局”。某些文件只有在桌面界面发生特定的“灵异”事件后才能访问。
+
+<Checklist
+  id="secret-files"
+  title="必找的秘密文档："
+  items={[
+    "隐藏在 System32 文件夹中的 'Uncle_Diary.doc'。",
+    "点击时钟 10 次后找到的 'Unknown_Caller.wav' 文件。",
+    "位于默认壁纸后面的 'Family_Tree.bmp'。",
+    "仅在系统时间凌晨 3:00 出现的 'Final_Goodbye.txt'。",
+    "在临时 Internet 文件中找到的 'Corrupted_Memory.exe'。"
+  ]}
+/>
+
+<Callout type="info" title="背景故事说明">
+“叔叔（Uncle）”这一角色是独立恐怖游戏中的常见主题。在这款游戏中，虽然他的真实意图直到最后一幕都模糊不清，但你可以通过终端中出现的“有用的”提示感受到他的存在。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="结局与达成条件指南">
+
+**《Desktop Explorer》恐怖游戏**共有三个主要结局。你的最终结局取决于你成功恢复了多少“禁用数据（Forbidden Data）”，以及你在游戏结束时选择删除系统还是将其内容上传到“云端（Cloud）”。
+
+| 结局名称 | 达成条件 | 剧情结局 |
+| :--- | :--- | :--- |
+| **无知结局 (The Ignorance Ending)** | 找到的文件少于 50% 并通关 | 你逃离了电脑，但谜团仍未解开 |
+| **数字幽灵结局 (The Digital Ghost Ending)** | 将“Private”文件夹上传到网络 | 实体被释放，你的角色被困其中 |
+| **真实救赎 (The True Resolution)** | 找到全部 12 个“叔叔”文件并删除操作系统 | 循环被打破，失踪的人被找到 |
+
+<Callout type="success" title="成就解锁">
+要获得“真实救赎”结局，你必须找到隐藏的 'Uninstaller.exe'，它伪装成“附件（Accessories）”文件夹中的计算器快捷方式。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desktop Explorer 常见问题解答">
+
+<FAQ items={[
+  {
+    question: "《Desktop Explorer》恐怖游戏是根据真实故事改编的吗？",
+    answer: "不是，虽然它使用逼真的 Windows 95 美学来营造沉浸感，但失踪人员和“叔叔”的故事完全是虚构的。"
+  },
+  {
+    question: "如何修复游戏进行到一半时出现的“磁盘读取错误（Disk Read Error）”？",
+    answer: "这实际上是一个剧情杀（脚本事件）。你需要打开“虚拟硬件（Virtual Hardware）”设置，将驱动器盘符重新分配为“B:”，然后即可继续。"
+  },
+  {
+    question: "我可以不带 VHS 滤镜玩这个游戏吗？",
+    answer: "可以，如果你觉得闪烁太强烈，可以在“选项（Options）”菜单中禁用 CRT 和 VHS 效果，不过为了获得完整的体验，我们建议开启这些效果。"
+  },
+  {
+    question: "游戏中的存档文件位于哪里？",
+    answer: "每当你关闭一个主要应用程序时，游戏就会使用“自动保存（Auto-Save）”功能，但你也可以通过点击任务栏上的“软盘（Floppy Disk）”图标进行手动保存。"
+  }
+]} />
+
+</Section>

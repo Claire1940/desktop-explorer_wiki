@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del juego Desktop Explorer: Paso a paso de la demo",
+  description: "Domina cada acertijo en la demo de Desktop Explorer. Encuentra todas las contraseñas ocultas, resuelve el mural de lentes de colores y descubre los oscuros secretos de la historia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de Wiki de Desktop Explorer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque de la guía**: Esta **guía del juego Desktop Explorer** cubre los diez acertijos de la demo, desde la instalación inicial hasta el final con glitch.
+- **Contraseña clave**: Usa **Guppy** para desbloquear la carpeta inicial e **Inanna** para encender la antorcha en la primera sala del acertijo.
+- **Tácticas meta**: Inspecciona las propiedades de los archivos, cambia las extensiones de archivo y visualiza los archivos de origen para descubrir soluciones ocultas.
+- **Lente de color**: Ejecuta el programa **Color lens.exe** para resolver las preguntas finales del mural sobre la trágica historia familiar.
+</Callout>
+
+<Section icon={Map} title="Guía del juego Desktop Explorer: Primeros pasos">
+
+Te damos la bienvenida a la **guía definitiva del juego Desktop Explorer**. Esta guía te ayudará a navegar por el sistema operativo simulado de estilo retro, resolver complejos acertijos de manipulación de archivos y descubrir la trágica historia oculta en los archivos. El juego combina mecánicas de aventura de texto con elementos de meta-acertijos, lo que requiere que pienses fuera de la caja virtual para progresar.
+
+**Puntos destacados del video:**
+- Localizar la carta del propietario en la aplicación Chronolog.
+- Recuperar el apodo **Guppy** para omitir el bloqueo inicial de la carpeta.
+- Instalar el software Desktop Explorer con la ayuda de Pizzaro.
+- Comprender la navegación básica por carpetas y las herramientas de los submenús.
+
+<YouTubeEmbed videoId="YBe55fKZzDc" title="Demo de Desktop Explorer - Gameplay completo" />
+
+Para comenzar tu investigación, enciende la PC virtual y abre el software Chronolog desde el menú de inicio. Lee la entrada que dejó tu tío, el Capitán Halibut. La carta revela que te ha dejado su computadora antes de ingresar a cuidados intensivos. Menciona un programa misterioso llamado Desktop Explorer ubicado dentro de la carpeta "open me" (ábreme) en el escritorio. La contraseña para acceder a esta carpeta es tu apodo de la infancia, **Guppy**. Abre la carpeta, ejecuta el instalador y conoce a tu asistente virtual, Pizzaro, quien te guiará a través de las mecánicas iniciales.
+
+<Callout type="info" title="Consejo del sistema">
+Revisa siempre los submenús (Archivo, Edición, Ver, Ir) de cualquier ventana abierta. Pizzaro suele ocultar pistas o herramientas esenciales dentro de estos menús estándar del sistema operativo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resolviendo los acertijos 1 al 4: La cueva y el elefante">
+
+Una vez completada la instalación, te verás inmerso en una aventura de texto e imagen ambientada en una misteriosa caverna. Los acertijos pasan rápidamente de una simple comprensión lectora a la manipulación de meta-archivos.
+
+### Acertijo 1: Entrando en Fortuna
+La imagen de apertura muestra la entrada estrecha de una cueva. El texto adjunto describe una tormenta que borra las letras escritas en la arena. Puedes deducir que el nombre de la cueva es **Fortuna**. Ingresar esto abre el camino a seguir.
+
+### Acertijo 2: Iluminando el camino
+Dentro de la cueva oscura, encuentras un palo y un pergamino cómicamente largo. El pergamino contiene un canto poético: "Canta mi nombre, oh niño, y llevarás mi fuego. Cuando el polvo me rodee, Inanna iluminará mi camino". Ingresa **Inanna** como contraseña para encender tu antorcha e iluminar el estrecho túnel.
+
+### Acertijo 3: El papiro doblado
+Descubres un trozo de papiro doblado que contiene un acertijo sobre un jardinero que usa su nariz en lugar de una manguera. El texto menciona un "formato doblado". Al analizar la alineación de las letras en el papel arrugado, puedes deletrear la palabra **ELEPHAS** (la raíz latina de elefante).
+
+### Acertijo 4: Leyendo entre líneas
+Al llegar a un callejón sin salida, el juego te aconseja "leer entre líneas y encontrar la fuente de la verdad". Para resolver esto, debes inspeccionar el código fuente real del documento o ver las propiedades del archivo. El texto oculto revela que la contraseña es simplemente **solve**.
+
+| Acertijo | Ubicación | Pista principal | Contraseña |
+| :--- | :--- | :--- | :--- |
+| **01** | Entrada de la cueva | Letras que se desvanecen en la arena húmeda | **Fortuna** |
+| **02** | Cueva interior | Pergamino largo que menciona a la deidad que ilumina el camino | **Inanna** |
+| **03** | Túnel estrecho | Acertijo del papiro doblado sobre una nariz | **ELEPHAS** |
+| **04** | Callejón sin salida | Instrucciones para encontrar la fuente de la verdad | **solve** |
+
+<Callout type="tip" title="Secreto del desarrollador">
+Si te quedas atascado en los acertijos de texto, haz clic en el icono de la bombilla en tu barra de tareas. Pizzaro te proporcionará sutiles pistas para orientarte en la dirección correcta sin estropearte la solución.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegando por las profundidades: Acertijos 5 al 8">
+
+Tras superar el callejón sin salida, te encuentras con tres puertas y una llave amarilla. Intentar usar la llave provoca un error del sistema. Esta sección requiere que manipules directamente el sistema de archivos del sistema operativo.
+
+### Acertijo 5: Omitir el error de la llave
+El archivo de la llave amarilla está dañado y muestra un "Key Error" (Error de llave). Para solucionar esto, debes cambiar el nombre de la extensión del archivo. Cambia la extensión de `.err` a `.img` para renderizar correctamente los datos de la llave. Esta acción desbloquea la puerta y revela la contraseña **Vertonas**.
+
+### Acertijo 6: Las paredes grabadas
+La puerta central conduce a una habitación tipo armario cubierta con la frase "no te atrevas a decir mi nombre". Para encontrar al autor de estos grabados, cierra el documento e inspecciona las propiedades del archivo de audio de fondo `Etched Walls`. En los detalles de los metadatos, verás que el autor figura como **MMTT**. Ingresa esto para continuar.
+
+### Acertijo 7: La oscuridad abrumadora
+Entras en un pasillo completamente oscuro donde tu antorcha se apaga. El juego te pide que confíes en tus "sentidos agudizados". Inspecciona el directorio de carpetas para encontrar un archivo de imagen oculto. Al abrirlo, se revela una formación de estalagmitas. Las letras talladas en las piedras deletrean **RUBICON**.
+
+### Acertijo 8: Retroceso y runas cinceladas
+El camino que tienes por delante conduce a otro callejón sin salida. Debes retroceder físicamente a través del directorio de carpetas hasta la entrada de la cueva. El paisaje ha cambiado y la salida ahora está bloqueada por piedra. Recoge la herramienta de cincel que quedó en el suelo para prepararte para el ritual final.
+
+<Steps>
+  <Step num="1" title="Cambiar el nombre del archivo de la llave">
+    Busca la llave amarilla en tu directorio y cambia su extensión a `.img` para revelar el texto oculto.
+  </Step>
+  <Step num="2" title="Inspeccionar metadatos de audio">
+    Haz clic derecho en el archivo de música activo, abre las propiedades y copia las iniciales del creador **MMTT**.
+  </Step>
+  <Step num="3" title="Descifrar estalagmitas">
+    Navega por la habitación oscura y lee las letras talladas en los pilares de piedra para deletrear **RUBICON**.
+  </Step>
+  <Step num="4" title="Retroceder a la entrada">
+    Deshaz tus pasos hasta la carpeta de inicio para encontrar el entorno alterado y recoger el cincel.
+  </Step>
+</Steps>
+
+| Acertijo | Desafío | Mecánica | Contraseña / Acción |
+| :--- | :--- | :--- | :--- |
+| **05** | Llave amarilla rota | Cambio de nombre de extensión de archivo | **Vertonas** |
+| **06** | Paredes grabadas | Inspección de metadatos | **MMTT** |
+| **07** | Oscuridad total | Búsqueda en el directorio | **RUBICON** |
+| **08** | Salida sellada | Retroceso de carpetas | **Recoger cincel** |
+
+<Callout type="success" title="Progreso guardado">
+Completar el Acertijo 8 marca la transición a la fase final de la demo. Asegúrate de leer todos los archivos del diario antes de continuar, ya que el estado del juego se alterará de forma permanente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El altar y el mural de lentes de colores">
+
+El clímax de la demo tiene lugar en una gran cámara similar a un anfiteatro que contiene un altar, piedras planas sueltas y un enorme mural detallado en la pared trasera.
+
+### Acertijo 9: Apilar las piedras
+La inscripción del suelo reza: "La verdad es desconocida. La naturaleza me guiará a través de las piedras apiladas". Debes reunir las piedras planas que recolectaste a lo largo de tu viaje y colocarlas en el altar. Al equilibrar las piedras, estas se agrietan y revelan fragmentos de cuarzo brillantes.
+
+### Acertijo 10: Instalar la lente de color
+Los fragmentos de cuarzo actúan como un prisma. Ve a tu menú de inicio, navega hasta programas y ejecuta la aplicación recién instalada **Color lens.exe**. Esta utilidad te permite aplicar filtros Rojo, Verde y Azul al escritorio, revelando capas ocultas del mural.
+
+<CardGrid cols={3}>
+  <Card title="Filtro rojo (Ira)">
+    - **Revela elementos de fuego**
+    - Destaca el desastre del barco
+    - Descubre el destino del hermano
+  </Card>
+  <Card title="Filtro verde (Lujuria)">
+    - **Expone ojos ocultos**
+    - Revela números en el entorno
+    - Destaca temas de aceptación
+  </Card>
+  <Card title="Filtro azul (Duelo)">
+    - **Revela agua y lágrimas**
+    - Muestra figuras de animales ocultas
+    - Descubre motivos de profunda tristeza
+  </Card>
+</CardGrid>
+
+Al alternar estos filtros de color, puedes responder a las preguntas finales planteadas por el sistema para desbloquear la verdad definitiva de la simulación.
+
+| Pregunta del mural | Filtro activo | Pista visual | Respuesta correcta |
+| :--- | :--- | :--- | :--- |
+| **Animal bañándose en duelo** | Lente azul | Lágrimas que forman la silueta de un reptil | **alligator** |
+| **Lujuria de la aceptación** | Lente verde | Recuento de ojos ocultos brillantes | **14** |
+| **Manifestación de ira** | Lente rojo | Llamas que envuelven la embarcación | **fire** |
+| **El hombre muerto en el barco** | Ninguno | Deducción narrativa a partir de los diarios | **brother** |
+
+<Callout type="warning" title="Evento crítico">
+Responder a la última pregunta sobre el hombre muerto en el barco con **brother** o **father** provoca una excepción fatal en todo el sistema, lo que bloquea la simulación y finaliza la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Análisis del lore y revelaciones del diario">
+
+Más allá de los ingeniosos acertijos, Desktop Explorer esconde una oscura narrativa psicológica. Al reconstruir las entradas del diario de Halibut y los registros corruptos del sistema, podemos reconstruir la trágica historia de la familia.
+
+Los registros revelan que Halibut sufría de una grave culpa y pérdida de memoria. Escribe con frecuencia sobre un trágico incendio en un día lluvioso que se cobró la vida de su hermano mayor. Halibut no pudo salvarlo, y el trauma lo dejó atormentado por el "rostro marchito y los ojos melancólicos" de su hermano.
+
+Tras la tragedia, Halibut se hizo cargo del hogar de su hermano para mantener a la viuda en duelo y a su hijo pequeño, apodado **Guppy**. A pesar de sus buenas intenciones, Halibut sentía una inmensa vergüenza y náuseas, sintiendo que había usurpado la vida de otro hombre. El programa "Desktop Explorer" es en realidad una herramienta terapéutica o de diagnóstico diseñada para ayudar a Halibut a procesar sus recuerdos reprimidos, lo que explica por qué los acertijos reflejan su trauma interno.
+
+<Checklist
+  id="demo-completion"
+  title="Lista de verificación para completar la demo:"
+  items={[
+    "Desbloquear la carpeta Guppy usando el apodo del propietario",
+    "Resolver los 10 acertijos de entorno y del sistema de archivos",
+    "Instalar y ejecutar el ejecutable Color Lens",
+    "Responder correctamente a las cuatro preguntas del mural",
+    "Provocar el final con bloqueo de excepción fatal"
+  ]}
+/>
+
+| Entidad | Rol en el lore | Detalle narrativo clave |
+| :--- | :--- | :--- |
+| **Capitán Halibut** | Tío / Propietario | Sufría de amnesia y una intensa culpa del superviviente |
+| **Guppy** | Protagonista | El personaje del jugador que investiga la computadora |
+| **Hermano mayor** | Fallecido | Murió en un trágico incendio que Halibut no pudo apagar |
+| **Pizzaro** | Guía de IA | Un asistente virtual que guía a Halibut a través de sus recuerdos |
+
+<Callout type="info" title="Resumen del lore">
+Toda la exploración de la cueva es un viaje metafórico a través de la mente subconsciente de Halibut, donde los túneles oscuros representan su amnesia y el mural final representa su culpa reprimida.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empiezo la guía del juego Desktop Explorer?",
+    answer: "Comienza abriendo la aplicación Chronolog en el escritorio virtual, leyendo la carta del tío Halibut e ingresando la contraseña Guppy para desbloquear la carpeta de instalación."
+  },
+  {
+    question: "¿Cuál es la solución al acertijo del elefante en el Acertijo 3?",
+    answer: "Debes mirar el diseño doblado del documento de papiro. Las letras alineadas a lo largo de los pliegues deletrean ELEPHAS, que es la contraseña."
+  },
+  {
+    question: "¿Cómo soluciono el error de la llave amarilla en el Acertijo 5?",
+    answer: "Haz clic derecho en el archivo de la llave amarilla, selecciona cambiar nombre y cambia su extensión de archivo a .img. Esto repara el archivo y revela la contraseña Vertonas."
+  },
+  {
+    question: "¿Qué provoca el bloqueo final en la demo?",
+    answer: "Responder a la última pregunta del mural con la palabra brother o father provoca una excepción fatal, lo que representa la mente de Halibut quebrándose bajo el peso de su culpa."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto final">
+La demo de Desktop Explorer es una brillante muestra de diseño metanarrativo. Presta atención a los directorios de archivos y a los metadatos en el lanzamiento completo, ya que el entorno te está observando constantemente.
+</Callout>
+
+</Section>

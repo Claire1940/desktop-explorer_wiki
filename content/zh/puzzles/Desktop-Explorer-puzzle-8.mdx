@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Terminal, FileSearch, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer 谜题 8：一步步解密通关指南",
+  description: "通过我们详细的通关指南掌握复杂的 Desktop Explorer 谜题 8，包括终端命令、隐藏文件位置和解密步骤。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+8+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 谜题 8** 的核心是解密隐藏在系统目录下的 "Archive_08.dat" 文件。
+- **系统要求**：在尝试此谜题之前，你必须先从回收站中还原 “Command_Prompt.exe”。
+- **核心逻辑**：解法涉及将 “Mail_Log.txt” 中的时间戳与 “System.ini” 文件中隐藏的二进制字符串进行交叉比对。
+- **关键警告**：输入错误解密密钥三次会触发系统范围内的“闪烁故障事件”（Glitch Event），使桌面模糊并被遮挡 60 秒。
+- **主要奖励**：解开此谜题将解锁 “Uncle_Final_Message.wav” 文件，这是达成真结局（True Ending）所必不可少的。
+</Callout>
+
+<Section icon={FileSearch} title="了解 Desktop Explorer 谜题 8 的背景">
+
+Desktop Explorer 谜题 8 代表了游戏遭遇中后期调查时一次明显的难度飙升。与早期依赖简单密码找回的谜题不同，这一挑战需要玩家操作模拟的 Windows 95 环境的文件系统并使用终端命令。在这款 2026 年恐怖冒险游戏的这一阶段，桌面界面开始显现出数字化衰败的迹象，使寻找线索的过程更加充满氛围感和紧张感。
+
+该谜题的核心是一个加密的存档文件，其中包含有关前电脑主人失踪的关键证据。首先，玩家必须导航到通常默认隐藏的 `C:\WINDOWS\SYSTEM\TEMP` 目录。
+
+| 谜题属性 | 规格参数 | 要求 |
+| :--- | :--- | :--- |
+| **谜题名称** | 存档解密 08 | 文件访问权限等级 3 |
+| **主要文件** | Archive_08.dat | 位于 \SYSTEM\TEMP |
+| **逻辑类型** | 时间关联 | 需要 Mail_Log.txt |
+| **难度** | 困难 (★★★★☆) | 极度注重细节 |
+| **结局影响** | 至关重要 | 达成真结局必不可少 |
+
+<Callout type="tip" title="发现诀窍">
+在开始谜题之前，确保你已经调高了现实中显示器的亮度。Desktop Explorer 谜题 8 中的“隐藏”文件夹通常比标准 UI 背景稍微暗一些，在较高的对比度设置下更容易被发现。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="所需文件与系统准备">
+
+要解决 Desktop Explorer 谜题 8，你不能简单地瞎猜密码。游戏会根据你当前存档状态中特定文件的“修改日期”元数据生成一个半随机的密钥。你必须收集三个主要的数字产物来重建解密序列。
+
+<CardGrid cols={3}>
+  <Card title="Mail_Log.txt">
+    - **位置**：C:\Documents\Logs
+    - **用途**：提供终端偏移量所需的特定时间间隔。
+    - **注意**：寻找日期为 1995 年 10 月的记录。
+  </Card>
+  <Card title="System.ini">
+    - **位置**：C:\WINDOWS
+    - **用途**：包含用作解密基础的原始二进制字符串。
+    - **注意**：滚动到最底部以找到 [Hidden] 部分。
+  </Card>
+  <Card title="Command_Prompt.exe">
+    - **位置**：回收站
+    - **用途**：运行 “DECRYPT /A8” 命令所需的执行工具。
+    - **注意**：必须还原到桌面才能正常运行。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="损坏文件警告">
+如果你发现 “Mail_Log.txt” 中全是乱码或 “0x00” 字符，你必须先运行“附件”文件夹中的 “Scandisk.exe” 工具。在日志损坏的情况下尝试 Desktop Explorer 谜题 8 会导致系统立即崩溃。
+</Callout>
+
+</Section>
+
+<Section icon={Terminal} title="一步步解密通关步骤">
+
+请按照以下精确步骤绕过 Archive_08.dat 的安全保护。此步骤序列假定你已还原了命令提示符并收集了上一节中提到的必要文件。
+
+<Steps>
+  <Step num="1" title="初始化终端">
+    从桌面打开命令提示符。输入 `cd C:\WINDOWS\SYSTEM\TEMP` 并按回车。你应该会看到目录发生改变。如果找不到该目录，说明你没有在文件资源管理器的“查看”菜单中启用“显示隐藏文件”。
+  </Step>
+  <Step num="2" title="确定偏移量">
+    在记事本程序中打开 “Mail_Log.txt”。找到来自“Uncle”的最后一条记录。注意时间戳（通常是晚上 11:42）。该谜题的“偏移量”是小时与分钟之间的差值（42 - 11 = 31）。
+  </Step>
+  <Step num="3" title="提取二进制字符串">
+    打开 “System.ini” 并找到以 `A8_KEY=` 开头的行。你会看到一串 8 位数的数字。将你的偏移量（31）与该字符串的前两位数字相加。
+  </Step>
+  <Step num="4" title="执行解密命令">
+    返回命令提示符。输入命令 `DECRYPT -f Archive_08.dat -k [你的计算密钥]`。将括号内的文本替换为你最终计算出的 8 位数字序列。
+  </Step>
+  <Step num="5" title="获取内容">
+    一旦出现 “Decryption Successful”（解密成功）消息，桌面上就会出现一个名为 “RECOVERED_DATA” 的新文件夹。打开它即可完成 Desktop Explorer 谜题 8。
+  </Step>
+</Steps>
+
+| 命令语法 | 功能 | 预期输出 |
+| :--- | :--- | :--- |
+| **DIR /H** | 显示当前文件夹中的隐藏文件 | 包含 Archive_08.dat 的列表 |
+| **HELP DECRYPT** | 显示命令参数 | 用法: DECRYPT -f [文件] -k [密钥] |
+| **CLS** | 清除终端屏幕 | 空白终端窗口 |
+| **TYPE System.ini** | 在终端中显示文件内容 | 系统设置的文本输出 |
+
+<Callout type="success" title="解密完成">
+解密成功后，背景音乐将从低沉的嗡嗡声转变为一首优美但有些失真的钢琴曲。这表明你已成功突破了谜题 8 的关卡，现已进入游戏的最终章。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="常见错误排查">
+
+由于游戏严格模拟了 90 年代操作系统的局限性，许多玩家在进行 Desktop Explorer 谜题 8 时会遇到问题。如果你的命令失效或文件无法打开，请参考下表寻找常见解决方法。
+
+| 错误消息 | 可能原因 | 推荐解决方案 |
+| :--- | :--- | :--- |
+| **Access Denied（拒绝访问）** | 文件被标记为“只读” | 右键点击文件，取消勾选“只读” |
+| **Invalid Key（无效密钥）** | 步骤 2 中的计算错误 | 重新检查 Mail_Log 的时间戳 |
+| **Stack Overflow（栈溢出）** | 打开的窗口过多 | 在运行 CMD 之前关闭记事本和画图工具 |
+| **File Not Found（找不到文件）** | 目录路径不正确 | 确保你处于 \SYSTEM\TEMP 目录下 |
+
+<Callout type="warning" title="蓝屏事件">
+如果你在解密过程中收到 “Fatal Exception”（致命异常）错误，请不要手动重启游戏。这是 Desktop Explorer 谜题 8 中的一个剧情杀（脚本事件）。等待模拟电脑“重启”，你会在桌面上发现一个名为 “RECOVERY.txt” 的新提示文件，它将提供密钥的前四位数字。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="背景剧情与秘密">
+
+解决 Desktop Explorer 谜题 8 不仅仅是一个机械性的通关要求，它还提供了对游戏核心谜团最深刻的洞察。 “Archive_08.dat” 文件包含 “Uncle” 与一个仅被称为 “The Explorer”（探索者）的实体之间的一系列聊天记录。
+
+<Checklist
+  id="puzzle-8-secrets"
+  title="需要寻找的隐藏细节："
+  items={[
+    "恢复的音频文件中隐藏的“元数据”提到了 2026 年的一个日期。",
+    "子文件夹中隐藏着一张像素化的房间图像，看起来和你的房间惊人地相似。",
+    "“Explorer” 实体在其中一个文本日志中提到了你现实世界中的电脑用户名。",
+    "恰好在午夜时分打开该存档会解锁一个隐藏成就：“夜猫子”（Night Owl）。"
+  ]}
+/>
+
+<Callout type="info" title="故事关联">
+该谜题的解开证实了你正在“探索”的电脑实际上是一个数字循环。你在谜题 8 中解密的文件其实是由上一次循环中的“你”写下的，这也解释了为什么这些密码会让你感到莫名地熟悉。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Desktop Explorer 谜题 8">
+
+<FAQ items={[
+  {
+    question: "如果 Archive_08.dat 文件不在 TEMP 文件夹中，它会在哪里？",
+    answer: "如果它不在 TEMP 文件夹中，你可能不小心将它移动到了回收站或其他目录。使用“查找”工具（开始 > 查找 > 文件或文件夹）并搜索 “Archive_08” 来定位其当前位置。"
+  },
+  {
+    question: "Desktop Explorer 谜题 8 的密码对每个玩家都一样吗？",
+    answer: "不，密码是动态的。虽然逻辑（时间戳 + System.ini 字符串）保持不变，但具体数字会根据你在新存档开始时生成的特定游戏种子而有所不同。"
+  },
+  {
+    question: "我可以跳过谜题 8 并依然获得“好结局”吗？",
+    answer: "不能。谜题 8 提供了 “Uncle_Final_Message.wav” 文件。没有这个文件，你将无法在最后的对峙中证明该实体的身份，从而导致“迷失在机器中”（Lost in the Machine）结局。"
+  },
+  {
+    question: "如果我不小心删除了 Archive_08.dat 会怎么样？",
+    answer: "如果你删除了该文件并清空了回收站，你必须使用 DOS_Tools 文件夹中的 “Undelete” 工具。如果你还没有解锁 DOS_Tools，你将需要重新读取更早的存档。"
+  }
+]} />
+
+</Section>

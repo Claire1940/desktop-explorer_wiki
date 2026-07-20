@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "guide": "攻略",
+    "puzzles": "谜题",
+    "story": "剧情",
+    "release": "发售",
+    "review": "评测",
+    "platform": "平台"
+  }
+}

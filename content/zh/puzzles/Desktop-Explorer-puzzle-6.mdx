@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer 谜题 6：目录解密逐步指南",
+  description: "通过我们的逐步解密指南解决 Desktop Explorer 谜题 6。学习文件路径导航、终端命令和密码解决方案。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+6+Decryption+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer 维基团队"
+}
+
+<Callout type="info" title="快速指南">
+- **主要谜题**：解决 **Desktop Explorer 谜题 6** 需要玩家在模拟的 Windows 95 界面中解密一个损坏的系统文件。
+- **关键位置**：核心目标位于 `C:\WINDOWS\SYSTEM\RECOVERY\` 文件夹中。
+- **关键工具**：玩家必须利用虚拟 MS-DOS 提示符、十六进制编辑器（Hex Editor）和记事本（Notepad）应用程序来提取隐藏的代码。
+- **核心策略**：定位分散在不同系统目录中的三个碎片化二进制偏移量，并将其对齐以组合成主解密密码。
+- **最终奖励**：解锁此谜题将授予对本地内网服务器的访问权限，揭示关于失踪叔叔的关键背景故事文件。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 谜题 6 概述">
+
+在《Desktop Explorer》充满复古风的数字世界中，玩家必须导航一个模拟的 Windows 95 操作系统，其中充斥着怪异的文件、损坏的软件和神秘的信息。随着你进入第 3 章，你会遇到 **Desktop Explorer 谜题 6**，它是阻止访问内部网络驱动器的主要安全门户。
+
+与以往依赖简单文字线索的挑战不同，这个谜题需要对目录导航、命令行操作和文件处理有更深入的理解。剧情赌注很高：你试图解密的损坏系统日志包含你失踪亲人在 90 年代末突然失踪前最后记录的通信内容。
+
+要开始此项调查，你必须在第 2 章中已经恢复了虚拟网络适配器的电源并绕过了二级防火墙。一旦满足这些前提条件，一个名为 `SYS_LOG_06.DAT` 的损坏系统文件将出现在你的系统文件夹中，从而启动解密序列。
+
+<Callout type="warning" title="系统不稳定警告">
+请勿尝试使用标准的记事本应用程序打开目标文件。否则会触发模拟的系统崩溃，强制虚拟操作系统重启并重置你当前的终端命令历史记录。
+</Callout>
+
+| 参数 | 规格详情 |
+|------|------|
+| 谜题 ID | 安全协议 06（目录重构） |
+| 目标文件 | C:\WINDOWS\SYSTEM\RECOVERY\SYS_LOG_06.DAT |
+| 主要目标 | 重新对齐损坏的数据块并输入主解密密钥 |
+| 复杂度级别 | 中等至高级 |
+| 所需实用程序 | MS-DOS 提示符、系统十六进制编辑器、虚拟邮件客户端 |
+
+</Section>
+
+<Section icon={Target} title="所需文件目录和隐藏线索">
+
+在执行解密序列之前，你必须收集隐藏在计算机文件系统中的三个不同的数据碎片。这些碎片提供了读取 `SYS_LOG_06.DAT` 内加密数据所需的精确二进制偏移量。
+
+操作系统将这些文件隐藏在标准系统文件夹下以防止意外删除，这模仿了现实世界中 Windows 95 的目录结构。你需要切换隐藏文件的可见性，并探索乍一看似乎空无一物的目录。
+
+<CardGrid cols={3}>
+  <Card title="碎片 1：CONFIG.SYS">
+    - **位置**：根目录 `C:\`
+    - **类型**：系统配置文件
+    - **线索**：包含对齐终端内存地址块所需的初始十六进制偏移量乘数。
+  </Card>
+  <Card title="碎片 2：MEM_DUMP.BMP">
+    - **位置**：临时文件夹 `C:\WINDOWS\TEMP\`
+    - **类型**：隐藏图像文件
+    - **线索**：显示高亮像素的视觉网格，直接映射到目标文件的十六进制坐标系。
+  </Card>
+  <Card title="碎片 3：TRASH_09.MSG">
+    - **位置**：邮件数据库 `C:\WINDOWS\MAIL\TRASH\`
+    - **类型**：已删除的邮件消息
+    - **线索**：一封恢复的电子邮件，包含完成主密码输入所需的字母数字后缀。
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="显示隐藏文件">
+如果你在 Temp 文件夹中找不到 `MEM_DUMP.BMP` file 文件，请打开虚拟文件资源管理器，导航到顶部菜单，选择“查看”，然后选择“选项”，并确保勾选了“显示所有文件”。
+</Callout>
+
+为了帮助你组织调查，请在打开命令行实用程序之前，使用以下目录图找到每个组件。
+
+| 文件名 | 目录路径 | 线索说明 | 所需工具 |
+|------|------|------|------|
+| CONFIG.SYS | C:\ | 初始十六进制乘数 | 记事本 |
+| MEM_DUMP.BMP | C:\WINDOWS\TEMP\ | 视觉网格对齐图 | 画图工具 |
+| TRASH_09.MSG | C:\WINDOWS\MAIL\TRASH\ | 字母数字主后缀 | 邮件阅读器 |
+| SYS_LOG_06.DAT | C:\WINDOWS\SYSTEM\RECOVERY\ | 核心加密日志文件 | 十六进制编辑器 |
+
+</Section>
+
+<Section icon={Swords} title="Desktop Explorer 谜题 6 逐步解决方案">
+
+一旦你从上述目录中收集了所有三个线索，就可以开始解密过程了。请仔细按照以下步骤重构目录并输入正确的序列。
+
+<Steps>
+  <Step num="1" title="初始化虚拟终端">
+    双击桌面上的 MS-DOS 提示符图标。输入 `CD WINDOWS\SYSTEM` 并按回车键以导航到系统子目录。从那里，输入 `CD RECOVERY` 进入包含目标文件的文件夹。
+  </Step>
+  <Step num="2" title="执行目录重构">
+    在终端中输入命令 `DEFRAG /SYS /FORCE`。该命令会重新对齐虚拟硬盘的碎片化扇区，使系统能够读取 `SYS_LOG_06.DAT` 的损坏块而不会崩溃。
+  </Step>
+  <Step num="3" title="提取十六进制偏移量">
+    从开始菜单中打开虚拟十六进制编辑器应用程序。将 `SYS_LOG_06.DAT` 加载到编辑器中。将 `MEM_DUMP.BMP` 中高亮的网格坐标与十六进制行进行交叉比对。记下偏移量 `0x0F`、`0x4A` 和 `0x92` 处的值。
+  </Step>
+  <Step num="4" title="编译并输入主密码">
+    将提取的十六进制值与在 `TRASH_09.MSG` 中找到的字母数字后缀相结合。最终编译的密钥格式如下：`[Hex1][Hex2]-[Suffix]`。在运行 `RECOVERY.EXE` 时出现的安全对话框中输入此密钥。
+  </Step>
+</Steps>
+
+<Callout type="success" title="解密成功">
+输入正确的密码后，终端屏幕将闪烁绿光，并且在你的根目录下会生成一个名为 `UNLOCKED_LOG.TXT` 的新文本文件，从而推进游戏剧情。
+</Callout>
+
+下表概述了在此谜题序列期间成功导航终端所需的精确命令和操作。
+
+| 命令行输入 | 目标目录 | 预期输出 | 目的 |
+|------|------|------|------|
+| CD WINDOWS\SYSTEM\RECOVERY | C:\ | 提示符更改为目标文件夹 | 导航到恢复目录 |
+| DIR /A:H | C:\WINDOWS\SYSTEM\RECOVERY\ | 列出目录中的隐藏文件 | 验证恢复工具是否存在 |
+| DEFRAG /SYS /FORCE | C:\WINDOWS\SYSTEM\RECOVERY\ | 扇区对齐动画 | 重构损坏的系统块 |
+| RUN RECOVERY.EXE | C:\WINDOWS\SYSTEM\RECOVERY\ | 出现密码输入提示 | 启动解密界面 |
+
+</Section>
+
+<Section icon={Shield} title="故障排除与错误代码">
+
+由于 Desktop Explorer 模拟的是一个旧操作系统，如果输入命令的顺序不对或文件访问不正确，玩家经常会遇到逼真的系统错误。了解如何解决这些错误对于完成谜题至关重要。
+
+如果你在十六进制对齐过程中犯了错误，虚拟操作系统将显示蓝屏或抛出文件访问错误。不要慌张；系统设计允许快速恢复，而不会丢失你的整体游戏进度。
+
+<Callout type="warning" title="避免终端软锁死">
+如果你在 `RECOVERY.EXE` 程序中输入错误密码三次，终端将被锁死。要绕过此限制，你必须从根目录运行命令 `SYS_RESET.BAT` 以清除锁定状态。
+</Callout>
+
+| 错误代码 | 潜在原因 | 解决所需的操作 |
+|------|------|------|
+| ERROR 404: FILE NOT FOUND | 使用正斜杠输入目录路径 | 使用反斜杠 (\\) 进行 Win95 目录导航 |
+| ERROR 0x09: CORRUPT BLOCK | 在运行 DEFRAG 命令之前打开十六进制编辑器 | 关闭编辑器，运行 DEFRAG /SYS /FORCE，重新打开编辑器 |
+| ERROR 0xF1: ACCESS DENIED | 在终端打开时尝试编辑 CONFIG.SYS | 在修改系统文件之前关闭 MS-DOS 提示符 |
+| BSOD: FATAL EXCEPTION 0E | 直接从资源管理器双击 DAT 文件 | 仅通过十六进制编辑器应用程序打开 DAT 文件 |
+
+</Section>
+
+<Section icon={Trophy} title="谜题完成清单">
+
+在继续进行 Desktop Explorer 的下一章之前，请确保你已完全完成与该谜题相关的所有目标。跳过某些步骤可能会阻止你解锁特定的后期游戏成就或秘密结局。
+
+使用此清单来验证你是否已收集所有剧情文件，并解锁了与解密过程相关的每个隐藏系统目录。
+
+<Checklist
+  id="puzzle-6-checklist"
+  title="所需里程碑："
+  items={[
+    "在根目录中定位并阅读 CONFIG.SYS 文件",
+    "切换隐藏文件以在 Temp 文件夹中显示 MEM_DUMP.BMP",
+    "运行 DEFRAG 命令以重新对齐损坏的系统扇区",
+    "使用十六进制编辑器工具提取三个十六进制偏移量",
+    "解锁安全终端并生成 UNLOCKED_LOG.TXT 文件",
+    "阅读解密后的日志文件以获得“数字考古学家”成就"
+  ]}
+/>
+
+<Callout type="info" title="秘密背景故事注释">
+解密日志文件还会在媒体播放器应用程序中解锁一个隐藏的音频文件。完整收听此文件是解锁游戏真结局（True Ending）的必要条件。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="常见问题">
+
+为了帮助可能仍在与这个复古系统谜题的特定机制做斗争的玩家，我们整理了关于游戏这一部分最常见问题的答案。
+
+<FAQ items={[
+  {
+    question: "十六进制编辑器工具在 Desktop Explorer 中的什么位置？",
+    answer: "十六进制编辑器位于开始菜单的“附件”文件夹中。如果缺失，你必须先通过运行 A:\\ 驱动器中虚拟软盘上的 SETUP.EXE 程序来安装它。"
+  },
+  {
+    question: "为什么我打开 SYS_LOG_06.DAT 文件时游戏会崩溃？",
+    answer: "如果你尝试使用记事本打开原始数据文件，就会发生这种模拟的系统崩溃。你必须先在终端中运行 DEFRAG 命令，然后仅通过十六进制编辑器打开该文件。"
+  },
+  {
+    question: "Desktop Explorer 谜题 6 的确切密码是什么？",
+    answer: "密码是根据你虚拟系统的安装时间戳在每次游玩时程序化生成的。你必须在你的特定游戏文件中找到三个十六进制偏移量和邮件后缀来组合你的独特密码。"
+  },
+  {
+    question: "我可以跳过这个谜题并继续完成主线故事吗？",
+    answer: "不，解决这个谜题是强制性的。解锁系统日志可提供连接到本地内网服务器所需的网络 IP 地址，这是第 4 章的主要目标。"
+  }
+]} />
+
+<Callout type="tip" title="需要更多帮助？">
+如果你仍然卡住，请尝试检查系统回收站。有时，已删除的文件包含旧版本的解密密钥，这可以帮助你缩小正确的偏移量值范围。
+</Callout>
+
+</Section>

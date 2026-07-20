@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer 谜题 5：流程攻略与密码解决方案",
+  description: "通过我们详细的流程攻略精通 Desktop Explorer 谜题 5。寻找隐藏文件，解密密码，并揭开这台复古电脑的神秘面纱。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Puzzle+5+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队",
+  keywords: "Desktop Explorer, 谜题 5, 攻略, 密码, 流程"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 谜题 5**：专注于“系统恢复”（System Recovery）目录和隐藏的聊天日志。
+- **核心机制**：需要将删除的 .txt 文件与内部时钟设置进行交叉对照。
+- **最佳策略**：在尝试输入最终管理员密码之前，先还原“回收站”内容。
+- **关键提示**：在私聊应用中寻找提及“叔叔”（Uncle）的内容，以获取数字线索。
+- **首选方案**：采用“逻辑优先”的方法，记录在“我的文档”文件夹中找到的所有日期。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 谜题 5 概览">
+
+**Desktop Explorer 谜题 5** 代表了对神秘复古 Windows 95 环境调查中难度的一次重大飞跃。在这个阶段，玩家不再仅仅是点击文件夹；必须主动操作模拟操作系统，以揭示前任用户留下的深层秘密。这个谜题专门处理位于根目录下的“加密存档”（Encrypted Archive），它是解开叔叔失踪之谜的关键。
+
+要成功通过这一部分，你必须完成之前的文化恢复任务。游戏会奖励那些关注 CRT 屏幕上出现的“故障”视觉伪影的玩家，因为这些现象通常指向标准文件资源管理器中不显示的隐藏目录路径。
+
+<Callout type="tip" title="专家观察">
+在开始谜题 5 之前，请确保在设置应用中将虚拟桌面分辨率设置为“高”。背景壁纸中的某些文本字符串只有在较高的像素密度下才清晰可见。
+</Callout>
+
+| 要求 | 描述 | 状态 |
+| :--- | :--- | :--- |
+| **系统访问** | 2 级管理员权限 | 强制性 |
+| **所需工具** | 十六进制编辑器.exe / 文件恢复工具 | 必需 |
+| **关键物品** | “黄色软盘”图标 | 在谜题 4 中找到 |
+| **线索类型** | 字母数字 / 基于日期 | 关键 |
+
+</Section>
+
+<Section icon={Search} title="定位隐藏的数字证据">
+
+寻找 **Desktop Explorer 谜题 5** 的组件需要对模拟的 90 年代操作系统进行一番搜寻。与之前提供清晰提示的谜题不同，谜题 5 将线索隐藏在平凡的系统文件中。你需要与“网上邻居”和“邮件”客户端交互，以拼凑出完整的画面。
+
+Desktop Explorer 的叙事深度在此处得到了体现，因为你发现的文件不仅仅是随机字符串——它们是主角叔叔与某个未知实体之间对话的片段。请密切关注电子邮件上的时间戳，因为时间顺序是解密阶段的主要逻辑门槛。
+
+<CardGrid cols={3}>
+  <Card title="回收站">
+    - **还原 'Note_05.tmp'**
+    - 包含管理员密钥的前半部分
+    - 需要 50KB 的虚拟空余空间
+  </Card>
+  <Card title="系统注册表">
+    - **编辑 'User_Auth' 字符串**
+    - 更改启动顺序
+    - 揭示隐藏的“保险库”（Vault）文件夹
+  </Card>
+  <Card title="聊天日志">
+    - **分析 'IRC_Archive'**
+    - 提到一个特定的生日日期
+    - 用于最终的数字绕过
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="系统不稳定">
+在搜索阶段打开过多的窗口会导致游戏内出现“蓝屏死机”（BSOD）。这是一个脚本事件，会重置你在当前目录中未保存的进度。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="谜题 5 逐步流程攻略">
+
+按照以下精确步骤解决 **Desktop Explorer 谜题 5** 并解锁下一章谜团。准确性至关重要，因为输入错误密码三次将导致系统锁定两分钟（实时）。
+
+<Steps>
+  <Step num="1" title="初始化恢复工具">
+    导航到 'C:/Programs/System' 文件夹并启动 'Recovery.exe' 应用程序。系统会提示你输入“维护代码”。输入在“系统属性”屏幕上找到的日期 (07-17-1996)。
+  </Step>
+  <Step num="2" title="重建损坏的图像">
+    打开“图库”并寻找 'IMG_005.bmp'。它会显示为噪点。使用十六进制编辑器将前四行代码更改为符合标准 BMP 标头格式。这将揭示一张带有便利贴的书桌照片。
+  </Step>
+  <Step num="3" title="提取便利贴线索">
+    放大重建后的图像。便利贴上包含一个字符串：'B-Day + 104'。将此内容与“个人”文件夹中找到的生日进行交叉比对，得出 4 位代码。
+  </Step>
+  <Step num="4" title="绕过防火墙">
+    运行“命令提示符”并输入 'ping secret.server.net'。这将返回一个 IP 地址。该 IP 的最后三位数字是解密工具所需的最终偏移量。
+  </Step>
+  <Step num="5" title="最终解密">
+    结合便利贴代码和 IP 偏移量。将其输入到“加密存档”弹出框中。如果成功，文件夹将解锁，露出 'Truth.pdf' 文件。
+  </Step>
+</Steps>
+
+<Callout type="success" title="达成里程碑">
+解锁 'Truth.pdf' 标志着谜题 5 的完成，并触发一个涉及 CRT 显示器反射的重大剧情过场动画。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="密码逻辑与数据参考">
+
+为了帮助你解决 **Desktop Explorer 谜题 5** 中的变体问题（有时会根据你初始的“用户配置文件”选择而具有随机元素），请参考下方的逻辑表。这能确保你理解密码*为什么*有效，而不仅仅是死记硬背一个静态数字。
+
+| 元素 | 来源位置 | 应用逻辑 | 示例结果 |
+| :--- | :--- | :--- | :--- |
+| **主要前缀** | 桌面壁纸 | 计算图标数量 | 'Icon07' |
+| **中间字符串** | BIOS 启动屏幕 | 第三行的第一个单词 | 'Legacy' |
+| **数字后缀** | 日历应用 | “红圈”日期 | '24' |
+| **最终密钥** | 组合元素 | 前缀 + 字符串 + 后缀 | 'Icon07Legacy24' |
+
+<Callout type="info" title="关于随机性的说明">
+如果上述示例结果不起作用，请检查虚拟桌面上的 'ReadMe.txt'。开发人员偶尔会通过游戏过程中发生的“系统补丁”来更新逻辑。
+</Callout>
+
+| 难度 | 谜题修正器 | 解决时间 | 奖励层级 |
+| :--- | :--- | :--- | :--- |
+| **正常** | 静态密码 | 10-15 分钟 | 标准结局 |
+| **困难** | 限时解密 | 5-10 分钟 | 秘密结局线索 |
+| **故障** | 扭曲的 UI | 20+ 分钟 | 开发者彩蛋 |
+
+</Section>
+
+<Section icon={Sparkles} title="秘密与完美通关清单">
+
+除了简单地解决 **Desktop Explorer 谜题 5** 之外，还有几个隐藏的“彩蛋”和可选文件，提供了关于这场数字灵异事件的更深层背景故事。完成这些并非进度所需，但对于追求“真结局”的玩家来说至关重要。
+
+<Checklist
+  id="puzzle-5-secrets"
+  title="谜题 5 完美通关目标："
+  items={[
+    "在登录界面找到“隐藏用户”（Hidden_User）账户",
+    "在系统临时文件夹中找到已删除的音频文件 'Whisper.wav'",
+    "通过闲置 5 分钟触发“机器之魂”事件",
+    "找回叔叔最后一封信的所有 3 个碎片",
+    "将系统时钟更改为午夜以揭示“夜晚”壁纸"
+  ]}
+/>
+
+<Callout type="tip" title="隐藏交互">
+尝试将“回收站”拖入“媒体播放器”。虽然这看起来像是个错误，但它实际上会播放一段扭曲的音轨，其中包含一条摩斯密码信息，翻译过来是一个秘密 Steam 成就。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答：Desktop Explorer 谜题 5 故障排除">
+
+<FAQ items={[
+  {
+    question: "为什么 'Recovery.exe' 在谜题 5 期间不断崩溃？",
+    answer: "这通常是因为你没有关闭“邮件”客户端。游戏模拟了有限的 RAM，因此你必须关闭所有不必要的窗口才能运行重型系统工具。"
+  },
+  {
+    question: "我找不到要求中提到的“黄色软盘”图标。",
+    answer: "“黄色软盘”实际上是一个名为 'A:/DRIVE_DATA' 的隐藏文件。即使 'A:' 驱动器看起来是空的，你也必须在“我的电脑”中点击它。"
+  },
+  {
+    question: "Desktop Explorer 谜题 5 管理员保险库的确切密码是什么？",
+    answer: "密码是动态的，但始终是 [用户生日] + [游戏内当前年份]。检查“日历”和“系统时钟”来计算你的特定字符串。"
+  },
+  {
+    question: "我可以跳过谜题 5 直接进入结局吗？",
+    answer: "不可以，谜题 5 是一个“硬性门槛”。此处恢复的文件是触发“关机”菜单中最终序列所必需的。"
+  }
+]} />
+
+</Section>

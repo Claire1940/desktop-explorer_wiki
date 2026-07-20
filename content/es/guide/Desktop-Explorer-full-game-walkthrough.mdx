@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía completa de Desktop Explorer: Puzles y finales",
+  description: "Domina Desktop Explorer con nuestra guía completa de juego. Resuelve cada puzle, encuentra archivos ocultos y desbloquea todos los finales en esta aventura retro de Windows 95.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/214478/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía completa de Desktop Explorer**: Se centra en navegar por el entorno simulado de Windows 95 para resolver el misterio central.
+- **Mecánica principal**: Interactuar con archivos, carpetas y aplicaciones heredadas para descubrir pruebas digitales.
+- **Estrategia para puzles**: Revisa siempre las propiedades de los archivos y busca texto oculto en las imágenes de fondo.
+- **Contenido secreto**: Los archivos eliminados en la Papelera de reciclaje suelen contener las pistas más críticas de la historia.
+- **Múltiples finales**: Las decisiones tomadas al eliminar archivos y al introducir contraseñas determinan el resultado final.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos: Navegando por la interfaz retro">
+
+La experiencia central de Desktop Explorer gira en torno a un escritorio de ordenador simulado de la década de 1990. Para progresar, debes tratar la interfaz como un espacio físico. Cada icono, ventana y mensaje del sistema tiene un propósito en la investigación. A diferencia de los sistemas operativos modernos, este entorno premia los clics lentos y metódicos, así como el examen de los metadatos de los archivos.
+
+| Elemento de la interfaz | Función principal | Valor de investigación |
+| :--- | :--- | :--- |
+| **Mis documentos** | Almacena archivos de texto e imágenes | Contiene pistas narrativas principales e historia |
+| **Papelera de reciclaje** | Contiene archivos de sistema "eliminados" | A menudo oculta contraseñas de carpetas bloqueadas |
+| **Entorno de red** | Simula conectividad de marcado telefónico | Se utiliza para activar eventos específicos de la historia |
+| **Panel de control** | Configuración del sistema y pantalla | Necesario para revelar extensiones de archivos ocultas |
+| **Menú Inicio** | Acceso a programas y apagado | Activa las secuencias de final del juego |
+
+El entorno de escritorio no es solo una interfaz de usuario; es un puzle narrativo. Descubrirás que ciertas aplicaciones requieren fechas de sistema específicas o "permisos de usuario" para abrirse. Estos permisos se suelen encontrar leyendo los registros de chat del propietario anterior, "Uncle" (Tío), cuya huella digital define el misterio del juego.
+
+<Callout type="warning" title="Advertencia del sistema">
+No ignores las ventanas emergentes de "Error del sistema". En Desktop Explorer, raras veces son errores reales. La mayoría de los fallos contienen códigos hexadecimales que sirven como contraseñas para los archivos .zip cifrados que encontrarás más adelante en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso de Desktop Explorer">
+
+Avanzar en la historia requiere una secuencia específica de descubrimientos. El juego se divide en "sesiones" lógicas donde el estado del ordenador cambia según tus acciones. Sigue estos pasos para asegurarte de no perder pruebas críticas necesarias para el Final Verdadero.
+
+<Steps>
+  <Step num="1" title="Arranque inicial y auditoría de archivos">
+    Comienza abriendo cada carpeta en "Mis documentos". Lee primero el archivo "ReadMe.txt". Contiene una marca de tiempo que se correlaciona con la contraseña de la carpeta "Private" (Privado). Busca en el fondo de escritorio cualquier píxel distorsionado; estos suelen ocultar cadenas numéricas.
+  </Step>
+  <Step num="2" title="El desafío de la contraseña">
+    Accede a la aplicación "Cliente de correo". Encontrarás una serie de borradores sin enviar. Los asuntos de estos borradores, leídos en orden cronológico, proporcionan la pista para la contraseña de la BIOS. Introducir esta contraseña te permitirá ver los archivos ocultos de "System32".
+  </Step>
+  <Step num="3" title="Recuperar pruebas eliminadas">
+    Abre la Papelera de reciclaje e intenta "Restaurar todo". Algunos archivos no se restaurarán debido a un error de disco. Dirígete a la herramienta "Desfragmentador de disco". Ejecutar este minijuego revela la ubicación del archivo "Missing_Fragment.dat", el cual es esencial para el giro argumental a mitad del juego.
+  </Step>
+  <Step num="4" title="La investigación de los registros de chat">
+    Inicia el clon de "Mensajería instantánea". Deberás simular una conversación seleccionando las opciones correctas. El objetivo es extraer la fecha de nacimiento de "Uncle" a partir de las respuestas automatizadas del bot. Esta fecha (MMDDAAAA) desbloquea la carpeta "Legacy_Archive".
+  </Step>
+  <Step num="5" title="Anulación final del sistema">
+    Una vez recopilados todos los archivos de la historia, aparecerá un nuevo icono: "Shutdown.exe". Antes de hacer clic en él, asegúrate de haber movido el archivo "Evidence.log" al directorio "Raíz". Esta acción activará la resolución más positiva del juego.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo profesional">
+Si te quedas atascado, intenta cambiar la "Combinación de colores del sistema" en el Panel de control a "Alto contraste". Esto a menudo revela texto invisible oculto en el espacio en blanco de ciertos documentos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de puzles y directorio de contraseñas">
+
+Los puzles de Desktop Explorer están diseñados para poner a prueba tu atención al detalle. La mayoría de las soluciones se encuentran cruzando información entre dos tipos de archivos diferentes, como una foto y un documento de texto.
+
+| Nombre del puzle | Ubicación | Lógica de la solución | Contraseña/Código |
+| :--- | :--- | :--- | :--- |
+| **Caja fuerte de Uncle** | Archivo del escritorio | Cuenta el número de iconos en la carpeta 'Work' | **8421** |
+| **ZIP cifrado** | Mis documentos | Primera letra de cada archivo en la carpeta 'Music' | **BEETHOVEN** |
+| **Anulación de BIOS** | Pantalla de inicio | Presiona F8, F12 y luego la tecla Escape | **Admin95** |
+| **Partición oculta** | Utilidad de disco | Coincidir los valores RGB del fondo de pantalla | **255025** |
+| **Pasarela final** | Raíz del sistema | Invierte la cadena de texto de 'Goodbye.txt' | **REPLACEME** |
+
+Los puzles avanzados implican usar la "Grabadora de sonidos" para reproducir archivos de audio a velocidad 0.5x. A menudo, una voz susurrará una secuencia de números. Estos puzles basados en audio son obligatorios para acceder a la sección de "Archivos secretos" del disco duro.
+
+<Callout type="info" title="Nota de investigación">
+La contraseña de la "Caja fuerte de Uncle" cambia si eliminas cualquier archivo antes de intentar abrirla. Si el código 8421 no funciona, comprueba las "Propiedades" de la Papelera de reciclaje para ver cuántos bytes de datos has eliminado; ese número será el nuevo código.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secretos y artefactos digitales ocultos">
+
+Más allá de la ruta principal, Desktop Explorer contiene varios "huevos de pascua" (Easter Eggs) y archivos ocultos que amplían los elementos de terror de la narrativa. No son necesarios para una partida estándar, pero son esenciales para completarlo al 100%.
+
+<CardGrid cols={3}>
+  <Card title="El fantasma en la máquina">
+    - **Activador**: Abre 'Camera.exe' exactamente a las 12:00 AM de la hora del sistema.
+    - **Efecto**: Revela una imagen oculta de una silueta de pie detrás del usuario.
+    - **Recompensa**: Desbloquea el logro 'Paranoia'.
+  </Card>
+  <Card title="Datos de guardado corruptos">
+    - **Activador**: Intenta guardar la partida mientras la 'Papelera de reciclaje' esté llena.
+    - **Efecto**: Los iconos del escritorio comenzarán a reorganizarse para formar una cara.
+    - **Recompensa**: Proporciona una pista para la contraseña del 'Final Verdadero'.
+  </Card>
+  <Card title="Sala de desarrolladores">
+    - **Activador**: Escribe 'HELP' en el símbolo del sistema diez veces.
+    - **Efecto**: Teletransporta el explorador de archivos a una carpeta que contiene notas de los desarrolladores.
+    - **Recompensa**: Historia completa sobre el desarrollo del sistema operativo ficticio del juego.
+  </Card>
+</CardGrid>
+
+Encontrar estos secretos a menudo requiere que el jugador manipule el "hardware virtual". Por ejemplo, reducir la "RAM virtual" en los ajustes puede hacer que el sistema operativo sufra un "glitch", revelando texto que de otro modo sería sobrescrito por los procesos del sistema.
+
+<Callout type="success" title="Secreto encontrado">
+Si encuentras el archivo "The_Truth.png", no intentes abrirlo con el Visor de imágenes predeterminado. En su lugar, arrástralo a la aplicación "Bloc de notas" para leer el texto oculto incrustado en el código de la imagen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de finales y lista de comprobación de completado">
+
+Desktop Explorer cuenta con tres finales distintos según cuánto descubras y cómo trates el legado de "Uncle". El juego realiza un seguimiento de tu "Puntuación de ética" según si eliminas sus recuerdos personales o los conservas.
+
+| Nombre del final | Requisitos | Resultado narrativo |
+| :--- | :--- | :--- |
+| **La eliminación** | Elimina todos los archivos de 'Mis documentos' antes de apagar | El ordenador se borra por completo y el misterio queda sin resolver. |
+| **La herencia** | Abre la carpeta 'Private' pero no informes de los hallazgos | Te quedas con el ordenador, pero 'Uncle' comienza a acechar la interfaz. |
+| **La verdad** | Reúne los 12 registros de 'Evidence' y súbelos a la web | El misterio se resuelve y el fantasma digital descansa en paz. |
+
+Para lograr el "Final Verdadero", debes ser meticuloso. Utiliza la siguiente lista de comprobación para asegurarte de haber cumplido con todos los criterios necesarios antes del apagado final del sistema.
+
+<Checklist
+  id="ending-requirements"
+  title="Lista de requisitos para el Final Verdadero:"
+  items={[
+    "Recuperar los 5 archivos eliminados de la Papelera de reciclaje",
+    "Descifrar el archivo 'Legacy_Archive.zip' utilizando el código de cumpleaños",
+    "Escuchar los 3 registros de audio de 'Uncle_Voice' al completo",
+    "Encontrar el archivo oculto 'Evidence.log' en el directorio System32",
+    "Desactivar la aplicación 'Cortafuegos' (Firewall) para permitir la subida final"
+  ]}
+/>
+
+<Callout type="warning" title="Punto de no retorno">
+Una vez que inicies la "Anulación final del sistema" en el símbolo del sistema, no podrás volver atrás para explorar otros archivos. Asegúrate de que tu lista de comprobación esté completa antes de introducir el comando 'RUN SHUTDOWN -F'.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especificaciones técnicas y requisitos del sistema">
+
+Desktop Explorer está diseñado para ejecutarse en hardware moderno mientras imita a la perfección las limitaciones de un PC de 1995. Aunque los requisitos son bajos, se recomienda un entorno estable para evitar que los cuelgues reales del sistema interfieran con los cuelgues "ficticios" del juego.
+
+| Categoría | Requisito mínimo | Configuración recomendada |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Dual Core 2.0 GHz | Quad Core 3.0 GHz |
+| **Memoria** | 4 GB de RAM | 8 GB de RAM |
+| **Gráficos** | Gráficos integrados | GPU dedicada (1 GB de VRAM) |
+| **Almacenamiento** | 500 MB de espacio disponible | 1 GB (para archivos de registro ocultos) |
+
+Ajustar el "Filtro CRT" en el menú de opciones puede afectar significativamente al rendimiento. Si experimentas ralentizaciones durante la secuencia del "Desfragmentador de disco", considera reducir la intensidad de las líneas de exploración (scanlines).
+
+<Callout type="info" title="Consejo de pantalla">
+Para disfrutar de la experiencia más inmersiva, juega en una habitación a oscuras con el "Filtro VHS" al 75%. Esto mejora la atmósfera de terror y hace que la brillante pantalla azul del sistema operativo virtual se sienta más auténtica.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro la contraseña de la carpeta 'Private'?",
+    answer: "La contraseña es la fecha que se encuentra en el archivo 'ReadMe.txt' ubicado en el directorio raíz. Tiene el formato MMDD."
+  },
+  {
+    question: "¿Qué debo hacer si el juego se 'cuelga' mostrando una pantalla azul?",
+    answer: "Espera 30 segundos. En Desktop Explorer, la 'Pantalla azul de la muerte' (BSOD) es un elemento de juego. Busca el texto en blanco que aparece en el mensaje de error; contiene la siguiente pista."
+  },
+  {
+    question: "¿Puedo conseguir el Final Verdadero en mi primera partida?",
+    answer: "Sí, siempre y cuando no elimines ningún archivo y reúnas los 12 registros de Evidence antes de la secuencia de apagado final."
+  },
+  {
+    question: "¿Hay alguna forma de acelerar el minijuego del Desfragmentador de disco?",
+    answer: "No, la velocidad es fija para simular el hardware de los 90. Aprovecha este tiempo para mirar el fondo de pantalla del escritorio en busca de pistas ocultas que solo aparecen cuando el sistema está bajo 'carga'."
+  }
+]} />
+
+</Section>

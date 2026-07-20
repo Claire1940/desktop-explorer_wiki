@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer Full Game Walkthrough: Puzzle & Ending Guide",
+  description: "Master Desktop Explorer with our full game walkthrough. Solve every puzzle, find hidden files, and unlock all endings in this retro Win 95 adventure.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/214478/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Desktop Explorer full game walkthrough**: Focuses on navigating the simulated Windows 95 environment to solve the central mystery.
+- **Core Mechanic**: Interacting with files, folders, and legacy applications to uncover digital evidence.
+- **Puzzle Strategy**: Always check the properties of files and look for hidden text in background images.
+- **Secret Content**: Deleted files in the Recycle Bin often contain the most critical story clues.
+- **Multiple Endings**: Choices made during file deletion and password entry determine the final outcome.
+</Callout>
+
+<Section icon={Map} title="Getting Started: Navigating the Retro Interface">
+
+The core experience of Desktop Explorer revolves around a simulated 1990s computer desktop. To progress, you must treat the interface as a physical space. Every icon, window, and system message serves a purpose in the investigation. Unlike modern operating systems, this environment rewards slow, methodical clicking and the examination of file metadata.
+
+| Interface Element | Primary Function | Investigation Value |
+| :--- | :--- | :--- |
+| **My Documents** | Stores text files and images | Contains primary narrative clues and lore |
+| **Recycle Bin** | Holds "deleted" system files | Often hides passwords for locked folders |
+| **Network Neighborhood** | Simulates dial-up connectivity | Used to trigger specific story events |
+| **Control Panel** | System settings and display | Necessary for revealing hidden file extensions |
+| **Start Menu** | Program access and shutdown | Triggers the game's ending sequences |
+
+The desktop environment is not just a UI; it is a narrative puzzle. You will find that certain applications require specific system dates or "user permissions" to open. These permissions are usually found by reading through the chat logs of the previous owner, "Uncle," whose digital footprint defines the game's mystery.
+
+<Callout type="warning" title="System Warning">
+Do not ignore "System Error" pop-ups. In Desktop Explorer, these are rarely bugs. Most errors contain hexadecimal codes that serve as passwords for encrypted .zip files found later in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Desktop Explorer Full Game Walkthrough: Step-by-Step">
+
+Navigating the story requires a specific sequence of discoveries. The game is divided into logical "sessions" where the computer's state changes based on your actions. Follow these steps to ensure you do not miss critical evidence required for the True Ending.
+
+<Steps>
+  <Step num="1" title="Initial Boot and File Audit">
+    Start by opening every folder in "My Documents." Read the "ReadMe.txt" file first. It contains a timestamp that correlates to the password for the "Private" folder. Search the desktop background for any distorted pixels; these often hide numeric strings.
+  </Step>
+  <Step num="2" title="The Password Challenge">
+    Access the "Mail Client" application. You will find a series of unsent drafts. The subject lines of these drafts, when read in chronological order, provide the hint for the BIOS password. Entering this password allows you to view "System32" hidden files.
+  </Step>
+  <Step num="3" title="Recovering Deleted Evidence">
+    Open the Recycle Bin and attempt to "Restore All." Some files will fail to restore, citing a disk error. Navigate to the "Disk Defragmenter" tool. Running this mini-game reveals the location of the "Missing_Fragment.dat" file, which is essential for the mid-game twist.
+  </Step>
+  <Step num="4" title="The Chat Log Investigation">
+    Launch the "Instant Messenger" clone. You need to simulate a conversation by selecting the correct prompts. The goal is to extract the "Uncle's" birthday from the automated bot responses. This date (MMDDYYYY) unlocks the "Legacy_Archive" folder.
+  </Step>
+  <Step num="5" title="Final System Override">
+    Once all story files are collected, a new icon will appear: "Shutdown.exe." Before clicking it, ensure you have moved the "Evidence.log" to the "Root" directory. This action is the trigger for the game's most positive resolution.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+If you get stuck, try changing the "System Color Scheme" in the Control Panel to 'High Contrast.' This often reveals invisible text hidden in the white space of certain documents.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Puzzle Solutions and Password Directory">
+
+The puzzles in Desktop Explorer are designed to test your attention to detail. Most solutions are found by cross-referencing information between two different file types, such as a photo and a text document.
+
+| Puzzle Name | Location | Solution Logic | Password/Code |
+| :--- | :--- | :--- | :--- |
+| **Uncle's Vault** | Desktop Archive | Count the number of icons in the 'Work' folder | **8421** |
+| **Encrypted ZIP** | My Documents | First letter of each file in the 'Music' folder | **BEETHOVEN** |
+| **BIOS Override** | Startup Screen | Press F8, F12, and then the Escape key | **Admin95** |
+| **Hidden Partition** | Disk Utility | Match the RGB values of the desktop wallpaper | **255025** |
+| **Final Gateway** | System Root | Reverse the string found in 'Goodbye.txt' | **REPLACEME** |
+
+Advanced puzzles involve using the "Sound Recorder" to play back audio files at 0.5x speed. Often, a voice will whisper a sequence of numbers. These audio-based puzzles are mandatory for accessing the "Secret Files" section of the hard drive.
+
+<Callout type="info" title="Investigation Note">
+The "Uncle's Vault" password changes if you delete any files before attempting to open it. If the code 8421 does not work, check the "Properties" of the Recycle Bin to see how many bytes of data you have removed; that number is the new code.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secrets and Hidden Digital Artifacts">
+
+Beyond the main path, Desktop Explorer contains several "Easter Eggs" and hidden files that expand on the horror elements of the narrative. These are not required for a standard playthrough but are essential for 100% completion.
+
+<CardGrid cols={3}>
+  <Card title="The Ghost in the Machine">
+    - **Trigger**: Open 'Camera.exe' at exactly 12:00 AM system time.
+    - **Effect**: Reveals a hidden image of a figure standing behind the user.
+    - **Reward**: Unlocks the 'Paranoia' achievement.
+  </Card>
+  <Card title="Corrupted Save Data">
+    - **Trigger**: Attempt to save the game while the 'Recycle Bin' is full.
+    - **Effect**: The desktop icons will begin to rearrange themselves into a face.
+    - **Reward**: Provides a hint for the 'True Ending' password.
+  </Card>
+  <Card title="Developer Room">
+    - **Trigger**: Type 'HELP' into the command prompt ten times.
+    - **Effect**: Teleports the file explorer to a folder containing dev notes.
+    - **Reward**: Full backstory on the game's fictional OS development.
+  </Card>
+</CardGrid>
+
+Finding these secrets often requires the player to manipulate the "virtual hardware." For instance, lowering the "Virtual RAM" in the settings can cause the OS to "glitch," revealing text that is otherwise overwritten by system processes.
+
+<Callout type="success" title="Secret Found">
+If you find the file "The_Truth.png," do not try to open it with the default Image Viewer. Drag it into the "Notepad" application instead to read the hidden text embedded in the image's code.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endings Guide and Completion Checklist">
+
+Desktop Explorer features three distinct endings based on how much you discover and how you treat the "Uncle's" legacy. The game tracks your "Ethics Score" based on whether you delete his personal memories or preserve them.
+
+| Ending Name | Requirements | Narrative Outcome |
+| :--- | :--- | :--- |
+| **The Erasure** | Delete all files in 'My Documents' before shutting down | The computer is wiped, and the mystery remains unsolved. |
+| **The Inheritance** | Open the 'Private' folder but do not report the findings | You keep the computer, but the 'Uncle' begins to haunt the UI. |
+| **The Truth** | Collect all 12 'Evidence' logs and upload them to the Web | The mystery is solved, and the digital ghost is laid to rest. |
+
+To achieve the "True Ending," you must be meticulous. Use the following checklist to ensure you have met all the necessary criteria before the final system shutdown.
+
+<Checklist
+  id="ending-requirements"
+  title="True Ending Checklist:"
+  items={[
+    "Recover all 5 deleted files from the Recycle Bin",
+    "Decrypt the 'Legacy_Archive.zip' using the birthday code",
+    "Listen to all 3 'Uncle_Voice' audio logs in full",
+    "Find the hidden 'Evidence.log' in the System32 directory",
+    "Disable the 'Firewall' application to allow the final upload"
+  ]}
+/>
+
+<Callout type="warning" title="Point of No Return">
+Once you initiate the "Final System Override" in the command prompt, you cannot go back to explore other files. Ensure your checklist is complete before entering the command 'RUN SHUTDOWN -F'.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Technical Specifications and System Requirements">
+
+Desktop Explorer is designed to run on modern hardware while perfectly mimicking the limitations of a 1995 PC. While the requirements are low, a stable environment is recommended to prevent actual system crashes from interfering with the game's "fake" crashes.
+
+| Category | Minimum Requirement | Recommended Setup |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Dual Core 2.0 GHz | Quad Core 3.0 GHz |
+| **Memory** | 4 GB RAM | 8 GB RAM |
+| **Graphics** | Integrated Graphics | Dedicated GPU (1GB VRAM) |
+| **Storage** | 500 MB Available Space | 1 GB (for hidden log files) |
+
+Adjusting the "CRT Filter" in the options menu can significantly impact performance. If you experience lag during the "Disk Defragmenter" sequence, consider lowering the scanline intensity.
+
+<Callout type="info" title="Display Tip">
+For the most immersive experience, play in a dark room with the "VHS Filter" set to 75%. This enhances the horror atmosphere and makes the glowing blue screen of the virtual OS feel more authentic.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I find the password for the 'Private' folder?",
+    answer: "The password is the date found in the 'ReadMe.txt' file located in the root directory. It is formatted as MMDD."
+  },
+  {
+    question: "What should I do if the game 'crashes' to a blue screen?",
+    answer: "Wait for 30 seconds. In Desktop Explorer, the 'Blue Screen of Death' is a gameplay element. Look for white text appearing in the error message; it contains the next clue."
+  },
+  {
+    question: "Can I achieve the True Ending on my first playthrough?",
+    answer: "Yes, as long as you do not delete any files and collect all 12 Evidence logs before the final shutdown sequence."
+  },
+  {
+    question: "Is there a way to speed up the Disk Defragmenter mini-game?",
+    answer: "No, the speed is fixed to simulate 90s hardware. Use this time to look at the desktop wallpaper for hidden clues that only appear when the system is under 'load'."
+  }
+]} />
+
+</Section>

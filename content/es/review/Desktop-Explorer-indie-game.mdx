@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego Indie Desktop Explorer: Guía de Recorrido y Acertijos",
+  description: "Domina los acertijos del juego indie Desktop Explorer. Encuentra contraseñas de carpetas ocultas, resuelve enigmas informáticos y sobrevive a la espeluznante atmósfera del escritorio.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Indie+Game+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, guía, acertijos, horror psicológico, contraseñas, recorrido"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Desktop Explorer** es un juego indie que desafía a los jugadores con acertijos realistas en un sistema operativo retro.
+- La **Progresión Principal** gira en torno a encontrar contraseñas ocultas para desbloquear carpetas secuenciales.
+- Los elementos de **Horror Atmosférico** se activan a medida que profundizas en el directorio simulado.
+- Se requieren **Herramientas del Sistema** como la terminal, el editor del registro y el visor hexadecimal para las etapas avanzadas.
+- **El Observador (The Watcher)** es una amenaza activa en el juego que reacciona a tu velocidad de descifrado y a tus errores.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Juego Indie Desktop Explorer">
+
+El **juego indie Desktop Explorer** es un simulador de escritorio de estilo retro que combina la resolución de acertijos intrincados con el horror psicológico. Los jugadores interactúan con un sistema operativo simulado de la era de los 90, navegando a través de directorios anidados, archivos de sistema corruptos y registros de usuario olvidados para descubrir una narrativa oscura. El objetivo principal es simple pero desafiante: resolver acertijos de uso de la computadora para encontrar claves de contraseña que desbloquean carpetas sucesivas. Sin embargo, a medida que profundizas en el árbol de directorios, el sistema comienza a exhibir comportamientos anómalos, dándote la sensación clara e inquietante de que te están observando.
+
+Para ayudarte a navegar por este laberinto digital, hemos recopilado un desglose de los sistemas y mecánicas principales que encontrarás en el sistema operativo.
+
+**Video Destacado:**
+- Aprende las reglas básicas de navegación por directorios y recuperación de contraseñas.
+- Comprende los elementos de horror psicológico ocultos dentro de la interfaz del escritorio.
+- Descubre cómo manejar los eventos espeluznantes y anómalos que se activan durante la resolución de acertijos.
+
+<YouTubeEmbed videoId="qfpuWJIeWCXo" title="Desktop Explorer - Trailer de Fecha de Lanzamiento" />
+
+La simulación cuenta con varias utilidades interactivas, cada una con un papel único en tus esfuerzos de descifrado. Comprender cómo interactúan estas herramientas es esencial para sobrevivir en las capas más profundas del sistema operativo.
+
+| Función del Sistema | Tipo de Acertijo | Nivel de Interacción | Advertencia de Amenaza |
+| :--- | :--- | :--- | :--- |
+| **Explorador de Archivos** | Navegación de directorios | Alto | Archivos espeluznantes ocultos |
+| **Símbolo del Sistema** | Descifrado basado en sintaxis | Medio | Bloqueos del sistema |
+| **Cliente de Correo** | Lectura de historia y pistas | Bajo | Alertas de phishing |
+| **Editor del Registro** | Modificación de variables | Crítico | Glitches permanentes |
+
+<Callout type="info" title="Comportamiento del Sistema">
+A medida que desbloqueas carpetas, el uso de la memoria del sistema aumentará artificialmente. Este es un recurso narrativo programado para simular una máquina comprometida. No cierres el juego; en su lugar, busca herramientas de optimización del sistema dentro del escritorio simulado para limpiar la caché.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Descifrando Contraseñas y Resolviendo Acertijos Básicos">
+
+La progresión en el **juego indie Desktop Explorer** depende totalmente de tu capacidad para localizar y descifrar contraseñas. Estas contraseñas no se generan al azar; están ocultas dentro de los metadatos de las imágenes, el texto de correos electrónicos eliminados u ofuscadas dentro de los registros del sistema.
+
+Para descifrar sistemáticamente estas medidas de seguridad, los jugadores deben aprender a leer el entorno virtual con cuidado. La siguiente tabla detalla los directorios principales a los que debes acceder, dónde encontrar sus pistas y el método de descifrado general requerido.
+
+| Directorio | Fuente de la Pista | Método de Descifrado | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Root/Documents** | Pistas en Readme.txt | Cifrado simple | ★★☆☆☆ |
+| **System32/Drivers** | Volcado hexadecimal | Traducción binaria | ★★★☆☆ |
+| **User/Downloads** | Imágenes corruptas | Inspección de metadatos | ★★★★☆ |
+| **Network/Shared** | Registro de paquetes | Mapeo de puertos | ★★★★★ |
+
+Para desbloquear tu primera carpeta protegida por contraseña y comenzar tu viaje, sigue esta secuencia de descifrado paso a paso.
+
+<Steps>
+  <Step num="1" title="Localiza el Archivo Readme">
+    Navega a la carpeta `C:/User/Documents`. Abre el archivo `Readme.txt`. Nota las letras mayúsculas dispersas de forma anómala a lo largo del texto.
+  </Step>
+  <Step num="2" title="Extrae la Clave de Cifrado">
+    Escribe las letras mayúsculas en orden. Esta secuencia forma una clave de desplazamiento de cifrado César simple (normalmente un desplazamiento de +3 o -3 dependiendo de tu semilla de juego).
+  </Step>
+  <Step num="3" title="Inspecciona los Metadatos de la Imagen">
+    Haz clic derecho en el archivo de imagen llamado `hint.bmp` en el mismo directorio y selecciona 'Propiedades'. Bajo la pestaña de metadatos, localiza la cadena encriptada en la sección de comentarios.
+  </Step>
+  <Step num="4" title="Aplica el Desplazamiento y Desbloquea">
+    Aplica tu clave de cifrado César a la cadena de metadatos. Introduce la contraseña de texto plano resultante en el aviso de la carpeta bloqueada para obtener acceso al siguiente nivel de directorio.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Extensiones de Archivos Ocultos">
+Habilita siempre "Mostrar archivos ocultos" en el panel de configuración del sistema inmediatamente al comenzar el juego. Varias pistas clave de los acertijos se encuentran en archivos `.ini` y `.sys` ocultos que no se muestran con la configuración de vista predeterminada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas Avanzadas de Manipulación del Escritorio">
+
+Una vez que progresas más allá del tercer nivel de carpetas, los acertijos requieren una manipulación más profunda del SO simulado. Ya no puedes confiar en simples archivos de texto; en su lugar, debes utilizar argumentos de línea de comandos y modificaciones del registro para eludir los cortafuegos de seguridad.
+
+El sistema operativo cuenta con un emulador de terminal totalmente funcional. Saber qué comandos ejecutar puede ahorrarte horas de clics sin rumbo.
+
+<CardGrid cols={3}>
+  <Card title="Operaciones de Terminal">
+    - **Consultar directorios ocultos**
+    - Ejecutar diagnósticos del sistema
+    - Forzar la finalización de procesos bloqueados
+  </Card>
+  <Card title="Decodificación con Editor Hex">
+    - **Leer datos binarios puros**
+    - Identificar encabezados de archivos ocultos
+    - Reconstruir imágenes corruptas
+  </Card>
+  <Card title="Registros y Metadatos">
+    - **Rastrear tiempos de modificación**
+    - Buscar firmas de autor ocultas
+    - Extraer marcas de tiempo para cifrados
+  </Card>
+</CardGrid>
+
+Al utilizar la terminal, ejecutar comandos incorrectos puede activar protocolos de seguridad defensivos, bloqueándote el acceso a directorios o acelerando eventos de horror anómalos. Usa la siguiente tabla de referencia de comandos para asegurar una ejecución segura.
+
+| Comando | Utilidad de Destino | Efecto | Nivel de Amenaza |
+| :--- | :--- | :--- | :--- |
+| `sys_decrypt` | Carpetas con contraseña | Solicita la clave de la carpeta | Seguro |
+| `scan_sector` | Sectores del disco duro | Descubre archivos corruptos | Bajo |
+| `override_reg` | Base de datos del registro | Altera variables del sistema | Alto |
+| `net_connect` | Servidor remoto | Activa la actividad del Observador | Crítico |
+
+<Callout type="warning" title="El Protocolo del Observador">
+Ejecutar el comando `net_connect` inicia una conexión remota simulada. Esto activará a la entidad "El Observador" (The Watcher), causando que tu pantalla virtual parpadee, el cursor del ratón se desplace solo y el audio de fondo se distorsione. Solo ejecuta este comando cuando tengas todas las demás pistas preparadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Secretos, Huevos de Pascua y Logros">
+
+Más allá de la progresión de los acertijos principales, el **juego indie Desktop Explorer** presenta una gran cantidad de archivos ocultos y fragmentos de historia que detallan el inquietante trasfondo del sistema operativo. Encontrar estos secretos requiere salirte del camino marcado e investigar directorios que la línea de misión principal nunca te obliga a abrir.
+
+Para lograr el 100% de finalización y desbloquear el final verdadero del juego, debes documentar todas las anomalías y recuperar cada pieza de datos de usuario eliminada.
+
+<Checklist
+  id="desktop-explorer-secrets"
+  title="Lista de Verificación para el 100% de Finalización:"
+  items={[
+    "Localizar y leer las 12 entradas del diario personal",
+    "Encontrar el archivo oculto 'watcher.exe' en la raíz del sistema",
+    "Activar los 5 eventos de anomalía de escritorio distintos",
+    "Desbloquear el registro histórico secreto de la terminal de línea de comandos",
+    "Completar el juego sin fallar ni una sola vez en el aviso de contraseña"
+  ]}
+/>
+
+Rastrear estos archivos anómalos requiere activadores específicos. Usa la tabla de referencia a continuación para localizar las piezas de historia más significativas ocultas dentro de la estructura de archivos del juego.
+
+| Nombre del Archivo | Ubicación | Condición de Activación | Impacto en la Historia |
+| :--- | :--- | :--- | :--- |
+| **watcher.exe** | Directorio raíz | Ejecutar tras 3 inicios fallidos | Explica la IA del Observador |
+| **diary_2001.rtf** | Usuario/Papelera | Recuperar vía línea de comandos | Historia del dueño del sistema |
+| **cam_feed.bin** | Sistema/Drivers | Edición hex de archivo driver | Susto visual de una cámara web |
+
+<Callout type="success" title="Desbloqueo del Final Verdadero">
+Para desbloquear el Final Verdadero, debes copiar `watcher.exe` en la carpeta `Network/Shared` antes de introducir la contraseña del último directorio. Esto sube la entidad a la red, liberándola de tu escritorio local y revelando una escena secreta tras los créditos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes de Desktop Explorer">
+
+Esta sección aborda preguntas comunes y problemas de solución de problemas encontrados al jugar al **juego indie Desktop Explorer**.
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer si el escritorio virtual se bloquea?",
+    answer: "Si el escritorio del juego se bloquea con una pantalla azul, en realidad es un evento de acertijo programado. Lee el código de error que aparece en la pantalla azul; contiene un desplazamiento hexadecimal que se traduce en la contraseña para la siguiente carpeta."
+  },
+  {
+    question: "¿Cómo detengo el desplazamiento del cursor durante los acertijos?",
+    answer: "El desplazamiento del cursor es causado por la entidad del Observador. Para estabilizar temporalmente tu cursor, abre el Administrador de Tareas virtual y finaliza cualquier proceso activo que se ejecute bajo nombres de usuario desconocidos o corruptos."
+  },
+  {
+    question: "¿Puedo quedarme bloqueado fuera de una carpeta permanentemente?",
+    answer: "No. Aunque introducir contraseñas incorrectas activa glitches visuales y sonidos inquietantes, nunca se te bloqueará el progreso de forma permanente. Siempre puedes volver a inspeccionar los directorios en busca de pistas olvidadas."
+  },
+  {
+    question: "¿Dónde está la clave de descifrado para la unidad de red compartida?",
+    answer: "La clave de descifrado de la unidad de red está dividida en dos mitades. La primera mitad se encuentra en los metadatos del archivo 'user_avatar.png', y la segunda mitad debe generarse ejecutando el comando 'scan_sector' en la terminal."
+  }
+]} />
+
+<Callout type="tip" title="Recursos Externos">
+Para actualizaciones en tiempo real y soluciones de acertijos impulsadas por la comunidad, consulta el [Centro de la Comunidad de Steam de Desktop Explorer](https://steamcommunity.com) oficial o consulta las notas del parche oficial del desarrollador de julio de 2026 para cualquier ajuste en el diseño de directorios.
+</Callout>
+
+</Section>

@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Terminal, FileSearch, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Puzzle 8 de Desktop Explorer: Guía Paso a Paso de Desencriptación",
+  description: "Domina el complejo puzzle 8 de Desktop Explorer con nuestra guía detallada, que incluye comandos de terminal, ubicaciones de archivos ocultos y pasos de desencriptación.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+8+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "desktop explorer, puzzle 8, guía, desencriptación, comandos de terminal"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El puzzle 8 de Desktop Explorer** se centra en desencriptar el archivo "Archive_08.dat" que se encuentra en el directorio oculto del sistema.
+- **Requisitos del sistema**: Debes haber restaurado el "Command_Prompt.exe" de la Papelera de reciclaje antes de intentar este puzzle.
+- **Lógica clave**: La solución consiste en cruzar las marcas de tiempo del "Mail_Log.txt" con las cadenas binarias ocultas en el archivo "System.ini".
+- **Advertencia crítica**: Introducir la clave de desencriptación incorrecta tres veces activa un "Evento de Glitch" en todo el sistema que oscurece el escritorio durante 60 segundos.
+- **Recompensa principal**: Resolver este puzzle desbloquea el archivo "Uncle_Final_Message.wav", esencial para el Final Verdadero.
+</Callout>
+
+<Section icon={FileSearch} title="Comprendiendo el Contexto del Puzzle 8 de Desktop Explorer">
+
+El puzzle 8 de Desktop Explorer representa un aumento significativo de la dificultad en la investigación de la fase media-tardía del juego. A diferencia de los puzzles anteriores que dependen de la recuperación de contraseñas simples, este desafío requiere que los jugadores manipulen el sistema de archivos del entorno simulado de Windows 95 y utilicen comandos de terminal. En esta etapa de la aventura de terror de 2026, la interfaz del escritorio comienza a mostrar signos de decadencia digital, haciendo que la búsqueda de pistas sea más atmosférica y tensa.
+
+El puzzle gira en torno a un archivo bloqueado que contiene la evidencia principal sobre la desaparición del anterior dueño de la computadora. Para comenzar, los jugadores deben navegar al directorio `C:\WINDOWS\SYSTEM\TEMP`, que suele estar oculto por defecto.
+
+| Atributo del Puzzle | Especificación | Requisito |
+| :--- | :--- | :--- |
+| **Nombre del Puzzle** | Desencriptación de Archivo 08 | Nivel de Acceso a Archivos 3 |
+| **Archivo Principal** | Archive_08.dat | Encontrado en \SYSTEM\TEMP |
+| **Tipo de Lógica** | Correlación Cronológica | Requiere Mail_Log.txt |
+| **Dificultad** | Difícil (★★★★☆) | Alta atención al detalle |
+| **Impacto en el Final** | Crítico | Necesario para el Final Verdadero |
+
+<Callout type="tip" title="Consejo de Descubrimiento">
+Antes de comenzar el puzzle, asegúrate de haber maximizado el brillo de tu monitor real. Las carpetas "ocultas" en el puzzle 8 de Desktop Explorer suelen ser ligeramente más oscuras que el fondo estándar de la interfaz de usuario, lo que las hace más fáciles de detectar con ajustes de contraste más altos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Archivos Requeridos y Preparación del Sistema">
+
+Para resolver el puzzle 8 de Desktop Explorer, no puedes simplemente adivinar el código. El juego genera una clave semi-aleatoria basada en los metadatos de "Fecha de modificación" de archivos específicos en tu estado de guardado actual. Debes reunir tres artefactos digitales primarios para reconstruir la secuencia de desencriptación.
+
+<CardGrid cols={3}>
+  <Card title="Mail_Log.txt">
+    - **Ubicación**: C:\Documents\Logs
+    - **Propósito**: Proporciona los intervalos de tiempo específicos necesarios para el desplazamiento (offset) de la terminal.
+    - **Nota**: Busca entradas con fecha de octubre de 1995.
+  </Card>
+  <Card title="System.ini">
+    - **Ubicación**: C:\WINDOWS
+    - **Propósito**: Contiene las cadenas binarias crudas utilizadas como base de desencriptación.
+    - **Nota**: Desplázate hasta el final para encontrar la sección [Hidden].
+  </Card>
+  <Card title="Command_Prompt.exe">
+    - **Ubicación**: Papelera de reciclaje
+    - **Propósito**: La herramienta de ejecución necesaria para ejecutar el comando "DECRYPT /A8".
+    - **Nota**: Debe restaurarse al Escritorio para funcionar correctamente.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Archivo Corrupto">
+Si notas que "Mail_Log.txt" está lleno de garabatos o caracteres "0x00", primero debes ejecutar la utilidad "Scandisk.exe" que se encuentra en la carpeta Accesorios. Intentar el puzzle 8 de Desktop Explorer con registros corruptos resultará en un fallo inmediato del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Terminal} title="Guía de Desencriptación Paso a Paso">
+
+Sigue estos pasos precisos para eludir la seguridad de Archive_08.dat. Esta secuencia asume que ya has restaurado el Símbolo del sistema y reunido los archivos necesarios mencionados en la sección anterior.
+
+<Steps>
+  <Step num="1" title="Inicializar la Terminal">
+    Abre el Símbolo del sistema desde tu escritorio. Escribe `cd C:\WINDOWS\SYSTEM\TEMP` y presiona Enter. Deberías ver el cambio de directorio. Si no se encuentra el directorio, no has activado "Mostrar archivos ocultos" en el menú Ver del Explorador de archivos.
+  </Step>
+  <Step num="2" title="Identificar el Desplazamiento (Offset)">
+    Abre "Mail_Log.txt" en la aplicación Bloc de notas. Localiza la última entrada de "Uncle". Anota la marca de tiempo (normalmente 11:42 PM). El "desplazamiento" para el puzzle es la diferencia numérica entre las horas y los minutos (42 - 11 = 31).
+  </Step>
+  <Step num="3" title="Extraer la Cadena Binaria">
+    Abre "System.ini" y busca la línea que comienza con `A8_KEY=`. Verás una cadena de 8 dígitos. Aplica tu desplazamiento (31) a los dos primeros dígitos de esta cadena sumándolos.
+  </Step>
+  <Step num="4" title="Ejecutar Comando de Desencriptación">
+    Regresa al Símbolo del sistema. Escribe el comando `DECRYPT -f Archive_08.dat -k [TuClaveCalculada]`. Reemplaza el texto entre corchetes con tu secuencia final de 8 dígitos.
+  </Step>
+  <Step num="5" title="Acceder al Contenido">
+    Una vez que aparezca el mensaje "Decryption Successful", aparecerá una nueva carpeta llamada "RECOVERED_DATA" en tu escritorio. Ábrela para completar el puzzle 8 de Desktop Explorer.
+  </Step>
+</Steps>
+
+| Sintaxis del Comando | Función | Resultado Esperado |
+| :--- | :--- | :--- |
+| **DIR /H** | Muestra archivos ocultos en la carpeta actual | Lista que incluye Archive_08.dat |
+| **HELP DECRYPT** | Muestra los parámetros del comando | Uso: DECRYPT -f [archivo] -k [clave] |
+| **CLS** | Limpia la pantalla de la terminal | Ventana de terminal vacía |
+| **TYPE System.ini** | Muestra el contenido del archivo en la terminal | Salida de texto de la configuración del sistema |
+
+<Callout type="success" title="Puzzle Completado">
+Tras una desencriptación exitosa, la música de fondo cambiará de un zumbido bajo a una pista de piano melódica, aunque distorsionada. Esto indica que has superado con éxito la barrera del puzzle 8 y ahora te encuentras en el acto final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de Problemas Comunes">
+
+Muchos jugadores encuentran problemas con el puzzle 8 de Desktop Explorer debido a la estricta simulación del juego de las limitaciones de los sistemas operativos de los 90. Si tus comandos fallan o el archivo no se abre, consulta la tabla siguiente para soluciones comunes.
+
+| Mensaje de Error | Causa Probable | Solución Recomendada |
+| :--- | :--- | :--- |
+| **Acceso Denegado** | El archivo está marcado como "Solo lectura" | Clic derecho en el archivo, desmarcar Solo lectura |
+| **Clave Inválida** | Error de cálculo en el Paso 2 | Vuelve a verificar las marcas de tiempo de Mail_Log |
+| **Desbordamiento de Pila** | Demasiadas ventanas abiertas | Cierra el Bloc de notas y Paint antes de ejecutar CMD |
+| **Archivo No Encontrado** | Ruta de directorio incorrecta | Asegúrate de estar en \SYSTEM\TEMP |
+
+<Callout type="warning" title="El Evento de Pantallazo Azul">
+Si recibes un error de "Excepción Fatal" durante el proceso de desencriptación, no reinicies el juego manualmente. Este es un evento programado en el puzzle 8 de Desktop Explorer. Espera a que la computadora simulada se "reinicie" y encontrarás un nuevo archivo de pista llamado "RECOVERY.txt" en el escritorio que proporciona los primeros cuatro dígitos de la clave.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Implicaciones del Lore y Secretos">
+
+Resolver el puzzle 8 de Desktop Explorer no es solo un requisito mecánico; proporciona la visión más profunda del misterio del juego. El archivo "Archive_08.dat" contiene una serie de registros de chat entre "Uncle" y una entidad conocida solo como "The Explorer".
+
+<Checklist
+  id="puzzle-8-secrets"
+  title="Detalles Ocultos a Buscar:"
+  items={[
+    "Los 'metadatos' ocultos en el archivo de audio recuperado mencionan una fecha en 2026.",
+    "Una imagen pixelada de una habitación que se parece sospechosamente a la tuya está escondida en las subcarpetas.",
+    "La entidad 'Explorer' menciona tu nombre de usuario de PC del mundo real en uno de los registros de texto.",
+    "Abrir el archivo exactamente a medianoche desbloquea un logro secreto: 'Búho Nocturno'."
+  ]}
+/>
+
+<Callout type="info" title="Conexión con la Historia">
+La resolución de este puzzle confirma que la computadora que estás "explorando" es en realidad un bucle digital. Los archivos que estás desencriptando en el puzzle 8 fueron escritos por una versión de "ti" de una iteración anterior del ciclo, lo que explica por qué las contraseñas te resultan extrañamente familiares.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Puzzle 8 de Desktop Explorer">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra el archivo Archive_08.dat si no está en la carpeta TEMP?",
+    answer: "Si no está en la carpeta TEMP, es posible que lo hayas movido accidentalmente a la Papelera de reciclaje o a otro directorio. Utiliza la herramienta 'Buscar' (Inicio > Buscar > Archivos o carpetas) y busca 'Archive_08' para localizar su posición actual."
+  },
+  {
+    question: "¿Es la contraseña para el puzzle 8 de Desktop Explorer la misma para todos los jugadores?",
+    answer: "No, la contraseña es dinámica. Aunque la lógica (Marca de tiempo + cadena de System.ini) sigue siendo la misma, los números reales varían según la semilla específica de tu juego generada al inicio de una nueva partida."
+  },
+  {
+    question: "¿Puedo saltarme el puzzle 8 y aun así obtener el 'Final Bueno'?",
+    answer: "No. El puzzle 8 proporciona el archivo 'Uncle_Final_Message.wav'. Sin este archivo, no podrás probar la identidad de la entidad en la confrontación final, lo que te llevará al final 'Perdido en la Máquina'."
+  },
+  {
+    question: "¿Qué pasa si borro Archive_08.dat por error?",
+    answer: "Si borras el archivo y vacías la Papelera de reciclaje, debes usar la utilidad 'Undelete' que se encuentra en la carpeta DOS_Tools. Si no has desbloqueado DOS_Tools, tendrás que cargar un guardado anterior."
+  }
+]} />
+
+</Section>

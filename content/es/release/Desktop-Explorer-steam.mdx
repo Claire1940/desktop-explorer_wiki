@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Desktop Explorer en Steam: Soluciones de Puzles y Recorrido de la Demo",
+  description: "Descifra el misterio del SO retro en Desktop Explorer en Steam. Domina cada puzle de la interfaz, decodifica archivos ocultos y descubre la trágica historia familiar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/f8fafc?text=Desktop+Explorer+Steam+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Desktop Explorer en Steam** desafía a los jugadores a navegar por un sistema operativo retro simulado para resolver complejos puzles basados en texto y archivos.
+- **Las mecánicas clave** incluyen la activación de archivos ocultos del sistema, el cambio de nombre de documentos corruptos y el análisis de metadatos de archivos para encontrar contraseñas.
+- **La prueba final** requiere localizar tres piedras planas distintas (G, M y P) para construir una lente de prisma y revelar la verdad.
+- **Los secretos de la historia** pintan un cuadro trágico de pérdida familiar, deterioro de la memoria y un devastador incendio histórico.
+- **Las soluciones críticas** requieren una manipulación precisa del texto, razonamiento espacial y una atención cuidadosa a la estructura de directorios simulada del juego.
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer en Steam: Resumen de la Demo y Videoguía">
+
+La demo oficial de **Desktop Explorer en Steam** presenta a los jugadores Next OS, una simulación altamente detallada de un sistema operativo de escritorio de finales de los años 90. Esta interfaz sirve como lienzo para una aventura de misterio psicológico. A medida que los jugadores rebuscan en carpetas, configuraciones del sistema y archivos corruptos, descubren una historia profundamente personal sobre la familia, la demencia y el trauma olvidado. Tener éxito en este mundo retro requiere pensar como un técnico informático, examinando las propiedades de los archivos y manipulando el propio sistema operativo.
+
+**Puntos clave del vídeo:**
+- **Navegación del SO**: Aprende a gestionar el espacio limitado de las ventanas y a localizar archivos ocultos del sistema.
+- **Progresión de los puzles**: Soluciones paso a paso para los primeros avisos de la aventura de texto y el acertijo del papiro.
+- **Manipulación de archivos**: Descubre cómo restaurar llaves corruptas y renombrar archivos para eludir los bloqueos de seguridad.
+- **Apilamiento de piedras y mural**: Una guía completa para localizar las tres piedras planas y descifrar las preguntas finales basadas en colores.
+
+<YouTubeEmbed videoId="sMgc9w_PT1U" title="Desktop Explorer - Steam Next Fest - Junio 2026 - Demo" />
+
+### Resumen Técnico y Especificaciones del Sistema
+
+Para ejecutar la simulación de Next OS sin problemas, tu sistema debe cumplir con los estándares básicos de emulación retro. La siguiente tabla detalla los requisitos esenciales para el lanzamiento de la demo de 2026 en Steam.
+
+| Requisito del Sistema | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 10 64-bit | Windows 11 64-bit |
+| **Procesador** | Intel Core i3 o equivalente | Intel Core i5 o equivalente |
+| **Memoria** | 4 GB de RAM | 8 GB de RAM |
+| **Gráficos** | Tarjeta compatible con DirectX 11 | GPU dedicada con 2 GB de VRAM |
+| **Almacenamiento** | 1 GB de espacio disponible | 2 GB de espacio disponible |
+| **Estilo Estético** | Filtro CRT, audio analógico retro | Simulación CRT de alta fidelidad |
+
+<Callout type="info" title="Limitación de la Interfaz">
+Next OS impone un límite estricto de ventanas. Si no puedes abrir un nuevo puzle o documento, cierra las ventanas inactivas para liberar memoria del sistema y espacio en el escritorio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido paso a paso: Puzles del 1 al 5">
+
+El viaje en **Desktop Explorer en Steam** comienza con la configuración básica del sistema. Tras iniciar Next OS, selecciona tu nombre de usuario y accede al menú de inicio. Lee el diario "Chronolog" para entender la relación del protagonista con el tío Halibut, que padece una demencia grave. El tío ha dejado su ordenador a "Guppy" (el apodo del jugador) con un misterioso programa llamado Desktop Explorer dentro de la carpeta "Open Me".
+
+<Steps>
+  <Step num="1" title="Bypassing del directorio Open Me">
+    Localiza la carpeta llamada **Open Me** en el escritorio. Haz doble clic para abrirla y ejecuta el programa Desktop Explorer. Cuando se te pida una contraseña, introduce el apodo mencionado en la carta de Chronolog: **Guppy** o **Halibut** (según el perfil de usuario activo). Esto iniciará el programa de ayuda interactivo, Pizarro, quien te guiará a través de las mecánicas iniciales de los puzles.
+  </Step>
+  <Step num="2" title="La boca de la cueva (Fortuna)">
+    El primer archivo de la aventura de texto describe a un viajero perdido entre un bosque frondoso y el mar, descubriendo la entrada de una cueva estrecha. Lee el texto descriptivo con atención. El nombre de la cueva está escrito en la arena que se desvanece. Introduce la contraseña **Fortuna** para desbloquear el siguiente directorio y avanzar más profundamente en la caverna.
+  </Step>
+  <Step num="3" title="Encender la antorcha">
+    Dentro de la cueva, te rodea la oscuridad. Encuentras un palo y un pergamino. El texto insinúa una voz que porta fuego. Para encender tu antorcha, debes introducir la contraseña **Nana** (derivada del texto "Nana ilumina mi camino"). Una vez introducida, se activa la mecánica de luz de la antorcha, revelando nuevos detalles en la pantalla simulada.
+  </Step>
+  <Step num="4" title="El acertijo del papiro doblado">
+    Abre el documento del papiro. El texto presenta un acertijo: "Riego las flores con mi manguera. Cuando lo sabes, uso mi nariz". El resto del texto está oculto por el formato de la ventana. Para resolver esto, debes ajustar manualmente el ancho de la ventana y activar **Ajuste de línea** (Word Wrap) en el submenú del bloc de notas. Al alinear el texto doblado se revela la palabra oculta. Introduce **Elephant** (Elefante) para continuar.
+  </Step>
+  <Step num="5" title="Leer entre líneas">
+    Llegas a un callejón sin salida con paredes de cueva delgadas. La pista del sistema te dice que leas entre líneas y encuentres la fuente de la verdad. Abre el archivo de bloc de notas que contiene la narración, haz clic en el menú **Ver** y selecciona **Código fuente** o inspecciona los datos brutos del documento. Oculta dentro del formato del código, encontrarás la palabra **Salve**. Introdúcela para romper la pared.
+  </Step>
+</Steps>
+
+### Referencia Rápida de Soluciones de Puzles (1-5)
+
+Usa esta tabla de referencia para eludir rápidamente el bloque inicial de carpetas de seguridad en la demo.
+
+| Número de Puzle | Concepto del Puzle | Ubicación de la Pista | Entrada Requerida | Desbloqueo Resultante |
+| :--- | :--- | :--- | :--- | :--- |
+| **Puzle 1** | Directorio Inicial | Carta Chronolog | **Halibut** o **Guppy** | Inicia el programa Pizarro |
+| **Puzle 2** | Entrada de la Cueva | Texto en la Arena | **Fortuna** | Desbloquea la cámara oscura |
+| **Puzle 3** | Encendido de Antorcha | Pergamino | **Nana** | Activa la mecánica de radio de luz |
+| **Puzle 4** | Acertijo del Papiro | Ajuste de Línea / Ventana | **Elephant** | Revela el camino lateral oculto |
+| **Puzle 5** | Paredes Delgadas | Código Fuente del Doc | **Salve** | Derrumba la pared para revelar tres puertas |
+
+<Callout type="warning" title="Sintaxis de Contraseñas">
+Las contraseñas en Next OS distinguen entre mayúsculas y minúsculas. Asegúrate de que el Bloqueo de Mayúsculas esté configurado correctamente antes de introducir soluciones, ya que una capitalización incorrecta provocará el rechazo del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Recorrido paso a paso: Puzles del 6 al 10">
+
+Tras superar el quinto puzle, te encuentras con tres puertas: dos pequeñas laterales y una gran puerta central. Un archivo de llave corrupto descansa en el suelo. Esta fase de **Desktop Explorer en Steam** requiere manipulación avanzada de archivos y navegación por directorios a nivel de sistema.
+
+### Las tres piedras planas
+
+Para resolver el puzle del altar al final del juego, debes localizar tres piedras planas dispersas por diferentes directorios del SO. Estas piedras representan diferentes tamaños y deben apilarse correctamente.
+
+<CardGrid cols={3}>
+  <Card title="Piedra plana G">
+    - **Tamaño**: Grande (L)
+    - **Ubicación**: Se encuentra en el directorio de la puerta izquierda
+    - **Función**: Sirve como la base robusta de la pila de piedras
+  </Card>
+  <Card title="Piedra plana M">
+    - **Tamaño**: Mediana (M)
+    - **Ubicación**: Recuperada del camino de progresión principal
+    - **Función**: Se coloca en el medio de la pila para equilibrar el peso
+  </Card>
+  <Card title="Piedra plana P">
+    - **Tamaño**: Pequeña (S)
+    - **Ubicación**: Oculta detrás de la imagen de la pared grabada
+    - **Función**: Se coloca en la parte superior para completar el prisma focal
+  </Card>
+</CardGrid>
+
+Para avanzar por los capítulos finales de la demo, sigue estas instrucciones precisas del sistema:
+
+1. **Restaurar la llave**: Localiza el archivo corrupto `error.doc` o `error.key`. Duplica el archivo para evitar su pérdida permanente. Cambia la extensión del archivo duplicado a `.jpg` o `.png`. Abre la imagen restaurada para revelar un grabado nítido de la llave. La palabra revelada es **Portonus**. Introdúcela para abrir la puerta central.
+2. **Identificar al autor**: Dentro de la cámara central, las paredes están cubiertas con la frase "Atrévete a decir mi nombre". Abre las propiedades del archivo de texto. Ve a la pestaña Detalles y localiza el campo de metadatos **Autor**. El nombre del autor es **Cassandra**. Introduce este nombre para revelar el pasaje más profundo y oscuro.
+3. **Cruzar el Rubicón**: En la oscuridad abrumadora, cambia las opciones de carpeta de tu sistema operativo. Selecciona **Ver archivos y carpetas ocultos**. Esta acción revela un directorio oculto llamado **Rubicon**. Introducir esta palabra te permite ignorar la advertencia de Cassandra y llegar al altar de piedra.
+4. **Apilar las piedras**: Abre las tres imágenes de las piedras planas (G, M y P) simultáneamente. Arrastra y apila las ventanas una encima de otra en orden descendente (Grande abajo, Mediana en medio, Pequeña arriba). Esto activa una reacción física en la cueva, desmoronando las piedras para revelar fragmentos de cuarzo.
+5. **Instalar la lente de cuarzo**: Los fragmentos de cuarzo actúan como un filtro de lente de color sobre las ventanas del sistema. Abre la imagen del mural y aplica los diferentes filtros de color (Rojo, Azul, Amarillo) para revelar dibujos y textos ocultos.
+
+### Respuestas al acertijo del mural del altar
+
+Una vez que la lente de cuarzo esté activa, el sistema te hará cuatro preguntas distintas basadas en los detalles ocultos del mural.
+
+| Pregunta del Mural | Color de Lente Requerido | Detalle Oculto Revelado | Respuesta Correcta |
+| :--- | :--- | :--- | :--- |
+| **¿Qué animal se está bañando?** | Filtro Azul | Forma de cocodrilo en el agua | **Cocodrilo del Nilo** |
+| **¿Cuántos ojos presencian la dicha?** | Filtro Amarillo | Ojos brillantes en el fondo | **14** |
+| **¿Cómo se manifiesta la ira?** | Filtro Rojo | Llamas rodeando el bote | **Fuego** |
+| **¿Quién es el hombre muerto?** | Análisis multicolor | Referencia cruzada del diario | **Walleye** |
+
+<Callout type="success" title="Demo Completada">
+Responder correctamente a la cuarta pregunta activa una anulación del sistema. Pizarro bloqueará la interfaz, confirmando que has completado con éxito la demo de Desktop Explorer del Next Fest.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Logros del sistema y lista de verificación">
+
+Para experimentar plenamente la profundidad narrativa de **Desktop Explorer en Steam**, los jugadores deben esforzarse por descubrir cada documento oculto y registro del sistema. Muchos de estos archivos no son estrictamente necesarios para pasarse el juego, pero proporcionan un contexto crítico sobre la vida pasada del tío como pescador comercial y el trágico incendio que se cobró la vida de su hermano.
+
+<Checklist
+  id="demo-completion"
+  title="Objetivos para completar la demo al 100%:"
+  items={[
+    "Localizar y leer las 5 entradas de Chronolog",
+    "Encontrar los escaneos médicos ocultos en el directorio del sistema",
+    "Desbloquear el menú secreto de configuración del salvapantallas",
+    "Completar la demo sin usar las pistas de la bombilla de Pizarro",
+    "Identificar la verdadera identidad de los miembros del Angler Trio"
+  ]}
+/>
+
+### Archivos de historia ocultos y ubicaciones
+
+Indagar en los archivos de configuración del sistema revela la trágica historia de la familia. Usa la siguiente tabla para localizar estas piezas narrativas opcionales.
+
+| Nombre del Archivo | Ruta del Directorio | Relevancia en la Historia | Condición de Desbloqueo |
+| :--- | :--- | :--- | :--- |
+| `groceries.txt` | `/System/User/Notes/` | Detalles sobre el deterioro de la memoria del tío | Accesible desde el inicio |
+| `checklist.doc` | `/System/User/Notes/` | Muestra tareas diarias olvidadas por la demencia | Accesible desde el inicio |
+| `medical_scan.pdf` | `/System/Archive/Scans/` | Confirma el diagnóstico clínico del tío | Revelar archivos ocultos en el Puzle 7 |
+| `angler_trio.jpg` | `/System/Archive/Photos/` | Muestra a los tres pescadores: Walleye, Halibut, Guppy | Renombrar imagen corrupta en el Puzle 6 |
+
+<Callout type="tip" title="Huevo de Pascua">
+Dejar el sistema Next OS inactivo durante diez segundos activa un salvapantallas de tuberías retro. Este salvapantallas contiene pequeñas pistas de coordenadas que apuntan a la ubicación física del antiguo bote de pesca de la familia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo descargo la demo de Desktop Explorer en Steam?",
+    answer: "La demo está disponible directamente en la página oficial de la tienda de Steam. Busca Desktop Explorer, localiza el banner de la demo en el lado derecho y haz clic en descargar para instalar Next OS en tu PC."
+  },
+  {
+    question: "¿Qué debo hacer si Pizarro dice que tengo demasiadas ventanas abiertas?",
+    answer: "Next OS tiene un límite estricto de sistema de 10 ventanas activas simultáneas. Para abrir nuevos documentos de puzles o imágenes, cierra tus archivos de bloc de notas, visores de imágenes o menús de configuración activos que ya no necesites."
+  },
+  {
+    question: "¿Cómo encuentro la tercera piedra plana para el puzle de apilamiento?",
+    answer: "La piedra plana pequeña (Piedra P) está oculta detrás de la imagen de la pared grabada. Debes abrir el archivo de la pared grabada, usar tu herramienta de antorcha para iluminar la esquina inferior y arrastrar el archivo de la piedra hacia tu directorio principal."
+  },
+  {
+    question: "¿Hay alguna forma de reiniciar los puzles si me quedo permanentemente atascado?",
+    answer: "Sí, puedes restaurar cualquier archivo a su estado original haciendo clic derecho en el icono del archivo y seleccionando Restaurar estado original. Alternativamente, puedes usar la función de duplicar para crear copias nuevas de los archivos del puzle."
+  }
+]} />
+
+<Callout type="info" title="Centro de la Comunidad">
+Para discusiones avanzadas sobre puzles, consejos de personalización de la interfaz y teorías profundas sobre la historia, visita el Centro de la Comunidad oficial de Steam para Desktop Explorer.
+</Callout>
+
+</Section>

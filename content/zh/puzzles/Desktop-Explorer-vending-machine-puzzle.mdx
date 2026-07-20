@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer 自动售货机谜题：分步指南",
+  description: "卡在 Desktop Explorer 自动售货机谜题了？按照我们的详细指南找到隐藏文件、解码员工备忘录并解锁秘密磁盘。",
+  category: "指南",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Vending+Machine+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **主要谜题**：**Desktop Explorer 自动售货机谜题**需要玩家在系统目录中找到模拟的 `Vending.exe` 应用程序。
+- **关键道具**：你必须从回收站中恢复已删除的 `Quarter.dat` 文件，用作虚拟货币。
+- **密码**：按顺序输入 **B4 -> C2 -> A1** 以强制进行系统覆盖并弹出加密软盘。
+- **关键提示**：查看隐藏系统目录中的 `memo_95.txt` 文件，获取有关价格变动和硬币卡塞的线索。
+- **剧情奖励**：解开此谜题将解锁 `Project_Aegis.pdf` 文件，揭示关于你叔叔神秘失踪的关键细节。
+</Callout>
+
+<Section icon={Map} title="寻找茶水间文件">
+
+在 Desktop Explorer 的复古 Windows 95 操作系统中导航，需要对隐藏目录和系统文件保持敏锐的洞察力。要开始解决 **Desktop Explorer 自动售货机谜题**，你必须首先找到虚拟茶水间应用程序。该程序模拟了你叔叔用来隐藏加密数据的办公室自动售货机。
+
+可执行文件在桌面上并不能直接看到。相反，玩家必须浏览一系列模拟老式文件结构的系统文件夹。访问这些文件需要通过找到正确的目录路径来绕过模拟的管理员权限。
+
+| 文件名 | 目录路径 | 文件大小 | 所需状态 |
+| --- | --- | --- | --- |
+| `Vending.exe` | `C:\Windows\System32\Drivers\` | 1.2 MB | 已锁定 |
+| `Quarter.dat` | `C:\RecycleBin\Temp\` | 4 KB | 已删除 |
+| `memo_95.txt` | `C:\MyDocuments\Work\` | 12 KB | 可读 |
+
+<Callout type="warning" title="系统安全警告">
+在未恢复正确的货币文件的情况下尝试启动 `Vending.exe` 将导致“未检测到资金”系统崩溃，从而迫使你重启虚拟操作系统。请务必先获取你的虚拟硬币。
+</Callout>
+
+要解锁该目录，你必须运行系统工具文件夹中的命令行实用程序。授予管理员访问权限后，即可安全启动可执行文件。然而，在投入正确的数字货币之前，机器将一直保持闲置状态。
+
+</Section>
+
+<Section icon={Target} title="破译系统代码">
+
+自动售货机应用程序运行后，你将看到一个显示各种零食和饮料的像素化界面。每个商品都有对应的价格和两位数的选择代码。仅凭运气随机点击商品会很快耗尽你的虚拟硬币，从而导致死胡同。
+
+要找到正确的顺序，你必须分析硬盘上留下的本地聊天记录和文本文件。最重要的线索位于 `memo_95.txt` 中，其中详细描述了茶水间机器中经常出现的硬件故障。根据该文件的记录，某些按键组合会触发机器内部存储驱动器的硬重置。
+
+| 商品名称 | 选择代码 | 价格（信用点） | 输出结果 |
+| --- | --- | --- | --- |
+| 樱桃汽水 | A1 | 1.50 | 普通饮料（无进度推进） |
+| 盐味薯片 | B4 | 1.00 | 带有线索条的空袋子 |
+| 巧克力棒 | C2 | 1.25 | 糖分冲动效果（加快光标移动速度） |
+| 加密磁盘 | Secret Combo | 0.00 | 关键剧情推进物品 |
+
+<Callout type="tip" title="隐藏的文件扩展名">
+在模拟的文件夹选项中启用“显示隐藏的文件扩展名”。这将揭示某些文本文件实际上是伪装的批处理脚本，其中包含自动输入的序列。
+</Callout>
+
+通过将价格与系统日志进行交叉比对，玩家可以推断出，当以特定顺序输入特定的信用额度时，机器的内存缓冲区会发生溢出。这种溢出是迫使机器弹出加密磁盘而不是普通零食的关键。
+
+</Section>
+
+<Section icon={Sparkles} title="解决 Desktop Explorer 自动售货机谜题">
+
+要成功完成 **Desktop Explorer 自动售货机谜题**，你必须执行一系列精确的文件操作和应用内输入。请仔细按照以下步骤操作，以确保系统不会将你锁定在外。
+
+<Steps>
+  <Step num="1" title="检索货币文件">
+    导航至回收站并找到 `Quarter.dat`。右键单击该文件并选择“还原”，将其送回活动内存目录。
+  </Step>
+  <Step num="2" title="启动应用程序">
+    从驱动程序文件夹中打开 `Vending.exe`。界面左下角现在应该显示“Credits: 1.00”。
+  </Step>
+  <Step num="3" title="输入过载序列">
+    点击界面按钮，按顺序输入以下代码：**B4**，然后是 **C2**，最后是 **A1**。这个特定的顺序会触发内存溢出。
+  </Step>
+  <Step num="4" title="提取加密磁盘">
+    虚拟机将冻结，一个名为 `Secret_Disk.bin` 的新文件将出现在你的模拟桌面上。
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="选项 A1：樱桃汽水">
+    - **成本**：1.50 信用点
+    - **结果**：掉落一罐普通苏打水
+    - **用途**：纯外观效果，不推进主线剧情
+  </Card>
+  <Card title="选项 B4：盐味薯片">
+    - **成本**：1.00 信用点
+    - **结果**：掉落一张线索纸条
+    - **用途**：对于理解密码结构至关重要
+  </Card>
+  <Card title="选项 C2：巧克力棒">
+    - **成本**：1.25 信用点
+    - **结果**：加快系统运行速度
+    - **用途**：有助于稍后绕过有时间限制的安全协议
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="谜题完成">
+生成 `Secret_Disk.bin` 后，将其直接拖入桌面上的 `Decryptor.exe` 工具中，即可解锁游戏的下一个重要故事章节。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="故障排除与错误处理">
+
+由于 Desktop Explorer 模拟的是一个不稳定的旧操作系统，玩家在解决此谜题时可能会遇到模拟的错误。如果你输入了错误的代码或删除了关键文件，游戏提供了内置的恢复方法以防止永久性卡死。
+
+了解这些错误代码对于维持你的进度至关重要，无需从头开始重新启动整个游戏。
+
+| 错误代码 | 含义 | 直接原因 | 解决方案 |
+| --- | --- | --- | --- |
+| Error 404 | 可执行文件丢失 | `Vending.exe` 被移动 | 从原始目录恢复 |
+| Error 502 | 硬币卡塞 | 存在多个 `Quarter.dat` | 删除 Temp 中的重复文件 |
+| Error 909 | 拒绝访问 | 用户权限未解决 | 先运行 `admin_bypass.bat` |
+
+<Checklist
+  id="puzzle-readiness"
+  title="谜题前准备清单："
+  items={[
+    "验证 Quarter.dat 已恢复到活动内存文件夹中",
+    "关闭所有后台应用程序以防止系统卡顿",
+    "确保 Decryptor.exe 已安装并在桌面上准备就绪",
+    "通过模拟软盘驱动器备份你当前的保存状态"
+  ]}
+/>
+
+<Callout type="info" title="系统恢复提示">
+如果虚拟操作系统完全崩溃，请使用主菜单中的“安全模式启动”选项将所有解谜必需的文件恢复到默认位置。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="故事与背景设定影响">
+
+成功绕过自动售货机的安全措施不仅能推进游戏进度。解密后的文件还包含你叔叔的个人日志，详细记录了他对电脑系统本身日益增长的偏执。
+
+这些文件表明，自动售货机应用程序并不是一个游戏，而是一个安全的保险库，旨在防止敏感的公司数据落入监控网络机构的手中。
+
+<Callout type="info" title="背景设定发现">
+解密文件显示，“自动售货机”是开发人员使用的一个比喻，用来描述位于你叔叔工作的真实办公大楼内的物理数据传输枢纽。
+</Callout>
+
+随着你将这些数字碎片拼接在一起，模拟操作系统与现实世界谜团之间的界限开始变得模糊，为游戏的最终章节奠定了基础。
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "如果我不小心删除了 Quarter.dat 文件该怎么办？",
+    answer: "如果你清空了装有 Quarter.dat 的回收站，请导航至系统工具文件夹并运行 recovery.exe 以恢复所有最近删除的系统项目。"
+  },
+  {
+    question: "我可以在没有找到备忘录的情况下解决 Desktop Explorer 自动售货机谜题吗？",
+    answer: "是的，如果你已经知道代码序列（B4 -> C2 -> A1），可以直接将其输入到应用程序中，而无需阅读提示文件。"
+  },
+  {
+    question: "为什么我打开 Vending.exe 应用程序时它会崩溃？",
+    answer: "如果尚未解锁管理员权限，就会发生这种情况。在启动应用程序之前，请先运行位于系统文件夹中的 admin_bypass.bat 脚本。"
+  }
+]} />
+
+<Callout type="tip" title="需要更多帮助？">
+如需了解其他谜题解答、文件位置和故事攻略，请访问我们的社区中心和活跃玩家论坛。
+</Callout>
+
+</Section>

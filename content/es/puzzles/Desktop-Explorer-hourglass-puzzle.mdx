@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, FileText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Puzle del Reloj de Arena de Desktop Explorer: Guía de Solución Paso a Paso",
+  description: "Domina el puzle del reloj de arena de Desktop Explorer con nuestra guía experta. Aprende a manipular la hora del sistema y desbloquear archivos ocultos en este horror retro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Hourglass+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, puzle reloj de arena, solución, guía, reloj del sistema, horror retro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Puzle del reloj de arena de Desktop Explorer**: Un desafío ambiental basado en el tiempo ubicado en el directorio estilo System32.
+- **Mecánica Central**: Los jugadores deben sincronizar el **Reloj del Sistema** con las marcas de tiempo encontradas en archivos .LOG corruptos.
+- **Objeto Clave**: Se requiere la utilidad `TIME_SYNC.EXE` para saltar el bucle de carga infinito.
+- **Advertencia Crítica**: Ajustar el reloj a una fecha anterior a **1995** puede provocar un fallo en todo el sistema y un susto (jumpscare) único.
+- **Recompensa Final**: Desbloquea la carpeta encriptada "Proyecto Reloj de Arena" que contiene lore esencial para el Final Verdadero.
+</Callout>
+
+<Section icon={Clock} title="Comprendiendo el Puzle del Reloj de Arena de Desktop Explorer">
+
+El **puzle del reloj de arena de Desktop Explorer** es uno de los desafíos más atmosféricos del juego, apareciendo a mitad de la investigación de la misteriosa PC retro. A diferencia de los puzles estándar basados en el inventario, este desafío requiere que los jugadores interactúen directamente con los elementos de la interfaz de usuario del sistema operativo simulado. El puzle se activa cuando intentas abrir la carpeta "Clasificado", lo que resulta en un cursor de reloj de arena permanente que impide cualquier interacción adicional hasta que se resuelva la lógica del bucle temporal.
+
+<Callout type="tip" title="Pista Visual">
+Observa de cerca el cursor del reloj de arena. Si la arena fluye hacia arriba, te encuentras en un "Estado de Archivo Invertido", lo que significa que debes buscar pistas en la Papelera de Reciclaje en lugar de en los directorios activos.
+</Callout>
+
+Para navegar con éxito por esta sección, debes entender cómo el juego simula la latencia de archivos de la era de los 90. El puzle no es solo un juego de espera; es una puerta lógica que comprueba si el jugador ha descubierto la "Fecha Perdida" mencionada en los registros de chat al principio del juego.
+
+| Elemento del Puzle | Función en el Sistema | Nivel de Importancia |
+| :--- | :--- | :--- |
+| **Reloj del Sistema** | Interfaz principal para la manipulación del tiempo | **Crítico** |
+| **Icono de Reloj de Arena** | Indica un bloqueo por proceso en segundo plano | Alto |
+| **TIME_SYNC.SYS** | El archivo controlador que controla los estados del cursor | Medio |
+| **Registro del Kernel** | Contiene la marca de tiempo específica necesaria | **Crítico** |
+| **Batería CMOS** | Objeto oculto que evita los reinicios del reloj | Opcional |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para la Solución del Reloj de Arena">
+
+Resolver el **puzle del reloj de arena de Desktop Explorer** requiere una secuencia específica de acciones dentro del BIOS virtual y los entornos del Escritorio. Sigue estos pasos para romper el bucle de carga y acceder a los datos encriptados.
+
+<Steps>
+  <Step num="1" title="Localiza el Registro Corrupto">
+    Navega al directorio `C:\TEMP` y busca un archivo llamado `BOOT_ERR.LOG`. Ábrelo usando el Editor de Texto. Desplázate hasta el final para encontrar una marca de tiempo marcada como "FALLO CRÍTICO". Anota la fecha y hora exactas (usualmente 17 de julio de 1995, a las 03:14 AM).
+  </Step>
+  <Step num="2" title="Accede a la Configuración del Sistema">
+    Haz clic en el menú "Inicio" y selecciona "Configuración", luego "Panel de Control". Abre la utilidad "Fecha/Hora". Aquí es donde ocurre la manipulación principal para el **puzle del reloj de arena de Desktop Explorer**.
+  </Step>
+  <Step num="3" title="Sincroniza el Reloj">
+    Cambia manualmente la fecha del sistema para que coincida con la marca de tiempo encontrada en el Paso 1. Debes ser preciso con un margen de un minuto. Una vez introducidos los valores, no hagas clic en "Aplicar" todavía.
+  </Step>
+  <Step num="4" title="Ejecuta Time_Sync.exe">
+    Mientras la ventana de Fecha/Hora está abierta, ejecuta `TIME_SYNC.EXE` desde la carpeta `C:\DOS`. El cursor del reloj de arena debería empezar a parpadear entre el puntero estándar y el icono de carga.
+  </Step>
+  <Step num="5" title="Confirma la Brecha">
+    Haz clic en "Aplicar" en la ventana de Fecha/Hora. La pantalla tendrá un glitch momentáneo y la carpeta "Clasificado" finalmente se abrirá, revelando los archivos ocultos del proyecto.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Estabilidad del Sistema">
+Si el reloj de arena se vuelve rojo durante este proceso, cierra todas las ventanas abiertas inmediatamente. Un reloj de arena rojo indica que la entidad "Acechador" ha detectado tu manipulación del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparación de Anomalías Temporales y Efectos">
+
+Durante el **puzle del reloj de arena de Desktop Explorer**, el estado de la computadora cambia según la era que establezcas en el reloj del sistema. Diferentes años revelan diferentes versiones del escritorio, proporcionando lore opcional y secretos.
+
+<CardGrid cols={3}>
+  <Card title="1992: Modo Legado">
+    - **Estilo de UI**: Escala de grises/Minimalista
+    - **Secretos**: Notas de desarrollo temprano
+    - **Riesgo**: Soporte de programas limitado
+  </Card>
+  <Card title="1995: Modo Historia">
+    - **Estilo de UI**: Windows 95 estándar
+    - **Secretos**: Progresión de la trama principal
+    - **Riesgo**: Encuentros con entidades estándar
+  </Card>
+  <Card title="1999: Modo Glitch">
+    - **Estilo de UI**: Corrupto/Neón
+    - **Secretos**: Huevos de pascua ocultos del Y2K
+    - **Riesgo**: Alta frecuencia de cuelgues
+  </Card>
+</CardGrid>
+
+Ajustar el reloj al futuro (cualquier fecha posterior a 2026) resultará en un error de "Archivo no encontrado" para todo el disco duro, forzando un reinicio. Este es un error común para los jugadores que intentan saltarse la lógica del **puzle del reloj de arena de Desktop Explorer**.
+
+| Rango de Fechas | Tema del Escritorio | Archivos Disponibles | Nivel de Seguridad |
+| :--- | :--- | :--- | :--- |
+| **Pre-1994** | BIOS Retro | Solo Config. del Sistema | Bajo |
+| **1995-1996** | Azul Clásico | Todos los Archivos de Usuario | Medio |
+| **1997-1998** | Fondo Personalizado | Cintas Encriptadas | Alto |
+| **Post-2000** | Estática/Vacío | Ninguno (Corrupto) | **Máximo** |
+
+</Section>
+
+<Section icon={Shield} title="Solución de Errores Comunes del Puzle">
+
+Muchos jugadores encuentran problemas donde el reloj de arena persiste incluso después de cambiar el reloj. Esto suele suceder debido a procesos en segundo plano que "bloquean" la hora del sistema.
+
+**Problemas Comunes y Soluciones:**
+- **El Reloj se Reinicia**: Esto sucede si no has borrado el archivo `AUTOEXEC.BAT` en el directorio raíz. Bórralo para permitir cambios de hora permanentes.
+- **El Reloj de Arena está Congelado**: Si la animación se detiene por completo, el juego se ha bloqueado. Debes usar el comando `CTRL+ALT+DEL` dentro del juego para reiniciar el shell virtual.
+- **Falta el Icono de Fecha/Hora**: Si el icono no aparece en el Panel de Control, debes encontrar el archivo `TIMEDATE.CPL` en la Papelera de Reciclaje y "Restaurarlo".
+
+<Callout type="success" title="Estrategia Pro">
+Antes de intentar el **puzle del reloj de arena de Desktop Explorer**, mueve todos tus archivos de pistas importantes a la carpeta "Mis Documentos". Algunos cambios de hora en todo el sistema pueden borrar la carpeta "Temp" donde a menudo se guardan las pistas.
+</Callout>
+
+| Código de Error | Significado | Acción Requerida |
+| :--- | :--- | :--- |
+| **ERR_0x001** | Desajuste de Tiempo | Vuelve a leer el BOOT_ERR.LOG |
+| **ERR_0x005** | Acceso Denegado | Ejecutar como Administrador |
+| **ERR_0x009** | Fallo de CMOS | Encuentra el objeto de batería oculto |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Finalización del Puzle">
+
+Antes de pasar a los capítulos finales de Desktop Explorer, asegúrate de haber extraído todos los datos del directorio "Proyecto Reloj de Arena" desbloqueado por este puzle.
+
+<Checklist
+  id="hourglass-completion"
+  title="Objetivos Post-Puzle del Reloj de Arena:"
+  items={[
+    "Recuperar el 'Incident_Report.doc' de la carpeta oculta",
+    "Encontrar el archivo de audio 'Tape_04.wav' en el subdirectorio",
+    "Borrar el TIME_SYNC.EXE para evitar que la entidad te rastree",
+    "Reiniciar el reloj a la fecha actual de 2026 para estabilizar la interfaz",
+    "Revisar la carpeta de correo 'Enviados' para nuevos mensajes del 'Tío'"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo resolver el puzle del reloj de arena de Desktop Explorer sin encontrar el archivo de registro?",
+    answer: "Técnicamente sí, si conoces la fecha (17 de julio de 1995). Sin embargo, la lógica del juego a menudo requiere que hayas abierto el archivo de registro al menos una vez para que el botón 'Aplicar' active el evento."
+  },
+  {
+    question: "¿Qué pasa si ajusto el reloj a la fecha actual del mundo real?",
+    answer: "Ajustar el reloj a 2026 estabilizará el sistema pero no resolverá el puzle. El puzle requiere específicamente una sincronización 'histórica' para acceder a los datos archivados."
+  },
+  {
+    question: "¿Hay alguna forma de acelerar el tiempo de carga del reloj de arena?",
+    answer: "El tiempo de carga es un elemento programado del puzle del reloj de arena de Desktop Explorer. Solo se acelera una vez que se establece la fecha correcta en la configuración del sistema."
+  },
+  {
+    question: "¿Por qué la pantalla se vuelve negra cuando cambio el año a 1990?",
+    answer: "Este es un secreto intencional 'fuera de los límites'. El hardware virtual no puede simular un SO antes de su fecha de lanzamiento, lo que lleva a un estado de 'Vacío' donde puedes escuchar mensajes de audio ocultos."
+  }
+]} />
+
+</Section>

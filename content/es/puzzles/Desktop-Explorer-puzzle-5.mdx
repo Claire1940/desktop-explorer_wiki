@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer puzzle 5: Solución paso a paso y contraseñas",
+  description: "Domina el puzzle 5 de Desktop Explorer con nuestra guía detallada. Encuentra archivos ocultos, descifra contraseñas y descubre el misterio de la PC retro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Puzzle+5+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Desktop Explorer puzzle 5**: Se centra en el directorio "System Recovery" y los registros de chat ocultos.
+- **Mecánica clave**: Requiere correlacionar archivos .txt eliminados con la configuración del reloj interno.
+- **Mejor estrategia**: Restaura el contenido de la 'Papelera de reciclaje' antes de intentar ingresar la contraseña de administrador final.
+- **Consejo crítico**: Busca las menciones al 'Tío' (Uncle) en la aplicación de mensajería privada para obtener la pista numérica.
+- **Opción recomendada**: Utiliza el enfoque de 'Lógica Primero' documentando todas las fechas encontradas en la carpeta 'Mis documentos'.
+</Callout>
+
+<Section icon={Map} title="Descripción general de Desktop Explorer puzzle 5">
+
+El **Desktop Explorer puzzle 5** representa un aumento significativo de dificultad en la investigación del misterioso entorno retro de Windows 95. En esta etapa, los jugadores ya no solo hacen clic en carpetas; deben manipular activamente el sistema operativo simulado para revelar secretos profundos dejados por el usuario anterior. Este puzzle trata específicamente del "Archivo Encriptado" ubicado en el directorio raíz, el cual contiene la clave sobre la desaparición del Tío.
+
+Para navegar con éxito por esta sección, debes haber completado las tareas previas de restauración de archivos. El juego recompensa a los jugadores que prestan atención a los "glitches" que aparecen en la pantalla CRT, ya que estos artefactos visuales a menudo apuntan a rutas de directorios ocultos que no aparecen en el explorador de archivos estándar.
+
+<Callout type="tip" title="Observación de Expertos">
+Antes de comenzar el Puzzle 5, asegúrate de que la resolución de tu escritorio virtual esté configurada en 'Alta' en la aplicación de configuración. Algunas cadenas de texto en el fondo de pantalla solo se vuelven legibles con densidades de píxeles más altas.
+</Callout>
+
+| Requisito | Descripción | Estado |
+| :--- | :--- | :--- |
+| **Acceso al Sistema** | Privilegios de Administrador Nivel 2 | Obligatorio |
+| **Herramientas Requeridas** | Hex Editor.exe / Herramienta de recuperación de archivos | Esencial |
+| **Objeto Clave** | El icono del 'Disquete Amarillo' | Encontrado en el Puzzle 4 |
+| **Tipo de Pista** | Alfanumérica / Basada en fechas | Crítico |
+
+</Section>
+
+<Section icon={Search} title="Localización de evidencia digital oculta">
+
+Encontrar los componentes para el **Desktop Explorer puzzle 5** requiere una búsqueda del tesoro a través del sistema operativo simulado de los 90. A diferencia de los puzzles anteriores que proporcionaban indicaciones claras, el Puzzle 5 esconde sus pistas dentro de archivos de sistema cotidianos. Deberás interactuar con el "Entorno de red" y el cliente de "Correo" para armar el panorama completo.
+
+La profundidad narrativa de Desktop Explorer brilla aquí, ya que los archivos que descubres no son solo cadenas aleatorias: son fragmentos de una conversación entre el Tío del protagonista y una entidad desconocida. Presta mucha atención a las marcas de tiempo de los correos electrónicos, ya que el orden cronológico es la puerta lógica principal para la fase de descifrado.
+
+<CardGrid cols={3}>
+  <Card title="Papelera de reciclaje">
+    - **Restaurar 'Note_05.tmp'**
+    - Contiene la primera mitad de la clave de administrador
+    - Requiere 50 KB de espacio virtual libre
+  </Card>
+  <Card title="Registro del sistema">
+    - **Editar la cadena 'User_Auth'**
+    - Cambia la secuencia de inicio
+    - Revela la carpeta oculta 'Bóveda'
+  </Card>
+  <Card title="Registros de chat">
+    - **Analizar 'IRC_Archive'**
+    - Menciona una fecha de cumpleaños específica
+    - Se utiliza para la derivación numérica final
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inestabilidad del Sistema">
+Abrir demasiadas ventanas durante la fase de búsqueda puede causar una 'Pantalla Azul de la Muerte' (BSOD) en el juego. Este es un evento programado que restablece tu progreso no guardado en el directorio actual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para el Puzzle 5">
+
+Sigue estos pasos precisos para resolver el **Desktop Explorer puzzle 5** y desbloquear el siguiente capítulo del misterio. La precisión es fundamental, ya que ingresar la contraseña incorrecta tres veces bloqueará el sistema durante dos minutos en tiempo real.
+
+<Steps>
+  <Step num="1" title="Inicializar la herramienta de recuperación">
+    Navega a la carpeta 'C:/Programs/System' e inicia la aplicación 'Recovery.exe'. Se te pedirá un 'Código de mantenimiento'. Ingresa la fecha que se encuentra en la pantalla de 'Propiedades del sistema' (17-07-1996).
+  </Step>
+  <Step num="2" title="Reconstruir la imagen dañada">
+    Abre la 'Galería' y busca 'IMG_005.bmp'. Aparecerá como estática. Usa el Editor Hexagonal para cambiar las primeras cuatro líneas de código para que coincidan con el formato de encabezado BMP estándar. Esto revelará la foto de un escritorio con una nota adhesiva.
+  </Step>
+  <Step num="3" title="Extraer la pista de la nota adhesiva">
+    Haz zoom en la imagen reconstruida. La nota adhesiva contiene una cadena: 'B-Day + 104'. Cruza esta información con el cumpleaños que se encuentra en la carpeta 'Personal' para obtener un código de 4 dígitos.
+  </Step>
+  <Step num="4" title="Burlar el cortafuegos">
+    Ejecuta el 'Símbolo del sistema' y escribe 'ping secret.server.net'. Esto devolverá una dirección IP. Los últimos tres dígitos de esta IP son el desplazamiento final necesario para la herramienta de descifrado.
+  </Step>
+  <Step num="5" title="El descifrado final">
+    Combina el código de la nota adhesiva y el desplazamiento de la IP. Ingresa esto en la ventana emergente de 'Archivo Encriptado'. Si tiene éxito, la carpeta se desbloqueará, revelando el archivo 'Truth.pdf'.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito Alcanzado">
+Desbloquear 'Truth.pdf' completa el Puzzle 5 y activa una cinemática importante de la historia que involucra el reflejo del monitor CRT.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lógica de contraseñas y referencia de datos">
+
+Para ayudarte a solucionar variaciones en el **Desktop Explorer puzzle 5** (que a veces puede presentar elementos aleatorios basados en tu elección inicial de 'Perfil de usuario'), consulta la tabla de lógica a continuación. Esto asegura que comprendas *por qué* funciona un código, en lugar de simplemente memorizar un número estático.
+
+| Elemento | Ubicación de Origen | Lógica Aplicada | Ejemplo de Resultado |
+| :--- | :--- | :--- | :--- |
+| **Prefijo Primario** | Fondo de pantalla | Cuenta el número de iconos | 'Icon07' |
+| **Cadena Intermedia** | Pantalla de inicio de BIOS | Primera palabra de la tercera línea | 'Legacy' |
+| **Sufijo Numérico** | Aplicación de calendario | Fecha del 'Círculo Rojo' | '24' |
+| **Clave Final** | Elementos combinados | Prefijo + Cadena + Sufijo | 'Icon07Legacy24' |
+
+<Callout type="info" title="Nota sobre la aleatoriedad">
+Si el resultado del ejemplo anterior no funciona, revisa el archivo 'ReadMe.txt' en tu escritorio virtual. El desarrollador actualiza ocasionalmente la lógica a través de 'Parches del sistema' que ocurren durante el juego.
+</Callout>
+
+| Dificultad | Modificador del Puzzle | Tiempo para Resolver | Nivel de Recompensa |
+| :--- | :--- | :--- | :--- |
+| **Normal** | Contraseñas estáticas | 10-15 Minutos | Final Estándar |
+| **Difícil** | Descifrado cronometrado | 5-10 Minutos | Pista del Final Secreto |
+| **Glitch** | Interfaz distorsionada | Más de 20 Minutos | Huevo de Pascua del desarrollador |
+
+</Section>
+
+<Section icon={Sparkles} title="Secretos y lista de verificación para completistas">
+
+Más allá de simplemente resolver el **Desktop Explorer puzzle 5**, existen varios "Huevos de Pascua" ocultos y archivos opcionales que proporcionan una historia más profunda sobre la presencia digital. Completar esto no es obligatorio para progresar, pero es esencial para los jugadores que buscan el 'Final Verdadero'.
+
+<Checklist
+  id="puzzle-5-secrets"
+  title="Objetivos de completista del Puzzle 5:"
+  items={[
+    "Localiza la cuenta 'Hidden_User' en la pantalla de inicio de sesión",
+    "Encuentra el archivo de audio eliminado 'Whisper.wav' en la carpeta temporal del sistema",
+    "Activa el evento 'Ghost in the Machine' al quedarte inactivo durante 5 minutos",
+    "Recupera los 3 fragmentos de la última carta del Tío",
+    "Cambia el reloj del sistema a la medianoche para revelar el fondo de pantalla 'Noche'"
+  ]}
+/>
+
+<Callout type="tip" title="Interacción Oculta">
+Intenta arrastrar la 'Papelera de reciclaje' al 'Reproductor de medios'. Aunque parece un error, en realidad reproduce una pista distorsionada que contiene un mensaje en código Morse que se traduce en un logro secreto de Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes: Solución de problemas de Desktop Explorer puzzle 5">
+
+<FAQ items={[
+  {
+    question: "¿Por qué se sigue cerrando inesperadamente 'Recovery.exe' durante el Puzzle 5?",
+    answer: "Esto suele suceder si no has cerrado el cliente de 'Correo'. El juego simula una memoria RAM limitada, por lo que debes cerrar todas las ventanas innecesarias para ejecutar herramientas pesadas del sistema."
+  },
+  {
+    question: "No puedo encontrar el icono del 'Disquete Amarillo' mencionado en los requisitos.",
+    answer: "El 'Disquete Amarillo' es en realidad un archivo oculto llamado 'A:/DRIVE_DATA'. Debes hacer clic en el icono de la unidad 'A:' en 'Mi PC' aunque parezca vacía."
+  },
+  {
+    question: "¿Cuál es la contraseña exacta para la bóveda de administración del Desktop Explorer puzzle 5?",
+    answer: "La contraseña es dinámica, pero siempre es [Cumpleaños_del_Usuario] + [Año_Actual_En_El_Juego]. Revisa el 'Calendario' y el 'Reloj del sistema' para calcular tu cadena específica."
+  },
+  {
+    question: "¿Puedo saltarme el Puzzle 5 e ir directamente al final?",
+    answer: "No, el Puzzle 5 es una 'Barrera Infranqueable'. Los archivos recuperados aquí son necesarios para activar la secuencia final en el menú de 'Apagado'."
+  }
+]} />
+
+</Section>

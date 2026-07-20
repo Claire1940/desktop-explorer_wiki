@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 游戏攻略：Demo 逐步指南",
+  description: "掌握 Desktop Explorer Demo 中的每一个谜题。找到所有隐藏密码，解决彩色镜片壁画谜题，并揭开黑暗的故事秘密。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队",
+  keywords: "Desktop Explorer, 攻略, 谜题, Demo 指南, 剧情分析"
+}
+
+<Callout type="info" title="快速指南">
+- **攻略重点**：本 **Desktop Explorer 游戏攻略** 涵盖了从初始安装到最终崩溃结局的所有十个 Demo 谜题。
+- **关键密码**：使用 **Guppy** 解锁初始文件夹，使用 **Inanna** 在第一个谜题房间点燃火把。
+- **Meta 策略**：检查文件属性、更改文件扩展名并查看源文件以寻找隐藏的解决方案。
+- **彩色镜片**：运行 **Color lens.exe** 程序来解决关于悲惨家族往事的最终壁画问题。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 游戏攻略：入门指南">
+
+欢迎阅读这份终极 **Desktop Explorer 游戏攻略**。本指南将帮助你在这个复古模拟操作系统中导航，解决复杂的文件操作谜题，并揭开隐藏在文件中的悲惨故事。这款游戏将文字冒险机制与 Meta 谜题元素相结合，要求你跳出虚拟框架进行思考。
+
+**视频要点：**
+- 在 Chronolog 应用程序中找到房东的信。
+- 获取昵称 **Guppy** 以绕过初始文件夹锁定。
+- 在 Pizzaro 的帮助下安装 Desktop Explorer 软件。
+- 了解基础的文件夹导航和子菜单工具。
+
+<YouTubeEmbed videoId="YBe55fKZzDc" title="Desktop Explorer Demo - 完整流程演示" />
+
+开始调查前，请启动虚拟 PC 并从开始菜单打开 Chronolog 软件。阅读你的叔叔 Halibut 船长留下的分录。信中透露，他在进入重症监护室前将电脑留给了你。他提到桌面上的“open me”文件夹中有一个名为 Desktop Explorer 的神秘程序。访问该文件夹的密码是你的儿时昵称 **Guppy**。打开文件夹，运行安装程序，并结识你的虚拟助手 Pizzaro，他将引导你了解初始机制。
+
+<Callout type="info" title="系统提示">
+务必检查任何打开窗口的子菜单（文件、编辑、查看、转到）。Pizzaro 经常将线索或必备工具隐藏在这些标准的操作系统菜单中。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="解开谜题 1 至 4：洞穴与大象">
+
+安装完成后，你将进入一个发生在神秘洞穴中的文字图像冒险。谜题很快从简单的阅读理解转变为 Meta 文件操作。
+
+### 谜题 1：进入 Fortuna
+开场图像显示了一个狭窄的洞口。随附的文字描述了一场暴风雨冲淡了沙滩上的字迹。你可以推断出洞穴的名字是 **Fortuna**。输入此名称即可开启前进之路。
+
+### 谜题 2：照亮道路
+在黑暗的洞穴中，你找到一根木棍和一卷长得离谱的卷轴。卷轴上写着一段充满诗意的吟唱：“孩子，吟唱我的名字，你将承载我的火焰。当尘埃环绕我时，Inanna 会照亮我的道路。”输入 **Inanna** 作为密码来点燃火把，照亮狭窄的隧道。
+
+### 谜题 3：折叠的莎草纸
+你发现了一张折叠的莎草纸，上面写着一个关于园丁用鼻子而不是水管的谜语。文中提到了“折叠格式”。通过分析折痕纸上字母的排列方式，你可以拼出单词 **ELEPHAS**（大象的拉丁词根）。
+
+### 谜题 4：字里行间
+到达死胡同时，游戏建议你“阅读字里行间，寻找真理的源头”。要解决这个谜题，你必须检查文档的实际源代码或查看文件属性。隐藏的文本透露密码就是简单的 **solve**。
+
+| 谜题 | 位置 | 核心线索 | 密码 |
+| :--- | :--- | :--- | :--- |
+| **01** | 洞口 | 湿沙中逐渐退色的字母 | **Fortuna** |
+| **02** | 洞穴内部 | 提到照明神灵的长卷轴 | **Inanna** |
+| **03** | 狭窄隧道 | 关于鼻子的折叠莎草纸谜语 | **ELEPHAS** |
+| **04** | 死胡同 | 寻找真理源头的指令 | **solve** |
+
+<Callout type="tip" title="开发者秘密">
+如果你在文字谜题上卡住了，点击任务栏上的灯泡图标。Pizzaro 会提供微妙的提示，指引你正确的方向，而不会直接剧透答案。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="深入探索：谜题 5 至 8">
+
+绕过死胡同后，你会遇到三扇门和一把黄色钥匙。尝试使用钥匙会触发系统错误。这一部分需要你直接操作操作系统的文件系统。
+
+### 谜题 5：绕过钥匙错误
+黄色钥匙文件已损坏，显示“Key Error”。要修复此问题，你必须重命名文件扩展名。将扩展名从 `.err` 更改为 `.img` 即可正确渲染钥匙数据。此操作将解锁大门并显示密码 **Vertonas**。
+
+### 谜题 6：刻满字迹的墙壁
+中间的大门通向一个像壁橱一样的房间，墙上到处刻着“不敢说出我的名字”。要找到这些刻痕的作者，请关闭文档并检查背景音频文件 `Etched Walls` 的属性。在元数据详细信息下，你会发现作者被列为 **MMTT**。输入此内容即可继续。
+
+### 谜题 7：压抑的黑暗
+你进入一条漆黑的走廊，火把熄灭了。游戏提示你依靠“敏锐的感官”。检查文件夹目录以找到一个隐藏的图像文件。打开它会看到一组石笋。石头上刻着的字母拼出了 **RUBICON**。
+
+### 谜题 8：回溯与凿刻的符文
+前方的路通向另一个死胡同。你必须物理性地回溯文件夹目录，回到洞穴入口。景观已经改变，出口现在被石头堵住了。捡起留在地上的凿子工具，为最后的仪式做准备。
+
+<Steps>
+  <Step num="1" title="重命名钥匙文件">
+    在目录中找到黄色钥匙，并将其扩展名重命名为 `.img` 以显示隐藏文本。
+  </Step>
+  <Step num="2" title="检查音频元数据">
+    右键点击正在播放的音乐文件，打开属性，并复制创作者缩写 **MMTT**。
+  </Step>
+  <Step num="3" title="破译石笋">
+    在黑暗房间中导航，阅读石柱上雕刻的字母以拼出 **RUBICON**。
+  </Step>
+  <Step num="4" title="回溯至入口处">
+    反向操作回到起始文件夹，发现环境已改变并收集凿子。
+  </Step>
+</Steps>
+
+| 谜题 | 挑战 | 机制 | 密码 / 行动 |
+| :--- | :--- | :--- | :--- |
+| **05** | 损坏的黄色钥匙 | 重命名文件扩展名 | **Vertonas** |
+| **06** | 刻满字迹的墙壁 | 元数据检查 | **MMTT** |
+| **07** | 全黑环境 | 目录搜索 | **RUBICON** |
+| **08** | 被封死的出口 | 文件夹回溯 | **收集凿子** |
+
+<Callout type="success" title="进度已保存">
+完成谜题 8 标志着进入 Demo 的最后阶段。在继续之前，请确保已阅读所有日志文件，因为游戏状态将会永久改变。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="祭坛与彩色镜片壁画">
+
+Demo 的高潮发生在一个巨大的、类似剧场的大厅里，里面有一个祭坛、散落的扁平石头，以及后墙上一幅巨大的、细节丰富的壁画。
+
+### 谜题 9：堆叠石头
+地板上的铭文写着：“真理是未知的。自然将引导我通过堆叠石头。”你必须收集在旅途中找到的扁平石头，并将它们放置在祭坛上。平衡石头会将它们震裂，露出闪烁的石英碎片。
+
+### 谜题 10：安装彩色镜片
+石英碎片充当了棱镜。转到开始菜单，导航到程序，运行新安装的 **Color lens.exe** 应用程序。该实用程序允许你为桌面应用红、绿、蓝滤镜，从而揭示壁画的隐藏层。
+
+<CardGrid cols={3}>
+  <Card title="红色滤镜 (愤怒)">
+    - **揭示火焰元素**
+    - 突出显示沉船灾难
+    - 揭开哥哥的命运
+  </Card>
+  <Card title="绿色滤镜 (欲望)">
+    - **暴露隐藏的眼睛**
+    - 揭示环境中的数字
+    - 突出显示接纳的主题
+  </Card>
+  <Card title="蓝色滤镜 (悲伤)">
+    - **揭示水和眼泪**
+    - 显示隐藏的动物形象
+    - 揭开深沉的忧郁基调
+  </Card>
+</CardGrid>
+
+通过切换这些颜色滤镜，你可以回答系统提出的最后问题，从而解锁模拟的终极真相。
+
+| 壁画问题 | 启用滤镜 | 视觉线索 | 正确答案 |
+| :--- | :--- | :--- | :--- |
+| **悲伤沐浴的动物** | 蓝色镜片 | 眼泪形成的爬行动物形状 | **alligator** |
+| **接纳的欲望** | 绿色镜片 | 闪烁的隐藏眼睛数量 | **14** |
+| **愤怒的显现** | 红色镜片 | 吞没船只的火焰 | **fire** |
+| **船上的死者** | 无 | 从日志中推断出的叙事 | **brother** |
+
+<Callout type="warning" title="关键事件">
+使用 **brother**（哥哥）或 **father**（父亲）回答关于船上死者的最后一个问题，会触发全系统的致命异常，导致模拟崩溃并结束 Demo。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="剧情分析与日志揭秘">
+
+除了精巧的谜题，Desktop Explorer 还隐藏了一个黑暗的心理叙事。通过拼凑 Halibut 的日志条目和损坏的系统日志，我们可以重构这个家庭的悲惨历史。
+
+日志显示 Halibut 患有严重的负罪感和失忆症。他经常写到在一个雨天发生的悲惨火灾，夺走了他哥哥的生命。Halibut 没能救出他，这段创伤让他一直被哥哥那“枯萎的面容和忧郁的眼神”所困扰。
+
+悲剧发生后，Halibut 接管了哥哥的家庭，以支持悲痛的遗孀和她年幼的孩子（绰号 **Guppy**）。尽管出于好意，Halibut 仍感到巨大的羞愧和恶心，觉得仿佛自己篡夺了另一个人的生活。“Desktop Explorer”程序实际上是一个治疗或诊断工具，旨在帮助 Halibut 处理他压抑的记忆，这解释了为什么谜题镜像了他的内心创伤。
+
+<Checklist
+  id="demo-completion"
+  title="Demo 完成清单："
+  items={[
+    "使用房东的昵称解锁 Guppy 文件夹",
+    "解开全部 10 个环境和文件系统谜题",
+    "安装并运行彩色镜片可执行文件",
+    "正确回答所有四个壁画问题",
+    "触发致命异常崩溃结局"
+  ]}
+/>
+
+| 实体 | 剧情角色 | 关键叙事细节 |
+| :--- | :--- | :--- |
+| **Halibut 船长** | 叔叔 / 房东 | 患有失忆症和强烈的幸存者内疚感 |
+| **Guppy** | 主角 | 调查电脑的玩家角色 |
+| **哥哥 (Big Brother)** | 已故 | 死于一场 Halibut 无法扑灭的悲惨火灾 |
+| **Pizzaro** | AI 引导员 | 引导 Halibut 找回记忆的虚拟助手 |
+
+<Callout type="info" title="剧情总结">
+整个洞穴探索是 Halibut 潜意识心灵的隐喻之旅，黑暗的隧道代表他的失忆，最后的壁画代表他压抑的内疚。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "如何开始 Desktop Explorer 游戏攻略？",
+    answer: "首先在虚拟桌面上打开 Chronolog 应用程序，阅读 Halibut 叔叔的信，输入密码 Guppy 以解锁安装文件夹。"
+  },
+  {
+    question: "谜题 3 中大象谜语的答案是什么？",
+    answer: "你必须观察莎草纸文档的折叠布局。沿折痕排列的字母拼出了 ELEPHAS，这就是密码。"
+  },
+  {
+    question: "如何修复谜题 5 中的黄色钥匙错误？",
+    answer: "右键点击黄色钥匙文件，选择重命名，并将其文件扩展名更改为 .img。这会修复文件并显示密码 Vertonas。"
+  },
+  {
+    question: "Demo 中最终的崩溃是由什么触发的？",
+    answer: "用 brother（哥哥）或 father（父亲）这两个词回答最后的壁画问题会触发致命异常，代表 Halibut 的精神在内疚的重压下崩溃。"
+  }
+]} />
+
+<Callout type="tip" title="最终评价">
+Desktop Explorer Demo 是 Meta 叙事设计的精彩展示。在正式版中请密切关注文件目录和元数据，因为环境一直在注视着你。
+</Callout>
+
+</Section>

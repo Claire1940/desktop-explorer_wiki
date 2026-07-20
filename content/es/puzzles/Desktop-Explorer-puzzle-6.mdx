@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer Acertijo 6: Descifrado de directorios paso a paso",
+  description: "Resuelve el acertijo 6 de Desktop Explorer con nuestra guía de descifrado paso a paso. Aprende a navegar por rutas de archivos, comandos de terminal y soluciones de contraseñas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+6+Decryption+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Acertijo principal**: Resolver el **acertijo 6 de Desktop Explorer** requiere que los jugadores descifren un archivo de sistema corrupto dentro de una interfaz simulada de Windows 95.
+- **Ubicación clave**: El objetivo principal se encuentra dentro de la carpeta `C:\WINDOWS\SYSTEM\RECOVERY\`.
+- **Herramientas críticas**: Los jugadores deben utilizar el símbolo del sistema MS-DOS virtual, el editor hexadecimal y la aplicación Bloc de notas para extraer los códigos ocultos.
+- **Estrategia central**: Localiza tres fragmentos de offsets binarios dispersos por diferentes directorios del sistema y alinéalos para formar la contraseña maestra de descifrado.
+- **Recompensa final**: Desbloquear este acertijo otorga acceso al servidor de la intranet local, revelando archivos cruciales de la historia sobre el tío desaparecido.
+</Callout>
+
+<Section icon={Map} title="Descripción general del acertijo 6 de Desktop Explorer">
+
+En el paisaje digital de inspiración retro de Desktop Explorer, los jugadores deben navegar por un sistema operativo Windows 95 simulado lleno de archivos inquietantes, software corrupto y mensajes crípticos. A medida que avanzas en el Capítulo 3, te encuentras con el **acertijo 6 de Desktop Explorer**, que sirve como la puerta de seguridad principal para bloquear el acceso a la unidad de red interna.
+
+A diferencia de los desafíos anteriores que dependen de pistas de texto simples, este acertijo exige una comprensión más profunda de la navegación por directorios, las operaciones de línea de comandos y la manipulación de archivos. Lo que está en juego en la narrativa es importante: el registro del sistema corrupto que intentas descifrar contiene las últimas comunicaciones grabadas de tu pariente desaparecido antes de su repentina desaparición a finales de los 90.
+
+Para comenzar esta investigación, ya debes haber restaurado la energía al adaptador de red virtual y haber evadido el firewall secundario en el Capítulo 2. Una vez que se cumplan estos requisitos, aparecerá un archivo de sistema corrupto llamado `SYS_LOG_06.DAT` en las carpetas de tu sistema, iniciando la secuencia de descifrado.
+
+<Callout type="warning" title="Advertencia de inestabilidad del sistema">
+No intentes abrir el archivo de destino utilizando la aplicación estándar del Bloc de notas. Hacerlo provocará un bloqueo simulado del sistema, lo que forzará un reinicio virtual del sistema operativo y restablecerá tu historial de comandos de terminal actual.
+</Callout>
+
+| Parámetro | Detalles de la especificación |
+|------|------|
+| ID del acertijo | Protocolo de seguridad 06 (Reconstrucción de directorios) |
+| Archivo de destino | C:\WINDOWS\SYSTEM\RECOVERY\SYS_LOG_06.DAT |
+| Objetivo principal | Realinear bloques de datos corruptos e ingresar la clave maestra de descifrado |
+| Nivel de complejidad | Moderado a avanzado |
+| Utilidades requeridas | Símbolo del sistema MS-DOS, Editor hexadecimal del sistema, Cliente de correo virtual |
+
+</Section>
+
+<Section icon={Target} title="Directorios de archivos requeridos y pistas ocultas">
+
+Antes de ejecutar la secuencia de descifrado, debes reunir tres fragmentos de datos distintos ocultos en el sistema de archivos de la computadora. Estos fragmentos proporcionan los offsets binarios exactos necesarios para leer los datos cifrados dentro de `SYS_LOG_06.DAT`.
+
+El sistema operativo oculta estos archivos bajo carpetas de sistema estándar para evitar su eliminación accidental, imitando las estructuras de directorios de Windows 95 del mundo real. Deberás activar la visibilidad de archivos ocultos y explorar directorios que parecen vacíos a primera vista.
+
+<CardGrid cols={3}>
+  <Card title="Fragmento 1: CONFIG.SYS">
+    - **Ubicación**: Directorio raíz `C:\`
+    - **Tipo**: Archivo de configuración del sistema
+    - **Pista**: Contiene el multiplicador de offset hexadecimal inicial necesario para alinear los bloques de direcciones de memoria de la terminal.
+  </Card>
+  <Card title="Fragmento 2: MEM_DUMP.BMP">
+    - **Ubicación**: Carpeta temporal `C:\WINDOWS\TEMP\`
+    - **Tipo**: Archivo de imagen oculto
+    - **Pista**: Una cuadrícula visual que muestra píxeles resaltados que se asignan directamente al sistema de coordenadas hexadecimales del archivo de destino.
+  </Card>
+  <Card title="Fragmento 3: TRASH_09.MSG">
+    - **Ubicación**: Base de datos de correo `C:\WINDOWS\MAIL\TRASH\`
+    - **Tipo**: Mensaje de correo eliminado
+    - **Pista**: Un correo electrónico recuperado que contiene el sufijo alfanumérico necesario para finalizar la entrada de la contraseña maestra.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Revelando archivos ocultos">
+Si no puedes encontrar el archivo `MEM_DUMP.BMP` en la carpeta temporal, abre el Explorador de archivos virtual, navega al menú superior, selecciona "Ver", luego "Opciones" y asegúrate de que "Mostrar todos los archivos" esté marcado.
+</Callout>
+
+Para ayudarte a organizar tu investigación, utiliza el siguiente mapa de directorios para localizar cada componente antes de abrir la utilidad de línea de comandos.
+
+| Nombre de archivo | Ruta del directorio | Descripción de la pista | Herramienta requerida |
+|------|------|------|------|
+| CONFIG.SYS | C:\ | Multiplicador hexadecimal inicial | Bloc de notas |
+| MEM_DUMP.BMP | C:\WINDOWS\TEMP\ | Mapa de alineación de cuadrícula visual | Herramienta de pintura |
+| TRASH_09.MSG | C:\WINDOWS\MAIL\TRASH\ | Sufijo maestro alfanumérico | Lector de correo |
+| SYS_LOG_06.DAT | C:\WINDOWS\SYSTEM\RECOVERY\ | Archivo de registro cifrado central | Editor hexadecimal |
+
+</Section>
+
+<Section icon={Swords} title="Solución paso a paso del acertijo 6 de Desktop Explorer">
+
+Una vez que hayas reunido las tres pistas de los directorios enumerados anteriormente, estarás listo para comenzar el proceso de descifrado. Sigue estos pasos cuidadosamente para reconstruir el directorio e ingresar la secuencia correcta.
+
+<Steps>
+  <Step num="1" title="Inicializar la terminal virtual">
+    Haz doble clic en el icono del símbolo del sistema MS-DOS en tu escritorio. Escribe `CD WINDOWS\SYSTEM` y presiona Enter para navegar al subdirectorio del sistema. Desde allí, escribe `CD RECOVERY` para entrar en la carpeta que contiene el archivo de destino.
+  </Step>
+  <Step num="2" title="Ejecutar la reconstrucción del directorio">
+    Escribe el comando `DEFRAG /SYS /FORCE` en la terminal. Este comando realinea los sectores fragmentados del disco duro virtual, lo que permite al sistema leer los bloques corruptos de `SYS_LOG_06.DAT` sin bloquearse.
+  </Step>
+  <Step num="3" title="Extraer offsets hexadecimales">
+    Abre la aplicación Editor hexadecimal virtual desde tu menú de inicio. Carga `SYS_LOG_06.DAT` en el editor. Compara las coordenadas de la cuadrícula resaltadas de `MEM_DUMP.BMP` con las filas hexadecimales. Anota los valores en los offsets `0x0F`, `0x4A` y `0x92`.
+  </Step>
+  <Step num="4" title="Compilar e ingresar la contraseña maestra">
+    Combina los valores hexadecimales extraídos con el sufijo alfanumérico que se encuentra en `TRASH_09.MSG`. La clave compilada final sigue el formato: `[Hex1][Hex2]-[Sufijo]`. Ingresa esta clave en el cuadro de diálogo de seguridad que aparece cuando ejecutas `RECOVERY.EXE`.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Descifrado exitoso">
+Al ingresar la contraseña correcta, la pantalla de la terminal parpadeará en verde y se generará un nuevo documento de texto llamado `UNLOCKED_LOG.TXT` en tu directorio raíz, lo que hará avanzar la narrativa del juego.
+</Callout>
+
+La siguiente tabla describe los comandos y acciones exactos necesarios para navegar por la terminal con éxito durante esta secuencia de acertijos.
+
+| Entrada de línea de comandos | Directorio de destino | Salida esperada | Propósito |
+|------|------|------|------|
+| CD WINDOWS\SYSTEM\RECOVERY | C:\ | El símbolo del sistema cambia a la carpeta de destino | Navega al directorio de recuperación |
+| DIR /A:H | C:\WINDOWS\SYSTEM\RECOVERY\ | Enumera los archivos ocultos en el directorio | Verifica la presencia de herramientas de recuperación |
+| DEFRAG /SYS /FORCE | C:\WINDOWS\SYSTEM\RECOVERY\ | Animación de alineación de sectores | Reconstruye los bloques corruptos del sistema |
+| RUN RECOVERY.EXE | C:\WINDOWS\SYSTEM\RECOVERY\ | Aparece el aviso de entrada de contraseña | Inicia la interfaz de descifrado |
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas y códigos de error">
+
+Debido a que Desktop Explorer simula un sistema operativo antiguo, los jugadores a menudo encuentran errores del sistema realistas si los comandos se ingresan fuera de orden o si se accede a los archivos incorrectamente. Comprender cómo resolver estos errores es crucial para completar el acertijo.
+
+Si cometes un error durante el proceso de alineación hexadecimal, el sistema operativo virtual mostrará una pantalla azul o arrojará un error de acceso a archivos. No entres en pánico; el sistema está diseñado para permitir una recuperación rápida sin perder tu progreso general en el juego.
+
+<Callout type="warning" title="Evita bloquear la terminal">
+Si ingresas una contraseña incorrecta tres veces en el programa `RECOVERY.EXE`, la terminal se bloqueará. Para evitar esto, debes ejecutar el comando `SYS_RESET.BAT` desde el directorio raíz para borrar el estado de bloqueo.
+</Callout>
+
+| Código de error | Causa potencial | Acción necesaria para corregir |
+|------|------|------|
+| ERROR 404: FILE NOT FOUND | Escribir rutas de directorio con barras inclinadas | Usa barras invertidas (\\) para la navegación de directorios en Win95 |
+| ERROR 0x09: CORRUPT BLOCK | Abrir el editor hexadecimal antes de ejecutar el comando DEFRAG | Cierra el editor, ejecuta DEFRAG /SYS /FORCE, vuelve a abrir el editor |
+| ERROR 0xF1: ACCESS DENIED | Intentar editar CONFIG.SYS mientras la terminal está abierta | Cierra el símbolo del sistema MS-DOS antes de modificar archivos del sistema |
+| BSOD: FATAL EXCEPTION 0E | Hacer doble clic en archivos DAT directamente desde el explorador | Solo abre archivos DAT a través de la aplicación Editor hexadecimal |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de finalización del acertijo">
+
+Antes de pasar al siguiente capítulo de Desktop Explorer, asegúrate de haber completado todos los objetivos asociados con este acertijo. Omitir ciertos pasos podría impedirte desbloquear logros específicos del final del juego o finales secretos.
+
+Usa esta lista de verificación para verificar que has recopilado todos los archivos narrativos y desbloqueado todos los directorios del sistema ocultos asociados con el proceso de descifrado.
+
+<Checklist
+  id="puzzle-6-checklist"
+  title="Hitos requeridos:"
+  items={[
+    "Localiza y lee el archivo CONFIG.SYS en el directorio raíz",
+    "Activa los archivos ocultos para revelar MEM_DUMP.BMP en la carpeta Temp",
+    "Ejecuta el comando DEFRAG para realinear los sectores del sistema corruptos",
+    "Extrae los tres offsets hexadecimales usando la herramienta Editor hexadecimal",
+    "Desbloquea la terminal segura y genera el archivo UNLOCKED_LOG.TXT",
+    "Lee el archivo de registro descifrado para asegurar el logro 'Arqueólogo digital'"
+  ]}
+/>
+
+<Callout type="info" title="Nota de historia secreta">
+Descifrar el archivo de registro también desbloquea un archivo de audio oculto en la aplicación del reproductor multimedia. Escuchar este archivo en su totalidad es un requisito para desbloquear el verdadero final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para ayudar a los jugadores que aún puedan estar teniendo dificultades con mecánicas específicas de este acertijo de sistema retro, hemos recopilado respuestas a las preguntas más comunes sobre este segmento del juego.
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra la herramienta Editor hexadecimal en Desktop Explorer?",
+    answer: "El Editor hexadecimal se encuentra en la carpeta 'Accesorios' dentro de tu Menú de inicio. Si falta, primero debes instalarlo ejecutando el programa SETUP.EXE que se encuentra en el disquete virtual en tu unidad A:\\."
+  },
+  {
+    question: "¿Por qué mi juego se bloquea cuando abro el archivo SYS_LOG_06.DAT?",
+    answer: "Este es un bloqueo del sistema simulado que ocurre si intentas abrir el archivo de datos sin procesar usando el Bloc de notas. Primero debes ejecutar el comando DEFRAG en la terminal y luego abrir el archivo exclusivamente a través del Editor hexadecimal."
+  },
+  {
+    question: "¿Cuál es la contraseña exacta para el acertijo 6 de Desktop Explorer?",
+    answer: "La contraseña se genera procedimentalmente para cada partida en función de la marca de tiempo de instalación de tu sistema virtual. Debes encontrar los tres offsets hexadecimales y el sufijo de correo en tus archivos de juego específicos para compilar tu contraseña única."
+  },
+  {
+    question: "¿Puedo saltarme este acertijo y seguir completando la historia principal?",
+    answer: "No, resolver este acertijo es obligatorio. Desbloquear el registro del sistema proporciona la dirección IP de red necesaria para establecer una conexión con el servidor de la intranet local, que es el objetivo principal del Capítulo 4."
+  }
+]} />
+
+<Callout type="tip" title="¿Necesitas más ayuda?">
+Si todavía estás atascado, intenta revisar la papelera de reciclaje del sistema. A veces, los archivos eliminados contienen versiones anteriores de la clave de descifrado que pueden ayudarte a reducir los valores de offset correctos.
+</Callout>
+
+</Section>

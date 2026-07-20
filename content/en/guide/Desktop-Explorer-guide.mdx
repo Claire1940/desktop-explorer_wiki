@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer Guide: Demo Walkthrough & Puzzle Solutions",
+  description: "Master the desktop interface, solve complex file-based puzzles, and uncover narrative secrets with this essential Desktop Explorer guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary guide objective**: Master the desktop interface to solve puzzles and unlock grandfather's secrets.
+- **Key mechanic**: Interact with files by renaming, stretching, and typing text commands.
+- **Best strategy**: Use the built-in notepad to record clues and track file names.
+- **Critical warning**: Pay close attention to deteriorating notes and author metadata.
+- **Top platform choice**: The Steam Deck runs the game demo with perfect compatibility.
+</Callout>
+
+<Section icon={Map} title="Introduction to Desktop Explorer">
+
+Desktop Explorer invites players into a nostalgic, retro-inspired digital landscape. The game tasks players with investigating a vintage 1990s computer system once owned by their grandfather. This environment serves as the primary setting for a complex narrative mystery. By combining point-and-click exploration with command-line inputs, players must dig through nested directories, corrupt documents, and hidden applications to piece together the family history.
+
+**Video Highlights:**
+- Detailed gameplay demonstration showcasing the retro 1990s operating system interface.
+- Insights into interactive puzzles, including image stretching and file renaming mechanics.
+- Analysis of the dynamic audio system and real-time application interactions.
+- Exploration of hidden lore documents, family photos, and medical records.
+
+<YouTubeEmbed videoId="j2ji814sgwE" title="Demo Spotlight: Desktop Explorer was a real treat" />
+
+The demo highlights a highly interactive experience where every icon, application, and file metadata entry could hold the key to progressing further. The interface functions as both the puzzle box and the storytelling medium, creating a unique atmosphere that rewards meticulous observation and logical deduction.
+
+<Callout type="info" title="System Atmosphere">
+The music in the game is designed to adjust dynamically based on the specific files or images you are currently viewing, enhancing the immersive nature of the investigation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Gameplay Mechanics">
+
+Navigating the operating system in this title requires more than standard point-and-click actions. Players must utilize various virtual tools and system functions to interact with the environment. The desktop interface allows you to organize your workspace, open multiple applications simultaneously, and manipulate files to reveal hidden data.
+
+<CardGrid cols={3}>
+  <Card title="Notepad Tool">
+    - **Keep track of clues**
+    - Copy and paste text
+    - Organize file names
+  </Card>
+  <Card title="File Manipulation">
+    - **Rename extensions**
+    - Stretch image windows
+    - Reveal hidden folders
+  </Card>
+  <Card title="System Applications">
+    - **Interactive color tools**
+    - Image viewers
+    - Text editors
+  </Card>
+</CardGrid>
+
+The built-in notepad is one of the most valuable assets available. Because the game does not automatically log every clue, maintaining a manual list of passwords, filenames, and dates within the in-game notepad is highly recommended. Additionally, stretching and resizing image windows is a critical mechanic; some clues are hidden outside the default boundaries of the image viewer.
+
+| Tool Name | Primary Function | Interaction Type |
+| - | - | - |
+| Notepad | Documenting passwords, codes, and paths | Text input |
+| Image Viewer | Inspecting photos and stretching boundaries | Mouse drag |
+| Color App | Modifying environmental elements in real-time | Click selection |
+| File Explorer | Navigating directories and renaming extensions | Double-click / Type |
+
+<Callout type="tip" title="Pro Tip">
+If you find yourself stuck on a puzzle, try stretching the corners of open image files. Important text or hidden codes are often concealed just beyond the default window borders.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Demo Walkthrough">
+
+To successfully complete the demo, players must follow a specific sequence of file discoveries and system manipulations. The puzzles are interconnected, meaning the solution to one system lock is usually found within the metadata of another file.
+
+<Steps>
+  <Step num="1" title="Boot the System and Open the Notepad">
+    Start by exploring the default desktop layout. Open the notepad application immediately to prepare for note-taking. Click on the available folder directories to familiarize yourself with the layout.
+  </Step>
+  <Step num="2" title="Inspect Family Pictures and Check Metadata">
+    Open the image files located in the family folder. Use the inspect tool to check the metadata of each photo. Pay close attention to the author field and the creation dates, as these serve as credentials later.
+  </Step>
+  <Step num="3" title="Locate and Stretch the Mural Image">
+    Find the mural image file. Open it and drag the edges of the window to stretch the image. This action reveals a hidden color sequence on the borders of the mural.
+  </Step>
+  <Step num="4" title="Execute the Color-Changing Application">
+    Launch the color-changing application. Align the application window next to the mural. Change the active colors in real-time to match the sequence found in the stretched image borders to unlock the next directory.
+  </Step>
+  <Step num="5" title="Access the Grandfather's Log Files">
+    Open the newly unlocked folder containing your grandfather's journal entries. Read through the deteriorating files to uncover the final password required to complete the demo sequence.
+  </Step>
+</Steps>
+
+| Puzzle Stage | Required Action | Expected Outcome |
+| - | - | - |
+| Initial access | Browse directories | Locate family pictures |
+| Metadata check | Inspect author fields | Acquire login credentials |
+| Mural puzzle | Stretch image borders | Reveal hidden color code |
+| Color alignment | Run color-changing app | Unlock grandfather's folder |
+| Journal decryption | Read deteriorating notes | Obtain final demo password |
+
+<Callout type="warning" title="Deteriorating Files">
+The grandfather's journal entries become increasingly corrupt and difficult to read with each successive log. Note down key phrases immediately before moving to the next file.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secrets, Files, and Lore Discoveries">
+
+The narrative of the game is delivered almost entirely through environmental storytelling and file examination. By looking closely at the files left behind, you can reconstruct the timeline of events leading up to the grandfather's abandonment of the computer system.
+
+Among the files, players can locate medical records, personal correspondence, and deteriorating notes. A recurring theme in the logs is the grandfather's growing distrust of the computer itself. In his final legible entries, he expresses a desperate need to return to physical notebooks rather than digital storage, though the exact reason for this shift remains shrouded in mystery.
+
+<Checklist
+  id="lore-checklist"
+  title="Key Lore Items to Find:"
+  items={[
+    "Grandfather's medical records detailing past checkups",
+    "Family photos containing author metadata tags",
+    "Deteriorating journal entries spanning several months",
+    "Hidden system configuration files hinting at external access"
+  ]}
+/>
+
+Understanding the identity of the authors listed in the metadata is crucial. The system uses these names to verify access permissions for restricted folders. Always cross-reference the names found on family photos with the usernames requested by system prompts.
+
+<Callout type="success" title="Lore Detail">
+The gradual corruption of the text files suggests that the operating system itself may be undergoing unauthorized modifications or suffering from a slow hardware failure.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform Performance and Settings">
+
+The demo has been tested across multiple configurations to ensure stable performance. Because the game utilizes a simulated operating system interface, it requires minimal system resources, making it highly compatible with portable hardware.
+
+On the Steam Deck, the game runs smoothly with standard controller configurations. The touchpads can be utilized to simulate mouse movement, which feels natural for the point-and-click elements of the interface. The virtual keyboard is required for typing puzzles, though physical keyboard support is also fully integrated for desktop players.
+
+| Platform | Control Input | Performance Status |
+| - | - | - |
+| Steam Deck | Touchpad / Touchscreen | Verified stable, runs perfectly |
+| Windows PC | Mouse and Keyboard | Native support, optimal experience |
+| Linux PC | Mouse and Keyboard | Fully compatible via Proton |
+
+The audio settings allow players to customize their experience. If the dynamic music transitions become distracting during complex puzzle-solving sessions, the audio can be muted entirely through the in-game settings panel without affecting the gameplay mechanics or puzzle cues.
+
+<Callout type="info" title="Audio Control">
+You can toggle the system sound effects and music independently within the settings menu to tailor the auditory feedback to your preference.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<Callout type="tip" title="Need Help?">
+Review the common questions below if you encounter difficulties while navigating the system directories or solving the file puzzles.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Where can I find the password for the restricted family folder?",
+    answer: "The password credentials are located within the metadata of the family photos. Inspect the properties of the images to locate the author names and creation dates."
+  },
+  {
+    question: "How does the color-changing application interact with the mural?",
+    answer: "You must run the color-changing application side-by-side with the mural image. Adjusting the colors in the app to match the hidden border sequence on the mural triggers the system to unlock the next folder."
+  },
+  {
+    question: "Why do the grandfather's notes keep deteriorating?",
+    answer: "The deterioration is a narrative device indicating system corruption or external interference. It requires players to piece together fragments of text from multiple files to understand the complete story."
+  },
+  {
+    question: "Is this Desktop Explorer guide applicable to the full release?",
+    answer: "This guide focuses on the core mechanics and puzzles present in the demo version. While the fundamental systems will remain, the full release is expected to feature expanded directories and additional applications."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 游戏指南：分步骤攻略与谜题解答",
+  description: "通过我们的 2026 年指南掌握 Desktop Explorer 的元谜题。学习密码解法、文件操作技巧，以及如何揭开每一个隐藏的秘密。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer 维基团队",
+  keywords: "Desktop Explorer, 游戏指南, 谜题解答, 攻略, 元游戏, 文件操作"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 游戏指南**：本攻略涵盖 2026 年演示版本，重点介绍文件操作和元叙事谜题。
+- **核心机制**：你必须通过重命名文件、检查源代码以及使用内置的网页浏览器来与**虚拟操作系统**进行交互。
+- **关键密码**：推进锁定目录的基本代码包括 **Inanna**、**portonus** 和 **Rubicon**。
+- **隐藏文件**：使用后期发现的“查看隐藏文件”选项来揭开“Fleeting Face”和其他背景故事条目。
+- **系统要求**：确保你在游戏环境内安装了“Storyteller Plus”和“Web Surfer”，以解决高级谜题。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 入门">
+
+**Desktop Explorer 游戏指南**从在一个模拟的复古操作系统中安装软件开始。作为玩家，你扮演一个继承了一台充满谜团、损坏文件和一个名为 Desktop Explorer 的奇怪程序的电脑的人。这款游戏将传统的点击式冒险元素与现代“元（meta）”玩法相结合，桌面本身就是你的游乐场。
+
+**视频亮点：**
+- **初始设置**：如何导航“Halibut”用户配置文件并找到安装程序。
+- **第一个谜题**：解决“岸边迷失（Lost on the Shore）”谜题以解锁第一组文档。
+- **UI 导航**：使用灯泡图标获取提示，使用任务栏进行系统管理。
+
+<YouTubeEmbed videoId="rCseKXoeQyw" title="揭开我桌面上的秘密！ - Desktop Explorer 演示版" />
+
+在深入研究复杂的谜题之前，理解界面至关重要。你不仅仅是在玩游戏；你正在“窥探”一份数字遗产。你的主要工具是文件资源管理器、源代码查看器和“Bizarro”助手（对经典办公助手的模仿）。
+
+<Callout type="tip" title="专业提示">
+务必检查任何文本文件的**源代码（Source Code）**。开发者经常在文件的注释或未渲染的文本部分隐藏提示或密码。
+</Callout>
+
+| 系统工具 | 主要功能 | 重要性 |
+| :--- | :--- | :--- |
+| **文件资源管理器** | 导航目录并重命名文件 | **高** |
+| **源代码查看器** | 揭示隐藏文本/元数据 | **至关重要** |
+| **网页浏览器 (Web Surfer)** | 访问缓存的背景故事和外部提示 | **中** |
+| **Storyteller Plus** | 执行谜题脚本和叙事 | **高** |
+
+</Section>
+
+<Section icon={Swords} title="早期游戏谜题与密码解答">
+
+安装 Desktop Explorer 后，你将面临一系列需要与桌面文件交互的文本冒险谜题。第一个主要障碍是“古代遗迹（Ancient Ruins）”部分。这里的成功取决于你将“Inheritance”文件夹中发现的线索与游戏窗口中的提示联系起来的能力。
+
+<CardGrid cols={2}>
+  <Card title="Inanna 密码">
+    在“Long Scroll”文件中找到。文中提到“Inanna 照亮了我的道路”。使用此密码解锁第一个受保护的文件夹。
+  </Card>
+  <Card title="大象谜题">
+    谜题“我用我的软管浇花……我用我的鼻子”指的是**大象**。该提示的具体答案是 **trunk**（象鼻）。
+  </Card>
+</CardGrid>
+
+解决象鼻谜题后，你会遇到“假墙（Fake Wall）”。许多玩家被困在这里寻找物理按钮。然而，游戏要求你“读懂字里行间的意思”。
+
+<Callout type="warning" title="重要提示">
+假墙的解法就在字面上。当游戏提到侦探节目的建议时，在提示符中输入 **fake wall**。
+</Callout>
+
+| 谜题阶段 | 提示位置 | 解决方案/密码 |
+| :--- | :--- | :--- |
+| **古代遗迹** | Long Scroll 文档 | **Inanna** |
+| **石窟 (The Grotto)** | 谜题文本 | **trunk** |
+| **死胡同 (The Dead End)** | 文本中的括号 | **fake wall** |
+| **大门 (The Big Door)** | 钥匙图像元数据 | **portonus** |
+
+</Section>
+
+<Section icon={Target} title="高级文件操作技巧">
+
+**Desktop Explorer 游戏指南**的核心涉及直接在桌面上操作游戏文件。这在“大门”谜题中表现得最为明显，常规钥匙无法奏效。你必须利用“一张图胜过千言万语”的线索来绕过锁。
+
+<Steps>
+  <Step num="1" title="定位钥匙文件">
+    在下载或谜题文件夹中找到名为 `key.stp` 或类似名称的文件。
+  </Step>
+  <Step num="2" title="重命名扩展名">
+    右键单击该文件并将其重命名为 `image.png` 或 `image.jpg`。这会“欺骗”操作系统显示隐藏的视觉数据。
+  </Step>
+  <Step num="3" title="提取密码">
+    打开新创建的图像。文本“Every lock obeys portonus（每一把锁都听从 portonus）”将会出现。使用 **portonus** 来解锁中央大门。
+  </Step>
+  <Step num="4" title="检查权限">
+    如果系统拒绝重命名，请确保你以正确的用户身份登录，或在属性中检查文件是否为“只读”。
+  </Step>
+</Steps>
+
+<Callout type="info" title="系统机制">
+在该操作系统中重命名文件会创建一个新副本。如果你犯了错误，可以随时删除损坏的副本，并使用原始源文件重试。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="揭开隐藏秘密与 Fleeting Face">
+
+随着你深入探索，游戏会转向心理恐怖风格。“压倒性的黑暗（Overwhelming Dark）”部分引入了查看隐藏文件的能力。对于想要了解完整叙事的玩家来说，这是 **Desktop Explorer 游戏指南**中的关键一步。
+
+<Checklist
+  id="secret-hunt"
+  title="隐藏内容清单："
+  items={[
+    "在文件夹选项中启用‘查看隐藏文件’",
+    "在谜题目录中找到‘fleeting_face.img’",
+    "找到‘我知道你看见了我 (I know you saw me)’文档",
+    "收集全部 5 个‘平石 (Flat Stone)’图像碎片",
+    "在源代码中识别卡桑德拉 (Cassandra) 警告"
+  ]}
+/>
+
+“Fleeting Face”是一个跳杀机制，同时也充当谜题线索。当面孔出现时，它通常会留下一个新文件或修改现有文件。寻找遭遇后出现的 `I know you saw me.stp` 文件；其源代码包含下一组坐标。
+
+<Callout type="warning" title="警告">
+查看隐藏文件可能会触发游戏内的系统不稳定。如果“Bizarro”助手开始表现异常，这意味着你正接近一个重大的背景真相。
+</Callout>
+
+| 秘密物品 | 位置 | 意义 |
+| :--- | :--- | :--- |
+| **平石 1-5** | 各个隐藏文件夹 | 拼凑出最终谜题的线索 |
+| **卡桑德拉文件** | 谜题 7 目录 | 警告不要继续前进 |
+| **Project X** | 根目录 | 已锁定；需要游戏后期的凭据 |
+
+</Section>
+
+<Section icon={Trophy} title="最终谜题：Rubicon 与蛇">
+
+演示版的巅峰涉及“无法逃脱（No Escape）”场景。在折返回入口后，你会发现景观发生了变化。你必须使用之前收集的“平石”在墙上雕刻符号。
+
+<CardGrid cols={3}>
+  <Card title="Rubicon 解法">
+    谜题 7 背景中的钟乳石形成了字母 **Rubicon**。这是“祭坛（Altar）”部分的密码。
+  </Card>
+  <Card title="堆叠塔">
+    从下往上阅读石头。塔上拼写出“Ever Eating”。这指的是**蛇**（衔尾蛇）。
+  </Card>
+  <Card title="内存限制">
+    如果你收到“内存不足（Out of Memory）”错误，请关闭“Web Surfer”和“Storyteller”窗口以继续。
+  </Card>
+</CardGrid>
+
+在最后的石柱中输入 **snake** 将触发演示的结束。系统将终止应用程序，声称你“不应该在这里”。这种元结局暗示玩家已经绕过了预期的“演示范围”。
+
+<Callout type="success" title="成就达成">
+解决“蛇”谜题被认为是 Desktop Explorer 演示版的“真结局”。它证实了你对游戏逻辑的掌握。
+</Callout>
+
+| 最终密码 | 背景 | 结果 |
+| :--- | :--- | :--- |
+| **Rubicon** | 钟乳石阵 | 解锁礼堂 (Auditorium) |
+| **snake** | Ever Eating 之塔 | 结束演示 / 秘密结局 |
+| **halibut** | 用户登录 | 默认访问权限 |
+
+</Section>
+
+<Section icon={Sparkles} title="Desktop Explorer 常见问题解答">
+
+<FAQ items={[
+  {
+    question: "如何修复‘操作系统版本不兼容’错误？",
+    answer: "这通常发生在尝试过早访问 Project X 时。专注于先完成 Desktop Explorer 安装程序任务，以更新你的用户权限。"
+  },
+  {
+    question: "鼻子/软管谜题的答案是什么？",
+    answer: "答案是‘trunk’。它指的是大象的鼻子，大象像用软管一样用它来浇花或整理花园。"
+  },
+  {
+    question: "我在哪里可以找到‘查看隐藏文件’选项？",
+    answer: "该选项在‘压倒性的黑暗’谜题后自动解锁。一旦火炬熄灭，文件资源管理器的‘查看’选项卡中就会出现一个新的菜单项。"
+  },
+  {
+    question: "我能在演示版中打开 Project X 文件夹吗？",
+    answer: "不能，Project X 目前被锁定在‘演示范围异常’之后。它是为 Desktop Explorer 的正式版准备的。"
+  }
+]} />
+
+<Callout type="tip" title="最后建议">
+如果你在任何谜题上卡住了，请查看目录中的文件名。通常，游戏会将文件夹重命名为你需要的提示（例如，将文件夹名称更改为‘你要去哪里？’）。
+</Callout>
+
+</Section>

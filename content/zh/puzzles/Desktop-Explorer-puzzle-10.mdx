@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer 谜题 10：分步解谜指南",
+  description: "通过此分步指南解决复杂的 Desktop Explorer 谜题 10。学习命令行、十六进制解密和注册表键值操作。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+10+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队",
+  keywords: "Desktop Explorer, 谜题 10, 解谜指南, 十六进制解密, 注册表"
+}
+
+<Callout type="info" title="快速指南">
+- **主要目标**：解决复杂的 **Desktop Explorer 谜题 10**，以解密损坏的注册表文件。
+- **关键位置**：使用复古命令提示符探索虚拟目录 `C:\RECOVERY\TEMP10`。
+- **关键工具**：使用内置的十六进制编辑器（Hex Editor）工具修复碎片化的数据块。
+- **核心线索**：从回收站中删除的邮件日志中获取解密密钥。
+- **警告**：错误的注册表修改会触发全系统的数字故障事件。
+</Callout>
+
+<Section icon={Sparkles} title="数字谜团概述">
+
+Desktop Explorer 中模拟的复古 Windows 95 操作系统隐藏着深层且令人不安的秘密。当你深入模拟桌面环境调查叔叔的突然失踪时，数字景观变得越来越具有敌意。在各种挑战中，**Desktop Explorer 谜题 10** 是一个主要的叙事瓶颈，它考验你的逻辑推理、文件系统导航和命令行掌控能力。
+
+这个特定的谜题代表了系统最后一次尝试锁定包含叔叔最后已知音频日志的损坏扇区。与早期依赖简单密码猜测的挑战不同，这个谜题需要你与模拟的虚拟硬件交互，操纵文件头，并编辑虚拟操作系统的注册表。了解这个复古环境的机制对于绕过损坏并进入游戏的最终章节至关重要。
+
+| 参数 | 详情 |
+|--- |--- |
+| 难度 | 困难 |
+| 地点 | 虚拟 C 盘 |
+| 核心机制 | 文件解密 |
+| 所需工具 | 十六进制编辑器 |
+| 剧情影响 | 解锁真结局 |
+
+<Callout type="info" title="系统检查">
+在尝试此谜题之前，请确保你已从之前的章节中找回了叔叔的日记条目，以了解解密密钥的主题背景。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="所需线索与目录位置">
+
+要成功解决 **Desktop Explorer 谜题 10**，你必须收集散布在虚拟操作系统中的三个碎片线索。破坏计算机的实体将这些碎片隐藏在系统存档、已删除文件夹和旧邮件日志中。
+
+导航目录结构需要严格注意细节，因为其中许多文件被标记为隐藏属性。以下是在尝试解密过程之前需要获取的位置和文件的精确细分。
+
+| 文件名 | 目录路径 | 线索类型 | 用途 |
+|--- |--- |--- |--- |
+| RECOVERY_10.TMP | C:\RECYCLE_BIN | 碎片化十六进制 | 解密的基础文件 |
+| MAIL_LOG_07.TXT | C:\MAIL\ARCHIVE | 位移值 | 凯撒密码位移密钥 |
+| REG_KEY_P10.DAT | C:\WINDOWS\SYSTEM | 注册表十六进制 | 验证签名 |
+
+<CardGrid cols={3}>
+  <Card title="回收站碎片">
+    - **还原文件**：在虚拟垃圾桶中找到 `RECOVERY_10.TMP`。
+    - **数据完整性**：不要用基础文本编辑器打开它，否则会损坏原始十六进制数据。
+    - **操作**：将文件直接拖到虚拟桌面。
+  </Card>
+  <Card title="注册表键值">
+    - **系统注册表**：导航至 `HKEY_LOCAL_MACHINE\SOFTWARE\EXPLORER\P10`。
+    - **隐藏值**：记下 16 位字符的十六进制验证签名。
+    - **操作**：将签名复制到你的虚拟剪贴板。
+  </Card>
+  <Card title="邮件客户端日志">
+    - **存档邮件**：打开复古邮件客户端并访问已删除日志文件夹。
+    - **解密提示**：寻找一条详细说明凯撒密码位移值为 +4 的消息。
+    - **操作**：在终端序列中记住这个位移值。
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="隐藏文件提示">
+在虚拟“文件夹选项”菜单中启用“显示隐藏文件”，以定位包含注册表备份的隐藏系统目录。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Desktop Explorer 谜题 10 分步攻略">
+
+收集齐所有必要的文件和线索后，你就可以开始解密序列了。此过程必须在虚拟终端内执行，以防止操作系统因文件系统损坏而崩溃。
+
+请仔细遵循以下步骤来重建损坏的数据块并解锁叔叔的最终记录。
+
+<Steps>
+  <Step num="1" title="访问命令提示符">
+    从“开始”菜单启动虚拟终端程序。通过输入目录遍历命令直接导航到系统恢复目录。
+  </Step>
+  <Step num="2" title="重建临时文件">
+    将从桌面找回的 `RECOVERY_10.TMP` 文件移动到活动的恢复目录中。使用文件系统命令行验证文件是否存在。
+  </Step>
+  <Step num="3" title="应用十六进制密码">
+    打开十六进制编辑器工具。加载临时文件，并对文件头应用 +4 的凯撒密码位移，以修复损坏的二进制序列。
+  </Step>
+  <Step num="4" title="执行注册表修补">
+    打开虚拟注册表编辑器。找到验证文件夹并注入修复后的十六进制签名，以永久解锁受限的系统日志。
+  </Step>
+</Steps>
+
+| 命令 | 语法 | 预期结果 |
+|--- |--- |--- |
+| CD | cd C:\RECOVERY\TEMP10 | 导航至目录 |
+| DIR /A | dir /a | 显示隐藏文件 |
+| DECRYPT | decrypt RECOVERY_10.TMP | 打开解密工具 |
+| REGEDIT | regedit | 启动注册表编辑器 |
+
+<Callout type="warning" title="故障警告">
+在未应用精确的 +4 十六进制位移的情况下执行解密命令会触发系统故障事件，强制虚拟系统完全重启。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="故障排除与故障缓解">
+
+在 **Desktop Explorer 谜题 10** 的解密过程中，虚拟操作系统可能会表现出不稳定的行为。这是一种有意的恐怖机制，旨在让你迷失方向。CRT 屏幕会闪烁，背景中会播放扭曲的音频文件，虚假的错误提示会覆盖桌面。
+
+如果在执行过程中遇到错误代码，请参考下表立即解决系统阻塞。
+
+| 错误代码 | 含义 | 解决方法 |
+|--- |--- |--- |
+| ERR_10_BAD_HEADER | 文件头损坏 | 重新下载恢复文件 |
+| ERR_10_KEY_MISMATCH | 位移值错误 | 重新阅读邮件存档 |
+| ERR_10_REG_LOCK | 注册表写保护 | 以管理员身份运行终端 |
+
+<Callout type="success" title="安全模式跳过">
+如果虚拟桌面进入无限崩溃循环，请在虚拟启动序列期间按住 Shift 键，以强制系统进入安全模式。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="完整谜题完成清单">
+
+完成此谜题将解锁关键的叙事文件，解释失踪叔叔的命运，并揭示困扰这台电脑的数字实体的真相。在进入最终章之前，请确保你已完全处理所有解锁的文件。
+
+<Checklist
+  id="puzzle-10-milestones"
+  title="解密后目标："
+  items={[
+    "验证恢复文件夹中 UNCLE_LAST_LOG.AVI 的完整性",
+    "将解密后的注册表字符串导出到物理笔记本",
+    "听取恢复的音频文件以获取最终的小木屋坐标",
+    "删除临时解密工具以掩盖你的数字踪迹"
+  ]}
+/>
+
+| 解锁文件 | 内容 | 剧情影响 |
+|--- |--- |--- |
+| UNCLE_LAST_LOG.AVI | 视频日记 | 解释该实体 |
+| SYS_LOG_FINAL.TXT | 加密密钥 | 解锁真结局 |
+
+<Callout type="info" title="后续步骤">
+视频日志播放结束后，游戏会自动在你的桌面上生成一个名为“TRUTH”的新系统文件夹。打开它以继续。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "为什么运行解密命令时终端显示访问被拒绝？",
+    answer: "你必须以管理员权限运行终端。在虚拟“开始”菜单中右键单击终端图标，选择“以管理员身份运行”，然后再执行命令。"
+  },
+  {
+    question: "Desktop Explorer 中的回收站在哪里？",
+    answer: "回收站图标位于主桌面界面的左上角。如果它不见了，你必须通过虚拟控制面板中的“桌面设置”将其启用。"
+  },
+  {
+    question: "如果在 Desktop Explorer 谜题 10 中输入了错误的注册表键值会怎样？",
+    answer: "输入错误的键值会触发跳杀（jumpscare）并强制系统重启。你将失去该特定会话中任何未保存的进度，但你收集的线索将保持完好。"
+  },
+  {
+    question: "如何找到凯撒密码的位移值？",
+    answer: "位移值隐藏在已删除邮件日志文件夹中名为“Project Update 10”的存档邮件的第三段内。"
+  }
+]} />
+
+<Callout type="tip" title="最后提示">
+在解决谜题 10 时，请密切注意背景环境音；静态噪音中低语的频率指示了你离输入正确密钥有多近。
+</Callout>
+
+</Section>

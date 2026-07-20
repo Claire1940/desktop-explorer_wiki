@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "独立游戏 Desktop Explorer：通关与谜题指南",
+  description: "精通独立游戏 Desktop Explorer 中的谜题。寻找隐藏的文件夹密码，解决基于电脑的谜题，并在诡异的桌面氛围中生存下来。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Indie+Game+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **独立游戏 Desktop Explorer** 用逼真的复古操作系统谜题挑战玩家。
+- **核心进度**围绕寻找隐藏密码以解锁后续文件夹展开。
+- **氛围恐怖**元素会在你深入探索模拟目录时触发。
+- 高级阶段需要使用终端、注册表编辑器和十六进制查看器等**系统工具**。
+- **观察者（The Watcher）**是游戏中的活跃威胁，会对你的解密速度和失误做出反应。
+</Callout>
+
+<Section icon={Map} title="独立游戏 Desktop Explorer 概述">
+
+**独立游戏 Desktop Explorer** 是一款复古风格的桌面模拟器，它将复杂的谜题解决与心理恐怖完美融合。玩家将与一个模拟的 90 年代操作系统进行交互，在嵌套目录、损坏的系统文件和遗忘的用户日志中穿行，以揭开一个黑暗的故事。核心目标简单却极具挑战性：解决电脑使用谜题，找到解锁后续文件夹的密码密钥。然而，随着你深入目录树，系统开始表现出异常行为，给你一种独特而令人不安的被窥视感。
+
+为了帮助你在这个数字迷宫中导航，我们整理了你在该操作系统中将遇到的核心系统和机制的详细分解。
+
+**视频亮点：**
+- 了解目录导航和密码检索的基本规则。
+- 理解隐藏在桌面界面中的心理恐怖元素。
+- 探索如何处理解密过程中触发的诡异异常事件。
+
+<YouTubeEmbed videoId="qfpuWJIeCXo" title="Desktop Explorer - 发售日期预告片" />
+
+该模拟器包含多个交互式实用程序，每个程序在你的解密工作中都扮演着独特角色。了解这些工具如何相互作用，对于在操作系统的更深层中生存至关重要。
+
+| 系统功能 | 谜题类型 | 交互程度 | 威胁警告 |
+| :--- | :--- | :--- | :--- |
+| **文件资源管理器** | 目录导航 | 高 | 隐藏的诡异文件 |
+| **命令提示符** | 基于语法的解密 | 中 | 系统锁定 |
+| **邮件客户端** | 背景故事阅读与线索 | 低 | 网络钓鱼警报 |
+| **注册表编辑器** | 变量修改 | 极高 | 永久性故障 |
+
+<Callout type="info" title="系统行为">
+当你解锁文件夹时，系统内存占用会异常飙升。这是一个脚本化的叙事设计，旨在模拟一台受损的机器。请勿关闭游戏；相反，应在模拟桌面中寻找系统优化工具以清理缓存。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="解密密码与解决基础谜题">
+
+在**独立游戏 Desktop Explorer**中，通关完全取决于你定位和解密密码的能力。这些密码并非随机生成，而是隐藏在图片的元数据、已删除邮件的文本中，或混淆在系统日志内部。 
+
+为了系统地破解这些安全措施，玩家必须学会仔细观察虚拟环境。下表详细列出了你必须访问的主要目录、在哪里可以找到它们的线索，以及所需的通用解密方法。
+
+| 目录 | 线索来源 | 解密方法 | 难度 |
+| :--- | :--- | :--- | :--- |
+| **Root/Documents** | Readme.txt 提示 | 简单密码 | ★★☆☆☆ |
+| **System32/Drivers** | 日志十六进制转储 | 二进制转换 | ★★★☆☆ |
+| **User/Downloads** | 损坏的图像文件 | 元数据检查 | ★★★★☆ |
+| **Network/Shared** | 数据包捕获日志 | 端口映射 | ★★★★★ |
+
+要解锁你的第一个受密码保护的文件夹并开启旅程，请按照以下步骤解密序列进行操作。
+
+<Steps>
+  <Step num="1" title="定位 Readme 文件">
+    导航到 `C:/User/Documents` 文件夹。打开 `Readme.txt` file。注意文本中异常分散的大写字母。
+  </Step>
+  <Step num="2" title="提取密码密钥">
+    按顺序写下大写字母。该序列构成一个简单的凯撒密码移位密钥（通常根据你的游戏种子，移位为 +3 或 -3）。
+  </Step>
+  <Step num="3" title="检查图像元数据">
+    右键单击同目录中名为 `hint.bmp` 的图像文件并选择“属性”。在元数据选项卡下，找到注释部分中的加密字符串。
+  </Step>
+  <Step num="4" title="应用移位并解锁">
+    将你的凯撒密码密钥应用于元数据字符串。将生成的明文密码输入到锁定的文件夹提示框中，以获取对下一级目录的访问权限。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="隐藏的文件扩展名">
+在游戏开始后，务必立即在系统设置面板中启用“显示隐藏文件”。几个关键的谜题线索位于隐藏的 `.ini` 和 `.sys` 文件中，这些文件在默认查看设置下不会渲染。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="高级桌面操作策略">
+
+一旦你通过了第三个文件夹层级，谜题将需要对模拟操作系统进行更深层次的操作。你不能再仅仅依赖简单的文本文件；相反，你必须利用命令行参数和注册表修改来绕过安全防火墙。
+
+该操作系统配备了功能齐全的终端模拟器。了解要执行哪些命令可以为你节省数小时漫无目的的点击。
+
+<CardGrid cols={3}>
+  <Card title="终端操作">
+    - **查询隐藏目录**
+    - 执行系统诊断
+    - 强制终止锁定的进程
+  </Card>
+  <Card title="十六进制编辑器解码">
+    - **读取原始二进制数据**
+    - 识别隐藏的文件头
+    - 重建损坏的图像
+  </Card>
+  <Card title="系统日志与元数据">
+    - **追踪系统修改时间**
+    - 寻找隐藏的作者签名
+    - 提取用于密码的时间戳
+  </Card>
+</CardGrid>
+
+在使用终端时，执行错误的命令可能会触发防御性安全协议，从而将你锁定在目录之外或加速异常恐怖事件的发生。请参考以下命令参考表以确保安全执行。
+
+| 命令 | 目标实用程序 | 效果 | 威胁级别 |
+| :--- | :--- | :--- | :--- |
+| `sys_decrypt` | 密码文件夹 | 提示输入文件夹密钥 | 安全 |
+| `scan_sector` | 硬盘扇区 | 发现损坏的文件 | 低 |
+| `override_reg` | 注册表数据库 | 修改系统变量 | 高 |
+| `net_connect` | 远程服务器 | 触发观察者活动 | 极高 |
+
+<Callout type="warning" title="观察者协议">
+运行 `net_connect` 命令会启动一个模拟的远程连接。这将触发“观察者（Watcher）”实体，导致你的虚拟屏幕闪烁、鼠标光标漂移以及背景音频失真。请仅在准备好所有其他线索时才执行此命令。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="秘密、彩蛋与成就">
+
+除了主线谜题进度外，**独立游戏 Desktop Explorer** 还包含大量隐藏文件和背景故事片段，这些内容充实了该操作系统令人不安的背景故事。寻找这些秘密需要另辟蹊径，调查主线任务从未强制你打开的目录。
+
+要实现 100% 完成度并解锁游戏的真结局，你必须记录所有异常情况并恢复每一件已删除的用户数据。
+
+<Checklist
+  id="desktop-explorer-secrets"
+  title="100% 完成度清单："
+  items={[
+    "定位并阅读全部 12 篇个人日志条目",
+    "在系统根目录下找到隐藏的 'watcher.exe' 文件",
+    "触发全部 5 个不同的桌面异常事件",
+    "解锁秘密的命令行终端历史记录日志",
+    "在不失败任何一次密码提示的情况下通关游戏"
+  ]}
+/>
+
+追踪这些异常文件需要特定的触发条件。使用下表定位隐藏在游戏文件结构中最显著的背景故事片段。
+
+| 文件名 | 位置 | 触发条件 | 故事影响 |
+| :--- | :--- | :--- | :--- |
+| **watcher.exe** | 根目录 | 登录失败 3 次后运行 | 解释 AI 观察者 |
+| **diary_2001.rtf** | User/Trash | 通过命令行恢复 | 系统所有者的背景故事 |
+| **cam_feed.bin** | System/Drivers | 十六进制编辑驱动文件 | 摄像头画面的视觉惊吓 |
+
+<Callout type="success" title="真结局解锁">
+要解锁真结局，你必须在输入最后一个目录密码之前，将 `watcher.exe` 复制到 `Network/Shared` 文件夹中。这会将该实体上传到网络，将其从你的本地桌面中释放，并揭晓一个秘密的片尾彩蛋。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Desktop Explorer 常见问题解答">
+
+本部分解答了在游玩**独立游戏 Desktop Explorer**时遇到的常见问题和故障排除方法。
+
+<FAQ items={[
+  {
+    question: "如果虚拟桌面崩溃了该怎么办？",
+    answer: "如果游戏内桌面崩溃并显示蓝屏，这实际上是一个脚本化的谜题事件。阅读蓝屏上显示的错误代码；它包含一个十六进制偏移量，可转化为下一个文件夹的密码。"
+  },
+  {
+    question: "在解密过程中如何阻止光标漂移？",
+    answer: "光标漂移是由“观察者（Watcher）”实体引起的。要临时稳定光标，请打开虚拟任务管理器，并终止在未知或损坏用户名下运行的任何活动进程。"
+  },
+  {
+    question: "我会永久无法进入某个文件夹吗？",
+    answer: "不会。虽然输入错误的密码会触发视觉故障和诡异的音频提示，但你永远不会被永久锁死进度。你随时可以重新检查目录以寻找遗忘的线索。"
+  },
+  {
+    question: "共享网络驱动器的解密密钥在哪里？",
+    answer: "网络驱动器解密密钥分为两部分。前半部分位于 'user_avatar.png' 文件的元数据中，后半部分必须通过在终端中运行 'scan_sector' 命令来生成。"
+  }
+]} />
+
+<Callout type="tip" title="外部资源">
+如需实时更新和社区驱动的谜题解决方案，请查看官方的 [Desktop Explorer Steam 社区中心](https://steamcommunity.com) 或咨询开发者 2026 年 7 月的官方更新说明，了解任何目录布局的调整。
+</Callout>
+
+</Section>

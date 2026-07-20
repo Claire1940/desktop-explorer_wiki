@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 谜题 2：洞穴壁画攻略与解决方案",
+  description: "通过我们关于洞穴壁画、堆石机制以及船上死者之谜的全面指南，掌握 Desktop Explorer 谜题 2。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Puzzle+2",
+  date: "2026-07-21",
+  author: "Desktop Explorer 维基团队",
+  keywords: "Desktop Explorer, 谜题 2, 洞穴壁画, 堆石, Color Lens, 攻略"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 谜题 2**：重点是通过堆叠石头和解密壁画实现从洞穴到神庙的过渡。
+- **核心机制**：使用 **Color Lens（彩色透镜）** 程序揭示环境中隐藏的符号和真相。
+- **壁画解决方案**：识别 **短吻鳄（Alligator）**，数出 **14 只眼睛**，并确认 **火焰（Fire）** 是愤怒的体现。
+- **背景故事秘密**：“船上的死者”谜题与主角的叔叔以及神秘人物 **Portus** 有关。
+- **最终目标**：通过“无法逃脱（No Escape）”数字循环，解锁 Shy 神庙的入口。
+</Callout>
+
+<Section icon={Map} title="堆石逻辑">
+
+探索游戏的第二个主要阶段需要对环境线索保持敏锐。在完成最初的挑战后，你会发现自己置身于一个长廊状的密室中，这里看起来像是一个天然礼堂或古老的祭坛。墙壁因侵蚀而变形，但地面上刻着一条对解决 **Desktop Explorer 谜题 2** 至关重要的信息：“当通往真相的道路不明时，自然将引导我堆石而行。”
+
+游戏的这一部分从简单的点击转向了基于物理的互动谜题。你必须找到散落在密室各处的特定石头，并将它们堆叠起来以触发突破。
+
+**视频亮点：**
+- **谜题 8 完成**：快速回顾到达石室的要求。
+- **石头位置**：在侵蚀形成的走廊中寻找无序的石堆。
+- **石英启示**：石头正确堆叠时的视觉反馈。
+- **获取彩色透镜**：如何获得棱镜碎片并安装必要的软件。
+
+<YouTubeEmbed videoId="vIfjSsI11tM" title="Desktop Explorer - 第 2 集流程攻略" />
+
+堆叠这些石头不仅仅是一项体力任务；它代表了角色进入模拟程序更深层、更“怪异”层面的过程。一旦石头达到平衡，它们就会碎裂并露出 **石英碎片（Quartz Shards）**。这些碎片充当物理棱镜，让你能够看到肉眼原本无法察觉的颜色和符号。
+
+| 物品 | 位置 | 互动 | 结果 |
+| :--- | :--- | :--- | :--- |
+| 无序的石头 | 大厅中央 | 点击并拖拽堆叠 | 碎裂成碎片 |
+| 石英碎片 | 石头内部 | 收集并置于眼前 | 开启彩色视觉 |
+| 地面刻字 | 大厅入口 | 阅读以获取堆叠提示 | 提供“真相”逻辑 |
+| 密室壁画 | 祭坛后方 | 通过彩色透镜观察 | 揭示隐藏符号 |
+
+<Callout type="tip" title="专业提示">
+如果石头没有碎裂，请确保它们以稳定的方式垂直堆叠。游戏在触发“Other Lens（其他透镜）”对话之前会检查特定的高度阈值。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="壁画谜题与彩色透镜解决方案">
+
+获得石英碎片后，你必须安装 **Color Lens（彩色透镜）** 程序。这可以通过“程序”下的“开始菜单”完成。该工具对于解读后墙上详尽的壁画至关重要，壁画中隐藏着一个与初看上去“截然不同”的故事。壁画提出了一系列谜题，在 Desktop Explorer 谜题 2 的框架内测试你的观察能力。
+
+游戏会根据透镜揭示的图像向你提出三个具体问题。这些谜题不仅仅是点缀，如果回答错误，它们将成为阻止你继续前进的硬性障碍。
+
+| 谜题问题 | 要求答案 | 视觉依据 |
+| :--- | :--- | :--- |
+| 哪种动物在悲伤的泪水中沐浴？ | 短吻鳄 / 鳄鱼 (Alligator / Crocodile) | 壁画下方的绿色图形 |
+| 有多少只眼睛在见证接纳的喜悦？ | 14 | 数出天花板上发光的符号 |
+| 愤怒是如何在人的周围体现的？ | 火焰 (Fire) | 中心人物周围的红色/橙色刻痕 |
+
+<CardGrid cols={3}>
+  <Card title="短吻鳄 (The Alligator)">
+    “悲伤的泪水”指的是壁画中带有蓝色调的区域。通过透镜观察会发现一个爬行动物的轮廓，它代表了忧伤中的掠食者。
+  </Card>
+  <Card title="14 只眼睛">
+    这是一个计数谜题。你必须扫描整个壁画（包括边缘），找到所有十四个类似眼睛的符号。
+  </Card>
+  <Card title="愤怒的火焰">
+    愤怒被描绘成“指责之火”。刻痕显示一个男人被火焰吞噬，这是游戏阴暗背景故事中反复出现的主题。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="关键警告">
+“Color Lens（彩色透镜）”可以通过开始菜单访问，但它会消耗系统内存。如果打开的窗口过多（最多 10 个），程序可能会启动失败或导致“Desktop Explorer”崩溃。
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="船上死者之谜">
+
+解决主要的壁画谜题后，游戏会急转直下进入心理恐怖环节。一个感觉“格格不入”的问题出现了：**“谁是船上的死者？”** 这是 **Desktop Explorer 谜题 2** 中最抽象的部分。要解决这个问题，你必须跳出眼前的谜题，调查 **Chronologue（时间日志）** 和你叔叔留下的笔记。
+
+笔记中提到了一个兄弟、一种负罪感，以及一个被叙述者“接管”了家庭的男人。系统文件中出现了 **Portus** 这个名字，通常与“法律皆服从于 Portus”这句话相关联。
+
+<Steps>
+  <Step num="1" title="检查 Chronologue">
+    打开 Chronologue 程序，寻找关于“大哥（Big Brother）”的条目。注意其中提到的羞耻和“酸楚的羞耻”。
+  </Step>
+  <Step num="2" title="识别符号">
+    在“无法逃脱（No Escape）”刻痕上使用火把和彩色透镜。在文件属性中寻找隐藏的名字 **Portus** 或 **Pizaro**。
+  </Step>
+  <Step num="3" title="吟诵名字">
+    游戏会提示你：“吟诵我的名字，你的声音将承载我的火焰。”输入正确的名字（与那位兄弟有关）会触发系统崩溃。
+  </Step>
+  <Step num="4" title="系统恢复">
+    在发生“致命异常（Fatal Exception）”后，你必须重启虚拟操作系统，并检查新 Chronologue 中创建的“Full Intro（完整介绍）”文件夹。
+  </Step>
+</Steps>
+
+叙事暗示“死者”是叔叔失去的兄弟的隐喻，或者可能是他在家庭生活中取代的那个男人。这种关于认知障碍和内疚的元评论是 Desktop Explorer 体验的标志。
+
+<Callout type="success" title="背景故事洞察">
+“死者”问题参考了埃及神话（拉/奥西里斯之船），但在本游戏的语境下，它特别指代主角试图在家族历史中揭开的身份。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="过渡到 Shy 神庙">
+
+完成壁画并从系统崩溃中幸存后，将进入第二个谜题序列的最后阶段。你不再身处洞穴，而是站在一座神庙入口高大的石门前。门上刻着一个新的标题：**Shy**。
+
+这次过渡标志着难度的转变。在洞穴中，你的“直觉”或许足够，但神庙要求严格遵守数字环境的规则。你之前遇到的“无法逃脱”循环是 Shy 神庙中建筑陷阱的前兆。
+
+| 神庙元素 | 描述 | 功能 |
+| :--- | :--- | :--- |
+| 石门 | Shy 神庙的入口 | 需要完成壁画才能开启 |
+| 火把光 | 神庙内的主要光源 | 揭示墙上的隐藏文字 |
+| 新 Chronologue | 更新的日志条目 | 记录主角日益增长的偏执 |
+| 密码找回 | 关于“最喜欢的恐龙”的提示 | 系统安全背景故事的一部分 |
+
+<Checklist
+  id="puzzle-2-completion"
+  title="谜题 2 最终检查清单："
+  items={[
+    "成功堆叠石头以显露石英碎片",
+    "安装并使用了 Color Lens（彩色透镜）程序",
+    "回答了所有三个壁画谜题（短吻鳄、14、火焰）",
+    "通过 Chronologue 笔记识别了‘死者’",
+    "触发系统恢复以解锁 Shy 神庙"
+  ]}
+/>
+
+<Callout type="info" title="系统维护">
+请记住，你可以通过点击“查看（View）”选项卡菜单来放大笔记页面文件。这对于阅读叔叔受认知障碍影响而写的微小手写文字通常是必要的。
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "如何解决 Desktop Explorer 谜题 2 中的堆叠石头问题？",
+    answer: "在长廊状的密室中找到无序的石堆。点击并拖拽它们进行垂直堆叠。一旦达到正确的高度，它们就会碎裂成石英碎片，这是下一步所需的物品。"
+  },
+  {
+    question: "壁画中‘眼睛’问题的答案是什么？",
+    answer: "正确答案是 14。你必须在使用彩色透镜观察时，数出壁画及周围密室墙壁上所有类似眼睛的符号。"
+  },
+  {
+    question: "船上的死者是谁？",
+    answer: "这是一个涉及深度背景故事的问题。根据 Chronologue 和隐藏笔记，它指的是主角叔叔的兄弟或名为‘Portus’的人物。输入与‘大哥’相关的名字通常能推进剧情。"
+  },
+  {
+    question: "为什么我的游戏在壁画谜题后崩溃了？",
+    answer: "崩溃是一个脚本事件。它代表了游戏叙事中的一次‘致命异常（Fatal Exception）’。只需按任意键重启虚拟电脑，即可继续进入 Shy 神庙部分。"
+  }
+]} />
+
+</Section>

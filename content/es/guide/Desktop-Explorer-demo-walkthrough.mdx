@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Desktop Explorer: Recorrido paso a paso de la demo",
+  description: "Domina el recorrido de la demo de Desktop Explorer con soluciones a acertijos paso a paso, ubicación de archivos ocultos y secretos en esta guía de terror retro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, guía, recorrido, demo, acertijos, terror retro, archivos ocultos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Dominar el recorrido de la demo de Desktop Explorer analizando archivos de una computadora antigua.
+- **Ubicación de pistas clave**: Revisa primero la Papelera de reciclaje y los registros del sistema eliminados.
+- **Contraseña esencial**: Usa el código de fecha retro oculto en las notas del escritorio.
+- **Configuración de atmósfera**: Juega en una habitación oscura con auriculares para captar las pistas de audio.
+- **Misterio principal**: Descubre qué le pasó a tu tío desaparecido a través de su huella digital.
+</Callout>
+
+<Section icon={Map} title="Explorando la interfaz del SO Retro">
+
+Navegar por el sistema operativo simulado Windows 95 en Desktop Explorer requiere buen ojo para el diseño digital retro. La interfaz imita una nostálgica computadora personal de finales de los 90, completa con un efecto de monitor CRT parpadeante, arte de píxeles de baja resolución y sonidos de alerta del sistema clásicos. Para progresar, debes interactuar con varias aplicaciones de escritorio, leer archivos de texto, inspeccionar propiedades de imagen y buscar pistas dejadas en las carpetas del sistema.
+
+Comprender la utilidad de cada programa virtual es fundamental para tu investigación. Algunas aplicaciones son accesibles de inmediato, mientras que otras requieren privilegios de administrador o claves de descifrado para desbloquearse.
+
+| Programa | Propósito | Valor de investigación |
+| :--- | :--- | :--- |
+| Explorador de archivos | Navegar por directorios, abrir documentos | Alto (Contiene pistas principales de la historia) |
+| Retro Chat | Leer mensajes archivados | Medio (Proporciona trasfondo del personaje) |
+| Herramienta de recuperación | Restaurar archivos de sistema eliminados | Alto (Desbloquea áreas bloqueadas de la demo) |
+| Símbolo del sistema | Ejecutar comandos del sistema | Alto (Accede a rutas de directorios ocultos) |
+
+A medida que hagas clic en las carpetas, presta mucha atención a los tamaños de los archivos y las fechas de modificación. Las discrepancias en los metadatos del sistema a menudo apuntan a archivos o directorios ocultos que han sido alterados intencionalmente para encubrir secretos.
+
+<Callout type="warning" title="Inestabilidad del sistema">
+Prepárate para fallos repentinos del sistema. Abrir archivos corruptos puede desencadenar anomalías visuales, audio distorsionado y ventanas emergentes inesperadas que revelan pistas crípticas o mensajes de advertencia de una entidad desconocida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido paso a paso: Soluciones de acertijos">
+
+Completar la demo requiere resolver una secuencia de acertijos digitales repartidos por el sistema operativo simulado. Sigue este recorrido estructurado para eludir los protocolos de seguridad, descifrar archivos bloqueados y descubrir la verdad tras la misteriosa desaparición de tu tío.
+
+<Steps>
+  <Step num="1" title="Arranque e inspección inicial">
+    Enciende la computadora virtual y espera a que se cargue el escritorio. Abre el Explorador de archivos y navega hasta la carpeta 'Mis documentos'. Abre el archivo de texto llamado 'ReadMe.txt' para encontrar tu primera pista narrativa. Luego, abre la 'Papelera de reciclaje' y anota los nombres de los archivos corruptos; necesitarás restaurarlos más adelante una vez que adquieras la herramienta de recuperación.
+  </Step>
+  <Step num="2" title="Descifrando el primer código">
+    Localiza la carpeta bloqueada llamada 'Uncle_Private'. Para descifrarla, abre la aplicación 'Retro Chat' y revisa el historial de chat entre tu tío y un usuario llamado 'Archivist_95'. El registro del chat menciona un año de aniversario significativo. Combina este año con la clave de arranque predeterminada del sistema para formar la contraseña de desbloqueo.
+  </Step>
+  <Step num="3" title="Restaurando los datos eliminados">
+    Inicia la 'Herramienta de recuperación' desde el Menú de inicio. Introduce la clave de registro restaurada para arrancar el asistente de recuperación. Selecciona los archivos eliminados de la lista de escaneo e inicia el proceso de extracción. Esta acción restaurará 'Uncle_Notes.txt' y un archivo de audio distorsionado en tu escritorio.
+  </Step>
+  <Step num="4" title="Accediendo al directorio final">
+    Abre el 'Símbolo del sistema' y escribe el comando de cambio de directorio del sistema para acceder a la partición oculta del sistema. Ejecuta el archivo de audio restaurado a través de la línea de comandos para activar la secuencia final de la demo, que descifra el archivo de misterio definitivo.
+  </Step>
+</Steps>
+
+Siguiendo esta secuencia, navegarás con éxito por los acertijos principales de la demo. A continuación se presenta un resumen de las contraseñas críticas y dónde encontrarlas durante tu partida.
+
+| Archivo / Carpeta bloqueada | Ubicación de la pista | Contraseña de descifrado |
+| :--- | :--- | :--- |
+| Uncle_Private | Registro de chat eliminado #4 | 1995_OS |
+| System_Secure_Bin | Archivo de registro 0x09 | RECOVERY_KEY |
+| Archive_July17 | Nota adhesiva del escritorio | RETRO_CRT |
+
+<Callout type="tip" title="Comando oculto">
+Si te quedas atascado, abre el Símbolo del sistema y escribe 'HELP'. Esto muestra una lista de comandos del sistema ocultos que pueden eludir errores menores de archivos o revelar la ruta del directorio de documentos elusivos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desenterrando archivos ocultos y secretos">
+
+La demo de Desktop Explorer está repleta de archivos opcionales y huevos de pascua digitales que expanden la narrativa y proporcionan un contexto más profundo a la historia de terror general. Encontrar estos secretos requiere salirse del camino trillado e investigar directorios que no se mencionan explícitamente en la misión principal.
+
+<CardGrid cols={3}>
+  <Card title="Registros de chat eliminados">
+    En lo profundo del directorio del sistema se encuentra una carpeta archivada que contiene registros de chat de julio de 2026. Estos registros revelan la creciente paranoia de tu tío con respecto a una extraña señal digital.
+  </Card>
+  <Card title="Ediciones del registro del sistema">
+    Modificar valores específicos del registro puede desactivar el efecto de parpadeo CRT o desbloquear fondos de pantalla de escritorio secretos que contienen códigos binarios ocultos.
+  </Card>
+  <Card title="La imagen con fallos">
+    Un archivo de imagen corrupto en la carpeta equivalente a 'System32' puede repararse cambiando su extensión de archivo, revelando una fotografía oculta perturbadora.
+  </Card>
+</CardGrid>
+
+Muchos de estos secretos están ocultos tras ingeniosas convenciones de nomenclatura de archivos. Por ejemplo, los archivos llamados 'System_Log_Temp' o 'Cache_Data' a menudo contienen bloques de texto ocultos cuando se abren con el editor de texto básico.
+
+<Callout type="success" title="Secreto desbloqueado">
+Restaurar con éxito los tres registros de chat eliminados desbloquea una entrada de diario de audio secreta de tu tío, proporcionando detalles vitales del lore sobre la entidad que reside dentro del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del sistema y ajustes de rendimiento">
+
+Para apreciar plenamente la atmósfera retro de Desktop Explorer, se recomienda encarecidamente asegurarse de que la configuración de tu computadora física esté optimizada para el filtro CRT y el audio espacial del juego. El juego está diseñado para ejecutarse sin problemas en la mayoría del hardware moderno, pero ajustes específicos pueden mejorar tu inmersión.
+
+| Especificación | Requisito mínimo | Configuración recomendada |
+| :--- | :--- | :--- |
+| SO | Windows 10 (64 bits) | Windows 10 / 11 (64 bits) |
+| Procesador | Dual Core 2.0 GHz | Quad Core 3.0 GHz |
+| Memoria | 4 GB de RAM | 8 GB de RAM |
+| Gráficos | Compatible con DirectX 11 | GTX 1050 o equivalente |
+| Almacenamiento | 1 GB de espacio disponible | 2 GB de espacio disponible |
+
+Ajustar los filtros visuales en el menú principal puede afectar significativamente tu experiencia de juego. Si la distorsión de la pantalla CRT retro o el fuerte ruido de VHS causan fatiga visual, estas características pueden desactivarse o reducirse en el menú de opciones sin perder la estética central del entorno de terror digital.
+
+<Checklist
+  id="demo-completion-goals"
+  title="Hitos de finalización de la demo:"
+  items={[
+    "Explorar cada carpeta y directorio del escritorio",
+    "Descifrar la carpeta segura Uncle_Private",
+    "Restaurar todos los archivos corruptos usando la Herramienta de recuperación",
+    "Localizar el código binario oculto en el fondo de pantalla del escritorio",
+    "Activar el evento final del símbolo del sistema para completar la demo"
+  ]}
+/>
+
+<Callout type="info" title="Ajustes de audio">
+Para la mejor experiencia, configura tu salida de audio en Estéreo y aumenta el volumen maestro. Los zumbidos de baja frecuencia y los sutiles clics del disco duro contienen pistas direccionales que pueden guiar tu investigación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar el recorrido completo de la demo de Desktop Explorer?",
+    answer: "Esta guía proporciona el recorrido completo paso a paso para la demo, cubriendo todo, desde el arranque del SO retro hasta el descifrado de las contraseñas de seguridad finales."
+  },
+  {
+    question: "¿Cómo reparo los archivos corruptos en la Papelera de reciclaje?",
+    answer: "Primero debes localizar e iniciar la Herramienta de recuperación desde el Menú de inicio virtual. Una vez abierta, escanea el registro del sistema para obtener la clave de recuperación, que te permite extraer y restaurar los archivos corruptos."
+  },
+  {
+    question: "¿Hay un final verdadero en la demo de Desktop Explorer?",
+    answer: "Sí. El final verdadero de la demo se activa ejecutando el archivo de audio restaurado a través del Símbolo del sistema virtual después de descifrar todos los archivos privados del usuario."
+  },
+  {
+    question: "¿Qué debo hacer si la pantalla del escritorio virtual se congela?",
+    answer: "Una pantalla congelada es a menudo un evento narrativo programado. Espera unos momentos a que el sistema se 'reinicie' o consulta el Símbolo del sistema para ver si hay errores activos del sistema que requieran entrada manual."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, FileText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 沙漏谜题：分步通关指南",
+  description: "通过我们专业的通关指南掌握 Desktop Explorer 沙漏谜题。学习在这款复古恐怖游戏中如何修改系统时间并解锁隐藏文件。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Hourglass+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer 维基团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 沙漏谜题**：这是一个位于类似 System32 目录中的基于时间的生存环境挑战。
+- **核心机制**：玩家必须将**系统时钟**与在损坏的 .LOG 文件中找到的时间戳进行同步。
+- **关键物品**：需要使用 `TIME_SYNC.EXE` 工具来绕过无限加载循环。
+- **关键警告**：将时钟设置到 **1995** 年之前的日期可能会触发系统级崩溃和独特的跳杀（jumpscare）。
+- **最终奖励**：解锁包含真结局关键背景故事的“Project Hourglass”（沙漏计划）加密文件夹。
+</Callout>
+
+<Section icon={Clock} title="理解 Desktop Explorer 沙漏谜题">
+
+**Desktop Explorer 沙漏谜题**是游戏中最具氛围感的挑战之一，出现在对神秘复古电脑进行调查的中期。与标准的基于物品栏的谜题不同，此挑战需要玩家直接与模拟操作系统的 UI 元素进行交互。当你尝试打开“Classified”（机密）文件夹时，会触发该谜题，导致光标永久变为沙漏状态，在解决时间循环逻辑之前无法进行进一步的交互。
+
+<Callout type="tip" title="视觉线索">
+仔细观察沙漏光标。如果沙子向上流动，说明你当前处于“反转文件状态”，这意味着你必须在回收站而不是活动目录中寻找线索。
+</Callout>
+
+要成功通过此区域，你必须了解游戏如何模拟 90 年代的文件延迟。这个谜题不仅仅是等待；它是一个逻辑门，检查玩家是否发现了游戏早期聊天记录中提到的“缺失日期”。
+
+| 谜题元素 | 系统中的功能 | 重要程度 |
+| :--- | :--- | :--- |
+| **系统时钟** | 时间操作的主要界面 | **至关重要** |
+| **沙漏图标** | 指示后台进程锁定 | 高 |
+| **TIME_SYNC.SYS** | 控制光标状态的驱动文件 | 中 |
+| **内核日志** | 包含所需的特定时间戳 | **至关重要** |
+| **CMOS 电池** | 防止时钟重置的隐藏物品 | 可选 |
+
+</Section>
+
+<Section icon={Target} title="沙漏谜题分步通关指南">
+
+解决 **Desktop Explorer 沙漏谜题** 需要在虚拟 BIOS 和桌面环境中执行特定的操作顺序。请按照以下步骤打破加载循环并访问加密数据。
+
+<Steps>
+  <Step num="1" title="定位损坏的日志">
+    导航到 `C:\TEMP` 目录，找到名为 `BOOT_ERR.LOG` 的文件。使用文本编辑器打开它。滚动到底部，找到标有“CRITICAL FAILURE”（严重故障）的时间戳。记录下准确的日期和时间（通常为 1995 年 7 月 17 日凌晨 03:14）。
+  </Step>
+  <Step num="2" title="访问系统设置">
+    单击“开始”菜单，选择“设置”，然后选择“控制面板”。打开“日期/时间”实用程序。这是进行 **Desktop Explorer 沙漏谜题** 主要操作的地方。
+  </Step>
+  <Step num="3" title="同步时钟">
+    手动更改系统日期以匹配步骤 1 中找到的时间戳。你必须精确到一分钟之内。输入数值后，先不要点击“应用”。
+  </Step>
+  <Step num="4" title="执行 Time_Sync.exe">
+    在“日期/时间”窗口打开的状态下，运行 `C:\DOS` 文件夹中的 `TIME_SYNC.EXE`。沙漏光标应该开始在标准指针和加载图标之间闪烁。
+  </Step>
+  <Step num="5" title="确认突破">
+    点击“日期/时间”窗口上的“应用”。屏幕会瞬间闪烁，然后“Classified”（机密）文件夹终于会打开，露出隐藏的项目文件。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="系统稳定性">
+如果在此过程中沙漏变成红色，请立即关闭所有打开的窗口。红色沙漏表示“潜行者”（Stalker）实体已检测到你的系统操作。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="时间异常对比与效果">
+
+在 **Desktop Explorer 沙漏谜题** 期间，电脑的状态会根据你在系统时钟中设置的年份而改变。不同的年份会展示不同版本的桌面，提供可选的背景故事和秘密。
+
+<CardGrid cols={3}>
+  <Card title="1992：遗留模式">
+    - **UI 风格**：灰度/极简
+    - **秘密**：早期开发笔记
+    - **风险**：受限的程序支持
+  </Card>
+  <Card title="1995：故事模式">
+    - **UI 风格**：标准 Windows 95
+    - **秘密**：主线剧情推进
+    - **风险**：标准实体遭遇
+  </Card>
+  <Card title="1999：故障模式">
+    - **UI 风格**：损坏/霓虹
+    - **秘密**：千禧虫（Y2K）隐藏彩蛋
+    - **风险**：高频率崩溃
+  </Card>
+</CardGrid>
+
+将时钟设置为未来（超过 2026 年的任何时间）将导致整个硬盘出现“File Not Found”（找不到文件）错误，从而强制重启。这是尝试跳过 **Desktop Explorer 沙漏谜题** 逻辑的玩家常犯的错误。
+
+| 日期范围 | 桌面主题 | 可用文件 | 安全等级 |
+| :--- | :--- | :--- | :--- |
+| **1994 年之前** | 复古 BIOS | 仅系统配置 | 低 |
+| **1995-1996** | 经典蓝 | 所有用户文件 | 中 |
+| **1997-1998** | 自定义壁纸 | 加密录像带 | 高 |
+| **2000 年之后** | 噪点/虚空 | 无（已损坏） | **极高** |
+
+</Section>
+
+<Section icon={Shield} title="常见谜题错误排查">
+
+许多玩家会遇到即使更改了时钟后沙漏仍然存在的问题。这通常是因为后台进程“锁定”了系统时间。
+
+**常见问题与解决方法：**
+- **时钟重置**：如果你没有删除根目录中的 `AUTOEXEC.BAT` 文件，就会发生这种情况。删除它以允许永久更改时间。
+- **沙漏冻结**：如果动画完全停止，说明游戏已软锁定。你必须在游戏内使用 `CTRL+ALT+DEL` 命令来重启虚拟外壳（shell）。
+- **丢失日期/时间图标**：如果控制面板中缺少该图标，你必须在回收站中找到 `TIMEDATE.CPL` 文件并将其“还原”。
+
+<Callout type="success" title="高手策略">
+在尝试 **Desktop Explorer 沙漏谜题** 之前，请将所有重要的线索文件移至“My Documents”（我的文档）文件夹。某些系统级的时间更改可能会清空经常存储线索的“Temp”文件夹。
+</Callout>
+
+| 错误代码 | 含义 | 所需操作 |
+| :--- | :--- | :--- |
+| **ERR_0x001** | 时间不匹配 | 重新阅读 BOOT_ERR.LOG |
+| **ERR_0x005** | 拒绝访问 | 以管理员身份运行 |
+| **ERR_0x009** | CMOS 失效 | 寻找隐藏的电池物品 |
+
+</Section>
+
+<Section icon={Trophy} title="谜题完成清单">
+
+在继续进行 Desktop Explorer 的最终章节之前，请确保你已从该谜题解锁的“Project Hourglass”（沙漏计划）目录中提取了所有数据。
+
+<Checklist
+  id="hourglass-completion"
+  title="沙漏谜题后续目标："
+  items={[
+    "从隐藏文件夹中恢复 'Incident_Report.doc'",
+    "在子目录中找到音频文件 'Tape_04.wav'",
+    "删除 TIME_SYNC.EXE 以防止实体追踪你",
+    "将时钟重置为当前的 2026 年日期以稳定 UI",
+    "检查“已发送”邮件文件夹，查看来自“叔叔”（Uncle）的新邮件"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "我可以在不找到日志文件的情况下解决 Desktop Explorer 沙漏谜题吗？",
+    answer: "从技术上讲是可以的，如果你知道日期（1995 年 7 月 17 日）。然而，游戏逻辑通常要求你至少打开过一次日志文件，以触发“应用”按钮的事件。"
+  },
+  {
+    question: "如果我将时钟设置为当前的现实世界日期会怎样？",
+    answer: "将时钟设置为 2026 年会使系统稳定，但无法解决谜题。该谜题特别需要“历史”同步来访问存档数据。"
+  },
+  {
+    question: "有什么方法可以加快沙漏的加载时间吗？",
+    answer: "加载时间是 Desktop Explorer 沙漏谜题的脚本化元素。只有在系统设置中设置了正确的日期后，它才会加快。"
+  },
+  {
+    question: "为什么当我把年份改成 1990 年时屏幕会变黑？",
+    answer: "这是一个刻意设计的“越界”秘密。虚拟硬件无法模拟发布日期之前的操作系统，从而导致进入“虚空”（Void）状态，在此状态下你可以听到隐藏的音频信息。"
+  }
+]} />
+
+</Section>

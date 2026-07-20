@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Search, Settings, Eye } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 紧锁下颚谜题：一步步通关指南",
+  description: "掌握 Desktop Explorer 紧锁下颚谜题和前期游戏挑战。包含源代码谜题、文件重命名以及隐藏文件夹谜题的完整解决方案。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Locked+Jaws+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki 团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 紧锁下颚谜题**：通常指玩家必须操作“模拟操作系统”以绕过安全机制的元游戏（meta-game）机制。
+- **核心机制**：你必须使用**查看源代码**、**文件属性**和**隐藏文件夹**来寻找密码。
+- **主要目标**：探索“Chronolog”并解决前 10 个谜题，以揭开关于 Hal 叔叔和 Guppy 的真相。
+- **关键提示**：始终检查文件的**属性**或**重命名**损坏的文件以显示隐藏的数据。
+- **最佳选择**：在最后的壁画谜题中使用**彩色透镜（Color Lens）**工具，根据情感线索识别特定符号。
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer 入门指南">
+
+Desktop Explorer 是一款模拟复古操作系统环境的元恐怖解谜游戏。要解决 Desktop Explorer 紧锁下颚（locked jaws）谜题并在“Chronolog”的初始层中推进，玩家必须看透所提供的图像和文本文件的表象。游戏挑战你与模拟操作系统交互的能力，要求你执行诸如调整窗口大小以显示隐藏形状，或挖掘“Hal 叔叔”留下的文件元数据等任务。
+
+**视频要点：**
+- 包含大象谜题在内的前 10 个谜题的完整通关指南。
+- 演示如何使用“源代码”功能查找隐藏密码。
+- 重命名“错误”密钥文件以解锁中心大门的分步指南。
+- 彩色透镜壁画谜题和 14 只眼睛解决方案的视觉指南。
+
+<YouTubeEmbed videoId="8chb_61JDdE" title="Desktop Explorers - 第一部分 | 前 10 个谜题通关指南" />
+
+<Callout type="tip" title="初始设置">
+开始之前，请确保安装了“Open Me”文件夹中的“Desktop Explorer.exe”。该文件夹的密码是主角的昵称：**Guppy**。
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="前期谜题解答与逻辑">
+
+游戏的前期阶段为你解决 Desktop Explorer 紧锁下颚谜题奠定了“元”规则。这些谜题不仅仅是阅读文本，而是操作界面。例如，大象谜题要求你调整窗口大小，使文本换行排列成大象的形状，从而引导你找到解决方案。
+
+| 谜题等级 | 谜题名称 | 逻辑/所需操作 | 密码答案 |
+| :--- | :--- | :--- | :--- |
+| **谜题 1** | 洞穴入口 | 阅读沙子中逐渐消失的字母 | **Fortuna** |
+| **谜题 2** | 火把 | 读出卷轴上的名字 | **Iana** |
+| **谜题 3** | 大象谜题 | 调整窗口大小以看到象鼻 | **Elephice** |
+| **谜题 4** | 源码真相 | 查看页面的“源代码” | **SALVE** |
+| **谜题 5** | 错误密钥 | 重命名损坏的 .jpg 文件 | **Portonus** |
+
+<Callout type="warning" title="窗口大小调整">
+如果你卡在大象谜题上，不要只盯着文字看。点击并拖动窗口的边缘。“文本换行”机制是本游戏中的一个物理谜题元素。
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="高级系统操作">
+
+随着你逐步接近 Desktop Explorer 紧锁下颚谜题，游戏引入了系统级别的交互。你不再只是一个读者，而是一个正在对一台诡异电脑进行故障排除的用户。这涉及检查文件属性和启用隐藏的系统文件以找到前进的道路。
+
+<CardGrid cols={2}>
+  <Card title="文件属性检查">
+    右键单击“刻字墙”或特定的谜题文件，然后选择**属性**。通常，推进所需的密码或“名称”隐藏在元数据字段中，而不是文件内容本身。
+  </Card>
+  <Card title="隐藏文件夹">
+    当游戏提到你的“感官变得敏锐”或你处于完全黑暗中时，请转到文件资源管理器的**查看**菜单，并勾选**显示隐藏文件**。这将揭示通往下一个区域的路径。
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="识别刻字墙">
+    找到写有“敢不敢说出我的名字”的文件。这是 Desktop Explorer 紧锁下颚谜题序列中一个经典的阻碍。
+  </Step>
+  <Step num="2" title="访问元数据">
+    右键单击该文件并导航到**属性**选项卡。
+  </Step>
+  <Step num="3" title="输入代码">
+    在属性中找到的密码是 **MMT**。请注意，游戏对这些输入通常不区分大小写。
+  </Step>
+</Steps>
+
+<Callout type="info" title="卡珊德拉的警告">
+当你遇到来自卡珊德拉的“闲人免进”警告时，你必须启用“隐藏文件”才能找到 **Rubicon** 密码，从而让你绕过消耗警告。
+</Callout>
+
+</Section>
+
+<Section icon={Eye} title="壁画与彩色透镜机制">
+
+第一章的高潮涉及祭坛和一幅复杂的壁画。在这里，Desktop Explorer 紧锁下颚谜题的元素与叙事中关于创伤和记忆的主题交织在一起。你必须使用“彩色透镜”软件来过滤壁画，并根据不同光谱中显示的内容回答安全问题。
+
+| 问题 | 彩色透镜滤镜 | 视觉线索 | 答案 |
+| :--- | :--- | :--- | :--- |
+| **流泪的动物？** | 蓝色 | 水中的鳄鱼 | **Crocodile** |
+| **见证极乐的眼睛？** | 黄色 | 计算非人类眼睛的数量 | **14** |
+| **愤怒的化身？** | 红色 | 包围船只的火焰 | **Fire** |
+| **死者是谁？** | 无/背景故事 | 参考叔叔的信件 | **Hallebert** |
+
+<Callout type="success" title="14 只眼睛">
+在为“接纳的极乐”问题数眼睛时，请忽略看起来像人类的脸。专注于散落在黄色滤镜上的抽象、天使般的眼睛符号。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="剧情背景与创伤日志">
+
+理解 Desktop Explorer 紧锁下颚谜题需要来自日志条目的背景信息。这些日志揭示了主角 Guppy 正在应对哥哥在火灾中丧生的痛苦，以及与 Hal 叔叔之间复杂的关系。“紧锁下颚”的意象往往反映了无法说出这种创伤，这就是为什么“说出名字”是一个反复出现的解决方法。
+
+<Checklist
+  id="journal-completion"
+  title="关键剧情里程碑："
+  items={[
+    "阅读关于 Hal 叔叔清醒时期的 'Chronolog' 介绍。",
+    "解锁 'Anglo Trio' 钓鱼之旅的记忆。",
+    "恢复关于哥哥在火灾中丧生的日志。",
+    "识别涉及哥哥妻子的 '创伤羁绊' 日志。",
+    "触发 '你不该在这里' 系统崩溃事件。"
+  ]}
+/>
+
+<Callout type="warning" title="系统崩溃">
+输入“Hallebert”作为最终答案后，游戏将模拟系统崩溃。这是剧情安排的。请勿关闭你的真实电脑；等待“恢复密码”提示出现以继续故事。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="常见问题解答">
+
+<FAQ items={[
+  {
+    question: "如果文件损坏，我该如何解决 Desktop Explorer 紧锁下颚谜题？",
+    answer: "你必须重命名文件扩展名。例如，如果密钥文件是 'key.err'，右键单击它并将其重命名为 'key.jpg'，以显示视觉密码 'Portonus'。"
+  },
+  {
+    question: "“Open Me”文件夹的密码是什么？",
+    answer: "密码是 'Guppy'，这是 Hal 叔叔对主角的昵称。"
+  },
+  {
+    question: "彩色透镜在壁画上没有显示任何内容。我做错了什么？",
+    answer: "确保你在后台打开了 'Mural' 文件，并且彩色透镜软件在最前端处于激活状态。你需要将透镜拖动到图像的特定部分以显示隐藏的符号。"
+  },
+  {
+    question: "为什么游戏在壁画谜题后一直崩溃？",
+    answer: "崩溃是一种叙事手段。'Desktop Explorer' 程序对你揭开有关主角父亲和哥哥的禁忌记忆做出了反应。"
+  }
+]} />
+
+</Section>

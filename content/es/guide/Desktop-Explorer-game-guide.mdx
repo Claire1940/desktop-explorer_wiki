@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del juego Desktop Explorer: Recorrido paso a paso y soluciones de acertijos",
+  description: "Domina los meta-acertijos de Desktop Explorer con nuestra guía de 2026. Aprende soluciones de contraseñas, trucos de manipulación de archivos y cómo descubrir cada secreto oculto.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, guía, acertijos, soluciones, walkthrough, meta-juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía del juego Desktop Explorer**: Este recorrido cubre la versión demo de 2026, centrándose en la manipulación de archivos y los acertijos de meta-narrativa.
+- **Mecánica principal**: Debes interactuar con el **sistema operativo ficticio** renombrando archivos, revisando códigos fuente y usando el navegador web integrado.
+- **Contraseñas clave**: Los códigos esenciales incluyen **Inanna**, **portonus** y **Rubicon** para progresar a través de los directorios bloqueados.
+- **Archivos ocultos**: Usa la opción \"Ver archivos ocultos\" descubierta en las etapas finales para revelar el \"Rostro Fugaz\" (Fleeting Face) y otras entradas de lore.
+- **Requisitos del sistema**: Asegúrate de tener instalados \"Storyteller Plus\" y \"Web Surfer\" dentro del entorno del juego para resolver los acertijos avanzados.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con Desktop Explorer">
+
+La **guía del juego Desktop Explorer** comienza con la instalación del software dentro de un sistema operativo antiguo simulado. Como jugador, asumes el papel de un individuo que ha heredado una computadora llena de misterios, archivos corruptos y un extraño programa llamado Desktop Explorer. El juego combina elementos tradicionales de aventura point-and-click con una jugabilidad \"meta\" moderna donde el propio escritorio es tu campo de juego.
+
+**Puntos destacados del video:**
+- **Configuración inicial**: Cómo navegar por el perfil de usuario \"Halibut\" y localizar el instalador.
+- **Primer acertijo**: Resolver el enigma \"Perdido en la orilla\" para desbloquear el primer conjunto de documentos.
+- **Navegación de la interfaz**: Uso del icono de la bombilla para obtener pistas y la barra de tareas para la gestión del sistema.
+
+<YouTubeEmbed videoId="rCseKXoeQyw" title="¡Descubriendo secretos en mi escritorio! - Demo de Desktop Explorer" />
+
+Antes de sumergirse en los complejos acertijos, es vital entender la interfaz. No solo estás jugando un juego; estás \"fisgoneando\" en una herencia digital. Tus herramientas principales son el explorador de archivos, el visor de código fuente y el asistente \"Bizarro\" (una parodia de los asistentes de oficina clásicos).
+
+<Callout type="tip" title="Consejo Pro">
+Revisa siempre el **Código Fuente** de cualquier archivo de texto. Los desarrolladores a menudo esconden pistas o contraseñas en los comentarios o en secciones de texto no renderizadas de los archivos.
+</Callout>
+
+| Herramienta del sistema | Función principal | Importancia |
+| :--- | :--- | :--- |
+| **Explorador de archivos** | Navegar por directorios y renombrar archivos | **Alta** |
+| **Visor de código fuente** | Revelar texto oculto/metadatos | **Crítica** |
+| **Navegador Web** | Acceder al lore en caché y pistas externas | **Media** |
+| **Storyteller Plus** | Ejecutar scripts de acertijos y narrativa | **Alta** |
+
+</Section>
+
+<Section icon={Swords} title="Acertijos iniciales y soluciones de contraseñas">
+
+Una vez instalado Desktop Explorer, te enfrentarás a una serie de acertijos de aventura basados en texto que requieren interactuar con los archivos del escritorio. El primer gran obstáculo es la sección de las \"Ruinas Antiguas\". El éxito aquí depende de tu capacidad para conectar las pistas encontradas en la carpeta \"Herencia\" con las indicaciones en la ventana del juego.
+
+<CardGrid cols={2}>
+  <Card title="La contraseña Inanna">
+    Se encuentra en el archivo \"Pergamino largo\". El texto menciona \"Inanna ilumina mi camino\". Usa esto para desbloquear la primera carpeta protegida.
+  </Card>
+  <Card title="El acertijo del elefante">
+    El acertijo \"Riego las flores con mi manguera... uso mi nariz\" se refiere a un **elefante**. La respuesta específica para el sistema es **trunk** (trompa).
+  </Card>
+</CardGrid>
+
+Después de resolver el acertijo de la trompa, te encontrarás con la \"Pared Falsa\". Muchos jugadores se quedan atascados aquí buscando un botón físico. Sin embargo, el juego requiere que \"leas entre líneas\".
+
+<Callout type="warning" title="Nota importante">
+La solución a la Pared Falsa es literal. Escribe **fake wall** en el indicador cuando el juego mencione el consejo del programa de detectives.
+</Callout>
+
+| Etapa del acertijo | Ubicación de la pista | Solución/Contraseña |
+| :--- | :--- | :--- |
+| **Ruinas Antiguas** | Documento Pergamino largo | **Inanna** |
+| **La Gruta** | Texto del acertijo | **trunk** |
+| **El Callejón sin salida** | Paréntesis en el texto | **fake wall** |
+| **La Gran Puerta** | Metadatos de imagen de llave | **portonus** |
+
+</Section>
+
+<Section icon={Target} title="Técnicas avanzadas de manipulación de archivos">
+
+El núcleo de la **guía del juego Desktop Explorer** implica manipular los archivos del juego directamente en el escritorio. Esto es más evidente durante el acertijo de la \"Gran Puerta\", donde una llave estándar no funcionará. Debes usar la pista \"una imagen vale más que mil palabras\" para saltarte la cerradura.
+
+<Steps>
+  <Step num="1" title="Localiza el archivo de la llave">
+    Busca el archivo llamado `key.stp` o similar en tu carpeta de descargas o de acertijos.
+  </Step>
+  <Step num="2" title="Renombra la extensión">
+    Haz clic derecho en el archivo y cámbiale el nombre a `image.png` o `image.jpg`. Esto \"engaña\" al sistema operativo para que revele los datos visuales ocultos.
+  </Step>
+  <Step num="3" title="Extrae la contraseña">
+    Abre la imagen recién creada. Aparecerá el texto \"Cada cerradura obedece a portonus\". Usa **portonus** para desbloquear la puerta central.
+  </Step>
+  <Step num="4" title="Comprueba los permisos">
+    Si el sistema deniega el cambio de nombre, asegúrate de haber iniciado sesión como el usuario correcto o comprueba si el archivo es de \"solo lectura\" en las propiedades.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánica del sistema">
+Renombrar archivos crea una copia nueva en este sistema operativo. Si cometes un error, siempre puedes eliminar la copia corrupta e intentarlo de nuevo con el archivo original.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Descubriendo secretos ocultos y el Rostro Fugaz">
+
+A medida que avanzas, el juego toma un giro de terror psicológico. La sección \"Oscuridad Abrumadora\" introduce la capacidad de ver archivos ocultos. Este es un paso crucial en la **guía del juego Desktop Explorer** para los jugadores que buscan ver la narrativa completa.
+
+<Checklist
+  id="secret-hunt"
+  title="Lista de contenido oculto:"
+  items={[
+    "Activa 'Ver archivos ocultos' en las opciones de carpeta",
+    "Localiza 'fleeting_face.img' en el directorio de acertijos",
+    "Encuentra el documento 'Sé que me viste' (I know you saw me)",
+    "Colecciona los 5 fragmentos de imagen de la 'Piedra plana'",
+    "Identifica la advertencia de Cassandra en el código fuente"
+  ]}
+/>
+
+El \"Rostro Fugaz\" es una mecánica de susto que también sirve como pista para un acertijo. Cuando aparece el rostro, a menudo deja atrás un nuevo archivo o modifica uno existente. Busca el archivo `I know you saw me.stp` que aparece tras el encuentro; su código fuente contiene el siguiente conjunto de coordenadas.
+
+<Callout type="warning" title="Advertencia">
+Ver archivos ocultos puede provocar inestabilidad en el sistema dentro del juego. Si el asistente \"Bizarro\" comienza a actuar de forma errática, significa que estás cerca de una revelación importante del lore.
+</Callout>
+
+| Objeto secreto | Ubicación | Significado |
+| :--- | :--- | :--- |
+| **Piedra plana 1-5** | Varias carpetas ocultas | Deletrea la pista del acertijo final |
+| **Archivo Cassandra** | Directorio del acertijo 7 | Advertencia contra el progreso |
+| **Proyecto X** | Directorio raíz | Bloqueado; requiere credenciales de final de juego |
+
+</Section>
+
+<Section icon={Trophy} title="Los acertijos finales: Rubicon y la Serpiente">
+
+El clímax de la demo involucra el escenario \"Sin escape\". Después de retroceder hasta la entrada, verás que el paisaje ha cambiado. Debes usar las \"Piedras planas\" que recolectaste anteriormente para tallar símbolos en la pared.
+
+<CardGrid cols={3}>
+  <Card title="Solución Rubicon">
+    Las estalactitas en el fondo del Acertijo 7 forman las letras de **Rubicon**. Esta es la contraseña para la sección del \"Altar\".
+  </Card>
+  <Card title="Torres apiladas">
+    Lee las piedras de abajo hacia arriba. Las torres deletrean \"Siempre comiendo\" (Ever Eating). Esto se refiere a la **serpiente** (Ouroboros).
+  </Card>
+  <Card title="Límite de memoria">
+    Si recibes un error de \"Memoria insuficiente\", cierra las ventanas de \"Web Surfer\" y \"Storyteller\" para continuar.
+  </Card>
+</CardGrid>
+
+Introducir **snake** en el pilar final activará el final de la demostración. El sistema cerrará la aplicación, afirmando que \"no deberías estar aquí\". Este meta-final sugiere que el jugador ha sobrepasado el \"alcance de la demo\" previsto.
+
+<Callout type="success" title="Logro desbloqueado">
+Resolver el acertijo de la \"Serpiente\" se considera el \"Final Verdadero\" de la demo de Desktop Explorer. Confirma tu dominio de la lógica del juego.
+</Callout>
+
+| Contraseñas finales | Contexto | Resultado |
+| :--- | :--- | :--- |
+| **Rubicon** | Formaciones de estalactitas | Desbloquea el Auditorio |
+| **snake** | Torres de \"Siempre comiendo\" | Finaliza la Demo / Final Secreto |
+| **halibut** | Inicio de sesión de usuario | Acceso predeterminado |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes de Desktop Explorer">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono el error 'Versión de SO incompatible'?",
+    answer: "Esto suele ocurrir al intentar acceder al Proyecto X demasiado pronto. Céntrate primero en completar las tareas del instalador de Desktop Explorer para actualizar tus permisos de usuario."
+  },
+  {
+    question: "¿Cuál es la respuesta al acertijo de la nariz/manguera?",
+    answer: "La respuesta es 'trunk' (trompa). Se refiere a la trompa de un elefante, que utiliza como una manguera para regar las flores."
+  },
+  {
+    question: "¿Dónde encuentro la opción 'Ver archivos ocultos'?",
+    answer: "Esta opción se desbloquea automáticamente tras el acertijo de la 'Oscuridad Abrumadora'. Una vez que la antorcha se apaga, aparece una nueva opción de menú en la pestaña 'Ver' del Explorador de archivos."
+  },
+  {
+    question: "¿Puedo abrir la carpeta Proyecto X en la demo?",
+    answer: "No, el Proyecto X está actualmente bloqueado por una 'Excepción de alcance de la demo'. Está previsto para el lanzamiento completo de Desktop Explorer."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Si te atascas en cualquier acertijo, mira los nombres de los archivos en tu directorio. A menudo, el juego renombrará una carpeta con la pista que necesitas (por ejemplo, cambiando el nombre de una carpeta a '¿A dónde vas?').
+</Callout>
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego Desktop Explorer: Guía de Configuración y Solución de Acertijos",
+  description: "Domina los acertijos del SO retro, descifra carpetas ocultas y sobrevive a la atmósfera inquietante del juego Desktop Explorer con nuestra guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Desktop+Explorer+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, guía, acertijos, walkthrough, terror psicológico, simulador de sistema operativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Resolver acertijos basados en computadora en el **juego Desktop Explorer** desbloqueando carpetas anidadas.
+- **Jugabilidad Principal**: Buscar en directorios, descifrar archivos de texto y localizar contraseñas para progresar.
+- **Atmósfera**: Mantente vigilante mientras el entorno del sistema operativo simulado cambia y crea una sensación tensa de ser observado.
+- **Estrategia Clave**: Documenta cada pista, fragmento de código y archivo sospechoso que encuentres dentro del directorio virtual.
+</Callout>
+
+<Section icon={Map} title="Descripción general del juego Desktop Explorer">
+
+El **juego Desktop Explorer** sumerge a los jugadores en un entorno de sistema operativo retro donde la arqueología digital se encuentra con el misterio psicológico. Los jugadores deben interactuar con una interfaz de escritorio simulada, navegando a través de una red de archivos, carpetas y aplicaciones para descubrir secretos ocultos. El ciclo principal gira en torno a encontrar contraseñas para desbloquear directorios progresivamente difíciles, todo mientras se lidia con una atmósfera cada vez más inquietante.
+
+A medida que te sumerges más profundamente en el sistema, la interfaz se comporta menos como una herramienta de utilidad estándar y más como una caja de rompecabezas viva y cambiante. Los archivos que parecían inofensivos a primera vista contienen capas ocultas de datos, y los registros del sistema revelan anomalías extrañas que sugieren que no estás solo en este entorno digital.
+
+**Puntos destacados del video:**
+- Demuestra el proceso de instalación básica y la interfaz inicial de la carpeta de acertijos.
+- Destaca la mecánica principal de búsqueda en documentos de texto y registros del sistema para obtener pistas de contraseñas.
+- Muestra la transición de la navegación de escritorio estándar a una atmósfera espeluznante con temática de vigilancia.
+
+<YouTubeEmbed videoId="qfpuWJIeCXo" title="Desktop Explorer - Tráiler de fecha de lanzamiento" />
+
+<Callout type="info" title="Consejo de Navegación del Sistema">
+El juego Desktop Explorer simula un entorno de PC clásico, lo que hace que los conocimientos básicos de computación y la navegación estándar mediante atajos sean herramientas valiosas para resolver acertijos.
+</Callout>
+
+Para ayudarte a comenzar con la configuración básica del sistema y comprender el diseño inicial del sistema operativo, consulta los detalles de la descripción general a continuación.
+
+| Característica | Detalles |
+| :--- | :--- |
+| Interfaz del SO | Simulador de escritorio estilo retro de los 90 |
+| Objetivo Principal | Encontrar contraseñas ocultas para desbloquear carpetas |
+| Diseño de Acertijos | Lógica, búsqueda de archivos y descifrado |
+| Atmósfera | Thriller psicológico, temática de vigilancia |
+
+</Section>
+
+<Section icon={Target} title="Mecánicas Principales de Juego">
+
+Para tener éxito en el juego Desktop Explorer, los jugadores deben entender cómo interactuar con el sistema operativo virtual. La interfaz se comporta de manera similar a los entornos de escritorio clásicos, con un explorador de archivos, documentos de texto, visores de imágenes y configuraciones del sistema. El progreso está bloqueado por directorios encriptados que requieren contraseñas específicas para abrirse.
+
+Cada nivel de directorio funciona como una etapa de acertijo independiente. Debes buscar en los archivos accesibles para armar la contraseña de la siguiente carpeta. Estas pistas rara vez se presentan directamente; en su lugar, están ocultas dentro de registros del sistema, metadatos de imágenes o archivos de texto fragmentados que requieren una reconstrucción lógica.
+
+<CardGrid cols={3}>
+  <Card title="Navegación de Directorios">
+    - **Navegación Sistemática**: Revisa cada subdirectorio.
+    - **Archivos Ocultos**: Inspecciona las carpetas del sistema en busca de documentos ocultos.
+    - **Extracción de Metadatos**: Lee las propiedades de los archivos para obtener pistas.
+  </Card>
+  <Card title="Recuperación de Contraseñas">
+    - **Fragmentos de Código**: Localiza contraseñas divididas en varios archivos.
+    - **Resolución de Acertijos**: Descifra pistas de texto dentro de archivos Readme.
+    - **Deducción Lógica**: Analiza las marcas de tiempo del sistema para encontrar secuencias.
+  </Card>
+  <Card title="Anomalías del Sistema">
+    - **Glitches Visuales**: Vigila los iconos del escritorio que cambian de lugar.
+    - **Pistas de Audio**: Escucha ruidos extraños de fondo.
+    - **Tareas en Segundo Plano**: Monitorea los procesos en ejecución para detectar cambios.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Seguridad">
+Presta mucha atención a los cambios sutiles en el fondo de escritorio o en los sonidos del sistema, ya que a menudo insinúan amenazas ocultas o monitoreo activo del sistema.
+</Callout>
+
+Comprender los tipos de acertijos que encontrarás permite un enfoque más estructurado para el descifrado. La tabla a continuación detalla las categorías comunes de acertijos que se encuentran en todo el sistema.
+
+| Tipo de Acertijo | Dificultad | Requisito Principal | Solución Común |
+| :--- | :--- | :--- | :--- |
+| Acertijo de Texto | Baja | Comprensión lectora | Extraer palabras en negrita de archivos de texto |
+| Metadatos Ocultos | Media | Inspección de archivos | Revisar propiedades de imagen o datos hexadecimales |
+| Código Dividido | Alta | Búsqueda multi-archivo | Combinar fragmentos encontrados en diferentes directorios |
+| Pista de Audio | Media | Escuchar atentamente | Traducir código Morse o patrones auditivos |
+
+</Section>
+
+<Section icon={Trophy} title="Guía de Progresión Paso a Paso">
+
+Navegar por las capas iniciales del juego Desktop Explorer requiere un enfoque estructurado. Los siguientes pasos describen el procedimiento estándar para romper el primer nivel de seguridad y acceder a la red de carpetas secundaria.
+
+<Steps>
+  <Step num="1" title="Inicialización del Sistema">
+    Inicia la terminal virtual e inspecciona los archivos predeterminados en el escritorio. Abre primero el archivo Readme para entender los parámetros iniciales y las pautas establecidas por el administrador del sistema.
+  </Step>
+  <Step num="2" title="Búsqueda en el Directorio">
+    Navega a la carpeta de documentos. Abre cada subdirectorio y localiza el archivo de archivo encriptado que requiere una contraseña para continuar.
+  </Step>
+  <Step num="3" title="Correlación de Pistas">
+    Cruza las pistas encontradas en el registro del sistema con las fechas de creación de los archivos. Las diferencias en las marcas de tiempo proporcionan la secuencia numérica requerida para el descifrado.
+  </Step>
+  <Step num="4" title="Descifrado de Carpetas">
+    Introduce la contraseña calculada en el aviso del archivo. Extrae el contenido para revelar la siguiente capa del directorio, que contiene herramientas avanzadas de diagnóstico del sistema.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Descifrado Exitoso">
+Abrir con éxito la primera carpeta bloqueada desbloquea herramientas de diagnóstico básicas que hacen que la búsqueda en los directorios posteriores sea significativamente más rápida.
+</Callout>
+
+A medida que avanzas por estos pasos, los directorios se vuelven más complejos. Utiliza el rastreador de hitos a continuación para monitorear tu progresión a través de las capas del sistema.
+
+| Fase | Directorio Objetivo | Pista Requerida | Herramienta Desbloqueada |
+| :--- | :--- | :--- | :--- |
+| Fase 1 | Documentos Raíz | Archivo de texto Readme | Utilidad de búsqueda de archivos |
+| Fase 2 | Carpeta de Archivo | Correlación de marcas de tiempo | Aplicación de visor hexadecimal |
+| Fase 3 | Binarios del Sistema | Metadatos de ejecutables | Interfaz de línea de comandos |
+
+</Section>
+
+<Section icon={Shield} title="Consejos para Sobrevivir a la Simulación">
+
+A medida que profundizas en el sistema, la simulación se vuelve cada vez más inestable. La sensación de vigilancia se intensifica y los archivos pueden comenzar a borrarse solos, cambiar de ubicación o bloquearte si se ingresan entradas incorrectas demasiadas veces. Utiliza estos consejos estratégicos para mantener tu progreso y evitar bloqueos del sistema.
+
+Gestionar la estabilidad del sistema requiere realizar un seguimiento de los procesos activos en segundo plano y asegurarse de que su memoria virtual no se sobrecargue al ejecutar demasiadas herramientas de descifrado simultáneamente.
+
+<Checklist
+  id="progression-goals"
+  title="Lista de Verificación de Supervivencia:"
+  items={[
+    "Documenta cada contraseña en un cuaderno físico o un archivo de texto externo.",
+    "Escanea los directorios recién desbloqueados inmediatamente antes de que los eventos del sistema los alteren.",
+    "Monitorea el indicador de uso de CPU para detectar procesos no autorizados en segundo plano.",
+    "Evita ejecutar archivos ejecutables no reconocidos sin escanearlos primero."
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Pro">
+Mantén un archivo de texto separado abierto en tu computadora real para pegar fragmentos de código, listas de coordenadas y notas a medida que los encuentres durante el juego.
+</Callout>
+
+Para ayudar con la navegación rápida y la gestión del sistema, utiliza estos atajos de teclado y comandos esenciales dentro de la terminal simulada.
+
+| Comando / Atajo | Función | Momento Recomendado |
+| :--- | :--- | :--- |
+| Ctrl + F | Abrir herramienta de búsqueda | Al entrar en un nuevo nivel de directorio |
+| Alt + Tab | Cambiar ventanas activas | Durante secuencias de acertijos con tiempo limitado |
+| Dir /a | Mostrar archivos ocultos | Inmediatamente después de desbloquear una terminal |
+| Sys_reset | Restablecer estado del directorio | Usar solo cuando un acertijo se corrompa |
+
+</Section>
+
+<Section icon={Sparkles} title="Resolución de Problemas y Preguntas Frecuentes">
+
+Esta sección aborda consultas comunes sobre la navegación del sistema, las mecánicas de los acertijos y los problemas de progresión encontrados en el juego Desktop Explorer.
+
+<Callout type="info" title="Soporte de la Comunidad">
+Para obtener más soporte de la comunidad, discusiones sobre acertijos personalizados y ubicaciones de easter eggs, visita el centro oficial de la comunidad de Steam o los foros de desarrolladores.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer si una contraseña de directorio falla repetidamente?",
+    answer: "Verifica dos veces los registros del sistema para ver si hay distinción entre mayúsculas y minúsculas. Algunas contraseñas en el juego Desktop Explorer distinguen entre mayúsculas y minúsculas o requieren codificaciones de caracteres específicas encontradas en archivos adyacentes."
+  },
+  {
+    question: "¿Cómo manejo la sensación de ser observado durante el juego?",
+    answer: "Esta es una mecánica psicológica integrada diseñada para generar tensión. Mantente enfocado en los parámetros del acertijo e ignora las anomalías visuales que ocurren en el fondo."
+  },
+  {
+    question: "¿Puedo restablecer un acertijo si ingreso el código incorrecto demasiadas veces?",
+    answer: "Sí, puedes usar la utilidad de restauración del sistema ubicada en la carpeta principal de utilidades para restablecer el estado del directorio actual sin perder el progreso general."
+  },
+  {
+    question: "¿Hay archivos ocultos que no aparecen en el explorador estándar?",
+    answer: "Absolutamente. Debes usar parámetros de línea de comandos específicos o herramientas de diagnóstico desbloqueadas en fases posteriores para revelar directorios ocultos del sistema."
+  }
+]} />
+
+</Section>

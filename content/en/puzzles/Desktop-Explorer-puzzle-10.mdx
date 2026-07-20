@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer puzzle 10: Step-by-Step Solving Guide",
+  description: "Solve the complex Desktop Explorer puzzle 10 with this step-by-step walkthrough. Learn command lines, hex decryption, and registry keys.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+10+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary objective**: Solve the complex **Desktop Explorer puzzle 10** to decrypt corrupted registry files.
+- **Key location**: Explore the virtual `C:\RECOVERY\TEMP10` directory using the retro command prompt.
+- **Critical tool**: Use the built-in Hex Editor utility to repair fragmented data blocks.
+- **Essential clue**: Retrieve the decryption key from the deleted mail logs in the Recycle Bin.
+- **Warning**: Incorrect registry modifications trigger system-wide digital glitch events.
+</Callout>
+
+<Section icon={Sparkles} title="Overview of the Digital Mystery">
+
+The retro Windows 95 operating system simulator in Desktop Explorer hides deep, unsettling secrets. As you dig into the simulated desktop environment to investigate your Uncle's sudden disappearance, the digital landscape becomes increasingly hostile. Among the various challenges, the **Desktop Explorer puzzle 10** stands out as a major narrative bottleneck that tests your logical deduction, filesystem navigation, and command-line mastery.
+
+This specific puzzle represents the system's final attempt to lock down corrupted sectors containing the Uncle's last known audio logs. Unlike earlier challenges that rely on simple password-guessing, this puzzle requires you to interface with simulated virtual hardware, manipulate file headers, and edit the virtual operating system's registry. Understanding the mechanics of this retro environment is essential to bypass the corruption and proceed to the game's final chapters.
+
+| Parameter | Details |
+|--- |--- |
+| Difficulty | Hard |
+| Location | Virtual C Drive |
+| Core Mechanic | File Decryption |
+| Required Tool | Hex Editor |
+| Story Impact | Unlocks True Ending |
+
+<Callout type="info" title="System Check">
+Before attempting this puzzle, ensure you have recovered the Uncle's journal entries from previous chapters to understand the thematic context of the decryption keys.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Required Clues and Directory Locations">
+
+To successfully solve the **Desktop Explorer puzzle 10**, you must gather three fragmented clues scattered across the virtual operating system. The entity corrupting the computer has hidden these pieces within system archives, deleted folders, and old email logs. 
+
+Navigating the directory structure requires strict attention to detail, as many of these files are marked with hidden attributes. Below is the precise breakdown of the locations and files you need to secure before attempting the decryption process.
+
+| File Name | Directory Path | Clue Type | Purpose |
+|--- |--- |--- |--- |
+| RECOVERY_10.TMP | C:\RECYCLE_BIN | Fragmented Hex | Base file for decryption |
+| MAIL_LOG_07.TXT | C:\MAIL\ARCHIVE | Shift Value | Caesar cipher shift key |
+| REG_KEY_P10.DAT | C:\WINDOWS\SYSTEM | Registry Hex | Validation signature |
+
+<CardGrid cols={3}>
+  <Card title="The Recycle Bin Fragment">
+    - **Restoring files**: Locate `RECOVERY_10.TMP` in the virtual trash bin.
+    - **Data integrity**: Do not open it with the basic text editor, as it will corrupt the raw hex data.
+    - **Action**: Drag the file directly to the virtual desktop.
+  </Card>
+  <Card title="The Registry Key">
+    - **System registry**: Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\EXPLORER\P10`.
+    - **Hidden values**: Note down the 16-character hexadecimal validation signature.
+    - **Action**: Copy the signature to your virtual clipboard.
+  </Card>
+  <Card title="Mail Client Logs">
+    - **Archived messages**: Open the retro email client and access the deleted logs folder.
+    - **Decryption hint**: Look for a message detailing a Caesar cipher shift value of +4.
+    - **Action**: Keep this shift value in mind for the terminal sequence.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Hidden Files Tip">
+Enable 'Show Hidden Files' in the virtual Folder Options menu to locate hidden system directories that contain registry backups.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Walkthrough for Desktop Explorer Puzzle 10">
+
+Once you have gathered all the necessary files and clues, you can proceed with the decryption sequence. This process must be executed inside the virtual Terminal to prevent the operating system from crashing due to file system corruption. 
+
+Follow these steps carefully to reconstruct the corrupted data block and unlock the Uncle's final records.
+
+<Steps>
+  <Step num="1" title="Access the Command Prompt">
+    Launch the virtual Terminal program from the Start Menu. Navigate directly to the system recovery directory by inputting the directory traversal commands.
+  </Step>
+  <Step num="2" title="Reconstruct the Temporary File">
+    Move the recovered `RECOVERY_10.TMP` file from the desktop into the active recovery directory. Use the file system command line to verify the file's presence.
+  </Step>
+  <Step num="3" title="Apply the Hex Cipher">
+    Open the Hex Editor utility. Load the temporary file and apply the +4 Caesar cipher shift to the file headers to repair the corrupted binary sequence.
+  </Step>
+  <Step num="4" title="Execute the Registry Patch">
+    Open the virtual Registry Editor. Locate the validation folder and inject the repaired hex signature to permanently unlock the restricted system logs.
+  </Step>
+</Steps>
+
+| Command | Syntax | Expected Outcome |
+|--- |--- |--- |
+| CD | cd C:\RECOVERY\TEMP10 | Navigates to directory |
+| DIR /A | dir /a | Displays hidden files |
+| DECRYPT | decrypt RECOVERY_10.TMP | Opens decryption tool |
+| REGEDIT | regedit | Launches registry editor |
+
+<Callout type="warning" title="Glitch Warning">
+Executing the decrypt command without applying the exact +4 hex shift triggers a system glitch event, forcing a complete virtual system restart.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting and Glitch Mitigation">
+
+During the decryption process of the **Desktop Explorer puzzle 10**, the virtual operating system may exhibit unstable behavior. This is an intentional horror mechanic designed to disorient you. The CRT screen will flicker, distorted audio files will play in the background, and fake error prompts will cover the desktop.
+
+If you encounter an error code during execution, consult the table below to resolve the system blockages immediately.
+
+| Error Code | Meaning | Resolution |
+|--- |--- |--- |
+| ERR_10_BAD_HEADER | Corrupted file header | Re-download recovery file |
+| ERR_10_KEY_MISMATCH | Incorrect shift value | Re-read the mail archive |
+| ERR_10_REG_LOCK | Registry write-protected | Run Terminal as administrator |
+
+<Callout type="success" title="Safe Mode Bypass">
+If the virtual desktop enters an infinite crash loop, hold the Shift key during the virtual boot sequence to force the system into Safe Mode.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Full Puzzle Completion">
+
+Completing this puzzle unlocks critical narrative files that explain the fate of the missing Uncle and reveal the true nature of the digital entity haunting the PC. Ensure you have fully processed all unlocked files before moving to the final chapter.
+
+<Checklist
+  id="puzzle-10-milestones"
+  title="Post-Decryption Objectives:"
+  items={[
+    "Verify the integrity of UNCLE_LAST_LOG.AVI in the recovery folder",
+    "Export the decrypted registry strings to the physical notepad",
+    "Listen to the recovered audio file for the final cabin coordinates",
+    "Delete the temporary decryption tools to cover your digital tracks"
+  ]}
+/>
+
+| Unlocked File | Content | Story Impact |
+|--- |--- |--- |
+| UNCLE_LAST_LOG.AVI | Video diary | Explains the entity |
+| SYS_LOG_FINAL.TXT | Encryption keys | Unlocks true ending |
+
+<Callout type="info" title="Next Steps">
+Once the video log finishes playing, the game will automatically generate a new system folder named 'TRUTH' on your desktop. Open it to proceed.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does the Terminal say Access Denied when running the decrypt command?",
+    answer: "You must run the Terminal with administrator privileges. Right-click the Terminal icon in the virtual Start Menu and select 'Run as Administrator' before executing the command."
+  },
+  {
+    question: "Where is the Recycle Bin located in Desktop Explorer?",
+    answer: "The Recycle Bin icon is located on the top left corner of the main desktop interface. If it is missing, you must enable it via the virtual Control Panel under Desktop Settings."
+  },
+  {
+    question: "What happens if I enter the wrong registry key during Desktop Explorer puzzle 10?",
+    answer: "Entering the wrong key triggers a jumpscare and forces a system reboot. You will lose any unsaved progress in that specific session, but your gathered clues will remain intact."
+  },
+  {
+    question: "How do I find the Caesar cipher shift value?",
+    answer: "The shift value is hidden inside the third paragraph of the archived email titled 'Project Update 10' located in the deleted mail logs folder."
+  }
+]} />
+
+<Callout type="tip" title="Final Note">
+Pay close attention to the background ambient audio when solving Puzzle 10; the frequency of the static whispers indicates how close you are to entering the correct key.
+</Callout>
+
+</Section>

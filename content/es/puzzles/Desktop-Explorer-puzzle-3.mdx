@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Acertijo 3 de Desktop Explorer: Guía Paso a Paso y Contraseñas",
+  description: "Resuelve el acertijo 3 de Desktop Explorer con nuestra guía de decodificación paso a paso. Aprende a recuperar archivos borrados, editar el registro y encontrar contraseñas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Puzzle+3",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Desktop Explorer",
+  keywords: "Desktop Explorer, acertijo 3, guía, contraseñas, decodificación, Windows 95 simulado"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acertijo 3 de Desktop Explorer**: Este desafío requiere que los jugadores decodifiquen un archivo de sistema restringido utilizando claves de registro ocultas y registros de chat.
+- **Mecánica clave**: Los jugadores deben utilizar utilidades de un sistema operativo retro virtual, incluyendo el Símbolo del Sistema, el Editor del Registro y el Bloc de Notas.
+- **Mejor estrategia**: Reúne los tres fragmentos de la contraseña del disco duro virtual antes de intentar ejecutar el ejecutable de decodificación.
+- **Consejo crítico**: Evita editar archivos del sistema fuera del directorio designado para el acertijo para prevenir bloqueos artificiales del sistema.
+- **Mejor opción**: Usa el Visor Hexadecimal integrado para inspeccionar archivos de imagen corruptos en busca de cadenas de texto ASCII ocultas.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Acertijo 3 de Desktop Explorer">
+
+A medida que los jugadores se adentran en el entorno simulado de Windows 95 de *Desktop Explorer*, se encontrarán con obstáculos digitales cada vez más complejos. Resolver el **acertijo 3 de Desktop Explorer** representa un hito importante en tu investigación, ya que requiere profundizar en directorios ocultos del sistema, decodificar activos corruptos y reconstruir las misteriosas circunstancias que rodean la desaparición de tu tío.
+
+Este acertijo específico actúa como una puerta de entrada al contenido de mitad del juego. A diferencia de los desafíos anteriores que dependen de pistas simples en archivos de texto, este objetivo te obliga a interactuar con las capas más profundas del sistema operativo, simulando la experiencia de un detective informático de los años 90. Debes localizar tres fragmentos de contraseña separados, dispersos en diferentes aplicaciones, para desbloquear el archivo ejecutable restringido.
+
+<Callout type="warning" title="Advertencia de Inestabilidad del Sistema">
+Abrir demasiados archivos corruptos simultáneamente puede provocar una pantalla azul de la muerte (BSOD) virtual. Cierra siempre las aplicaciones inactivas para mantener estable el sistema simulado durante tu investigación.
+</Callout>
+
+Para comenzar tu investigación, debes familiarizarte con los directorios y herramientas principales necesarios para esta fase del juego. A continuación, se muestra un desglose de los archivos esenciales que necesitas localizar en el escritorio virtual.
+
+| Nombre del Archivo | Ruta del Sistema | Herramienta Requerida | Nivel de Seguridad |
+| :--- | :--- | :--- | :--- |
+| RESTORE_SYS.EXE | C:\SYSTEM32\ | Herramienta de Decodificación | **Alto** |
+| CHAT_LOG_03.TXT | C:\NETCHAT\LOGS\ | Notepad.exe | **Medio** |
+| UNCLE_MEM.BMP | C:\IMAGES\ | Visor Hexadecimal | **Bajo** |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso de Decodificación">
+
+Para completar con éxito el **acertijo 3 de Desktop Explorer**, debes seguir una secuencia precisa de acciones. Saltarse pasos o intentar adivinar los fragmentos de la contraseña sin desbloquear sus respectivos archivos resultará en la denegación de acceso. Sigue este enfoque sistemático para vulnerar el sistema de seguridad.
+
+<Callout type="tip" title="Atajo de Decodificación">
+Puedes usar el comando Ejecutar virtual (equivalente a Win + R en la interfaz retro) para acceder rápidamente a los directorios del sistema sin tener que hacer clic en carpetas anidadas.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Localizar el Archivo de Sistema Encriptado">
+    Navega al directorio virtual system32 en el escritorio retro. Abre el explorador de carpetas, haz clic en el icono de la unidad y localiza el archivo restringido llamado RESTORE_SYS_V3.EXE. Intentar abrirlo inmediatamente mostrará un cuadro de diálogo de seguridad que requiere una clave alfanumérica de tres partes.
+  </Step>
+  <Step num="2" title="Extraer el Primer Fragmento de NetChat">
+    Abre la aplicación NetChat 1.0 desde el escritorio. Navega a la carpeta de registros archivados y abre el archivo etiquetado como CHAT_LOG_03.TXT. Desplázate hasta el final de la conversación entre tu tío y el usuario anónimo. El primer fragmento está oculto dentro de la marca de tiempo del mensaje final.
+  </Step>
+  <Step num="3" title="Analizar el Archivo de Imagen Corrupto">
+    Abre el administrador de archivos y localiza UNCLE_MEM.BMP en la carpeta de imágenes. La imagen aparecerá corrupta al abrirse normalmente. Haz clic derecho en el archivo y selecciona "Abrir con Visor Hexadecimal". Desplázate hasta el final del código hexadecimal para encontrar una cadena ASCII que representa el segundo fragmento de la contraseña.
+  </Step>
+  <Step num="4" title="Recuperar el Valor de la Clave del Registro">
+    Abre el Menú de Inicio virtual, selecciona Ejecutar y escribe `regedit` para abrir el Editor del Registro. Navega al directorio `HKEY_LOCAL_MACHINE\Software\UncleArchive\`. Haz clic en la clave de registro `SecurityToken` para revelar el tercer y último fragmento de la contraseña en el campo de datos del valor.
+  </Step>
+</Steps>
+
+Una vez que hayas reunido los tres fragmentos, regresa al directorio system32 e inicia la utilidad de decodificación para ingresar el código compilado.
+
+| Fragmento de Contraseña | Aplicación de Origen | Valor Decodificado | Calidad de la Pista |
+| :--- | :--- | :--- | :--- |
+| Fragmento A | Registros de NetChat | 1995 | **★★★★★** |
+| Fragmento B | BMP Corrupto | JULY17 | **★★★★☆** |
+| Fragmento C | Editor del Registro | SYS_V3 | **★★★☆☆** |
+
+</Section>
+
+<Section icon={Shield} title="Investigando Archivos de Sistema Corruptos">
+
+El entorno digital de *Desktop Explorer* está lleno de archivos corruptos que sirven como pistas narrativas y soluciones a acertijos. Durante el **acertijo 3 de Desktop Explorer**, analizar estos archivos corruptos es esencial para comprender el lore más profundo del juego. El sistema operativo retro simula la corrupción de archivos de manera realista, lo que significa que los jugadores deben mirar más allá del nivel superficial de los documentos de texto.
+
+Cuando trates con archivos corruptos, presta mucha atención a los tamaños de los archivos y las fechas de modificación. A menudo, un archivo que ha sido modificado después de la desaparición del tío contiene ediciones ocultas dejadas por una entidad externa.
+
+<Callout type="success" title="Directorio Oculto Descubierto">
+Encontrar los tres fragmentos de la contraseña desbloquea un directorio oculto llamado `C:\RECYCLED\HIDDEN_LOGS\`, que contiene archivos opcionales del lore sobre la entidad digital que habita en la computadora.
+</Callout>
+
+Para ayudar a organizar tu investigación, clasifica los tipos de pistas digitales que encuentres. Utilizar la perspectiva adecuada para cada tipo de archivo evitará la pérdida de tiempo y reducirá la inestabilidad del sistema.
+
+<CardGrid cols={3}>
+  <Card title="Pistas de Registros de NetChat">
+    - **Examina las marcas de tiempo** en busca de fechas ocultas.
+    - Rastrea los nombres de usuario para identificar personajes clave.
+    - Nota las direcciones IP sospechosas mencionadas en los chats.
+  </Card>
+  <Card title="Archivos Multimedia Corruptos">
+    - **Usa el Visor Hexadecimal** para leer los encabezados de los archivos sin procesar.
+    - Busca caracteres ASCII inusuales en los datos binarios.
+    - Revisa los tamaños de los archivos en busca de archivos comprimidos anidados ocultos.
+  </Card>
+  <Card title="Claves del Registro del Sistema">
+    - **Modifica los valores de las rutas** para saltar bloqueos de software.
+    - Busca aplicaciones de inicio no autorizadas.
+    - Exporta claves del registro para buscar texto oculto.
+  </Card>
+</CardGrid>
+
+Comprender cómo interactúan estos archivos te permite resolver acertijos secundarios que se ramifican de la historia principal.
+
+| Tipo de Pista | Relevancia en la Historia | Dificultad para Encontrar | Grado de Integridad |
+| :--- | :--- | :--- | :--- |
+| Transcripciones de Chat | Narrativa Principal | Baja | **Excelente** |
+| Cadenas Hexadecimales | Fragmentos de Contraseña Ocultos | Media | **Bueno** |
+| Subclaves del Registro | Secretos de Configuración del Sistema | Alta | **Aceptable** |
+
+</Section>
+
+<Section icon={Trophy} title="Descubrimientos del Lore y Resultados de la Historia">
+
+Completar el **acertijo 3 de Desktop Explorer** hace más que solo otorgar acceso a nuevos directorios virtuales; revela puntos críticos de la trama sobre la investigación de tu tío sobre software consciente. Los archivos decodificados contienen entradas de diario personal que detallan extrañas anomalías del sistema que coinciden con los sucesos que experimentas mientras juegas.
+
+Estos descubrimientos influyen enormemente en la determinación del camino del final que desbloqueas. Ignorar estos archivos opcionales puede bloquearte en la ruta de finalización estándar, mientras que investigarlos a fondo abre la secuencia del final verdadero.
+
+<Callout type="info" title="Alerta de Bandera de Final">
+Leer el archivo decodificado `diary_entry_95.txt` antes de proceder al siguiente capítulo establece una bandera permanente requerida para el Final Verdadero de Desktop Explorer.
+</Callout>
+
+Para asegurarte de haber completado totalmente este segmento del juego y haber recopilado todos los activos narrativos relevantes, consulta la lista de verificación de hitos a continuación.
+
+<Checklist
+  id="puzzle-3-checklist"
+  title="Lista de Verificación de Completado del Acertijo 3:"
+  items={[
+    "Localizar los tres fragmentos de contraseña en NetChat, el Visor Hexadecimal y Regedit",
+    "Desbloquear el archivo RESTORE_SYS_V3.EXE en el directorio system32",
+    "Extraer y leer el archivo oculto uncle_diary.txt",
+    "Verificar la integridad de los archivos de sistema recuperados en la Papelera de Reciclaje",
+    "Hacer una copia de seguridad de los archivos decodificados en el icono de la unidad de disquete externa virtual"
+  ]}
+/>
+
+Completar estas tareas garantiza que no te perderás ningún contexto narrativo vital a medida que los elementos de horror digital comiencen a escalar en los capítulos posteriores.
+
+| Objetivo de Progresión | Significado de la Historia | Requisito de Desbloqueo | Prioridad |
+| :--- | :--- | :--- | :--- |
+| Desbloquear Archivo | Revela el último inicio de sesión del tío | Completar el acertijo 3 | **Crítico** |
+| Restaurar BMP | Muestra un fondo oculto | Ejecutar editor hexadecimal | **Alta** |
+| Leer Registro de Chat | Introduce a un usuario misterioso | Decodificar carpeta de chat | **Moderada** |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Si encuentras problemas técnicos o te quedas atascado mientras trabajas en el proceso de decodificación, consulta estas preguntas frecuentes compiladas por investigadores experimentados.
+
+<Callout type="tip" title="Archivos de Respaldo">
+Si corrompes accidentalmente un archivo del acertijo al editar la clave de registro incorrecta, puedes restaurar el estado predeterminado del acertijo reiniciando la computadora virtual desde el Menú de Inicio.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Por qué el archivo RESTORE_SYS_V3.EXE muestra un error cuando ingreso el código?",
+    answer: "Asegúrate de ingresar los fragmentos de la contraseña en el orden cronológico correcto: primero la marca de tiempo de NetChat, segundo la cadena ASCII hexadecimal y último el token del Registro. Mezclar el orden resultará en un fallo de decodificación."
+  },
+  {
+    question: "¿Dónde encuentro la herramienta Visor Hexadecimal en el acertijo 3 de Desktop Explorer?",
+    answer: "El Visor Hexadecimal está integrado directamente en el administrador de archivos del sistema operativo. Simplemente haz clic derecho en cualquier archivo dentro de la ventana del explorador y selecciona 'Abrir con Visor Hexadecimal' en el menú contextual."
+  },
+  {
+    question: "¿Puedo saltarme el paso de edición del registro si ya conozco la contraseña?",
+    answer: "No. El script del juego requiere que el jugador navegue con éxito a la ruta específica del registro para activar la verificación de validación de la herramienta de decodificación. Conocer la contraseña de antemano sin inspeccionar el registro no desbloqueará el archivo."
+  },
+  {
+    question: "¿Qué sucede si la computadora virtual se bloquea durante el proceso de decodificación?",
+    answer: "Un bloqueo virtual restablecerá cualquier progreso no guardado. Asegúrate de haber hecho clic en el icono de guardar en cualquier archivo de texto decodificado y de haber cerrado el Editor del Registro correctamente para confirmar tus cambios en la memoria del sistema simulado."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,476 @@
-{}
+{
+  "en": {
+    "guide": [
+      {
+        "slug": "Desktop-Explorer-beginner-guide",
+        "file": "Desktop-Explorer-beginner-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-guide",
+        "file": "Desktop-Explorer-demo-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-walkthrough",
+        "file": "Desktop-Explorer-demo-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-full-game-walkthrough",
+        "file": "Desktop-Explorer-full-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-game-guide",
+        "file": "Desktop-Explorer-game-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-game-walkthrough",
+        "file": "Desktop-Explorer-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-guide",
+        "file": "Desktop-Explorer-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-walkthrough",
+        "file": "Desktop-Explorer-walkthrough"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "Desktop-Explorer-pc",
+        "file": "Desktop-Explorer-pc"
+      },
+      {
+        "slug": "Desktop-Explorer-switch",
+        "file": "Desktop-Explorer-switch"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Desktop-Explorer-hourglass-puzzle",
+        "file": "Desktop-Explorer-hourglass-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-locked-jaws-puzzle",
+        "file": "Desktop-Explorer-locked-jaws-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-10",
+        "file": "Desktop-Explorer-puzzle-10"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-2",
+        "file": "Desktop-Explorer-puzzle-2"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-3",
+        "file": "Desktop-Explorer-puzzle-3"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-4",
+        "file": "Desktop-Explorer-puzzle-4"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-5",
+        "file": "Desktop-Explorer-puzzle-5"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-6",
+        "file": "Desktop-Explorer-puzzle-6"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-7",
+        "file": "Desktop-Explorer-puzzle-7"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-8",
+        "file": "Desktop-Explorer-puzzle-8"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-9",
+        "file": "Desktop-Explorer-puzzle-9"
+      },
+      {
+        "slug": "Desktop-Explorer-vending-machine-puzzle",
+        "file": "Desktop-Explorer-vending-machine-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Desktop-Explorer-demo",
+        "file": "Desktop-Explorer-demo"
+      },
+      {
+        "slug": "Desktop-Explorer-download",
+        "file": "Desktop-Explorer-download"
+      },
+      {
+        "slug": "Desktop-Explorer-game",
+        "file": "Desktop-Explorer-game"
+      },
+      {
+        "slug": "Desktop-Explorer-release-date",
+        "file": "Desktop-Explorer-release-date"
+      },
+      {
+        "slug": "Desktop-Explorer-steam",
+        "file": "Desktop-Explorer-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Desktop-Explorer-gameplay",
+        "file": "Desktop-Explorer-gameplay"
+      },
+      {
+        "slug": "Desktop-Explorer-horror-game",
+        "file": "Desktop-Explorer-horror-game"
+      },
+      {
+        "slug": "Desktop-Explorer-indie-game",
+        "file": "Desktop-Explorer-indie-game"
+      },
+      {
+        "slug": "Desktop-Explorer-review",
+        "file": "Desktop-Explorer-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Desktop-Explorer-ending",
+        "file": "Desktop-Explorer-ending"
+      },
+      {
+        "slug": "Desktop-Explorer-hidden-files",
+        "file": "Desktop-Explorer-hidden-files"
+      },
+      {
+        "slug": "Desktop-Explorer-recurring-dream",
+        "file": "Desktop-Explorer-recurring-dream"
+      },
+      {
+        "slug": "Desktop-Explorer-secrets",
+        "file": "Desktop-Explorer-secrets"
+      },
+      {
+        "slug": "Desktop-Explorer-story",
+        "file": "Desktop-Explorer-story"
+      }
+    ]
+  },
+  "es": {
+    "guide": [
+      {
+        "slug": "Desktop-Explorer-beginner-guide",
+        "file": "Desktop-Explorer-beginner-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-guide",
+        "file": "Desktop-Explorer-demo-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-walkthrough",
+        "file": "Desktop-Explorer-demo-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-full-game-walkthrough",
+        "file": "Desktop-Explorer-full-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-game-guide",
+        "file": "Desktop-Explorer-game-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-game-walkthrough",
+        "file": "Desktop-Explorer-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-guide",
+        "file": "Desktop-Explorer-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-walkthrough",
+        "file": "Desktop-Explorer-walkthrough"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "Desktop-Explorer-pc",
+        "file": "Desktop-Explorer-pc"
+      },
+      {
+        "slug": "Desktop-Explorer-switch",
+        "file": "Desktop-Explorer-switch"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Desktop-Explorer-hourglass-puzzle",
+        "file": "Desktop-Explorer-hourglass-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-locked-jaws-puzzle",
+        "file": "Desktop-Explorer-locked-jaws-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-10",
+        "file": "Desktop-Explorer-puzzle-10"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-2",
+        "file": "Desktop-Explorer-puzzle-2"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-3",
+        "file": "Desktop-Explorer-puzzle-3"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-4",
+        "file": "Desktop-Explorer-puzzle-4"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-5",
+        "file": "Desktop-Explorer-puzzle-5"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-6",
+        "file": "Desktop-Explorer-puzzle-6"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-7",
+        "file": "Desktop-Explorer-puzzle-7"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-8",
+        "file": "Desktop-Explorer-puzzle-8"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-9",
+        "file": "Desktop-Explorer-puzzle-9"
+      },
+      {
+        "slug": "Desktop-Explorer-vending-machine-puzzle",
+        "file": "Desktop-Explorer-vending-machine-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Desktop-Explorer-demo",
+        "file": "Desktop-Explorer-demo"
+      },
+      {
+        "slug": "Desktop-Explorer-download",
+        "file": "Desktop-Explorer-download"
+      },
+      {
+        "slug": "Desktop-Explorer-game",
+        "file": "Desktop-Explorer-game"
+      },
+      {
+        "slug": "Desktop-Explorer-release-date",
+        "file": "Desktop-Explorer-release-date"
+      },
+      {
+        "slug": "Desktop-Explorer-steam",
+        "file": "Desktop-Explorer-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Desktop-Explorer-gameplay",
+        "file": "Desktop-Explorer-gameplay"
+      },
+      {
+        "slug": "Desktop-Explorer-horror-game",
+        "file": "Desktop-Explorer-horror-game"
+      },
+      {
+        "slug": "Desktop-Explorer-indie-game",
+        "file": "Desktop-Explorer-indie-game"
+      },
+      {
+        "slug": "Desktop-Explorer-review",
+        "file": "Desktop-Explorer-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Desktop-Explorer-ending",
+        "file": "Desktop-Explorer-ending"
+      },
+      {
+        "slug": "Desktop-Explorer-hidden-files",
+        "file": "Desktop-Explorer-hidden-files"
+      },
+      {
+        "slug": "Desktop-Explorer-recurring-dream",
+        "file": "Desktop-Explorer-recurring-dream"
+      },
+      {
+        "slug": "Desktop-Explorer-secrets",
+        "file": "Desktop-Explorer-secrets"
+      },
+      {
+        "slug": "Desktop-Explorer-story",
+        "file": "Desktop-Explorer-story"
+      }
+    ]
+  },
+  "zh": {
+    "guide": [
+      {
+        "slug": "Desktop-Explorer-beginner-guide",
+        "file": "Desktop-Explorer-beginner-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-guide",
+        "file": "Desktop-Explorer-demo-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-demo-walkthrough",
+        "file": "Desktop-Explorer-demo-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-full-game-walkthrough",
+        "file": "Desktop-Explorer-full-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-game-guide",
+        "file": "Desktop-Explorer-game-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-game-walkthrough",
+        "file": "Desktop-Explorer-game-walkthrough"
+      },
+      {
+        "slug": "Desktop-Explorer-guide",
+        "file": "Desktop-Explorer-guide"
+      },
+      {
+        "slug": "Desktop-Explorer-walkthrough",
+        "file": "Desktop-Explorer-walkthrough"
+      }
+    ],
+    "platform": [
+      {
+        "slug": "Desktop-Explorer-pc",
+        "file": "Desktop-Explorer-pc"
+      },
+      {
+        "slug": "Desktop-Explorer-switch",
+        "file": "Desktop-Explorer-switch"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Desktop-Explorer-hourglass-puzzle",
+        "file": "Desktop-Explorer-hourglass-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-locked-jaws-puzzle",
+        "file": "Desktop-Explorer-locked-jaws-puzzle"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-10",
+        "file": "Desktop-Explorer-puzzle-10"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-2",
+        "file": "Desktop-Explorer-puzzle-2"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-3",
+        "file": "Desktop-Explorer-puzzle-3"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-4",
+        "file": "Desktop-Explorer-puzzle-4"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-5",
+        "file": "Desktop-Explorer-puzzle-5"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-6",
+        "file": "Desktop-Explorer-puzzle-6"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-7",
+        "file": "Desktop-Explorer-puzzle-7"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-8",
+        "file": "Desktop-Explorer-puzzle-8"
+      },
+      {
+        "slug": "Desktop-Explorer-puzzle-9",
+        "file": "Desktop-Explorer-puzzle-9"
+      },
+      {
+        "slug": "Desktop-Explorer-vending-machine-puzzle",
+        "file": "Desktop-Explorer-vending-machine-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Desktop-Explorer-demo",
+        "file": "Desktop-Explorer-demo"
+      },
+      {
+        "slug": "Desktop-Explorer-download",
+        "file": "Desktop-Explorer-download"
+      },
+      {
+        "slug": "Desktop-Explorer-game",
+        "file": "Desktop-Explorer-game"
+      },
+      {
+        "slug": "Desktop-Explorer-release-date",
+        "file": "Desktop-Explorer-release-date"
+      },
+      {
+        "slug": "Desktop-Explorer-steam",
+        "file": "Desktop-Explorer-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Desktop-Explorer-gameplay",
+        "file": "Desktop-Explorer-gameplay"
+      },
+      {
+        "slug": "Desktop-Explorer-horror-game",
+        "file": "Desktop-Explorer-horror-game"
+      },
+      {
+        "slug": "Desktop-Explorer-indie-game",
+        "file": "Desktop-Explorer-indie-game"
+      },
+      {
+        "slug": "Desktop-Explorer-review",
+        "file": "Desktop-Explorer-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Desktop-Explorer-ending",
+        "file": "Desktop-Explorer-ending"
+      },
+      {
+        "slug": "Desktop-Explorer-hidden-files",
+        "file": "Desktop-Explorer-hidden-files"
+      },
+      {
+        "slug": "Desktop-Explorer-recurring-dream",
+        "file": "Desktop-Explorer-recurring-dream"
+      },
+      {
+        "slug": "Desktop-Explorer-secrets",
+        "file": "Desktop-Explorer-secrets"
+      },
+      {
+        "slug": "Desktop-Explorer-story",
+        "file": "Desktop-Explorer-story"
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+import { Map, Target, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer demo: Step-by-Step Puzzle Walkthrough",
+  description: "Master the Desktop Explorer demo with our step-by-step puzzle walkthrough, hidden file locations, system setup, and endings guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Demo",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary objective**: Investigate a retro 90s computer interface to solve a chilling missing person mystery.
+- **Key mechanic**: Navigate simulated Windows 95 folders, recover deleted trash items, and decrypt locked files.
+- **Best strategy**: Document every numerical string, unusual filename, and system error code for password clues.
+- **Critical tip**: Keep the retro CRT monitor filter active to spot subtle screen glitches that reveal hidden directories.
+- **Top choice**: Prioritize recovering the system log files from the recycling bin to reconstruct the timeline of events.
+</Callout>
+
+<Section icon={Map} title="Desktop Explorer demo: Retro Interface Overview">
+
+Navigating the Desktop Explorer demo requires a keen eye for retro digital design and an understanding of 90s operating systems. This psychological horror simulation drops you directly in front of a flickering CRT monitor, tasking you with extracting dark secrets from a discarded family PC. Every application, text document, and system folder holds a piece of the narrative puzzle.
+
+Before diving into the virtual operating system, ensure your hardware setup is optimized to run this atmospheric experience. The game relies heavily on visual fidelity and sound design to build tension, so adjusting your settings is highly recommended.
+
+| Category | Recommended Configuration | Purpose |
+| :--- | :--- | :--- |
+| Platform | Windows 10 / 11 | Primary operating system compatibility |
+| Display Mode | Fullscreen CRT Filter | Enhances the retro 90s pixel aesthetic |
+| Audio Setup | Stereo Headphones | Critical for hearing faint audio clues |
+| Storage Space | 1 GB Available | Fast loading of simulated system files |
+| Control Scheme | Mouse and Keyboard | Classic navigation of folders and terminal |
+
+<Callout type="info" title="System Calibration">
+For the most immersive experience, set your physical monitor brightness to a lower level. The glow of the simulated blue desktop screen creates a realistic retro ambiance that highlights hidden digital artifacts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beginner Navigation & Interface Mechanics">
+
+Interacting with the simulated operating system in the Desktop Explorer demo is simple on the surface but contains complex layers of hidden functionality. You must treat the interface like a real, vintage computer. Double-clicking folders, dragging icons, and inspecting file properties are all valid methods of finding clues.
+
+To help you categorize the information you discover, the computer contains three primary file types that you must analyze.
+
+<CardGrid cols={3}>
+  <Card title="Text Documents">
+    - **Narrative context**
+    - Password hints
+    - Chat transcripts
+  </Card>
+  <Card title="Executable Applications">
+    - **Interactive tools**
+    - System decrypters
+    - Audio players
+  </Card>
+  <Card title="Hidden Directories">
+    - **Corrupted files**
+    - Developer easter eggs
+    - True ending triggers
+  </Card>
+</CardGrid>
+
+To begin your investigation, follow these logical steps to systematically sweep the virtual computer.
+
+<Steps>
+  <Step num="1" title="Inspect the Desktop Shortcuts">
+    Review the default icons scattered across the screen. Open the basic text documents first to establish a timeline of the previous user's activity.
+  </Step>
+  <Step num="2" title="Search the Recycle Bin">
+    Many crucial clues have been recently deleted. Open the trash folder and restore any corrupted text files or image fragments to their original directories.
+  </Step>
+  <Step num="3" title="Analyze System Logs">
+    Open the command-line utility or system viewer to check for recent errors. System crashes often point to directories that have been hidden by the OS.
+  </Step>
+  <Step num="4" title="Execute Decryption Tools">
+    Locate the security programs on the hard drive. Input the numeric codes found in chat logs to unlock restricted folders and reveal the final clues.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="File Properties Check">
+Right-click on suspicious files and select Properties. Sometimes, the metadata reveals the exact date and time a file was modified, which can serve as a password code.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Walkthrough & Puzzle Solutions">
+
+The core gameplay of the Desktop Explorer demo revolves around bypassing security locks and solving digital logic puzzles. The previous owner of the computer left behind several encrypted archives to protect sensitive personal records. To progress the demo to its climax, you must solve these puzzles in a specific order.
+
+The table below outlines the primary puzzles encountered in the demo, where to find their clues, and how to execute the solutions.
+
+| Puzzle Name | Clue Location | Solution Method | Reward |
+| :--- | :--- | :--- | :--- |
+| User Account Lock | Sticky note in Recycle Bin | Input the recovery date | Access to main directory |
+| Decryption Tool | Corrupted image metadata | Extract the five-digit hex code | Unlocks the chat logs |
+| Audio File Static | System diagnostic log | Adjust the frequency slider | Reveals voice recording |
+| Hidden Folder Key | Chat room archive | Combine the first letters of names | Unlocks the final diary |
+
+To solve the Decryption Tool puzzle, you must carefully reconstruct the corrupted image file found in the system folder. The file contains a hidden string of hex codes that correspond to a network password. If you input the wrong code three times, the system will trigger a security alert, distorting your desktop interface and altering the background audio.
+
+<Callout type="warning" title="Security Triggers">
+Do not guess passwords blindly. Every failed attempt increases the system corruption meter, which makes the CRT screen flicker intensely and can lock out certain optional lore files.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hidden Files & Secrets Checklist">
+
+Beyond the main progression pathway, the Desktop Explorer demo is packed with hidden files, developer easter eggs, and optional lore documents. Finding these secrets is not required to reach the basic ending, but they are essential for piecing together the true story of the missing owner and the digital entity haunting the system.
+
+Many of these files are disguised as system errors or hidden deep within nested directories.
+
+<Checklist
+  id="demo-secrets"
+  title="Secrets to Uncover:"
+  items={[
+    "Locate the deleted diary entry inside the hidden system folder",
+    "Trigger the blue screen error by running the diagnostic tool three times",
+    "Find the developer image hidden in the background assets",
+    "Decrypt the network chat logs from the year 1995"
+  ]}
+/>
+
+To access the network chat logs, you must modify the virtual network configuration file. Open the system folder, locate the file named config.sys, and change the network status variable from offline to online. This action opens a simulated chat client on your desktop, allowing you to read archived messages between the previous user and a mysterious online entity.
+
+<Callout type="success" title="Secret Unlocked">
+Successfully restoring the online chat logs unlocks a hidden desktop wallpaper option in your system settings, revealing a chilling message from the developer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endings Guide & Narrative Clues">
+
+The Desktop Explorer demo features multiple narrative conclusions based on how thoroughly you investigate the hard drive and which files you choose to delete or restore. Your actions leave a digital footprint that determines the final state of the virtual machine.
+
+Understanding the requirements for each ending is key to experiencing everything the demo has to offer.
+
+| Ending Title | Unlock Requirements | Final Outcome |
+| :--- | :--- | :--- |
+| System Shutdown | Complete only the main progression puzzles | The computer shuts down normally |
+| Lost Connection | Fail to decrypt the final network logs | A system error message appears |
+| Digital Entity | Restore all deleted files and online logs | The screen glitches as an entity speaks |
+
+To achieve the Digital Entity ending, you must ensure that no corrupted data remains on the hard drive. This requires restoring every item from the Recycle Bin and successfully running the system repair tool. Once the system is fully healthy, the entity hiding within the code will manifest, changing your desktop wallpaper and delivering a haunting final message.
+
+<Callout type="info" title="Progress Continuity">
+Your save file records which endings you have achieved. Unlocking all three endings triggers a special post-credits screen that hints at the full release of the game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I download the Desktop Explorer demo?",
+    answer: "The demo is officially available to download on the Steam store page. It is free to play and showcases the opening chapter of the full mystery horror adventure."
+  },
+  {
+    question: "What should I do if the desktop screen goes completely black?",
+    answer: "A black screen usually indicates that you triggered a security lock. Open your command terminal and type system restore to reboot the virtual interface."
+  },
+  {
+    question: "How do I find the password for the locked user account?",
+    answer: "Search the Recycle Bin for a deleted text document. The password is the date written at the bottom of the recovery note in MM-DD-YY format."
+  },
+  {
+    question: "Are there jumpscares in the Desktop Explorer demo?",
+    answer: "Yes, the demo features psychological horror elements, including sudden visual glitches, distorted audio cues, and unsettling text changes on the desktop."
+  }
+]} />
+
+<Callout type="tip" title="Community Updates">
+Check the official Steam community hub regularly. The development team frequently updates the demo with performance optimization patches and minor visual improvements.
+</Callout>
+
+</Section>

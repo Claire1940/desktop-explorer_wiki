@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, Terminal, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer 循环往复之梦：复古操作系统谜题与功能指南",
+  description: "探索由 Recurring Dream 开发的受 90 年代启发的神秘游戏《Desktop Explorer》。了解谜题机制、叙事系统以及 2026 年的发布路线图。",
+  category: "指南",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Desktop+Explorer+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer 维基团队"
+}
+
+<Callout type="info" title="快速指南">
+- **Desktop Explorer 循环往复之梦 (recurring dream)**：一款叙事驱动的谜题游戏，模拟了一个虚构的 1990 年代操作系统。
+- **核心玩法**：通过操作文件、使用过时的软件以及探索 3D 聊天室来解决错综复杂的谜题。
+- **叙事奖励**：解锁 **Chronologue**，这是一个基于日记的系统，用于揭示过去电脑用户的历史。
+- **发布时间线**：预计将于 **2026 年第一季度**在 Steam 上正式推出。
+- **关键机制**：与文件系统进行交互，以发现环境叙事元素和神秘的秘密。
+</Callout>
+
+<Section icon={Monitor} title="Desktop Explorer 模拟概览">
+
+《Desktop Explorer》是一款独特的侦探式谜题游戏，它将玩家带回到拨号上网和笨重桌面界面的时代。该游戏由独立工作室 **Recurring Dream** 开发，让你置身于叔叔的老旧电脑前，运行着一个对 95 风格操作系统的忠实模拟。这不仅仅是一个视觉噱头；该操作系统是解开涉及三位前用户的深层、交织谜团的主要界面。
+
+**视频亮点：**
+- **童年灵感**：游戏的起源来自于创始人小时候在家庭电脑上互相留下“文件夹套文件夹”的谜题。
+- **氛围音效**：由作曲家 QTip 创作的原声带旨在增加叙事发现的情感分量。
+- **3D 进化**：超越了简单的 2D 窗口，游戏引入了诸如废弃聊天室之类的 3D 环境。
+
+<YouTubeEmbed videoId="zsgcPYQX2dA" title="#39 - Desktop Explorer - Recurring Dream - Mexico" />
+
+该模拟注重高度的技术准确性。玩家必须浏览目录、重命名文件以绕过安全限制，并使用像 “Sketchy”（一款画图风格的程序）这样的内置工具来解决谜题。Recurring Dream 的开发人员强调，这款游戏旨在让玩家感觉自己像一个真正的数字侦探，利用手头的一切工具来“解开”电脑前主人身上所发生故事的谜团。
+
+| 特性 | 描述 | 交互类型 |
+| :--- | :--- | :--- |
+| **模拟操作系统** | 忠实重建 1990 年代的计算环境 | 导航与搜索 |
+| **文件系统** | 操作、重命名和移动文件以解决谜题 | 逻辑与操作 |
+| **Sketchy** | 用于视觉谜题解决的创意工具 | 艺术/互动 |
+| **3D 聊天室** | 连接 2D 和 3D 玩法的废弃在线空间 | 探索 |
+
+<Callout type="tip" title="开发人员洞察">
+开发人员特意将操作系统设计得带有一丝诡异感。如果一个窗口似乎“突然弹到”另一个窗口后面或隐藏了信息，这可能不是漏洞——它可能是游戏在故意与你作对，以增加紧张感。
+</Callout>
+
+</Section>
+
+<Section icon={Terminal} title="核心谜题机制与逻辑">
+
+**Desktop Explorer 循环往复之梦**项目的游戏循环围绕着“Desktop Explorer”软件展开——这是游戏中的一个虚构游戏。解决谜题需要技术直觉和叙事观察的结合。与使用抽象逻辑的普通谜题游戏不同，本作将操作系统的实际功能作为可解决的机制。
+
+<CardGrid cols={3}>
+  <Card title="文件操作">
+    - **重命名**：更改扩展名以访问隐藏数据。
+    - **移动**：整理文件以触发系统事件。
+    - **删除**：移除障碍以揭示底层秘密。
+  </Card>
+  <Card title="软件交互">
+    - **Sketchy**：绘制或编辑图像以寻找线索。
+    - **聊天记录**：分析旧对话以获取密码。
+    - **简单游戏**：玩复古小游戏以解锁目录。
+  </Card>
+  <Card title="元谜题">
+    - **ARG 元素**：使用需要外部思考的线索。
+    - **记笔记**：利用内置记事本或物理笔记。
+    - **环境线索**：连接不同用户文件之间的线索。
+  </Card>
+</CardGrid>
+
+在最近的开发更新中，向 3D 元素的过渡增加了一层复杂性。玩家现在可以与一个 3D 环境进行交互，该环境会动态改变 2D 桌面上的文件系统。这种跨维度的交互是即将于 2026 年发布的版本中的核心支柱。
+
+| 谜题类型 | 难度 | 所需主要工具 |
+| :--- | :--- | :--- |
+| **目录导航** | 低 | 文件资源管理器 |
+| **视觉解密** | 中 | Sketchy / 图像查看器 |
+| **叙事关联** | 高 | Chronologue / 文本文件 |
+| **3D 环境同步** | 极高 | 3D 聊天室 / 终端 |
+
+<Callout type="warning" title="关键策略">
+务必检查源代码或文件属性。开发人员经常在文本渲染代码中隐藏频率和振幅值，可以通过修改这些值来揭示隐藏信息。
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="叙事系统：Chronologue">
+
+《Desktop Explorer》中的故事讲述主要通过两种方式进行：显式文本和环境背景。推动故事发展的最杰出工具是 **Chronologue**。这款虚构的软件充当了电脑前用户的日志，但它 overseas 并不是一个简单的日记。它是解决游戏中更难挑战的奖励。
+
+<Steps>
+  <Step num="1" title="发现">
+    在模拟操作系统中找到碎片化的数据块或锁定的目录。
+  </Step>
+  <Step num="2" title="解密">
+    使用系统工具或 3D 环境线索来解锁特定的 Chronologue 条目。
+  </Step>
+  <Step num="3" title="分析">
+    在聆听特定角色音乐主题的同时，阅读滚动文本。
+  </Step>
+  <Step num="4" title="关联">
+    将 Chronologue 条目与废弃的文件进行对比，找出故事中的矛盾之处。
+  </Step>
+</Steps>
+
+叙事负责人 Juan Pablo 指出，Chronologue 是刻意不完整的。虽然它提供了理解角色想法的最简单方法，但“真正”的真相往往隐藏在他们删除的文件、未发送的电子邮件和废弃的聊天记录的背景中。这鼓励了一种“侦探”心态，玩家必须根据数字证据来验证书面文字。
+
+| 叙事工具 | 细节程度 | 可靠性 |
+| :--- | :--- | :--- |
+| **Chronologue** | 高（文本与音乐） | 主观（用户视角） |
+| **废弃文件** | 中（零散） | 高（原始数据） |
+| **系统日志** | 低（元数据） | 绝对（系统事实） |
+
+<Callout type="success" title="叙事秘诀">
+Chronologue 中的音乐是用户情感状态的关键指标。密切关注作曲家提供的氛围声音的变化，以识别隐藏的情绪。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="开发路线图与 2026 年目标">
+
+Recurring Dream 对《Desktop Explorer》的未来有着清晰的愿景。在 2023 年成功推出 Demo 并亮相 Pax Rising 之后，团队目前正专注于内容扩展和 3D 技术美术的整合。该工作室的目标是在 2026 年第一季度正式发布完整版本，选择直接推出完整的故事，而不是采用抢先体验（Early Access）模式。
+
+<Checklist
+  id="dev-milestones"
+  title="预计 2026 年发布目标："
+  items={[
+    "完成 3D 聊天室环境的整合",
+    "完成三位用户叙事弧线的定稿",
+    "打磨 “Sketchy” 工具以实现更高级的谜题逻辑",
+    "实现完整的 Steam 成就支持",
+    "针对所有硬件优化基于 Unity 的操作系统模拟"
+  ]}
+/>
+
+由分布在加拿大、美国和墨西哥的七名成员组成的开发团队强调，这款游戏是基于“创作者个性（authorship）”的理念构建的。从 Chronologue 的命名到 3D 领域中使用的特定着色器，每一个功能都旨在与那些对个人计算早期时代怀有怀旧情结的玩家产生共鸣。
+
+| 里程碑 | 预计日期 | 状态 |
+| :--- | :--- | :--- |
+| **3D 环境 Beta 测试** | 2025 年底 | 进行中 |
+| **叙事内容锁定** | 2025 年底 | 已完成 |
+| **完整版本发布** | 2026 年第一季度 | 已计划 |
+| **发布后更新** | 2026 年第二季度 | 规划中 |
+
+<Callout type="info" title="社区互动">
+开发人员在 Discord 上非常活跃，并经常参加 GDC 等活动。他们鼓励玩家尝试 Demo 并分享创意解决方案，因为玩家的行为往往会影响未来的谜题设计。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desktop Explorer 常见问题解答">
+
+<FAQ items={[
+  {
+    question: "《Desktop Explorer》的主要目标是什么？",
+    answer: "目标是扮演数字侦探，探索一台 90 年代的老旧电脑，通过文件操作和解谜来揭示其三位前用户的神秘故事。"
+  },
+  {
+    question: "《Desktop Explorer》的正式发布日期是什么时候？",
+    answer: "开发商 Recurring Dream 预计将于 2026 年第一季度在 Steam 上发布完整版本。"
+  },
+  {
+    question: "游戏有 Demo（试玩版）吗？",
+    answer: "是的，目前 Steam 上提供 Demo 版本，展示了早期的操作系统模拟和初始谜题机制。"
+  },
+  {
+    question: "为什么 'Chronologue' 对故事如此重要？",
+    answer: "Chronologue 是一个日志系统，为用户提供情感背景和背景故事，作为解决复杂谜题的奖励。"
+  }
+]} />
+
+<Callout type="tip" title="最终推荐">
+如果你喜欢像《星际拓荒》（Outer Wilds）这样重叙事的体验，或者是《寂静岭》（Silent Hill）那种诡异的氛围，《Desktop Explorer 循环往复之梦》提供了一种独特的怀旧感和心理悬疑的结合，非常值得将其加入 2026 年的愿望单。
+</Callout>
+
+</Section>

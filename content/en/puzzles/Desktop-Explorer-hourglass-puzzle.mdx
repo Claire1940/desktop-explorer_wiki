@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, FileText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desktop Explorer Hourglass Puzzle: Step-by-Step Solution Guide",
+  description: "Master the Desktop Explorer hourglass puzzle with our expert walkthrough. Learn how to manipulate system time and unlock hidden files in this retro horror.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Hourglass+Puzzle+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Desktop Explorer hourglass puzzle**: A time-based environmental challenge located in the System32-style directory.
+- **Core Mechanic**: Players must synchronize the **System Clock** with timestamps found in corrupted .LOG files.
+- **Key Item**: The `TIME_SYNC.EXE` utility is required to bypass the infinite loading loop.
+- **Critical Warning**: Setting the clock to a date before **1995** may trigger a system-wide crash and a unique jumpscare.
+- **Final Reward**: Unlocks the "Project Hourglass" encrypted folder containing essential lore for the True Ending.
+</Callout>
+
+<Section icon={Clock} title="Understanding the Desktop Explorer Hourglass Puzzle">
+
+The **Desktop Explorer hourglass puzzle** is one of the most atmospheric challenges in the game, appearing midway through the investigation of the mysterious retro PC. Unlike standard inventory-based puzzles, this challenge requires players to interact directly with the simulated operating system's UI elements. The puzzle is triggered when you attempt to open the "Classified" folder, resulting in a permanent hourglass cursor that prevents further interaction until the time-loop logic is solved.
+
+<Callout type="tip" title="Visual Clue">
+Observe the hourglass cursor closely. If the sand is flowing upward, you are currently in a "Reversed File State," meaning you must look for clues in the Recycle Bin rather than the active directories.
+</Callout>
+
+To successfully navigate this section, you must understand how the game simulates 90s-era file latency. The puzzle isn't just a waiting game; it is a logic gate that checks if the player has discovered the "Missing Date" mentioned in the early-game chat logs.
+
+| Puzzle Element | Function in System | Importance Level |
+| :--- | :--- | :--- |
+| **System Clock** | Main interface for time manipulation | **Critical** |
+| **Hourglass Icon** | Indicates a background process lock | High |
+| **TIME_SYNC.SYS** | The driver file that controls cursor states | Medium |
+| **Kernel Log** | Contains the specific timestamp needed | **Critical** |
+| **CMOS Battery** | Hidden item that prevents clock resets | Optional |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Hourglass Solution Walkthrough">
+
+Solving the **Desktop Explorer hourglass puzzle** requires a specific sequence of actions within the virtual BIOS and Desktop environments. Follow these steps to break the loading loop and access the encrypted data.
+
+<Steps>
+  <Step num="1" title="Locate the Corrupted Log">
+    Navigate to the `C:\TEMP` directory and find a file named `BOOT_ERR.LOG`. Open it using the Text Editor. Scroll to the bottom to find a timestamp marked "CRITICAL FAILURE." Note the exact date and time (usually July 17, 1995, at 03:14 AM).
+  </Step>
+  <Step num="2" title="Access System Settings">
+    Click on the "Start" menu and select "Settings," then "Control Panel." Open the "Date/Time" utility. This is where the primary manipulation for the **Desktop Explorer hourglass puzzle** occurs.
+  </Step>
+  <Step num="3" title="Synchronize the Clock">
+    Manually change the system date to match the timestamp found in Step 1. You must be precise within a one-minute margin. Once the values are entered, do not click "Apply" yet.
+  </Step>
+  <Step num="4" title="Execute Time_Sync.exe">
+    While the Date/Time window is open, run `TIME_SYNC.EXE` from the `C:\DOS` folder. The hourglass cursor should begin to flicker between the standard pointer and the loading icon.
+  </Step>
+  <Step num="5" title="Confirm the Breach">
+    Click "Apply" on the Date/Time window. The screen will momentarily glitch, and the "Classified" folder will finally open, revealing the hidden project files.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="System Stability">
+If the hourglass turns red during this process, close all open windows immediately. A red hourglass indicates that the "Stalker" entity has detected your system manipulation.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Time Anomaly Comparison and Effects">
+
+During the **Desktop Explorer hourglass puzzle**, the state of the computer changes based on the era you set in the system clock. Different years reveal different versions of the desktop, providing optional lore and secrets.
+
+<CardGrid cols={3}>
+  <Card title="1992: Legacy Mode">
+    - **UI Style**: Greyscale/Minimalist
+    - **Secrets**: Early development notes
+    - **Risk**: Limited program support
+  </Card>
+  <Card title="1995: Story Mode">
+    - **UI Style**: Standard Windows 95
+    - **Secrets**: Main plot progression
+    - **Risk**: Standard entity encounters
+  </Card>
+  <Card title="1999: Glitch Mode">
+    - **UI Style**: Corrupted/Neon
+    - **Secrets**: Y2K hidden easter eggs
+    - **Risk**: High frequency of crashes
+  </Card>
+</CardGrid>
+
+Setting the clock to the future (anything past 2026) will result in a "File Not Found" error for the entire hard drive, forcing a reboot. This is a common pitfall for players trying to skip the **Desktop Explorer hourglass puzzle** logic.
+
+| Date Range | Desktop Theme | Available Files | Security Level |
+| :--- | :--- | :--- | :--- |
+| **Pre-1994** | Retro BIOS | System Config only | Low |
+| **1995-1996** | Classic Blue | All User Files | Medium |
+| **1997-1998** | Custom Wallpaper | Encrypted Tapes | High |
+| **Post-2000** | Static/Void | None (Corrupted) | **Max** |
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Puzzle Errors">
+
+Many players encounter issues where the hourglass persists even after changing the clock. This usually happens because of background processes that "lock" the system time.
+
+**Common Issues and Fixes:**
+- **The Clock Resets**: This happens if you haven't deleted the `AUTOEXEC.BAT` file in the root directory. Delete it to allow permanent time changes.
+- **Hourglass is Frozen**: If the animation stops entirely, the game has soft-locked. You must use the `CTRL+ALT+DEL` command within the game to restart the virtual shell.
+- **Missing Date/Time Icon**: If the icon is missing from the Control Panel, you must find the `TIMEDATE.CPL` file in the Recycle Bin and "Restore" it.
+
+<Callout type="success" title="Pro Strategy">
+Before attempting the **Desktop Explorer hourglass puzzle**, move all your important clue files to the "My Documents" folder. Some system-wide time changes can wipe the "Temp" folder where clues are often stored.
+</Callout>
+
+| Error Code | Meaning | Required Action |
+| :--- | :--- | :--- |
+| **ERR_0x001** | Time Mismatch | Re-read the BOOT_ERR.LOG |
+| **ERR_0x005** | Access Denied | Run as Administrator |
+| **ERR_0x009** | CMOS Failure | Find the hidden battery item |
+
+</Section>
+
+<Section icon={Trophy} title="Puzzle Completion Checklist">
+
+Before moving on to the final chapters of Desktop Explorer, ensure you have extracted all data from the "Project Hourglass" directory unlocked by this puzzle.
+
+<Checklist
+  id="hourglass-completion"
+  title="Hourglass Post-Puzzle Goals:"
+  items={[
+    "Recover the 'Incident_Report.doc' from the hidden folder",
+    "Find the audio file 'Tape_04.wav' in the sub-directory",
+    "Delete the TIME_SYNC.EXE to prevent the entity from tracking you",
+    "Reset the clock to the current 2026 date to stabilize the UI",
+    "Check the 'Sent' mail folder for new messages from 'Uncle'"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I solve the Desktop Explorer hourglass puzzle without finding the log file?",
+    answer: "Technically yes, if you know the date (July 17, 1995). However, the game logic often requires you to have opened the log file at least once for the 'Apply' button to trigger the event."
+  },
+  {
+    question: "What happens if I set the clock to the current real-world date?",
+    answer: "Setting the clock to 2026 will stabilize the system but will not solve the puzzle. The puzzle specifically requires a 'historical' sync to access archived data."
+  },
+  {
+    question: "Is there a way to speed up the hourglass loading time?",
+    answer: "The loading time is a scripted element of the Desktop Explorer hourglass puzzle. It only speeds up once the correct date is set in the system settings."
+  },
+  {
+    question: "Why does the screen turn black when I change the year to 1990?",
+    answer: "This is an intentional 'out of bounds' secret. The virtual hardware cannot simulate an OS before its release date, leading to a 'Void' state where you can hear hidden audio messages."
+  }
+]} />
+
+</Section>

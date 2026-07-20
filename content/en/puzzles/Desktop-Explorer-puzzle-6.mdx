@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer Puzzle 6: Step-by-Step Directory Decryption",
+  description: "Solve Desktop Explorer puzzle 6 with our step-by-step decryption guide. Learn file path navigation, terminal commands, and password solutions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+6+Decryption+Guide",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Puzzle**: Solving **Desktop Explorer puzzle 6** requires players to decrypt a corrupted system file inside a simulated Windows 95 interface.
+- **Key Location**: The core objective is located within the `C:\WINDOWS\SYSTEM\RECOVERY\` folder.
+- **Critical Tools**: Players must utilize the virtual MS-DOS Prompt, Hex Editor, and Notepad applications to extract hidden codes.
+- **Core Strategy**: Locate three fragmented binary offsets scattered across different system directories and align them to form the master decryption password.
+- **Final Reward**: Unlocking this puzzle grants access to the local intranet server, revealing crucial lore files regarding the missing Uncle.
+</Callout>
+
+<Section icon={Map} title="Overview of Desktop Explorer Puzzle 6">
+
+In the retro-inspired digital landscape of Desktop Explorer, players must navigate a simulated Windows 95 operating system filled with eerie files, corrupted software, and cryptic messages. As you progress into Chapter 3, you encounter **Desktop Explorer puzzle 6**, which serves as the primary security gate blocking access to the internal network drive. 
+
+Unlike earlier challenges that rely on simple text clues, this puzzle demands a deeper understanding of directory navigation, command-line operations, and file manipulation. The narrative stakes are high: the corrupted system log you are attempting to decrypt contains the final recorded communications of your missing relative before his sudden disappearance in the late 90s.
+
+To begin this investigation, you must have already restored power to the virtual network adapter and bypassed the secondary firewall in Chapter 2. Once these prerequisites are met, a corrupted system file named `SYS_LOG_06.DAT` will appear in your system folders, initiating the decryption sequence.
+
+<Callout type="warning" title="System Instability Warning">
+Do not attempt to open the target file using the standard Notepad application. Doing so will trigger a simulated system crash, forcing a virtual reboot of the OS and resetting your current terminal command history.
+</Callout>
+
+| Parameter | Specification Details |
+|------|------|
+| Puzzle ID | Security Protocol 06 (Directory Reconstruction) |
+| Target File | C:\WINDOWS\SYSTEM\RECOVERY\SYS_LOG_06.DAT |
+| Primary Objective | Realign corrupted data blocks and input the master decryption key |
+| Complexity Level | Moderate to Advanced |
+| Required Utilities | MS-DOS Prompt, System Hex Editor, Virtual Mail Client |
+
+</Section>
+
+<Section icon={Target} title="Required File Directories and Hidden Clues">
+
+Before executing the decryption sequence, you must gather three distinct data fragments hidden across the computer's file system. These fragments provide the exact binary offsets required to read the encrypted data within `SYS_LOG_06.DAT`.
+
+The operating system hides these files under standard system folders to prevent accidental deletion, mimicking real-world Windows 95 directory structures. You will need to toggle hidden file visibility and explore directories that seem empty at first glance.
+
+<CardGrid cols={3}>
+  <Card title="Fragment 1: CONFIG.SYS">
+    - **Location**: Root directory `C:\`
+    - **Type**: System Configuration File
+    - **Clue**: Contains the initial hexadecimal offset multiplier needed to align the terminal's memory address blocks.
+  </Card>
+  <Card title="Fragment 2: MEM_DUMP.BMP">
+    - **Location**: Temp folder `C:\WINDOWS\TEMP\`
+    - **Type**: Hidden Image File
+    - **Clue**: A visual grid displaying highlighted pixels that map directly to the hex coordinate system of the target file.
+  </Card>
+  <Card title="Fragment 3: TRASH_09.MSG">
+    - **Location**: Mail database `C:\WINDOWS\MAIL\TRASH\`
+    - **Type**: Deleted Mail Message
+    - **Clue**: A recovered email containing the alphanumeric suffix required to finalize the master password input.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Revealing Hidden Files">
+If you cannot find the `MEM_DUMP.BMP` file in the Temp folder, open the virtual File Explorer, navigate to the top menu, select "View", then "Options", and ensure "Show all files" is checked.
+</Callout>
+
+To help you organize your investigation, use the following directory map to track down each component before opening the command-line utility.
+
+| File Name | Directory Path | Clue Description | Required Tool |
+|------|------|------|------|
+| CONFIG.SYS | C:\ | Initial hexadecimal multiplier | Notepad |
+| MEM_DUMP.BMP | C:\WINDOWS\TEMP\ | Visual grid alignment map | Paint Tool |
+| TRASH_09.MSG | C:\WINDOWS\MAIL\TRASH\ | Alphanumeric master suffix | Mail Reader |
+| SYS_LOG_06.DAT | C:\WINDOWS\SYSTEM\RECOVERY\ | Core encrypted log file | Hex Editor |
+
+</Section>
+
+<Section icon={Swords} title="Desktop Explorer Puzzle 6 Step-by-Step Solution">
+
+Once you have gathered all three clues from the directories listed above, you are ready to begin the decryption process. Follow these steps carefully to reconstruct the directory and input the correct sequence.
+
+<Steps>
+  <Step num="1" title="Initialize the Virtual Terminal">
+    Double-click the MS-DOS Prompt icon on your desktop. Type `CD WINDOWS\SYSTEM` and press Enter to navigate to the system subdirectory. From there, type `CD RECOVERY` to enter the folder containing the target file.
+  </Step>
+  <Step num="2" title="Execute Directory Reconstruction">
+    Type the command `DEFRAG /SYS /FORCE` into the terminal. This command realigns the fragmented sectors of the virtual hard drive, allowing the system to read the corrupted blocks of `SYS_LOG_06.DAT` without crashing.
+  </Step>
+  <Step num="3" title="Extract Hexadecimal Offsets">
+    Open the virtual Hex Editor application from your Start Menu. Load `SYS_LOG_06.DAT` into the editor. Cross-reference the highlighted grid coordinates from `MEM_DUMP.BMP` with the hex rows. Note down the values at offsets `0x0F`, `0x4A`, and `0x92`.
+  </Step>
+  <Step num="4" title="Compile and Input the Master Password">
+    Combine the extracted hex values with the alphanumeric suffix found in `TRASH_09.MSG`. The final compiled key follows the format: `[Hex1][Hex2]-[Suffix]`. Enter this key into the security dialog box that appears when you run `RECOVERY.EXE`.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Decryption Success">
+Upon entering the correct password, the terminal screen will flash green, and a new text document named `UNLOCKED_LOG.TXT` will generate in your root directory, advancing the game's narrative.
+</Callout>
+
+The table below outlines the exact commands and actions required to navigate the terminal successfully during this puzzle sequence.
+
+| Command Line Input | Target Directory | Expected Output | Purpose |
+|------|------|------|------|
+| CD WINDOWS\SYSTEM\RECOVERY | C:\ | Prompt changes to target folder | Navigates to the recovery directory |
+| DIR /A:H | C:\WINDOWS\SYSTEM\RECOVERY\ | Lists hidden files in directory | Verifies the presence of recovery tools |
+| DEFRAG /SYS /FORCE | C:\WINDOWS\SYSTEM\RECOVERY\ | Sector alignment animation | Reconstructs the corrupted system blocks |
+| RUN RECOVERY.EXE | C:\WINDOWS\SYSTEM\RECOVERY\ | Password entry prompt appears | Launches the decryption interface |
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting and Error Codes">
+
+Because Desktop Explorer simulates an old operating system, players often encounter realistic system errors if commands are entered out of order or if files are accessed incorrectly. Understanding how to resolve these errors is crucial to completing the puzzle.
+
+If you make a mistake during the hex alignment process, the virtual OS will display a blue screen or throw a file access error. Do not panic; the system is designed to allow quick recovery without losing your overall game progress.
+
+<Callout type="warning" title="Avoid Soft-locking the Terminal">
+If you enter an incorrect password three times in the `RECOVERY.EXE` program, the terminal will lock down. To bypass this, you must run the command `SYS_RESET.BAT` from the root directory to clear the lock status.
+</Callout>
+
+| Error Code | Potential Cause | Action Required to Fix |
+|------|------|------|
+| ERROR 404: FILE NOT FOUND | Typing directory paths with forward slashes | Use backslashes (\\) for Win95 directory navigation |
+| ERROR 0x09: CORRUPT BLOCK | Opening Hex Editor before running DEFRAG command | Close editor, run DEFRAG /SYS /FORCE, reopen editor |
+| ERROR 0xF1: ACCESS DENIED | Attempting to edit CONFIG.SYS while terminal is open | Close the MS-DOS Prompt before modifying system files |
+| BSOD: FATAL EXCEPTION 0E | Double-clicking DAT files directly from explorer | Only open DAT files through the Hex Editor application |
+
+</Section>
+
+<Section icon={Trophy} title="Puzzle Completion Checklist">
+
+Before moving on to the next chapter of Desktop Explorer, ensure you have fully completed all objectives associated with this puzzle. Bypassing certain steps might prevent you from unlocking specific late-game achievements or secret endings.
+
+Use this checklist to verify that you have collected all narrative files and unlocked every hidden system directory associated with the decryption process.
+
+<Checklist
+  id="puzzle-6-checklist"
+  title="Required Milestones:"
+  items={[
+    "Locate and read the CONFIG.SYS file in the root directory",
+    "Toggle hidden files to reveal MEM_DUMP.BMP in the Temp folder",
+    "Run the DEFRAG command to realign corrupted system sectors",
+    "Extract the three hex offsets using the Hex Editor tool",
+    "Unlock the secure terminal and generate the UNLOCKED_LOG.TXT file",
+    "Read the decrypted log file to secure the 'Digital Archaeologist' achievement"
+  ]}
+/>
+
+<Callout type="info" title="Secret Lore Note">
+Decrypting the log file also unlocks a hidden audio file in the media player application. Listening to this file in its entirety is a requirement for unlocking the game's True Ending.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To assist players who might still be struggling with specific mechanics of this retro system puzzle, we have compiled answers to the most common questions regarding this segment of the game.
+
+<FAQ items={[
+  {
+    question: "Where is the Hex Editor tool located in Desktop Explorer?",
+    answer: "The Hex Editor is located in the 'Accessories' folder within your Start Menu. If it is missing, you must first install it by running the SETUP.EXE program found on the virtual floppy disk in your A:\\ drive."
+  },
+  {
+    question: "Why does my game crash when I open the SYS_LOG_06.DAT file?",
+    answer: "This is a simulated system crash that occurs if you try to open the raw data file using Notepad. You must run the DEFRAG command in the terminal first, and then open the file exclusively through the Hex Editor."
+  },
+  {
+    question: "What is the exact password for Desktop Explorer puzzle 6?",
+    answer: "The password is procedurally generated for each playthrough based on your virtual system's installation timestamp. You must find the three hex offsets and the mail suffix in your specific game files to compile your unique password."
+  },
+  {
+    question: "Can I skip this puzzle and still complete the main story?",
+    answer: "No, solving this puzzle is mandatory. Unlocking the system log provides the network IP address required to establish a connection to the local intranet server, which is the primary objective of Chapter 4."
+  }
+]} />
+
+<Callout type="tip" title="Need More Help?">
+If you are still stuck, try checking the system recycle bin. Sometimes, deleted files contain older versions of the decryption key that can help you narrow down the correct offset values.
+</Callout>
+
+</Section>

@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Terminal, FileSearch, AlertCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desktop Explorer Puzzle 8: Step-by-Step Decryption Walkthrough",
+  description: "Master the complex Desktop Explorer puzzle 8 with our detailed walkthrough, including terminal commands, hidden file locations, and decryption steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Puzzle+8+Walkthrough",
+  date: "2026-07-21",
+  author: "Desktop Explorer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Desktop Explorer puzzle 8** focuses on decrypting the "Archive_08.dat" file found in the hidden system directory.
+- **System Requirements**: You must have restored the "Command_Prompt.exe" from the Recycle Bin before attempting this puzzle.
+- **Key Logic**: The solution involves cross-referencing timestamps from the "Mail_Log.txt" with the hidden binary strings in the "System.ini" file.
+- **Critical Warning**: Entering the wrong decryption key three times triggers a system-wide "Glitch Event" that obscures the desktop for 60 seconds.
+- **Main Reward**: Solving this puzzle unlocks the "Uncle_Final_Message.wav" file, which is essential for the True Ending.
+</Callout>
+
+<Section icon={FileSearch} title="Understanding the Desktop Explorer Puzzle 8 Context">
+
+Desktop Explorer puzzle 8 represents a significant difficulty spike in the mid-to-late game investigation. Unlike earlier puzzles that rely on simple password recovery, this challenge requires players to manipulate the simulated Windows 95 environment's file system and use terminal commands. By this stage in the 2026 horror adventure, the desktop interface begins to show signs of digital decay, making the search for clues more atmospheric and tense.
+
+The puzzle centers on a locked archive that contains the primary evidence regarding the disappearance of the previous computer owner. To begin, players must navigate to the `C:\WINDOWS\SYSTEM\TEMP` directory, which is usually hidden by default.
+
+| Puzzle Attribute | Specification | Requirement |
+| :--- | :--- | :--- |
+| **Puzzle Name** | Archive Decryption 08 | File Access Level 3 |
+| **Primary File** | Archive_08.dat | Found in \SYSTEM\TEMP |
+| **Logic Type** | Chronological Correlation | Requires Mail_Log.txt |
+| **Difficulty** | Hard (★★★★☆) | High attention to detail |
+| **Ending Impact** | Critical | Necessary for True Ending |
+
+<Callout type="tip" title="Discovery Tip">
+Before starting the puzzle, ensure you have maximized the brightness on your real-world monitor. The "hidden" folders in Desktop Explorer puzzle 8 are often slightly darker than the standard UI background, making them easier to spot with higher contrast settings.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Required Files and System Preparation">
+
+To solve Desktop Explorer puzzle 8, you cannot simply guess the code. The game generates a semi-randomized key based on the "Date Modified" metadata of specific files in your current save state. You must gather three primary digital artifacts to reconstruct the decryption sequence.
+
+<CardGrid cols={3}>
+  <Card title="Mail_Log.txt">
+    - **Location**: C:\Documents\Logs
+    - **Purpose**: Provides the specific time intervals needed for the terminal offset.
+    - **Note**: Look for entries dated October 1995.
+  </Card>
+  <Card title="System.ini">
+    - **Location**: C:\WINDOWS
+    - **Purpose**: Contains the raw binary strings used as the decryption base.
+    - **Note**: Scroll to the very bottom to find the [Hidden] section.
+  </Card>
+  <Card title="Command_Prompt.exe">
+    - **Location**: Recycle Bin
+    - **Purpose**: The execution tool required to run the "DECRYPT /A8" command.
+    - **Note**: Must be restored to the Desktop to function correctly.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Corrupted File Warning">
+If you notice "Mail_Log.txt" is full of gibberish or "0x00" characters, you must run the "Scandisk.exe" utility found in the Accessories folder first. Attempting Desktop Explorer puzzle 8 with corrupted logs will result in an immediate system crash.
+</Callout>
+
+</Section>
+
+<Section icon={Terminal} title="Step-by-Step Decryption Walkthrough">
+
+Follow these precise steps to bypass the security on Archive_08.dat. This sequence assumes you have already restored the Command Prompt and gathered the necessary files mentioned in the previous section.
+
+<Steps>
+  <Step num="1" title="Initialize the Terminal">
+    Open the Command Prompt from your desktop. Type `cd C:\WINDOWS\SYSTEM\TEMP` and press Enter. You should see the directory change. If the directory is not found, you haven't enabled "Show Hidden Files" in the View menu of the File Explorer.
+  </Step>
+  <Step num="2" title="Identify the Offset">
+    Open "Mail_Log.txt" in the Notepad application. Locate the last entry from "Uncle." Note the timestamp (usually 11:42 PM). The "offset" for the puzzle is the numerical difference between the hours and minutes (42 - 11 = 31).
+  </Step>
+  <Step num="3" title="Extract the Binary String">
+    Open "System.ini" and find the line starting with `A8_KEY=`. You will see a string of 8 digits. Apply your offset (31) to the first two digits of this string by adding them together.
+  </Step>
+  <Step num="4" title="Execute Decryption Command">
+    Return to the Command Prompt. Type the command `DECRYPT -f Archive_08.dat -k [YourCalculatedKey]`. Replace the bracketed text with your final 8-digit sequence.
+  </Step>
+  <Step num="5" title="Access the Contents">
+    Once the "Decryption Successful" message appears, a new folder named "RECOVERED_DATA" will appear on your desktop. Open it to complete Desktop Explorer puzzle 8.
+  </Step>
+</Steps>
+
+| Command Syntax | Function | Expected Output |
+| :--- | :--- | :--- |
+| **DIR /H** | Shows hidden files in current folder | List including Archive_08.dat |
+| **HELP DECRYPT** | Displays command parameters | Usage: DECRYPT -f [file] -k [key] |
+| **CLS** | Clears the terminal screen | Empty terminal window |
+| **TYPE System.ini** | Displays file content in terminal | Text output of system settings |
+
+<Callout type="success" title="Puzzle Completion">
+Upon successful decryption, the background music will shift from a low hum to a melodic, albeit distorted, piano track. This indicates that you have successfully progressed past the puzzle 8 gate and are now in the final act of the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Errors">
+
+Many players encounter issues with Desktop Explorer puzzle 8 due to the game's strict simulation of 90s OS limitations. If your commands are failing or the file won't open, refer to the table below for common fixes.
+
+| Error Message | Likely Cause | Recommended Solution |
+| :--- | :--- | :--- |
+| **Access Denied** | File is marked as "Read-Only" | Right-click file, uncheck Read-Only |
+| **Invalid Key** | Calculation error in Step 2 | Re-check Mail_Log timestamps |
+| **Stack Overflow** | Too many windows open | Close Notepad and Paint before running CMD |
+| **File Not Found** | Incorrect directory path | Ensure you are in \SYSTEM\TEMP |
+
+<Callout type="warning" title="The Blue Screen Event">
+If you receive a "Fatal Exception" error during the decryption process, do not restart the game manually. This is a scripted event in Desktop Explorer puzzle 8. Wait for the simulated computer to "reboot," and you will find a new hint file named "RECOVERY.txt" on the desktop that provides the first four digits of the key.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lore Implications and Secrets">
+
+Solving Desktop Explorer puzzle 8 is not just a mechanical requirement; it provides the deepest insight into the game's mystery. The "Archive_08.dat" file contains a series of chat logs between the "Uncle" and an entity known only as "The Explorer."
+
+<Checklist
+  id="puzzle-8-secrets"
+  title="Hidden Details to Look For:"
+  items={[
+    "The hidden 'metadata' in the recovered audio file mentions a date in 2026.",
+    "A pixelated image of a room that looks suspiciously like yours is hidden in the sub-folders.",
+    "The 'Explorer' entity mentions your real-world PC username in one of the text logs.",
+    "Opening the archive at exactly midnight unlocks a secret achievement: 'Night Owl'."
+  ]}
+/>
+
+<Callout type="info" title="Story Connection">
+The resolution of this puzzle confirms that the computer you are "exploring" is actually a digital loop. The files you are decrypting in puzzle 8 were written by a version of "you" from a previous iteration of the cycle, explaining why the passwords feel strangely familiar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Desktop Explorer Puzzle 8">
+
+<FAQ items={[
+  {
+    question: "Where is the Archive_08.dat file located if it's not in the TEMP folder?",
+    answer: "If it is not in the TEMP folder, you may have accidentally moved it to the Recycle Bin or another directory. Use the 'Find' tool (Start > Find > Files or Folders) and search for 'Archive_08' to locate its current position."
+  },
+  {
+    question: "Is the password for Desktop Explorer puzzle 8 the same for every player?",
+    answer: "No, the password is dynamic. While the logic (Timestamp + System.ini string) remains the same, the actual numbers vary based on your specific game seed generated at the start of a new save."
+  },
+  {
+    question: "Can I skip puzzle 8 and still get the 'Good Ending'?",
+    answer: "No. Puzzle 8 provides the 'Uncle_Final_Message.wav' file. Without this file, you will be unable to prove the entity's identity in the final confrontation, leading to the 'Lost in the Machine' ending."
+  },
+  {
+    question: "What happens if I delete Archive_08.dat by mistake?",
+    answer: "If you delete the file and empty the Recycle Bin, you must use the 'Undelete' utility found in the DOS_Tools folder. If you haven't unlocked DOS_Tools, you will need to reload an earlier save."
+  }
+]} />
+
+</Section>

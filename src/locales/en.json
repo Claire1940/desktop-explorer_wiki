@@ -10,7 +10,14 @@
       "twitterDescription": "Desktop Explorer Wiki covers walkthroughs, puzzles, hidden files, endings, and secrets for the retro PC horror adventure on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "puzzles": "Puzzles",
+    "story": "Story",
+    "release": "Release",
+    "review": "Review",
+    "platform": "Platform"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -801,125 +808,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Desktop Explorer Walkthrough & Guides",
+      "description": "Complete Desktop Explorer walkthroughs and guides covering the full investigation from booting the retro computer to solving every mystery.",
+      "metaTitle": "Desktop Explorer Walkthrough & Guides - Desktop Explorer Wiki",
+      "metaDescription": "Complete Desktop Explorer walkthroughs and guides covering the full investigation from booting the retro computer to solving every mystery.",
+      "categoryLabel": "Guide",
+      "whatIs": "What is the Desktop Explorer walkthrough?",
+      "whatIsDescription": "A complete step-by-step path through the Desktop Explorer mystery, covering boot-up, file investigation, puzzle progression, and the main story conclusion.",
+      "why": "Why use the Desktop Explorer walkthrough?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Follow the correct investigation order",
+        "step1Description": "Walkthroughs sequence every clue and file so you never miss a discovery that gates the next step.",
+        "step2Title": "Solve puzzles with full context",
+        "step2Description": "Each guide connects puzzles, passwords, and hidden files so the mystery unfolds the intended way.",
+        "step3Title": "Reach every ending",
+        "step3Description": "Complete guides flag the branches and optional discoveries that unlock each Desktop Explorer ending."
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Featured Desktop Explorer guides",
+      "all": "View all Desktop Explorer guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "puzzles": {
+      "title": "Desktop Explorer Puzzles",
+      "description": "Solutions for every Desktop Explorer puzzle, including password locks, the hourglass puzzle, locked jaws, and vending machine puzzles.",
+      "metaTitle": "Desktop Explorer Puzzles - Desktop Explorer Wiki",
+      "metaDescription": "Solutions for every Desktop Explorer puzzle, including password locks, the hourglass puzzle, locked jaws, and vending machine puzzles.",
+      "categoryLabel": "Puzzles",
+      "whatIs": "What are Desktop Explorer puzzles?",
+      "whatIsDescription": "The investigation challenges that gate progression throughout the Desktop Explorer computer, from password locks to mechanical puzzles like the hourglass and vending machine.",
+      "why": "Why use the Desktop Explorer puzzle guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Unlock locked files and accounts",
+        "step1Description": "Puzzle guides reveal the passwords and input sequences required to open locked content.",
+        "step2Title": "Solve mechanical puzzles fast",
+        "step2Description": "Step-by-step solutions for the hourglass, locked jaws, and vending machine puzzles prevent dead ends.",
+        "step3Title": "Connect clues correctly",
+        "step3Description": "Each solution explains which files and chat logs provide the clues, so the logic stays clear."
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured Desktop Explorer puzzles",
+      "all": "View all Desktop Explorer puzzles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "story": {
+      "title": "Desktop Explorer Story & Endings",
+      "description": "The full Desktop Explorer story explained, including endings, secrets, hidden files, and the recurring dream that drives the mystery.",
+      "metaTitle": "Desktop Explorer Story & Endings - Desktop Explorer Wiki",
+      "metaDescription": "The full Desktop Explorer story explained, including endings, secrets, hidden files, and the recurring dream that drives the mystery.",
+      "categoryLabel": "Story",
+      "whatIs": "What is the Desktop Explorer story?",
+      "whatIsDescription": "The narrative behind the abandoned 90s computer, including character backgrounds, the missing-person case, and how hidden files and the recurring dream connect.",
+      "why": "Why read the Desktop Explorer story guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Understand the full mystery",
+        "step1Description": "Story guides piece together files, chat logs, and clues into the complete Desktop Explorer narrative.",
+        "step2Title": "Unlock every ending",
+        "step2Description": "Clear ending requirements show which discoveries lead to each conclusion.",
+        "step3Title": "Find every secret",
+        "step3Description": "Hidden files, easter eggs, and optional events are catalogued so nothing is missed."
       },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+      "featured": "Featured Desktop Explorer story guides",
+      "all": "View all Desktop Explorer story articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "release": {
+      "title": "Desktop Explorer Release & Download",
+      "description": "Desktop Explorer release date, Steam launch details, demo availability, and download information for the retro PC horror adventure.",
+      "metaTitle": "Desktop Explorer Release Date & Download - Desktop Explorer Wiki",
+      "metaDescription": "Desktop Explorer release date, Steam launch details, demo availability, and download information for the retro PC horror adventure.",
+      "categoryLabel": "Release",
+      "whatIs": "What is the Desktop Explorer release info?",
+      "whatIsDescription": "Details on the Desktop Explorer launch, including the release date, Steam availability, the demo, and how to download and start playing.",
+      "why": "Why check the Desktop Explorer release guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Know the release date",
+        "step1Description": "Stay current on the official Desktop Explorer launch and platform availability.",
+        "step2Title": "Try the demo first",
+        "step2Description": "Demo guides explain what the prologue covers and how to access it on Steam.",
+        "step3Title": "Download and install with ease",
+        "step3Description": "Step-by-step download instructions get you into the game without confusion."
       },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "featured": "Featured Desktop Explorer release guides",
+      "all": "View all Desktop Explorer release articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "review": {
+      "title": "Desktop Explorer Reviews",
+      "description": "Desktop Explorer reviews and gameplay breakdowns covering the horror atmosphere, puzzle design, and what makes the indie mystery adventure stand out.",
+      "metaTitle": "Desktop Explorer Reviews & Gameplay - Desktop Explorer Wiki",
+      "metaDescription": "Desktop Explorer reviews and gameplay breakdowns covering the horror atmosphere, puzzle design, and what makes the indie mystery adventure stand out.",
+      "categoryLabel": "Review",
+      "whatIs": "What are Desktop Explorer reviews?",
+      "whatIsDescription": "Critical and player-focused breakdowns of Desktop Explorer gameplay, including atmosphere, puzzle design, story, and the indie horror experience.",
+      "why": "Why read Desktop Explorer reviews?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Decide before you buy",
+        "step1Description": "Reviews summarize the strengths and feel of the game so you know what to expect on Steam.",
+        "step2Title": "Understand the gameplay loop",
+        "step2Description": "Gameplay breakdowns explain how exploration, puzzles, and story connect.",
+        "step3Title": "See how it compares",
+        "step3Description": "Context on where Desktop Explorer sits among indie mystery horror games."
       },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "featured": "Featured Desktop Explorer reviews",
+      "all": "View all Desktop Explorer reviews"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "platform": {
+      "title": "Desktop Explorer Platforms & System Requirements",
+      "description": "Desktop Explorer platform support and system requirements, including PC, Steam Deck, and Nintendo Switch availability.",
+      "metaTitle": "Desktop Explorer Platforms & System Requirements - Desktop Explorer Wiki",
+      "metaDescription": "Desktop Explorer platform support and system requirements, including PC, Steam Deck, and Nintendo Switch availability.",
+      "categoryLabel": "Platform",
+      "whatIs": "What platforms does Desktop Explorer support?",
+      "whatIsDescription": "The platforms and hardware Desktop Explorer runs on, including Windows PC, Steam Deck compatibility, and Nintendo Switch availability.",
+      "why": "Why check Desktop Explorer platform guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Confirm your platform",
+        "step1Description": "Verify whether Desktop Explorer runs on your PC, Steam Deck, or Nintendo Switch.",
+        "step2Title": "Meet the system requirements",
+        "step2Description": "Clear specs help you prepare your setup for smooth performance.",
+        "step3Title": "Optimize your experience",
+        "step3Description": "Settings and performance tips keep the retro horror adventure running well on your hardware."
       },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Featured Desktop Explorer platform guides",
+      "all": "View all Desktop Explorer platform articles"
     }
   }
 }
