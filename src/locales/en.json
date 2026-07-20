@@ -10,14 +10,7 @@
       "twitterDescription": "Desktop Explorer Wiki covers walkthroughs, puzzles, hidden files, endings, and secrets for the retro PC horror adventure on Steam."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
